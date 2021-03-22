@@ -8,9 +8,9 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 7e9cc30c6d3fb69f557b17f452b43de08ae85a03
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '430'
 ht-degree: 15%
 
 ---
@@ -39,7 +39,8 @@ Este Guia de práticas recomendadas de entrega aborda os seguintes tópicos:
 7. [Permanência do remetente](/help/sender-permanence.md)
 8. [Especificações do provedor de serviços de Internet](/help/internet-service-provider-specifics/overview.md)
 9. [Monitoramento contínuo](/help/ongoing-monitoring.md)
-   [Pôr isto em prática](/help/putting-it-in-practice.md)
+10. [Pôr isto em prática](/help/putting-it-in-practice/how-to-reach-success.md)
+11. [Recursos adicionais](/help/additional-resources/general-resources.md)
 
 ## Fontes
 
