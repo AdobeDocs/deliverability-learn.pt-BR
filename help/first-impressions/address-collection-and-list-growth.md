@@ -9,9 +9,9 @@ doc-type: article
 activity: understand
 team: TM
 translation-type: tm+mt
-source-git-commit: 131e3f06ac8d593d4b67711ee3688ff895aa380c
+source-git-commit: ec0bb2f9ee514cc94c764744e0cc51e62e811c20
 workflow-type: tm+mt
-source-wordcount: '1580'
+source-wordcount: '1623'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ A forma mais comum de **inscrição no site** é &quot;aceitação única&quot;.
 
 * Endereços de email não confirmados podem ter erros de digitação ou ser malformados, incorretos ou maliciosos. Tipos e endereços malformados causam altas taxas de rejeição, o que pode e provoca bloqueios emitidos por ISPs ou perda de reputação do IP.
 
-* O envio mal-intencionado de interceptações de spam conhecidas (às vezes chamadas de &quot;envenenamento por lista&quot;) pode causar grandes problemas de delivery e reputação se o proprietário dessa armadilha tomar uma ação. É impossível saber se o recipient realmente deseja ser adicionado a uma lista de marketing sem uma confirmação. Isso torna igualmente impossível definir as expectativas do recipient e pode levar a maiores reclamações de spam, e às vezes à inclusão na blacklist se o email coletado for uma armadilha de spam.
+* O envio mal-intencionado de interceptações de spam conhecidas (às vezes chamadas de &quot;envenenamento por lista&quot;) pode causar grandes problemas de delivery e reputação se o proprietário dessa armadilha tomar uma ação. É impossível saber se o recipient realmente deseja ser adicionado a uma lista de marketing sem uma confirmação. Isso torna igualmente impossível definir as expectativas do recipient e pode levar a maiores reclamações de spam — e às vezes incluir na lista de bloqueios o  se o email coletado for uma armadilha de spam.
 
 Para obter orientação sobre como minimizar os problemas apresentados na loja física e na aceitação única, acesse a seção [Data quality and clean&lt; a1/> neste guia para obter os detalhes e os benefícios da aceitação dupla.](#data-quality-and-hygiene)
 
@@ -88,5 +88,17 @@ anexarEsses são clientes que optaram por se envolver com sua marca, o que é ó
 **Programa comercial ou outra**
 coleção de eventosA coleta de endereços em uma cabine ou por meio de outro método oficial com marca clara pode ser útil. O risco é que muitos eventos como esse coletem todos os endereços e os distribuam por meio do promotor ou do host do evento. O que significa que os proprietários desses endereços de email nunca solicitaram receber emails de sua marca. Esses assinantes provavelmente reclamam e marcam seu email como spam e talvez não tenham fornecido informações de contato precisas.
 
-****
-SorteioOs sorteios fornecem um grande número de endereços de email rapidamente. Mas esses assinantes querem o prêmio, não seus emails. Eles podem nem ter prestado atenção ao nome de quem estaria se aproximando deles. É provável que eles reclamem e marquem seu email como spam, e talvez seja improvável que alguma vez façam uma compra ou façam uma compra.
+**Sorteio**
+
+Os sorteios fornecem um grande número de endereços de email rapidamente. Mas esses assinantes querem o prêmio, não seus emails. Eles podem nem ter prestado atenção ao nome de quem estaria se aproximando deles. É provável que eles reclamem e marquem seu email como spam, e talvez seja improvável que alguma vez façam uma compra ou façam uma compra.
+
+## Recursos específicos do produto
+
+**Adobe Campaign Classic**
+
+* [Crie um formulário de subscrição com opt in duplo](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=en#create-a-subscription--form-with-double-opt-in)
+
+**Adobe Campaign Standard**
+
+* [Processo duplo de aceitação](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=en#communication-channels)
+
