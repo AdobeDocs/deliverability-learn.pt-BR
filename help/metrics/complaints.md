@@ -9,10 +9,10 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 550821608eb7049f739a156536dd31b6b2faa2fa
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 2%
+source-wordcount: '291'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ As reclamações são registradas quando um usuário indica que um email é inde
 
 ## reclamação do ISP
 
-A maioria dos ISPs de nível 1 e 2 fornecem um método de relatório de spam para seus usuários, pois os processos de recusa e cancelamento de subscrição foram usados de forma maliciosa no passado para validar um endereço de email. O Adobe Campaign recebe essas reclamações por meio de FBLs ISP. Isso é estabelecido durante o processo de configuração para qualquer ISPs que forneça FBLs e permite que o Adobe Campaign adicione automaticamente endereços de email que reclamaram para a tabela de quarentena para supressão. Os picos nas reclamações de ISP podem ser um indicador de qualidade de lista ruim, métodos de coleta de lista menos do que o ideal ou políticas de engajamento fracas. Elas também são notadas frequentemente quando o conteúdo não é relevante.
+A maioria dos ISPs de nível 1 e 2 fornecem um método de relatório de spam para seus usuários, pois os processos de recusa e cancelamento de subscrição foram usados de forma maliciosa no passado para validar um endereço de email. A Adobe Campaign recebe essas reclamações por meio de FBLs ISP. Isso é estabelecido durante o processo de configuração para qualquer ISPs que forneça FBLs e permite que o Adobe Campaign adicione automaticamente endereços de email que reclamaram para a tabela de quarentena para supressão. Os picos nas reclamações de ISP podem ser um indicador de qualidade de lista ruim, métodos de coleta de lista menos do que o ideal ou políticas de engajamento fracas. Elas também são notadas frequentemente quando o conteúdo não é relevante.
 
 ## Reclamações de terceiros
 
@@ -35,6 +35,10 @@ Há vários grupos antisspam que permitem relatórios de spam em um nível mais 
 
 ## Recursos específicos do produto
 
+**Adobe Campaign Classic**
+
+* [Indicadores de rastreamento](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html#tracking-indicators)
+
 **Adobe Campaign Standard**
 
-* [Reclamações](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/complaints.html#reporting)
+* [Relatório de reclamações](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/complaints.html#reporting)
