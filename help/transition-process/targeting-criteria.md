@@ -9,10 +9,10 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 10%
+source-wordcount: '208'
+ht-degree: 8%
 
 ---
 
@@ -23,7 +23,7 @@ Ao enviar novo tráfego, somente direcione aos usuários mais envolvidos durante
 
 ![Fórmula de envolvimento](../assets/formula-for-enagement.png)
 
-Normalmente, uma taxa de engajamento é baseada em um período específico. Essa métrica pode variar drasticamente dependendo se a fórmula for aplicada em um nível geral ou para tipos de correspondência ou campanhas específicos. Os critérios de direcionamento específicos precisam ser fornecidos trabalhando com o consultor de capacidade de entrega da Adobe, já que cada remetente e ISP varia e geralmente requer um plano personalizado.
+Normalmente, uma taxa de engajamento é baseada em um período específico. Essa métrica pode variar drasticamente dependendo se a fórmula for aplicada em um nível geral ou para tipos de correspondência ou campanhas específicos. Os critérios de direcionamento específicos precisam ser fornecidos trabalhando com o consultor de capacidade de entrega do Adobe, pois cada remetente e ISP variam e geralmente exigem um plano personalizado.
 
 ## Recursos específicos do produto
 
@@ -33,9 +33,5 @@ Normalmente, uma taxa de engajamento é baseada em um período específico. Essa
 
 **Campaign Standard**
 
-* [Emails alimentados por IA: Pontuação preditiva de engajamento](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html?lang=en#predictive-scoring)
-
-**Campaign Classic**
-
-* [Aprimoramento da reputação](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/improve-reputation.html)
+* [Emails alimentados por IA: Pontuação preditiva de engajamento](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html#predictive-scoring)
 
