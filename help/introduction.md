@@ -8,7 +8,7 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: 7e9cc30c6d3fb69f557b17f452b43de08ae85a03
+source-git-commit: 6297a3331b458b88ce2141a6fa30bbc69190b524
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 15%
@@ -22,7 +22,7 @@ A capacidade de fornecimento de email, um componente essencial para o sucesso do
 
 De acordo com [!DNL Lifewire], há mais de 3,8 bilhões de endereços de email hoje. Além disso, os consultores de mídia social [!DNL Lori Lewis] e [!DNL Chad Callahan] relatam que 188 milhões de emails são enviados a cada minuto, o que abrange mais da metade da população mundial. Mas acabaram os dias de envio de quantidades máximas de email para conversão mínima. A realidade é que considerar apenas o volume coloca os clientes altamente envolvidos em risco de não receber seus emails. Isso pode ter grandes implicações de receita para você como remetente. Visualizar emails como um canal de baixo custo com potencial ilimitado é desafiador e frágil.
 
-Nesta era digital, as pessoas esperam ser tortas — rapidamente. Eles querem aquele momento de &quot;ah ha&quot; com todos com quem eles escolhem interagir, e a competição é acirrada. Entre dispositivos como computadores, celulares e equipamentos inteligentes do lar e o conteúdo suportado, como mensagens instantâneas, email, web, push e aplicativos de mídia social, os consumidores são incessantemente bombardeados com conteúdo. Se uma mensagem não for convincente, eles poderão excluí-la ou se desconectar totalmente.
+Nesta era digital, as pessoas esperam ser tortas — rapidamente. Eles querem aquele momento de &quot;ah ha&quot; com todos com quem eles escolhem interagir, e a competição é acirrada. Entre dispositivos como computadores, celulares e equipamentos inteligentes do lar e o conteúdo suportado, como mensagens instantâneas, email, web, push e aplicativos de mídia social, os consumidores são incessantemente bombardeados com conteúdo. Se uma mensagem não for convincente, eles poderão excluí-la ou desconectar-se totalmente.
 
 Vamos encarar isso. Hoje, mais do que nunca, você precisa se destacar. Isso significa dar aos clientes experiências exclusivas, personalizadas e extremamente relevantes. Caso contrário, você corre o risco de perder um cliente para sempre. É imperativo ter uma estratégia integrada, dinâmica e multicanal que motive seu público-alvo para permanecer envolvido.
 
@@ -39,7 +39,7 @@ Este Guia de práticas recomendadas de entrega aborda os seguintes tópicos:
 7. [Permanência do remetente](/help/sender-permanence.md)
 8. [Especificações do provedor de serviços de Internet](/help/internet-service-provider-specifics/overview.md)
 9. [Monitoramento contínuo](/help/ongoing-monitoring.md)
-10. [Pôr isto em prática](/help/putting-it-in-practice/how-to-reach-success.md)
+10. [Pôr isto em prática](/help/putting-it-in-practice/putting-it-in-practice.md)
 11. [Recursos adicionais](/help/additional-resources/general-resources.md)
 
 ## Fontes
