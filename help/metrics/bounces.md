@@ -1,6 +1,6 @@
 ---
 title: Rejeições
-description: Saiba mais sobre os diferentes tipos de devoluções
+description: Saiba mais sobre os diferentes tipos de devoluções.
 feature: Métricas
 topics: Deliverability
 kt: 7047
@@ -9,10 +9,10 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 3%
+source-wordcount: '478'
+ht-degree: 6%
 
 ---
 
@@ -47,15 +47,18 @@ As devoluções temporárias são falhas temporárias que os ISPs geram quando t
 >
 >As rejeições são um indicador principal de um problema de reputação porque podem realçar uma fonte de dados incorreta (rejeição permanente) ou um problema de reputação com um ISP (rejeição temporária).
 >
->As devoluções temporárias geralmente ocorrem como parte do envio de email e devem ter permissão para resolver durante o processamento de nova tentativa antes de caracterizar como um problema real de deliverability. Se sua taxa de rejeição temporária for maior que 30% para um único ISP e não for resolvida em 24 horas, é uma boa ideia levantar uma preocupação com seu consultor de capacidade de entrega do Adobe Campaign.
+>As devoluções temporárias geralmente ocorrem como parte do envio de email e devem ter permissão para resolver durante o processamento de nova tentativa antes de caracterizar como um problema real de deliverability. Se sua taxa de rejeição temporária for maior que 30% para um único ISP e não for resolvida em 24 horas, é uma boa ideia levantar uma preocupação com seu consultor de capacidade de entrega da Adobe Campaign.
 
 ## Recursos específicos do produto
 
-**Adobe Campaign Standard**
-
-* [Lista de relatórios - Resumo da rejeição (documentação do produto)](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/bounce-summary.html?lang=en#reporting)
-* [Noções básicas sobre falhas de delivery (documentação do produto)](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html?lang=en#about-delivery-failures)
-
 **Adobe Campaign Classic**
 
-* [Noções básicas sobre falhas de delivery (documentação do produto)](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=en#sending-messages)
+* [Tipos e motivos de falha de delivery](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#delivery-failure-types-and-reasons)
+* [Gestão de emails de devolução](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-management)
+* [Relatório de não entregues e devoluções](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/global-reports.html#non-deliverables-and-bounces)
+
+**Adobe Campaign Standard**
+
+* [Tipos e motivos de falha de delivery](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html#delivery-failure-types-and-reasons)
+* [Qualificação de email de rejeição](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html#bounce-mail-qualification)
+* [Relatório de resumo de rejeição](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/bounce-summary.html?lang=en#reporting)
