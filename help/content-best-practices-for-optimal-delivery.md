@@ -9,10 +9,10 @@ doc-type: article
 activity: understand
 team: TM
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 2%
+source-wordcount: '196'
+ht-degree: 6%
 
 ---
 
@@ -27,10 +27,10 @@ O conteúdo é a chave. Você já leu nossa perspectiva sobre relevância, mas a
 
 ## Recursos específicos do produto
 
-**Campaign Standard**
-
-* [Controle de conteúdo de email (documentação do produto)](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/control-email-content.html?lang=en#testing-and-sending)
-
 **Campaign Classic**
 
-* [Controle do conteúdo da sua mensagem (documentação do produto)](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/control-message-content.html)
+* [Controle do conteúdo da sua mensagem](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/control-message-content.html)
+
+**Campaign Standard**
+
+* [Controle de conteúdo de e-mail](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/control-email-content.html#testing-and-sending)
