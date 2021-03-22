@@ -9,10 +9,10 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 1%
+source-wordcount: '924'
+ht-degree: 2%
 
 ---
 
@@ -41,7 +41,7 @@ Os interesses dos assinantes estão em constante evolução, e os profissionais 
 
 Uma **estratégia de reconquista** é quando um incentivo especial é enviado regularmente para uma parte específica de um banco de dados de marketing em uma tentativa de reengajar uma lista que tem pouca atividade de clique e abertura. As respostas positivas são mantidas e a parte da lista que não responde é movida para um status inativo e não é mais enviada por email.
 
-Uma **campanha de reativação** é semelhante, mas é usada para reconfirmar uma lista uma vez, o que é útil ao lidar com listas antigas e obsoletas — listas que não foram enviadas por mais de 12 meses ou até mesmo anos. Esse tipo de campanha normalmente também é imposta por listas de bloqueios para resolver um bloco. Os assinantes que não forem engajados com êxito por meio desse processo devem ser excluídos de futuras promoções de email.
+Uma **campanha de reativação** é semelhante, mas é usada para reconfirmar uma lista uma vez, o que é útil ao lidar com listas antigas e obsoletas — listas que não foram enviadas por mais de 12 meses ou até mesmo anos. Esse tipo de campanha também é tipicamente aplicado por lista de bloqueios para resolver um bloco. Os assinantes que não forem engajados com êxito por meio desse processo devem ser excluídos de futuras promoções de email.
 
 A melhor maneira de implementar uma campanha de reconquista ou reativação será exclusiva ao seu programa de email e deve ser totalmente personalizada para as necessidades e a situação de sua empresa.
 
@@ -57,7 +57,16 @@ Uma parte essencial da estratégia de resposta é que, se você tiver um endere�
 
 ## Recursos específicos do produto
 
+**Adobe Campaign Classic**
+
+* [Definir o público-alvo correto](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html#communication-channels)
+* [Regras de pressão](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html)
+
 **Adobe Campaign Standard**
 
 * [Definir o público-alvo correto](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html)
-* [Regras de fadiga (documentação do produto)](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/working-with-typology-rules/fatigue-rules.html)
+* [Regras de fadiga](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/working-with-typology-rules/fatigue-rules.html)
+
+## Recursos adicionais
+
+* Saiba mais sobre as estratégias de reengajamento (ou reconquista) em [esta seção](/help/additional-resources/re-engagement.md).
