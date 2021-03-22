@@ -9,9 +9,9 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 O volume de emails que você está enviando é essencial para estabelecer uma reputação positiva. Coloque-se em um ISPs — se você começar a ver um monte de tráfego de alguém que você não conhece, seria alarmante. Enviar um grande volume de emails imediatamente é arriscado e certamente causa problemas de reputação que são frequentemente difíceis de resolver. Pode ser frustrante, demorado e caro para se livrar da má reputação e dos problemas de bulking e bloqueio resultantes do envio muito em breve.
 
-Os limites de volume variam de acordo com o ISP e também podem variar dependendo das métricas médias de engajamento. Alguns remetentes exigem um aumento muito baixo e lento do volume, enquanto outros podem permitir um aumento mais acentuado do volume. Recomendamos trabalhar com um especialista, como um consultor de capacidade de entrega da Adobe, para desenvolver um plano de volume personalizado.
+Os limites de volume variam de acordo com o ISP e também podem variar dependendo das métricas médias de engajamento. Alguns remetentes exigem um aumento muito baixo e lento do volume, enquanto outros podem permitir um aumento mais acentuado do volume. Recomendamos trabalhar com um especialista, como um consultor de capacidade de entrega do Adobe, para desenvolver um plano de volume personalizado.
 
 Veja a seguir uma lista de dicas e dicas sobre como fazer a transição sem problemas:
 
@@ -42,3 +42,17 @@ Em muitas circunstâncias, o email transacional não segue a abordagem tradicion
 2. Abandono de carrinho — envolvimento médio e alto em geral
 3. Emails de boas-vindas — alto engajamento, mas pode conter endereços inválidos, dependendo dos métodos de coleta da lista
 4. Emails de recuperação — participação mais baixa geralmente
+
+## Recursos específicos do produto
+
+**Campaign**
+
+* Saiba mais sobre como gerenciar a capacidade de entrega ao iniciar uma nova plataforma com o Adobe Campaign em [esta seção](/help/putting-it-in-practice/ac-starting-new-platform.md).
+* Saiba como enviar usando várias ondas com o Adobe Campaign Classic em [esta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves).
+* Saiba como delegar completamente um subdomínio ao Adobe Campaign Classic ou Standard em [esta seção](/help/putting-it-in-practice/ac-domain-name-setup.md).
+* [Painel de controle do Campaign: Delegação completa de subdomínio (tutorial)](https://experienceleague.corp.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *saiba como delegar totalmente um subdomínio ao Adobe Campaign Classic.*
+* [Painel de controle do Campaign: Delegação completa de subdomínio (tutorial)](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *saiba como delegar totalmente um subdomínio ao Adobe Campaign Standard.*
+
+## Recursos adicionais
+
+* Saiba mais sobre como aumentar sua reputação de email com o aquecimento de IP em [this section](/help/additional-resources/increase-reputation-with-ip-warming.md).
