@@ -1,6 +1,6 @@
 ---
-title: Métricas para entregabilidade
-description: Entenda quais métricas principais de deliverability monitorar e como usá-las para identificar um problema de reputação.
+title: Métricas para entrega
+description: Entenda quais métricas principais de entrega você deve monitorar e como usá-las para identificar um problema de reputação.
 feature: Métricas
 topics: Deliverability
 kt: 5256
@@ -12,18 +12,18 @@ translation-type: tm+mt
 source-git-commit: 550821608eb7049f739a156536dd31b6b2faa2fa
 workflow-type: tm+mt
 source-wordcount: '142'
-ht-degree: 15%
+ht-degree: 62%
 
 ---
 
 
-# Métricas para entregabilidade
+# Métricas para entrega
 
-Uma das melhores maneiras de identificar um problema de reputação de envio é por meio das métricas. Vamos analisar algumas métricas principais de deliverability para monitorar e como usá-las para identificar um problema de reputação.
+Uma das melhores maneiras de identificar um problema de reputação de envio é por meio das métricas. Vamos analisar algumas métricas principais de entrega para monitorar e como usá-las para identificar um problema de reputação.
 
 * [Rejeições](/help/metrics/bounces.md)
 * [Reclamações](/help/metrics/complaints.md)
-* [Armadilhas de spam](/help/metrics/spam-traps.md)
+* [Coberturas de spam](/help/metrics/spam-traps.md)
 * [Marcação e bloqueio](/help/metrics/bulking-and-blocking.md)
 
 ## Recursos específicos do produto
