@@ -8,9 +8,9 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: 6297a3331b458b88ce2141a6fa30bbc69190b524
+source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '431'
 ht-degree: 15%
 
 ---
@@ -39,8 +39,11 @@ Este Guia de práticas recomendadas de entrega aborda os seguintes tópicos:
 7. [Permanência do remetente](/help/sender-permanence.md)
 8. [Especificações do provedor de serviços de Internet](/help/internet-service-provider-specifics/overview.md)
 9. [Monitoramento contínuo](/help/ongoing-monitoring.md)
-10. [Pôr isto em prática](/help/putting-it-in-practice/putting-it-in-practice.md)
-11. [Recursos adicionais](/help/additional-resources/general-resources.md)
+10. [Pôr isto em prática](/help/putting-it-in-practice.md)
+
+>[!NOTE]
+>
+>Baixe [adobe-deliverability-best-Practice-guide.pdf](/help/assets/adobe-deliverability-best-practice-guide.pdf)
 
 ## Fontes
 
@@ -50,4 +53,4 @@ Este Guia de práticas recomendadas de entrega aborda os seguintes tópicos:
 
 ## Recursos adicionais
 
-Baixe [adobe-deliverability-best-Practice-guide.pdf](/help/assets/adobe-deliverability-best-practice-guide.pdf)
+[Apêndice: Recursos adicionais](/help/additional-resources/general-resources.md)
