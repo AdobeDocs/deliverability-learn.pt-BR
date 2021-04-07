@@ -2,11 +2,11 @@
 user-guide-title: Manual de práticas recomendadas para a entrega
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: Conheça os principais termos, conceitos e abordagens de entrega para garantir o sucesso do seu programa de marketing.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a7e8ef210941b79bd5eb31b27041ca329e301f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -47,12 +47,12 @@ ht-degree: 86%
       + [Tudo sobre armadilhas de spam](/help/additional-resources/all-about-spam-traps.md)
       + [Aumente sua reputação de email com o aquecimento de IP](/help/additional-resources/increase-reputation-with-ip-warming.md)
       + [Autenticação](/help/additional-resources/authentication.md)
-      + [Duplicidades](/help/additional-resources/duplicates.md)
+      + [Duplicatas](/help/additional-resources/duplicates.md)
       + [Práticas recomendadas de reengajamento](/help/additional-resources/re-engagement.md)
-      + [Listas de Buraco Negro em Tempo Real](/help/additional-resources/blocklist-databases.md)
+      + [Listas de buraco negro em tempo real](/help/additional-resources/blocklist-databases.md)
       + [Solução de problemas](/help/additional-resources/troubleshooting.md)
    + Recursos específicos do produto {#product-specific-resources}
-      + Campanha {#campaign}
+      + Campaign {#campaign}
          + [Configuração do nome de domínio](/help/additional-resources/ac-domain-name-setup.md)
          + [Processo de solicitação de certificado SSL](/help/additional-resources/ac-ssl-certificate-request.md)
          + [Início de uma nova plataforma](/help/additional-resources/ac-starting-new-platform.md)
