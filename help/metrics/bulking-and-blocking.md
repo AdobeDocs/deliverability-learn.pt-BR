@@ -8,11 +8,11 @@ thumbnail: kt7051.jpg
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '322'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -33,4 +33,4 @@ Uma lista de bloqueios ocorre quando um gerenciador de lista de bloqueios de ter
 
 ## Recursos adicionais
 
-* Saiba mais sobre [Listas de Buraco Negro em tempo real](/help/additional-resources/blocklist-databases.md) que mantêm bancos de dados de endereços IP e domínios que provavelmente serão usados por remetentes de spam.
+* Saiba mais sobre [Listas de buraco negro em tempo real](/help/additional-resources/blocklist-databases.md) que mantêm bancos de dados de endereços IP e domínios que provavelmente serão usados por remetentes de spam.
