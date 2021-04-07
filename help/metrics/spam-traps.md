@@ -8,11 +8,11 @@ thumbnail: kt7050.jpg
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 550821608eb7049f739a156536dd31b6b2faa2fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '454'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Existem coberturas de spam para ajudar a identificar emails de remetentes fraudu
 
 As interceptações de spam recicladas são endereços que antes eram válidos, mas que não estão mais sendo usados. Uma maneira importante de manter as listas sempre limpas é enviar emails regularmente para toda a lista e suprimir adequadamente os emails devolvidos. Isso ajuda os endereços de email abandonados a serem colocados em quarentena e retidos na próxima utilização.
 
-Em alguns casos, um endereço pode ser reciclado em 30 dias. O envio regular é um aspecto vital da boa higiene das listas, juntamente com a supressão regular de usuários inativos. **As** campanhas de reengajamento normalmente fazem parte de programas sofisticados de marketing por email. Esse estilo de campanha permite que o remetente tente recuperar usuários que, de outra forma, não receberiam mais emails.
+Em alguns casos, um endereço pode ser reciclado em 30 dias. O envio regular é um aspecto vital da boa higiene das listas, juntamente com a supressão regular de usuários inativos. **As campanhas de reengajamento** normalmente fazem parte de sofisticados programas de marketing por email. Esse estilo de campanha permite que o remetente tente recuperar usuários que, de outra forma, não receberiam mais emails.
 
 ## Erro de digitação
 
@@ -37,18 +37,18 @@ Uma cobertura de spam pura é um endereço que não tem e nunca teve usuário fi
 
 ## Recursos adicionais
 
-* Saiba mais sobre como identificar e evitar armadilhas de spam em [esta seção](/help/additional-resources/all-about-spam-traps.md).
-* Saiba mais sobre como melhorar a capacidade de entrega por meio de estratégias de reengajamento em [esta seção](/help/additional-resources/re-engagement.md).
+* Saiba mais sobre como identificar e evitar armadilhas de spam [nesta seção](/help/additional-resources/all-about-spam-traps.md).
+* Saiba mais sobre como melhorar a capacidade de entrega por meio de estratégias de reengajamento [nesta seção](/help/additional-resources/re-engagement.md).
 
 ## Recursos específicos do produto
 
 **Adobe Campaign Classic**
 
-* [SpamAssassin](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/spamassassin.html?lang=br#using-spamassassin)
-* [Crie um formulário de subscrição com opt in duplo](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=en#create-a-subscription--form-with-double-opt-in)
+* [SpamAssassin](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/spamassassin.html?lang=pt-BR#using-spamassassin)
+* [Criar um formulário de assinatura com aceitação dupla](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=pt-BR#create-a-subscription--form-with-double-opt-in)
 
 **Adobe Campaign Standard**
 
-* [Pré-visualização de email e análise antisspam](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/email-designer/preview-your-email.html?lang=pt-BR#designing-content)
-* [Processo de aceitação duplo](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=br#communication-channels)
+* [Pré-visualização de email e análise anti-spam](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/email-designer/preview-your-email.html?lang=pt-BR#designing-content)
+* [Processo de aceitação dupla](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=br#communication-channels)
 
