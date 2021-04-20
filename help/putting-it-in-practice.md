@@ -1,7 +1,7 @@
 ---
 title: Pôr isto em prática
 description: A permanência de envio é o processo de estabelecer um volume de envio e uma estratégia consistentes para manter a reputação de ISP.
-feature: Avaliação do delivery
+feature: Deliverability
 topics: Deliverability
 kt: 5264
 thumbnail: kt5264.jpg

@@ -1,7 +1,7 @@
 ---
 title: Qual é a estratégia de entrega e como defini-la
 description: Entenda como a capacidade de entrega é definida, por que ela é importante e quais são suas métricas principais
-feature: Capacidade de entrega
+feature: Deliverability
 topics: Deliverability
 kt: 5255
 thumbnail: kt5255.jpg

@@ -1,7 +1,7 @@
 ---
 title: Solução de problemas da capacidade de entrega
 description: Saiba como identificar e solucionar problemas da capacidade de entrega.
-feature: Recursos adicionais
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

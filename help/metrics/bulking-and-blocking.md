@@ -1,7 +1,7 @@
 ---
 title: Como marcar e bloquear emails
 description: Saiba por que os ISPs colocam mensagens de email em pastas de spam ou as bloqueiam.
-feature: Métricas
+feature: Metrics
 topics: Deliverability
 kt: 7051
 thumbnail: kt7051.jpg

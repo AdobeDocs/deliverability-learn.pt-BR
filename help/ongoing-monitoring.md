@@ -1,7 +1,7 @@
 ---
 title: Monitoramento contínuo
 description: Quais problemas você precisa procurar.
-feature: Monitoramento
+feature: Monitoring
 topics: Deliverability
 kt: 5263
 thumbnail: kt5263.jpg

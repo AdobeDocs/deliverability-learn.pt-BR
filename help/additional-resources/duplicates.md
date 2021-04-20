@@ -1,7 +1,7 @@
 ---
 title: Duplicidades
 description: Saiba como identificar e limitar duplicatas para melhorar a capacidade de entrega.
-feature: Recursos adicionais
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

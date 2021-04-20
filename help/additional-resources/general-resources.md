@@ -1,7 +1,7 @@
 ---
 title: Recursos adicionais
 description: Esta seção lista vários recursos adicionais sobre entregabilidade.
-feature: Recursos adicionais
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

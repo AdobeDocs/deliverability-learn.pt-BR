@@ -1,7 +1,7 @@
 ---
 title: Critérios de direcionamento
 description: Saiba como estabelecer uma reputação positiva a partir do get-go para criar confiança de maneira eficaz antes de acumulá-la em seus públicos menos envolvidos.
-feature: Processo de transição
+feature: Transition Process
 topics: Deliverability
 kt: 7053
 thumbnail: kt7053.jpg

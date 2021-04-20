@@ -1,7 +1,7 @@
 ---
 title: Métricas para entrega
 description: Entenda quais métricas principais de entrega você deve monitorar e como usá-las para identificar um problema de reputação.
-feature: Métricas
+feature: Metrics
 topics: Deliverability
 kt: 5256
 thumbnail: kt5256.jpg

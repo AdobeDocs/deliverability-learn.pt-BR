@@ -1,7 +1,7 @@
 ---
 title: Introdução às práticas recomendadas de entrega
 description: Conheça os principais termos, conceitos e abordagens de entrega para garantir o sucesso do seu programa de marketing.
-feature: Capacidade de entrega
+feature: Deliverability
 kt: 5321
 thumbnail: kt5321.jpg
 doc-type: article

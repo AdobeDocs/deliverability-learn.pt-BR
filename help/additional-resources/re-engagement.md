@@ -1,7 +1,7 @@
 ---
 title: Práticas recomendadas de reengajamento
 description: Saiba como melhorar a capacidade de entrega por meio de estratégias de reengajamento.
-feature: Recursos adicionais
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

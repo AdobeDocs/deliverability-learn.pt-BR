@@ -1,7 +1,7 @@
 ---
 title: Coberturas de spam
 description: Saiba mais sobre os diferentes tipos de coberturas de spam.
-feature: Métricas
+feature: Metrics
 topics: Deliverability
 kt: 7050
 thumbnail: kt7050.jpg

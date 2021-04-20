@@ -1,7 +1,7 @@
 ---
 title: Primeiras impressões — coleções de listas e emails de boas-vindas
 description: 'Saiba como configurar-se para executar um programa de email bem-sucedido fazendo uma boa primeira impressão. '
-feature: Públicos-alvo, Email
+feature: Audiences, Email
 topics: Deliverability
 kt: 5258
 thumbnail: kt5258.jpg

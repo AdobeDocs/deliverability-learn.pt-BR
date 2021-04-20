@@ -1,7 +1,7 @@
 ---
 title: Início de uma nova plataforma
 description: Saiba mais sobre como gerenciar a capacidade de delivery ao iniciar uma nova plataforma com o Adobe Campaign.
-feature: Pôr isto em prática
+feature: Putting it in practice
 topics: Deliverability
 kt: null
 thumbnail: null

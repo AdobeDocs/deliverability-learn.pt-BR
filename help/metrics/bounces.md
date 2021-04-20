@@ -1,7 +1,7 @@
 ---
 title: Rejeições
 description: Saiba mais sobre os diferentes tipos de rejeições.
-feature: Métricas
+feature: Metrics
 topics: Deliverability
 kt: 7047
 thumbnail: kt7047.jpg

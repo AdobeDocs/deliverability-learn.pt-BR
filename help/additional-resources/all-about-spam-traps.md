@@ -1,7 +1,7 @@
 ---
 title: Tudo sobre armadilhas de spam
 description: Saiba como entender, identificar e evitar armadilhas de spam ao gerenciar a capacidade de delivery.
-feature: Recursos adicionais
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

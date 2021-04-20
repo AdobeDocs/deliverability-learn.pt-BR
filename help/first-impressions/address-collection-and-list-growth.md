@@ -1,7 +1,7 @@
 ---
 title: Coleta de endereços e crescimento de listas
 description: 'Saiba quais são as melhores fontes para novos endereços de email, como garantir alta qualidade dos dados e alinhamento às diretrizes legais. '
-feature: Públicos-alvo
+feature: Audiences
 topics: Deliverability
 kt: 7063
 thumbnail: kt7063.jpg

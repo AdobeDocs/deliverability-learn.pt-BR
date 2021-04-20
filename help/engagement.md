@@ -1,7 +1,7 @@
 ---
 title: Envolvimento
 description: O envolvimento se tornou o fator mais importante que afeta as decisões de posicionamento da caixa de entrada.
-feature: Envolvimento
+feature: Engagement
 topics: Deliverability
 kt: 5257
 thumbnail: kt5257.jpg

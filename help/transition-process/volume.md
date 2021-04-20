@@ -1,7 +1,7 @@
 ---
 title: Volume - Dicas para fazer a transição sem problemas
 description: O volume de emails que você está enviando é essencial para estabelecer uma reputação positiva. Saiba o que você pode fazer para fazer a transição sem problemas.
-feature: Processo de transição
+feature: Transition Process
 topics: Deliverability
 kt: 7055
 thumbnail: kt7055.jpg

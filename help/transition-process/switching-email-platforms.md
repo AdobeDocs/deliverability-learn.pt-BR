@@ -1,7 +1,7 @@
 ---
 title: Como fazer a transição sem problemas ao alternar plataformas de email.
 description: 'Ao mover os provedores de serviços de email (ESPs), não é possível fazer a transição dos endereços IP existentes e estabelecidos. É importante seguir as práticas recomendadas para desenvolver uma reputação positiva ao iniciar novamente. '
-feature: Avaliação do delivery
+feature: Deliverability
 topics: Deliverability
 kt: 5259
 thumbnail: kt5259.jpg

@@ -1,7 +1,7 @@
 ---
 title: Listas de Buraco Negro em Tempo Real
 description: Saiba mais sobre organizações que mantêm listas de endereços IP e domínios que provavelmente serão usados por remetentes de spam.
-feature: Recursos adicionais
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

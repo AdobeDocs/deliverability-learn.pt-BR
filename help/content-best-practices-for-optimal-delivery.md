@@ -1,7 +1,7 @@
 ---
 title: Práticas recomendadas para conteúdo para entrega ideal
 description: O conteúdo é a chave. Você já leu nossa perspectiva sobre relevância, mas aqui estão algumas dicas adicionais para otimizar sua capacidade de entrega quando se trata de conteúdo.
-feature: Conteúdo
+feature: Content
 topics: Deliverability
 kt: 5260
 thumbnail: kt5260.jpg
