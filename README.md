@@ -59,3 +59,5 @@ No repositório público, os rótulos automatizados são atribuídos a solicita�
 
 * **Alteração enviada para o autor**: o autor foi notificado sobre a solicitação de pull pendente.
 * **Pronto para mesclar**: pronto para ser revisado pela equipe de revisão da solicitação de pull.
+
+
