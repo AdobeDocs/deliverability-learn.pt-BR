@@ -2,11 +2,10 @@
 user-guide-title: Manual de práticas recomendadas para a entrega
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: Conheça os principais termos, conceitos e abordagens de entrega para garantir o sucesso do seu programa de marketing.
-translation-type: ht
-source-git-commit: 5a7e8ef210941b79bd5eb31b27041ca329e301f2
-workflow-type: ht
-source-wordcount: '165'
-ht-degree: 100%
+source-git-commit: fb66dc0e4efc61b6303b7857b9c56b2c478642c4
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +20,7 @@ ht-degree: 100%
    + [Reclamações](/help/metrics/complaints.md)
    + [Coberturas de spam](/help/metrics/spam-traps.md)
    + [Marcação e bloqueio](/help/metrics/bulking-and-blocking.md)
-+ [Engajamento](/help/engagement.md)
++ [Envolvimento](/help/engagement.md)
 + Processo de transição - Alternar plataformas de email {#transition-process}
    + [Como fazer a transição descomplicada ao alternar plataformas de email](/help/transition-process/switching-email-platforms.md)
    + [Infraestrutura](/help/transition-process/infrastructure.md)
@@ -57,3 +56,6 @@ ht-degree: 100%
          + [Processo de solicitação de certificado SSL](/help/additional-resources/ac-ssl-certificate-request.md)
          + [Início de uma nova plataforma](/help/additional-resources/ac-starting-new-platform.md)
          + [Campaign Classic - Recomendações técnicas](/help/additional-resources/acc-technical-recommendations.md)
++ Notas técnicas (ocultas){#technotes}
+   + [Privacidade da Apple](/help/technotes/apple-mail-privacy-faq.md)
+
