@@ -5,7 +5,7 @@ feature: Capacidade de entrega
 topics: Deliverability
 hide: true
 hidefromtoc: true
-source-git-commit: cc0f8f4d8a5f4584d30b281492c2f948624ce1c1
+source-git-commit: 7b0f59aed1e4074cb93fdd762bab0b7302a6cbdd
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 0%
@@ -30,8 +30,7 @@ O rastreamento de pixels dentro do Apple Mail será desativado, o que significa 
 
 ## Há outros impactos?
 
-Por padrão, a Apple ocultará informações de endereço IP em seu aplicativo de email nativo, no navegador Safari e nos serviços da iCloud. A medição das taxas de abertura não é o único aspecto do marketing por email afetado pela Proteção de Privacidade de email da Apple. O email abre estratégias de otimização de tempo de envio de unidades, personalização em tempo real, campanhas de reengajamento e campanhas automatizadas de várias ondas. Essas alterações significam que os profissionais de marketing
-O deve começar a planejar a aparência dessas estratégias para os usuários da Apple depois que o iOS 15 for lançado e os recursos de proteção de privacidade tomarem conta desse outono. O Adobe ajudará nossos clientes a navegar por essas alterações com atualizações, orientação e liderança de ideias.
+Por padrão, a Apple ocultará informações de endereço IP em seu aplicativo de email nativo, no navegador Safari e nos serviços da iCloud. A medição das taxas de abertura não é o único aspecto do marketing por email afetado pela Proteção de Privacidade de email da Apple. O email abre estratégias de otimização de tempo de envio de unidades, personalização em tempo real, campanhas de reengajamento e campanhas automatizadas de várias ondas. Essas mudanças significam que os profissionais de marketing devem começar a planejar como serão essas estratégias para os usuários da Apple depois que o iOS 15 for lançado e os recursos de proteção de privacidade tomarem conta desse outono. O Adobe ajudará nossos clientes a navegar por essas alterações com atualizações, orientação e liderança de ideias.
 
 ## Esse anúncio pertence a todos os emails abertos em um dispositivo da Apple?
 
