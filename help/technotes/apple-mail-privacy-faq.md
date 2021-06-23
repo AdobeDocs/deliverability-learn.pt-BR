@@ -1,18 +1,18 @@
 ---
-title: Perguntas frequentes sobre a proteção da privacidade de e-mail da Apple em 23 de junho de 2021
-description: Perguntas frequentes sobre a proteção da privacidade de e-mail da Apple em 23 de junho de 2021
+title: Perguntas frequentes sobre a proteção da privacidade do Apple Mail
+description: Perguntas frequentes sobre a proteção da privacidade do Apple Mail
 feature: Capacidade de entrega
 topics: Deliverability
 hide: true
 hidefromtoc: true
-source-git-commit: fe42e3a1edfb48192fd1bb3b811247fcd528ab05
+source-git-commit: cc0f8f4d8a5f4584d30b281492c2f948624ce1c1
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
 
-# Perguntas frequentes sobre a proteção da privacidade de e-mail da Apple em 23 de junho de 2021
+# Perguntas frequentes sobre a proteção da privacidade do Apple Mail
 
 Estas perguntas frequentes fornecem orientação inicial em resposta ao anúncio da Apple sobre a versão iOS 15, incluindo [Mail Privacy Protection](https://www.apple.com/newsroom/2021/06/apple-advances-its-privacy-leadership-with-ios-15-ipados-15-macos-monterey-and-watchos-8/). Essas alterações serão lançadas em setembro e continuaremos atualizando este documento e fornecendo orientação aos clientes.
 
