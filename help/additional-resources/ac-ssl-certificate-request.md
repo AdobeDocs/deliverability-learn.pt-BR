@@ -1,21 +1,20 @@
 ---
 title: Processo de solicitação de certificado SSL
 description: Saiba como instalar certificados SSL nos subdomínios que você delegou ao Adobe.
-feature: Putting it in practice
+feature: Colocando em prática
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
+exl-id: 8a78abd3-afba-49a7-a2ae-8b2c75326749
+source-git-commit: e3caa0e9fae0df983c05c7027406f9874174a8ba
 workflow-type: tm+mt
-source-wordcount: '2269'
+source-wordcount: '2270'
 ht-degree: 2%
 
 ---
-
 
 # Processo de solicitação de certificado SSL
 
@@ -87,7 +86,7 @@ Para obter um arquivo CSR (Solicitação de assinatura de certificado), siga as 
 Estas são algumas das práticas recomendadas a seguir:
 
 * Levante uma solicitação por subdomínio delegado.
-* É possível combinar vários subdomínios em uma única solicitação de CSR, mas somente no mesmo ambiente. Por exemplo, no Campaign Classic, o servidor de marketing, o [servidor mid-sourcing](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/mid-sourcing-server.html) e o [execution instance](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/instance-configuration/creating-a-shared-connection.html) são três ambientes separados.
+* É possível combinar vários subdomínios em uma única solicitação de CSR, mas somente no mesmo ambiente. Por exemplo, no Campaign Classic, o servidor de marketing, o [servidor mid-sourcing](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/mid-sourcing-server.html) e o [execution instance](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/configuring-instances.html#execution-instance) são três ambientes separados.
 * Você deve obter um novo CSR antes de qualquer renovação de certificado SSL. Não use um arquivo CSR antigo de um ano ou mais.
 
 Você precisará fornecer as seguintes informações.
