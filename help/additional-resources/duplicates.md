@@ -1,23 +1,21 @@
 ---
-title: Duplicidades
+title: Duplicatas
 description: Saiba como identificar e limitar duplicatas para melhorar a capacidade de entrega.
-feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 96ed84da391faaabd3001ddd6a411ddc1f46b033
+exl-id: f89dbb38-a8d4-4294-b017-6fed72591593
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 59%
+source-wordcount: '386'
+ht-degree: 62%
 
 ---
 
-
-# Duplicidades {#duplicates}
+# Duplicatas {#duplicates}
 
 Ter endereços de email duplicados pode ter várias consequências:
 
@@ -42,7 +40,7 @@ O cancelamento da duplicação de endereços protege a reputação de envio e ga
 **Adobe Campaign Classic**
 
 * [Atividade de desduplicação](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/deduplication.html)
-* [Uso da funcionalidade de mesclagem da atividade de desduplicação](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html)
+* [Uso da funcionalidade de mesclagem da atividade de desduplicação](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html?lang=pt-BR)
 
 **Adobe Campaign Standard**
 
