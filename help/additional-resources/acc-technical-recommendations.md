@@ -1,21 +1,19 @@
 ---
 title: Campaign Classic - Recomendações técnicas
 description: Descubra técnicas, configurações e ferramentas que você pode usar para melhorar a taxa de entrega com o Adobe Campaign Classic.
-feature: Putting it in practice
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
+exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1575'
 ht-degree: 72%
 
 ---
-
 
 # Campaign Classic - Recomendações técnicas {#technical-recommendations}
 
