@@ -1,21 +1,19 @@
 ---
 title: Início de uma nova plataforma
 description: Saiba mais sobre como gerenciar a capacidade de delivery ao iniciar uma nova plataforma com o Adobe Campaign.
-feature: Putting it in practice
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
+exl-id: 6c9ade01-3052-4311-af80-888294820024
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 59%
+source-wordcount: '603'
+ht-degree: 65%
 
 ---
-
 
 # Início de uma nova plataforma {#starting-new-platform}
 
@@ -67,4 +65,4 @@ Para obter mais informações sobre os princípios listados acima e sua implemen
 
 * [Otimize seu delivery por meio da quarentena](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html#optimizing-your-delivery-through-quarantines)
 * [Identificar endereços em quarentena para toda a plataforma](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html)
-* [Monitorar um delivery](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html)
+* [Monitoramento de um delivery](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html)
