@@ -1,21 +1,19 @@
 ---
 title: Aumente sua reputação de email com o aquecimento de IP
 description: Saiba por que é importante melhorar sua reputação de email com o aquecimento de IP e como prosseguir com o deliverability ideal.
-feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 96ed84da391faaabd3001ddd6a411ddc1f46b033
+exl-id: b553a13e-2055-4abc-b784-fd52792380d0
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '1602'
-ht-degree: 2%
+source-wordcount: '1600'
+ht-degree: 3%
 
 ---
-
 
 # Aumente sua reputação de email com o aquecimento de IP
 
@@ -32,7 +30,7 @@ O Adobe exige que os clientes compartilhem suas configurações para ajudar a eq
 No início, você receberá seus próprios endereços IP dedicados (Internet Protocol). No contexto de envio de email, um endereço IP é a rota usada para enviar suas mensagens de email aos clientes. Endereços IP e domínios são usados para identificar remetentes em uma rede para os ISPs receptores. O Adobe atribui o número apropriado de endereços IP dedicados para enviar emails, com base no volume de envio, programas de email, práticas de segmentação de dados e seu contrato.
 
 **Tópicos relacionados:**
-* [Como fazer a transição sem problemas ao alternar plataformas de email](../../help/transition-process/switching-email-platforms.md)
+* [Como fazer a transição descomplicada ao alternar plataformas de email](../../help/transition-process/switching-email-platforms.md)
 * [Estratégia de IP](../../help/transition-process/infrastructure.md#ip-strategy)
 * [Considerações específicas do ISP durante o aquecimento de IP](../../help/transition-process/isp-specific-considerations-during-ip-warming.md)
 
