@@ -1,21 +1,19 @@
 ---
 title: Permanência do remetente
 description: A permanência de envio é o processo de estabelecer um volume de envio e uma estratégia consistentes para manter a reputação de ISP.
-feature: Sender Permanence
 topics: Deliverability
 kt: 5261
 thumbnail: kt5261.jpg
 doc-type: article
 activity: understand
 team: TM
-translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+exl-id: f57de522-1361-43a3-8f8b-f9a191986529
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 0%
+source-wordcount: '135'
+ht-degree: 5%
 
 ---
-
 
 # Permanência do remetente
 
