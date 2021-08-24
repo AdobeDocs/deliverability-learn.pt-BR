@@ -1,21 +1,19 @@
 ---
 title: Recursos adicionais
 description: Esta seção lista vários recursos adicionais sobre entregabilidade.
-feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
+exl-id: 75538ef8-8e4b-4940-8d11-42ebd7c65e93
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 21%
+source-wordcount: '99'
+ht-degree: 39%
 
 ---
-
 
 # Recursos adicionais - Visão geral
 
@@ -26,9 +24,9 @@ Esta seção lista alguns recursos adicionais sobre deliverability, como recomen
 * [Tudo sobre armadilhas de spam](../../help/additional-resources/all-about-spam-traps.md)
 * [Aumente sua reputação de email com o aquecimento de IP](../../help/additional-resources/increase-reputation-with-ip-warming.md)
 * [Autenticação](../../help/additional-resources/authentication.md)
-* [Duplicidades](../../help/additional-resources/duplicates.md)
+* [Duplicatas](../../help/additional-resources/duplicates.md)
 * [Práticas recomendadas de reengajamento](../../help/additional-resources/re-engagement.md)
-* [Listas de Buraco Negro em Tempo Real](../../help/additional-resources/blocklist-databases.md)
+* [Listas de buraco negro em tempo real](../../help/additional-resources/blocklist-databases.md)
 * [Solução de problemas](../../help/additional-resources/troubleshooting.md)
 
    <!--
