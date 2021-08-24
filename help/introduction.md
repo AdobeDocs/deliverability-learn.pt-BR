@@ -1,17 +1,15 @@
 ---
 title: Introdução às práticas recomendadas de entrega
 description: Conheça os principais termos, conceitos e abordagens de entrega para garantir o sucesso do seu programa de marketing.
-feature: Deliverability
 kt: 5321
 thumbnail: kt5321.jpg
 doc-type: article
 activity: understand
 team: ACS
 exl-id: 929e325a-514d-49e3-91cf-c8383bb9465e
-translation-type: ht
-source-git-commit: e433002423bd1ab2f4a89425198c16160dae0719
-workflow-type: ht
-source-wordcount: '431'
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+workflow-type: tm+mt
+source-wordcount: '430'
 ht-degree: 100%
 
 ---
@@ -32,7 +30,7 @@ Este Guia de Práticas Recomendadas de Entrega aborda os seguintes tópicos:
 
 1. [Estratégia e definição da capacidade de entrega](/help/deliverability-strategy-and-definition.md)
 2. [Métricas para entrega](/help/metrics/metrics-overview.md)
-3. [Engajamento](/help/engagement.md)
+3. [Envolvimento](/help/engagement.md)
 4. [Processo de transição - Alternar plataformas de email](/help/transition-process/switching-email-platforms.md)
 5. [Primeiras impressões - Coleção de listas e emails de boas-vindas](/help/first-impressions/address-collection-and-list-growth.md)
 6. [Práticas recomendadas de conteúdo para a entrega ideal](/help/content-best-practices-for-optimal-delivery.md)
