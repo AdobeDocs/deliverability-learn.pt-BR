@@ -1,21 +1,19 @@
 ---
 title: Coleta de endereços e crescimento de listas
 description: 'Saiba quais são as melhores fontes para novos endereços de email, como garantir alta qualidade dos dados e alinhamento às diretrizes legais. '
-feature: Audiences
 topics: Deliverability
 kt: 7063
 thumbnail: kt7063.jpg
 doc-type: article
 activity: understand
 team: TM
-translation-type: tm+mt
-source-git-commit: ec0bb2f9ee514cc94c764744e0cc51e62e811c20
+exl-id: 350950dc-4703-402a-8e22-3862f4e21d52
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '1623'
-ht-degree: 0%
+source-wordcount: '1622'
+ht-degree: 4%
 
 ---
-
 
 # Coleta de endereços e crescimento de listas
 
@@ -96,9 +94,8 @@ Os sorteios fornecem um grande número de endereços de email rapidamente. Mas e
 
 **Adobe Campaign Classic**
 
-* [Crie um formulário de subscrição com opt in duplo](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=en#create-a-subscription--form-with-double-opt-in)
+* [Criar um formulário de assinatura com aceitação dupla](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=pt-BR#create-a-subscription--form-with-double-opt-in)
 
 **Adobe Campaign Standard**
 
-* [Processo duplo de aceitação](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=en#communication-channels)
-
+* [Processo de aceitação dupla](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=br#communication-channels)
