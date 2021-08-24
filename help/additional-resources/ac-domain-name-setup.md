@@ -1,21 +1,19 @@
 ---
 title: Configuração do nome de domínio
 description: Saiba como delegar um subdomínio ao Adobe Campaign.
-feature: Putting it in practice
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
+exl-id: 4d52d197-d20e-450c-bfcf-e4541c474be4
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '2032'
+source-wordcount: '2028'
 ht-degree: 2%
 
 ---
-
 
 # Configuração do nome de domínio
 
