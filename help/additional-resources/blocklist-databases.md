@@ -1,23 +1,21 @@
 ---
-title: Listas de Buraco Negro em Tempo Real
+title: Listas de buraco negro em tempo real
 description: Saiba mais sobre organizações que mantêm listas de endereços IP e domínios que provavelmente serão usados por remetentes de spam.
-feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 96ed84da391faaabd3001ddd6a411ddc1f46b033
+exl-id: 4155b89f-a636-404c-8951-563c1b4d0289
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 90%
+source-wordcount: '407'
+ht-degree: 92%
 
 ---
 
-
-# Listas de Buraco Negro em Tempo Real
+# Listas de buraco negro em tempo real
 
 Várias organizações mantêm bancos de dados de endereços IP e domínios que são reputados para serem usados por remetentes de spam. Consultar esses sites pode ser útil para entender por que determinadas mensagens foram rejeitadas como spam. Geralmente é possível solicitar a remoção de um endereço adicionado incorretamente a essas listas.
 
