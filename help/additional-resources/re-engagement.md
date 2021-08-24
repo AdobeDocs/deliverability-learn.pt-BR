@@ -1,21 +1,19 @@
 ---
 title: Práticas recomendadas de reengajamento
 description: Saiba como melhorar a capacidade de entrega por meio de estratégias de reengajamento.
-feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 96ed84da391faaabd3001ddd6a411ddc1f46b033
+exl-id: 30118706-d4c0-4bd8-8c9b-50c26b8374ef
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '926'
 ht-degree: 62%
 
 ---
-
 
 # Práticas recomendadas de reengajamento {#re-engagement}
 
