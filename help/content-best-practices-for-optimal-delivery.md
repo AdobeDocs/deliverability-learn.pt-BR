@@ -1,23 +1,21 @@
 ---
-title: Práticas recomendadas para conteúdo para entrega ideal
+title: Práticas recomendadas de conteúdo para a entrega ideal
 description: O conteúdo é a chave. Você já leu nossa perspectiva sobre relevância, mas aqui estão algumas dicas adicionais para otimizar sua capacidade de entrega quando se trata de conteúdo.
-feature: Content
 topics: Deliverability
 kt: 5260
 thumbnail: kt5260.jpg
 doc-type: article
 activity: understand
 team: TM
-translation-type: tm+mt
-source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
+exl-id: f0172fa5-1c7e-4ccc-8ac5-4357611d13ec
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 6%
+source-wordcount: '195'
+ht-degree: 13%
 
 ---
 
-
-# Práticas recomendadas para conteúdo para entrega ideal
+# Práticas recomendadas de conteúdo para a entrega ideal
 
 O conteúdo é a chave. Você já leu nossa perspectiva sobre relevância, mas aqui estão algumas dicas adicionais para otimizar sua capacidade de entrega quando se trata de conteúdo:
 
@@ -33,4 +31,4 @@ O conteúdo é a chave. Você já leu nossa perspectiva sobre relevância, mas a
 
 **Campaign Standard**
 
-* [Controle de conteúdo de e-mail](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/control-email-content.html#testing-and-sending)
+* [Controle de conteúdo de email](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/control-email-content.html#testing-and-sending)
