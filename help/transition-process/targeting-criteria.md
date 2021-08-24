@@ -1,21 +1,19 @@
 ---
 title: Critérios de direcionamento
-description: Saiba como estabelecer uma reputação positiva a partir do get-go para criar confiança de maneira eficaz antes de acumulá-la em seus públicos menos envolvidos.
-feature: Transition Process
+description: Saiba como estabelecer uma reputação positiva desde o início para criar confiança com eficiência antes de alcançar seus públicos menos envolvidos.
 topics: Deliverability
 kt: 7053
 thumbnail: kt7053.jpg
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
+exl-id: e6a855ba-a929-477f-a339-6861a755a529
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 8%
+source-wordcount: '206'
+ht-degree: 22%
 
 ---
-
 
 # Critérios de direcionamento
 
@@ -34,4 +32,3 @@ Normalmente, uma taxa de engajamento é baseada em um período específico. Essa
 **Campaign Standard**
 
 * [Emails alimentados por IA: Pontuação preditiva de engajamento](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html#predictive-scoring)
-
