@@ -2,13 +2,11 @@
 title: Aumente sua reputação de email com o aquecimento de IP
 description: Saiba por que é importante melhorar sua reputação de email com o aquecimento de IP e como prosseguir com o deliverability ideal.
 topics: Deliverability
-kt: null
-thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
 exl-id: b553a13e-2055-4abc-b784-fd52792380d0
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
 source-wordcount: '1600'
 ht-degree: 3%
