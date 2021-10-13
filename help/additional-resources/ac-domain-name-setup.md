@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 4d52d197-d20e-450c-bfcf-e4541c474be4
-source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
+source-git-commit: 82f7254a9027f79d2af59aece81f032105c192d5
 workflow-type: tm+mt
-source-wordcount: '2028'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -54,10 +54,22 @@ Para fornecer um serviço gerenciado baseado em nuvem, o Adobe incentiva forteme
 | MX | Especificar servidores de correio para mensagens recebidas | <i>email.example.com</i></br><i>10 inbound.email.example.com</i> |
 | SPF (TXT) | Estrutura de Política do Remetente | <i>email.example.com</i></br>&quot;v=spf1 redirect=__spf.campaign.adobe.com&quot; |
 | DKIM (TXT) | DomainKeys Identified Mail | <i>cliente._domainkey.email.example.com</i></br>&quot;v=DKIM1; k=rsa;&quot; &quot;DKIMPUBLICKEY AQUI&quot; |
-| DMARC (TXT) | Autenticação de Mensagem Baseada em Domínio | Relatórios e conformidade | _dmarc.email.example.com</br>&quot;v=DMARC1; p=none; Rua=mailto:mailauth-reports@myemail.com&quot; |
 | Registros de hosts (A) | Mirror pages, hospedagem de imagens e links de rastreamento, todos os domínios de envio | m.email.example.com EM A 123.111.100.99</br>t.email.example.com EM A 123.111.100.98</br>email.example.com EM A 123.111.100.97 |
 | DNS reverso (PTR) | Mapeia os endereços IP do cliente para um nome de host da marca do cliente | 18.101.100.192.in-addr.arpa ponteiro do nome de domínio r18.email.example.com |
-| CNAME | Fornece um alias para outro nome de domínio | t1.email.example.com é um alias para | t1.email.example.campaign.adobe.com |
+| CNAME | Fornece um alias para outro nome de domínio | t1.email.example.com é um alias para t1.email.example.campaign.adobe.com |
+
+
+Recomenda-se Autenticação, Relato e Conformidade de Mensagens Baseadas em Domínio (DMARC) para autenticar remetentes de email e garantir que os sistemas de email de destino confiem nas mensagens enviadas do seu domínio.
+
+Exemplo de registro TXT DMARC:
+
+```
+_dmarc.email.example.com
+
+“v=DMARC1; p=none; rua=mailto:mailauth-reports@myemail.com” 
+```
+
+Você pode implementar o DMARC manualmente ou entrar em contato com o Adobe para ajudar você a configurar o DMARC para sua marca.
 
 ## Requisitos de configuração
 

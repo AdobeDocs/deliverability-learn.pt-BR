@@ -6,14 +6,21 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 75538ef8-8e4b-4940-8d11-42ebd7c65e93
-source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
+source-git-commit: f441fe45b5b7309082c8eea7423d40003b913b7b
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 39%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Recursos adicionais - Visão geral
+
+## Novidades
+
+Consulte as notas técnicas a seguir para saber mais sobre atualizações recentes sobre deliverability.
+
+* [Implementar os indicadores de marca do Gmail para identificação de mensagem (BIMI)](../technotes/implement-bimi.md)
+* [Perguntas frequentes sobre a proteção da privacidade do Apple Mail](../technotes/apple-mail-privacy-faq.md)
 
 ## Recursos genéricos
 
@@ -35,7 +42,7 @@ Esta seção lista alguns recursos adicionais sobre deliverability, como recomen
 
 Além disso, esta seção lista vários recursos específicos do produto para ajudar você a implementar a capacidade de entrega e alcançar o sucesso com suas soluções do Adobe.
 
-**Campaign**
+**[!DNL Adobe Campaign]**
 
 * [Configuração do nome de domínio](../../help/additional-resources/ac-domain-name-setup.md)
 * [Processo de solicitação de certificado CSR e SSL](../../help/additional-resources/ac-ssl-certificate-request.md)

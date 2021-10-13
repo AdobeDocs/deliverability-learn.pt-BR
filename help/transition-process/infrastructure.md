@@ -10,8 +10,8 @@ team: ACS
 exl-id: 4025d95c-cc77-4e0c-9904-aaf60019b18c
 source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ Os tempos mudaram e alguns ISPs (como Gmail e Yahoo) agora incorporam a reputaç
 Parte do processo de integração de novos remetentes em plataformas de Adobe incluem a configuração de seus domínios de envio e a garantia de que sua infraestrutura seja estabelecida corretamente. Você deve trabalhar com um especialista em quais domínios planeja usar a longo prazo. Estas são algumas dicas que moldam uma boa estratégia de domínio:
 
 * Seja o mais claro e reflexo possível da marca com o domínio escolhido para que os usuários não identifiquem incorretamente o email como spam. Alguns exemplos são newsletter.foo.com, receipt.foo.com e assim por diante.
-* Você não deve usar seu domínio pai ou corporativo, pois isso pode afetar o delivery de emails de sua organização para ISPs.
+* You shouldn’t use your parent or corporate domain as it could impact the delivery of mail from your organization to ISPs.
 * Considere usar um subdomínio do domínio pai para legitimar seu domínio de envio.
 * Separe os subdomínios para categorias de mensagens transacionais e de marketing. Isso ajudará seu fluxo de tráfego de email de forma mais confiável, à medida que os ISPs procurarem esse método de envio, que é uma prática recomendada de email conhecida e altamente recomendada.
 
@@ -45,7 +45,7 @@ Em segundo plano, as plataformas Adobe estão processando dados relacionados a d
 
 ## Autenticação {#authentication}
 
-Autenticação é o processo que os ISPs usam para validar a identidade de um remetente. Os dois protocolos de autenticação mais comuns são [!DNL Sender Policy Framework] (SPF) e [!DNL DomainKeys Identified Mail] (DKIM). Elas não estão visíveis para o usuário final, mas ajudam os ISPs a filtrar o email de remetentes verificados. [!DNL Domain-based Message Authentication Reporting and Conformance] (DMARC) está ganhando popularidade, embora suas políticas ainda não sejam incorporadas por todos os ISPs em seus sistemas de reputação.
+Autenticação é o processo que os ISPs usam para validar a identidade de um remetente. The two most common authentication protocols are [!DNL Sender Policy Framework] (SPF) and [!DNL DomainKeys Identified Mail] (DKIM). Elas não estão visíveis para o usuário final, mas ajudam os ISPs a filtrar o email de remetentes verificados. [!DNL Domain-based Message Authentication Reporting and Conformance] (DMARC) is gaining popularity, although its policies aren’t yet incorporated by all ISPs in their reputation systems.
 
 ### SPF
 
@@ -64,7 +64,7 @@ Autenticação é o processo que os ISPs usam para validar a identidade de um re
 **Campaign**
 
 * Saiba como delegar completamente um subdomínio ao Adobe Campaign Classic ou Standard em [esta seção](/help/additional-resources/ac-domain-name-setup.md).
-* [Painel de controle do Campaign: Delegação completa de subdomínio (tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *saiba como delegar totalmente um subdomínio ao Adobe Campaign Classic.*
+* [Control Panel: Full subdomain delegation (tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Learn how to fully delegate a subdomain to Adobe Campaign Classic.*
 * [Painel de controle do Campaign: Delegação completa de subdomínio (tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *saiba como delegar totalmente um subdomínio ao Adobe Campaign Standard.*
 * Saiba mais sobre como implementar um loop de comentários para uma instância do Campaign Classic em [esta seção](/help/additional-resources/acc-technical-recommendations.md#feedback-loop-acc).
 

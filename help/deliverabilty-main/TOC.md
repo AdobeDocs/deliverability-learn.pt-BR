@@ -2,10 +2,10 @@
 user-guide-title: Manual de práticas recomendadas para a entrega
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: Conheça os principais termos, conceitos e abordagens de entrega para garantir o sucesso do seu programa de marketing.
-source-git-commit: ab1595bac7ef136eb001609b9017950a2d01cbb4
+source-git-commit: 3e933104107cd4f62eab99c66957ccd9acb51409
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -50,12 +50,11 @@ ht-degree: 98%
       + [Práticas recomendadas de reengajamento](/help/additional-resources/re-engagement.md)
       + [Listas de buraco negro em tempo real](/help/additional-resources/blocklist-databases.md)
       + [Solução de problemas](/help/additional-resources/troubleshooting.md)
-   + Recursos específicos do produto {#product-specific-resources}
-      + Campaign {#campaign}
-         + [Configuração do nome de domínio](/help/additional-resources/ac-domain-name-setup.md)
-         + [Processo de solicitação de certificado SSL](/help/additional-resources/ac-ssl-certificate-request.md)
-         + [Início de uma nova plataforma](/help/additional-resources/ac-starting-new-platform.md)
-         + [Campaign Classic - Recomendações técnicas](/help/additional-resources/acc-technical-recommendations.md)
-+ Notas técnicas (hidden){#technotes}
-   + [Privacidade da Apple Perguntas frequentes](/help/technotes/apple-mail-privacy-faq.md)
-   + [Implementar o BIMI](/help/technotes/implement-bimi.md)
+   + Recursos para [!DNL Adobe Campaign] {#campaign}
+      + [Configuração do nome de domínio](/help/additional-resources/ac-domain-name-setup.md)
+      + [Processo de solicitação de certificado SSL](/help/additional-resources/ac-ssl-certificate-request.md)
+      + [Início de uma nova plataforma](/help/additional-resources/ac-starting-new-platform.md)
+      + [Campaign Classic - Recomendações técnicas](/help/additional-resources/acc-technical-recommendations.md)
+   + Notas técnicas{#technotes}
+      + [Apple Privacy FAQ](/help/technotes/apple-mail-privacy-faq.md)
+      + [Implement BIMI](/help/technotes/implement-bimi.md)

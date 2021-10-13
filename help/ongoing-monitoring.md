@@ -8,10 +8,10 @@ doc-type: article
 activity: understand
 team: TM
 exl-id: 2defe1ae-5148-46f9-aaa7-8034107980ee
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+source-git-commit: e842a8aefa715da80325cb107c2d2092c64a699b
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 35%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,7 @@ Estas são algumas maneiras de ajudar a identificar um possível problema em que
 **Adobe Campaign Standard**
 
 * [Monitoramento de um delivery](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=pt-BR)
-* [Resumo do delivery](https://docs-author-stg.corp.adobe.com/content/help/en/campaign-standard/using/reporting/list-of-reports/delivery-summary.html)
+* [Resumo do delivery](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/delivery-summary.html)
 * [Monitoramento da capacidade de entrega](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/monitor-deliverability.html?lang=pt-BR#testing-and-sending)
 
 ## Recursos adicionais

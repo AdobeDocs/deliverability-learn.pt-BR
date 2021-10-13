@@ -1,6 +1,6 @@
 ---
 title: Microsoft (Hotmail, Outlook, Windows Live, etc.)
-description: A Microsoft geralmente é o segundo ou terceiro maior provedor, dependendo da maquiagem da lista, e eles lidam com tráfego um pouco diferente de outros ISPs.
+description: O Microsoft geralmente é o segundo ou terceiro maior provedor, dependendo da maquiagem da lista, e ele lida com tráfego um pouco diferente de outros ISPs.
 topics: Deliverability
 kt: 5319
 doc-type: article
@@ -30,7 +30,7 @@ Estes são alguns destaques:
 
 ## Reputação do remetente
 
-[!DNL Microsoft] O tem sido tradicionalmente focado no envio de IP em suas avaliações de reputação e decisões de filtragem. Eles também estão trabalhando ativamente na expansão de seus recursos de domínio de envio. Ambas são principalmente motivadas pelos influenciadores tradicionais da reputação, como reclamações e armadilhas de spam. A capacidade de entrega também pode ser bastante influenciada pelo programa Return Path Certification, que tem requisitos específicos quantitativos e qualitativos do programa.
+[!DNL Microsoft] O tem sido tradicionalmente focado no envio de IP em suas avaliações de reputação e decisões de filtragem. They’re actively working on expanding their sending domain capabilities as well. Ambas são principalmente motivadas pelos influenciadores tradicionais da reputação, como reclamações e armadilhas de spam. A capacidade de entrega também pode ser bastante influenciada pelo programa Return Path Certification, que tem requisitos específicos quantitativos e qualitativos do programa.
 
 ## Insights
 
