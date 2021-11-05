@@ -3,20 +3,20 @@ title: Perguntas frequentes sobre a proteção da privacidade do Apple Mail
 description: Perguntas frequentes sobre a proteção da privacidade do Apple Mail
 topics: Deliverability
 exl-id: c4b9839d-db1a-4bbc-a1d5-385dddca95a8
-source-git-commit: c66a1d519ab844d103de5b6dd64c5f7f40c3d8d9
+source-git-commit: 994e31f8038f2a6d9ec986f93dc2640e6a8796d7
 workflow-type: tm+mt
-source-wordcount: '1083'
-ht-degree: 0%
+source-wordcount: '1106'
+ht-degree: 1%
 
 ---
 
 # Perguntas frequentes sobre a proteção da privacidade do Apple Mail
 
-Essas Perguntas frequentes fornecem orientação inicial em resposta ao anúncio da Apple sobre a versão do iOS 15, incluindo [Proteção de privacidade de email](https://www.apple.com/newsroom/2021/06/apple-advances-its-privacy-leadership-with-ios-15-ipados-15-macos-monterey-and-watchos-8/). Essas alterações serão lançadas em setembro e continuaremos atualizando este documento e fornecendo orientação aos clientes.
+Essas perguntas frequentes fornecem orientação inicial em resposta ao anúncio da Apple sobre a versão do iOS 15, incluindo [Proteção de privacidade de correio](https://www.apple.com/newsroom/2021/06/apple-advances-its-privacy-leadership-with-ios-15-ipados-15-macos-monterey-and-watchos-8/). Essas alterações serão lançadas em setembro e continuaremos atualizando este documento e fornecendo orientação aos clientes.
 
 ## O que o Apple anunciou?
 
-Em 7 de junho, na Conferência anual de desenvolvedores mundiais da Apple (WWDC 2021), eles anunciaram em sua versão do iOS 15 que a [Proteção de privacidade de email](https://www.apple.com/newsroom/2021/06/apple-advances-its-privacy-leadership-with-ios-15-ipados-15-macos-monterey-and-watchos-8/) seria ativada no aplicativo de email nativo em todos os dispositivos Apple - iPhone, iPad e Mac. De acordo com a Apple, &quot;a Proteção de privacidade de email impede que os remetentes usem pixels invisíveis para coletar informações sobre o usuário, o que impede que os remetentes saibam quando abrem um email e mascara seu endereço IP para que ele não possa ser vinculado a outras atividades online ou usado para determinar sua localização&quot;. Uma implicação para profissionais de marketing é que eles não saberiam quando ou se um usuário abriu seu email no aplicativo Apple Mail. A restrição, que precisa do consentimento do usuário, seria aplicada a qualquer email aberto no aplicativo Apple Mail (Gmail, Yahoo, Outlook etc.).
+Em 7 de junho, na Conferência anual de desenvolvedores mundiais da Apple (WWDC 2021), eles anunciaram em seu iOS versão 15 que [Proteção de privacidade de correio](https://www.apple.com/newsroom/2021/06/apple-advances-its-privacy-leadership-with-ios-15-ipados-15-macos-monterey-and-watchos-8/) seria ativada no aplicativo nativo de email em todos os dispositivos Apple - iPhone, iPad e Mac. De acordo com a Apple, &quot;a Proteção de privacidade de email impede que os remetentes usem pixels invisíveis para coletar informações sobre o usuário, o que impede que os remetentes saibam quando abrem um email e mascara seu endereço IP para que ele não possa ser vinculado a outras atividades online ou usado para determinar sua localização&quot;. Uma implicação para profissionais de marketing é que eles não saberiam quando ou se um usuário abriu seu email no aplicativo Apple Mail. A restrição, que precisa do consentimento do usuário, seria aplicada a qualquer email aberto no aplicativo Apple Mail (Gmail, Yahoo, Outlook etc.).
 
 ## Quando é que isto vai entrar em vigor?
 
@@ -24,7 +24,9 @@ A versão do iOS 15 estará disponível neste último trimestre, possivelmente j
 
 ## Que impacto isso terá no rastreamento e medição dos resultados das campanhas por email?
 
-O rastreamento de pixels dentro do Apple Mail será desativado, o que significa que os profissionais de marketing não saberão mais quando um email for aberto. Embora a desativação dos pixels de rastreamento não seja nova, vários provedores tomaram medidas semelhantes no passado. O aplicativo de email da Apple tem ampla adoção em vários provedores. Portanto, o impacto pode ser mais significativo do que o experiente anteriormente quando outros provedores optaram por desativar o rastreamento de pixels por padrão. As proteções de privacidade, que precisam do consentimento do usuário, seriam aplicadas a qualquer email aberto no aplicativo Apple Mail (Gmail, Yahoo, Outlook etc.). Se o usuário usar o aplicativo Gmail ou outro aplicativo de email, os controles de privacidade não serão afetados. Para o contexto, a [quota de mercado de dispositivos móveis Apple](https://www.counterpointresearch.com/global-smartphone-share/) para o primeiro trimestre foi de 17% globalmente e 55% dos EUA.
+Os dados do rastreamento de pixels no Apple Mail não serão mais precisos, o que significa que os profissionais de marketing não poderão mais informar com confiança quando um email é aberto. Embora o pré-carregamento de imagens e pixels e o uso de proxies para tornar os dados anônimos não seja novo, vários provedores tomaram medidas semelhantes no passado, a extensão, o método e o escopo da implementação são novos.
+
+O aplicativo de email da Apple tem ampla adoção em vários provedores. Portanto, o impacto pode ser mais significativo do que o experiente anteriormente quando outros provedores optaram por desativar o rastreamento de pixels por padrão. As proteções de privacidade, que precisam do consentimento do usuário, seriam aplicadas a qualquer email aberto no aplicativo Apple Mail (Gmail, Yahoo, Outlook etc.). Se o usuário usar o aplicativo Gmail ou outro aplicativo de email, os controles de privacidade não serão afetados. Para o contexto, a variável [Compartilhamento de mercado de dispositivos móveis Apple](https://www.counterpointresearch.com/global-smartphone-share/) para o primeiro trimestre foi 17% globalmente e 55% nos EUA.
 
 ## Há outros impactos?
 
@@ -52,4 +54,4 @@ Atualmente, acreditamos que esse recurso de privacidade não afetará o rastream
 
 ## Como o Adobe suporta nossos clientes?
 
-Publicaremos conteúdo adicional que descreve nosso PDV e estratégias sugeridas (próximo e longo prazo). Além disso, os clientes podem baixar um [Deliverability Guide](../introduction.md), fazer um [curso sobre deliverability](http://bit.ly/Deliverability-Course) e exibir um [webinar recente](https://primetime.bluejeans.com/a2m/events/playback/29edda30-a9b8-4e4b-a460-e829c02c912a) sobre deliverability para acompanhar as tendências e práticas recomendadas mais recentes. É claro que os clientes podem ficar de olho em futuras publicações, webinars e atualizações relacionadas à capacidade de entrega e outras dinâmicas em evolução relacionadas à privacidade.
+Publicaremos conteúdo adicional que descreve nosso PDV e estratégias sugeridas (próximo e longo prazo). Além disso, os clientes podem baixar uma [Guia de avaliação do delivery](../introduction.md)tome uma [curso sobre entregabilidade](http://bit.ly/Deliverability-Course)e exibir um [webinário recente](https://primetime.bluejeans.com/a2m/events/playback/29edda30-a9b8-4e4b-a460-e829c02c912a) sobre a capacidade de entrega para acompanhar as tendências e práticas recomendadas mais recentes. É claro que os clientes podem ficar de olho em futuras publicações, webinars e atualizações relacionadas à capacidade de entrega e outras dinâmicas em evolução relacionadas à privacidade.
