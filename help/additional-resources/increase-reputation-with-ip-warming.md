@@ -8,8 +8,8 @@ team: ACS
 exl-id: b553a13e-2055-4abc-b784-fd52792380d0
 source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1600'
+ht-degree: 3%
 
 ---
 
@@ -50,7 +50,7 @@ Enviar grandes quantidades de emails de um novo IP ou IPs totalmente novo é uma
 
 Esse é o componente mais importante do gerenciamento e crescimento de uma lista de email de assinantes. À medida que as leis antisspam crescem e se tornam mais abrangentes internacionalmente, isso deve ser o foco principal de um comerciante para garantir que ele tenha recebido consentimento explícito (ou expresso) de cada assinante em sua lista. Ou seja, cada assinante concordou ativamente em receber emails de sua marca. Isso é diferente do consentimento implícito, em que uma pessoa é adicionada a uma lista de email depois de realizar uma ação que não estava se inscrevendo explicitamente em um programa de email.
 
-Saiba mais sobre a Política de Uso Aceitável do [Adobe.](https://www.adobe.com/legal/terms/aup.html)
+Saiba mais sobre [Política de uso aceitável do Adobe](https://www.adobe.com/legal/terms/aup.html).
 
 ## Métricas de reputação: O que os ISPs estão procurando?
 
@@ -85,7 +85,7 @@ Lembre-se de que a consistência é fundamental aqui. Padrões de volume de envi
 
 ### Reclamações
 
-[](/help/metrics/complaints.md) As reclamações ocorrem quando um assinante rotula um email como spam por meio de seu programa de email. Isso envia um aviso ao ISP sobre a atividade de reclamação. Se houver muitas dessas reclamações que chegam ao ISP, esse ISP atuará para proteger seus clientes - possivelmente, bloqueará muitos emails de chegarem aos assinantes ou direcionar uma parte dos emails para a pasta de massa em vez das caixas de entrada dos assinantes. Se o problema com o delivery for causado por reclamações, é importante determinar por que os recipients estão reclamando.
+[Reclamações](/help/metrics/complaints.md) ocorrem quando um assinante rotula um email como spam por meio de seu programa de email. Isso envia um aviso ao ISP sobre a atividade de reclamação. Se houver muitas dessas reclamações que chegam ao ISP, esse ISP atuará para proteger seus clientes - possivelmente, bloqueará muitos emails de chegarem aos assinantes ou direcionar uma parte dos emails para a pasta de massa em vez das caixas de entrada dos assinantes. Se o problema com o delivery for causado por reclamações, é importante determinar por que os recipients estão reclamando.
 
 Os assinantes reclamam por vários motivos. Às vezes, um assinante não quer receber mais emails, talvez porque sente que está recebendo muitas mensagens no mesmo tópico, ele não esperava a mensagem ou não se lembra de se inscrever para receber seus emails.
 

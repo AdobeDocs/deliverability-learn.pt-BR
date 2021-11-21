@@ -19,7 +19,7 @@ Abaixo estão algumas práticas recomendadas que podem ajudar a identificar e so
 
 ## Identifique um problema da capacidade de entrega {#identify-deliverability-issue}
 
-Para identificar um possível problema, os elementos listados em [essa página](/help/ongoing-monitoring.md) podem chamar sua atenção.
+Para identificar um possível problema, os elementos listados em [essa página](/help/ongoing-monitoring.md) pode chamar a sua atenção.
 
 <!--
 Mailing or campaign metrics: unsubscribe, abuse complaint and/or bounce rates are higher than usual.

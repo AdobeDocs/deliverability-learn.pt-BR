@@ -10,8 +10,8 @@ team: ACS
 exl-id: e6a855ba-a929-477f-a339-6861a755a529
 source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '206'
+ht-degree: 22%
 
 ---
 
@@ -27,7 +27,7 @@ Normalmente, uma taxa de engajamento é baseada em um período específico. Essa
 
 **Analytics**
 
-* [Como aumentar as taxas de engajamento e retenção (tutorial)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics):  *Identifique públicos envolvidos por meio do comportamento usando coortes e saiba as causas subjacentes que impulsionam a adesão em seus aplicativos móveis. Use algoritmos de ciência de dados no Segment IQ para saber as diferenças e semelhanças entre os segmentos.*
+* [Como aumentar as taxas de engajamento e retenção (tutorial)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics): *Identifique públicos envolvidos por meio do comportamento usando coortes e saiba as causas subjacentes que impulsionam a adesão em seus aplicativos móveis. Use algoritmos de ciência de dados no Segment IQ para saber as diferenças e semelhanças entre os segmentos.*
 
 **Campaign Standard**
 

@@ -25,7 +25,7 @@ O SPF (Sender Policy Framework) é um padrão de autenticação de email que per
 
 O SPF é uma técnica que, até certo ponto, permite que você verifique se o nome de domínio usado em um email não foi falsificado. Quando uma mensagem é recebida de um domínio, o servidor DNS do domínio é consultado. A resposta é um registro curto (o registro SPF) que detalha quais servidores estão autorizados a enviar emails desse domínio. Partindo do princípio que somente o proprietário do domínio tem o meio de alterar esse registro, podemos considerar que essa técnica não permite que o endereço do remetente seja falsificado, pelo menos não a parte à direita do &quot;@&quot;.
 
-Na especificação [RFC 4408 final](https://www.rfc-editor.org/info/rfc4408), dois elementos da mensagem são usados para determinar o domínio considerado como remetente: o domínio especificado pelo comando SMTP &quot;HELO&quot; (ou &quot;EHLO&quot;) e o domínio especificado pelo endereço do cabeçalho &quot;Return-Path&quot; (ou &quot;MAIL FROM&quot;), que também é o endereço de devolução. As diferentes considerações possibilitam levar em conta apenas um desses valores; recomendamos garantir que ambas as fontes especifiquem o mesmo domínio.
+No final [Especificação RFC 4408](https://www.rfc-editor.org/info/rfc4408), dois elementos da mensagem são usados para determinar o domínio considerado como remetente: o domínio especificado pelo comando SMTP &quot;HELO&quot; (ou &quot;EHLO&quot;) e o domínio especificado pelo endereço do cabeçalho &quot;Return-Path&quot; (ou &quot;MAIL FROM&quot;), que também é o endereço de devolução. As diferentes considerações possibilitam levar em conta apenas um desses valores; recomendamos garantir que ambas as fontes especifiquem o mesmo domínio.
 
 A verificação do SPF fornece uma avaliação da validade do domínio do remetente:
 
@@ -52,7 +52,7 @@ O uso de DKIM requer alguns pré-requisitos:
 * **Segurança**: A criptografia é um elemento essencial do DKIM. Para garantir o nível de segurança do DKIM, o 1024b é o tamanho de criptografia recomendado pela prática recomendada. As chaves DKIM inferiores não são consideradas válidas pela maioria dos provedores de acesso.
 * **Reputação**: A reputação baseia-se no IP e/ou no domínio, mas um seletor de DKIM menos transparente também é um elemento essencial para ser levado em conta. A escolha do seletor é importante: evite manter o padrão que poderia ser usado por qualquer pessoa e, portanto, tem uma reputação fraca. Você deve implementar um seletor diferente para **comunicações de retenção versus aquisições** e para autenticação.
 
-Saiba mais sobre os pré-requisitos de DKIM ao usar o Campaign Classic [nesta seção](/help/additional-resources/acc-technical-recommendations.md#dkim-acc).
+Saiba mais sobre os pré-requisitos de DKIM ao usar o Campaign Classic no [esta seção](/help/additional-resources/acc-technical-recommendations.md#dkim-acc).
 
 ## DMARC {#dmarc}
 

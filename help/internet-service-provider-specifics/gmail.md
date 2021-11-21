@@ -9,7 +9,7 @@ team: TM
 exl-id: a7319c85-32b5-4a9e-bee9-24f13630c408
 source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Estes são alguns destaques:
 
 ## Que dados estão disponíveis
 
-[!DNL Gmail] O oferece insight limitado sobre como eles visualizam suas práticas de envio por meio das  [!DNL Gmail Postmaster] Ferramentas. Essa ferramenta permite uma exibição de alto nível do IP de envio e da reputação do domínio, resultados de autenticação e problemas de reclamação.
+[!DNL Gmail] O oferece insight limitado sobre como eles visualizam suas práticas de envio por meio de suas [!DNL Gmail Postmaster] Ferramentas. Essa ferramenta permite uma exibição de alto nível do IP de envio e da reputação do domínio, resultados de autenticação e problemas de reclamação.
 
 >[!NOTE]
 >
@@ -40,6 +40,6 @@ Estes são alguns destaques:
 
 [!DNL Gmail] as visualizações envolviam assinantes de forma diferente da maioria dos remetentes tradicionalmente. Um remetente pode definir uma lista ativa ou engajada como alguém que abriu um email dentro de 30, 90 ou 180 dias (dependendo do modelo de negócios). [!DNL Gmail], por outro lado, o está observando a frequência com que os usuários interagem com suas mensagens.
 
-Por exemplo, se você enviar 3 emails por semana ao longo de 90 dias, seriam aproximadamente 39 emails. Usando o método tradicional, se o assinante abrir um desses 39 emails, ele estará envolvido. Para [!DNL Gmail], isso significa que eles ignoraram 38 emails e não estão envolvidos. Você pode obter uma visão aproximada dos níveis de engajamento de seus próprios usuários em [!DNL Gmail] ao classificá-los em uma contagem aberta nos últimos 10 emails. Assim, um assinante associado a 7 aberturas de seus últimos 10 emails está mais envolvido do que alguém que abriu 2 dos 10. Enviar emails com menos frequência para os usuários menos envolvidos ajudará a melhorar sua reputação de envio em [!DNL Gmail].
+Por exemplo, se você enviar 3 emails por semana por mais de 90 dias, seriam aproximadamente 39 emails. Usando o método tradicional, se o assinante abriu um desses 39 emails, ele está envolvido. Para [!DNL Gmail], isso significa que eles ignoraram 38 emails e não estão envolvidos. Você pode obter uma experiência aproximada dos níveis de engajamento de seus próprios usuários em [!DNL Gmail] classificando-os em open count nos últimos 10 emails. Assim, um assinante associado a 7 aberturas de seus últimos 10 emails está mais envolvido do que alguém que abriu 2 dos 10. Enviar emails com menos frequência para os usuários menos envolvidos ajudará a melhorar a reputação de envio em [!DNL Gmail].
 
-[!DNL Gmail] O usa guias diferentes para os usuários distinguirem tipos diferentes de email. Estas são *Caixa de entrada*, *Social* e *Promocional*. Mesmo que o email seja entregue na guia Promocional, ele ainda será considerado delivery da caixa de entrada. Os usuários têm controle para modificar a exibição e as guias.
+[!DNL Gmail] O usa guias diferentes para os usuários distinguirem tipos diferentes de email. Estes *Caixa de entrada*, *Social* e *Promocional*. Mesmo que o email seja entregue na guia Promocional, ele ainda será considerado delivery da caixa de entrada. Os usuários têm controle para modificar a exibição e as guias.

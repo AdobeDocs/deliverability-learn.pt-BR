@@ -1,5 +1,5 @@
 ---
-title: Especificações do provedor de serviços de internet
+title: Especificações do provedor de serviços de Internet
 description: ISPs não são todos iguais. Eles se concentram em coisas diferentes ao determinar qual email deve ser enviado para a caixa de entrada de seus usuários e qual email é filtrado para a pasta de spam ou não é enviado. Vamos fazer um rápido tour pelas diferenças importantes entre alguns ISPs. Não se destina a ser uma lista completa de todos os ISPs ou a cobrir todas as diferenças possíveis.
 topics: Deliverability
 kt: null
@@ -9,12 +9,12 @@ team: TM
 exl-id: cf0c9ccf-ae67-4f95-a8cf-1e23b657aa16
 source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '156'
+ht-degree: 14%
 
 ---
 
-# Especificações do provedor de serviços de internet
+# Especificações do provedor de serviços de Internet
 
 ISPs não são todos iguais. Eles se concentram em coisas diferentes ao determinar qual email deve ser enviado para a caixa de entrada de seus usuários e qual email é filtrado para a pasta de spam ou não é enviado.
 

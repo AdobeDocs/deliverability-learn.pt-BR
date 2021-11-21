@@ -5,14 +5,14 @@ topics: Deliverability
 exl-id: 6b911bcc-a531-466a-8bd3-7fa469b96cc7
 source-git-commit: a4d2a75e85f37f48aa3246707b98e473682e13f6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
 
 # Implementar o Gmail [!DNL Brand Indicators for Message Identification] (BIMI)
 
-O Gmail anunciou recentemente que seria [o suporte geral do BIMI](https://cloud.google.com/blog/products/identity-security/bringing-bimi-to-gmail-in-google-workspace). Há vários itens com os quais você terá que lidar antes de aproveitar esse processo, incluindo: Certificados de marca verificados, logotipos marcados, logotipos corretamente formatados, configuração DMARC e, finalmente, publicação de um registro BIMI em seu DNS. Vamos analisar todas essas etapas neste artigo.
+O Gmail anunciou recentemente que seriam [apoio geral à BIMI](https://cloud.google.com/blog/products/identity-security/bringing-bimi-to-gmail-in-google-workspace). Há vários itens com os quais você terá que lidar antes de aproveitar esse processo, incluindo: Certificados de marca verificados, logotipos marcados, logotipos corretamente formatados, configuração DMARC e, finalmente, publicação de um registro BIMI em seu DNS. Vamos analisar todas essas etapas neste artigo.
 
 [!DNL Brand Indicators for Message Identification] (BIMI) é um padrão do setor que permite a exibição de um logotipo aprovado ao lado do email de um remetente nas plataformas participantes. Além de impulsionar o engajamento, essa ação ofuscante também ajuda a confirmar a autenticidade do remetente, reduzindo o risco de phishing e outras táticas de spam.
 
@@ -41,7 +41,7 @@ Se o logotipo que você deseja exibir não estiver registrado ou não estiver re
 
 Este seria também um bom momento para se certificar de que o seu logotipo cumprirá os requisitos do logotipo BIMI para o formato.
 
-Ele deve estar no formato SVG e aderir ao perfil SVG Portable/Secure (SVG-P/S). As orientações sobre como fazê-lo podem ser encontradas no [BIMI Working Group](https://bimigroup.org/svg-conversion-tools-released).
+Ele deve estar no formato SVG e aderir ao perfil SVG Portable/Secure (SVG-P/S). É possível encontrar orientações sobre como fazer isso na seção [Grupo de Trabalho &quot;BIMI&quot;](https://bimigroup.org/svg-conversion-tools-released).
 
 ## DMARC
 
@@ -59,12 +59,12 @@ Esta é uma entrada simples que deve ser parecida com isto:
 default._bimi.[domain] IN TXT “v=BIMI1; l=[SVG URL] 
 ```
 
-Você pode obter os detalhes sobre essa entrada e até mesmo usar um verificador BIMI gratuito no [site do grupo de trabalho BIMI](https://bimigroup.org/implementation-guide).
+Você pode obter os detalhes sobre essa entrada e até usar um verificador BIMI gratuito no [Local do grupo de trabalho BIMI](https://bimigroup.org/implementation-guide).
 
 
 ## Takeaways de chave
 
-Se você for um cliente [!DNL Adobe Campaign] ou Marketo, o Adobe pode ajudá-lo a criar a atualização do DNS do BIMI: entre em contato com o Atendimento ao cliente do Adobe para solicitar um. O Adobe também pode ajudar na solução de problemas se o BIMI não estiver funcionando corretamente para você.
+Se você for um [!DNL Adobe Campaign] Para o cliente Marketo, o Adobe pode ajudá-lo a criar a atualização do BIMI DNS: entre em contato com o Atendimento ao cliente do Adobe para solicitar um. O Adobe também pode ajudar na solução de problemas se o BIMI não estiver funcionando corretamente para você.
 
 Para obter ajuda com Marcas Registradas ou Certificados de Marca Verificados, trabalhe com sua equipe jurídica e um fornecedor autorizado de VMC.
 

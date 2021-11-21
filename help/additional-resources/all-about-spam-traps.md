@@ -8,14 +8,14 @@ team: ACS
 exl-id: 45cdcda0-70e4-47f4-8713-a834500e7881
 source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '440'
+ht-degree: 2%
 
 ---
 
 # Tudo sobre armadilhas de spam
 
-Um [interceptação de spam](/help/metrics/spam-traps.md) é um endereço válido, sem mensagem de erro quando os emails são enviados para o. Uma armadilha de spam tem uma missão principal: identificar remetentes de spam ou remetentes sem processo de higiene de dados.
+A [interceptação de spam](/help/metrics/spam-traps.md) é um endereço válido, sem mensagem de erro, quando os emails são enviados para o. Uma armadilha de spam tem uma missão principal: identificar remetentes de spam ou remetentes sem processo de higiene de dados.
 
 ## Quem gerencia esses endereços de interceptação de spam?
 
@@ -25,7 +25,7 @@ O segundo tipo de interceptação de spam é baseado em endereços ISP ativos an
 
 ## Como funciona?
 
-**Um endereço de email sem usuário** final: Esses endereços não têm e nunca terão um usuário final que possa se registrar em informativos ou em qualquer outro tipo de comunicação.
+**Um endereço de email sem usuário final**: Esses endereços não têm e nunca terão um usuário final que possa se registrar em informativos ou em qualquer outro tipo de comunicação.
 
 **Um endereço de email abandonado por um usuário**: Após um período de inatividade, os endereços são desativados pelos ISPs. As mensagens de rejeição são enviadas aos remetentes para informá-los sobre esse novo status. Os remetentes devem colocar esses endereços em quarentena ou removê-los de comunicações futuras. Os ISPs usam esses endereços transformados em &quot;interceptação de spam&quot; para monitorar remetentes com práticas inadequadas.
 

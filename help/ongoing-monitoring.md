@@ -10,8 +10,8 @@ team: TM
 exl-id: 2defe1ae-5148-46f9-aaa7-8034107980ee
 source-git-commit: e842a8aefa715da80325cb107c2d2092c64a699b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '200'
+ht-degree: 35%
 
 ---
 
@@ -40,4 +40,4 @@ Estas são algumas maneiras de ajudar a identificar um possível problema em que
 
 ## Recursos adicionais
 
-* Saiba como você pode resolver problemas de deliverability em [esta seção](/help/additional-resources/troubleshooting.md).
+* Saiba como solucionar problemas de capacidade de entrega em [esta seção](/help/additional-resources/troubleshooting.md).

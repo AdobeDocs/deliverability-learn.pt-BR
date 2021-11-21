@@ -29,7 +29,7 @@ A escolha de domínio para um DNS reverso tem impacto ao lidar com determinados 
 
 >[!NOTE]
 >
->Você pode usar [essa ferramenta externa](https://mxtoolbox.com/SuperTool.aspx) para verificar a configuração de um domínio.
+>Você pode usar [esta ferramenta externa](https://mxtoolbox.com/SuperTool.aspx) para verificar a configuração de um domínio.
 
 ### Regras MX {#mx-rules}
 
@@ -39,7 +39,7 @@ Mais precisamente, eles são usados para controlar a velocidade na qual o MTA do
 
 >[!NOTE]
 >
->Para obter mais informações sobre o gerenciamento MX no Adobe Campaign Classic, consulte [esta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html#mx-configuration).
+>Para obter mais informações sobre gestão MX no Adobe Campaign Classic, consulte [esta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html#mx-configuration).
 
 ### TLS {#tls}
 
@@ -67,16 +67,16 @@ Um registro SPF pode ser definido atualmente em um servidor DNS como um registro
 v=spf1 ip4:12.34.56.78/32 ip4:12.34.56.79/32 ~all
 ```
 
-define os dois endereços IP, 12.34.56.78 e 12.34.56.79, como autorizados a enviar emails para o domínio. **~** all significa que qualquer outro endereço deve ser interpretado como um SoftFail.
+define os dois endereços IP, 12.34.56.78 e 12.34.56.79, como autorizados a enviar emails para o domínio. **~all** significa que qualquer outro endereço deve ser interpretado como um SoftFail.
 
 Recommendations para definir um registro SPF:
 
-* Adicione **~all** (SoftFail) ou **-all** (Fail) no final para rejeitar todos os servidores que não sejam aqueles definidos. Sem isso, os servidores poderão falsificar esse domínio (com uma avaliação neutra).
-* Não adicione **ptr** (openspf.org recomenda que isso seja caro e não confiável).
+* Adicionar **~all** (SoftFail) ou **-all** (Falha) no final para rejeitar todos os servidores diferentes dos definidos. Sem isso, os servidores poderão falsificar esse domínio (com uma avaliação neutra).
+* Não adicionar **ptr** (openspf.org recomenda contra isso, pois custa caro e não é confiável).
 
 >[!NOTE]
 >
->Saiba mais sobre SPF em [nesta seção](/help/additional-resources/authentication.md#spf).
+>Saiba mais sobre SPF em [esta seção](/help/additional-resources/authentication.md#spf).
 
 ## Autenticação
 
@@ -90,9 +90,9 @@ Recommendations para definir um registro SPF:
 >
 >Para instalações hospedadas ou híbridas, se você atualizou para o [MTA aprimorado](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-with-enhanced-mta.html#sending-messages), a assinatura de autenticação de email do DKIM é feita pelo MTA aprimorado para todas as mensagens em todos os domínios.
 
-Usar [DKIM](/help/additional-resources/authentication.md#dkim) com Adobe Campaign Classic requer o seguinte pré-requisito:
+Usando [DKIM](/help/additional-resources/authentication.md#dkim) com o Adobe Campaign Classic requer o seguinte pré-requisito:
 
-**Declaração** de opção Adobe Campaign: no Adobe Campaign, a chave privada DKIM é baseada em um seletor DKIM e um domínio. No momento, não é possível criar várias chaves privadas para o mesmo domínio/subdomínio com seletores diferentes. Não é possível definir qual domínio/subdomínio do seletor deve ser usado para a autenticação em nenhuma plataforma ou email. A plataforma selecionará alternativamente uma das chaves privadas, o que significa que a autenticação tem uma grande chance de falha.
+**Declaração de opção Adobe Campaign**: no Adobe Campaign, a chave privada DKIM é baseada em um seletor DKIM e um domínio. No momento, não é possível criar várias chaves privadas para o mesmo domínio/subdomínio com seletores diferentes. Não é possível definir qual domínio/subdomínio do seletor deve ser usado para a autenticação em nenhuma plataforma ou email. A plataforma selecionará alternativamente uma das chaves privadas, o que significa que a autenticação tem uma grande chance de falha.
 
 * Se você configurou o DomainKeys para a instância do Adobe Campaign, basta selecionar **dkim** nas [regras de gerenciamento do domínio](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#email-management-rules). Caso contrário, siga as mesmas etapas de configuração (chave privada/pública) do DomainKeys (que substituiu DKIM).
 * Não é necessário ativar DomainKeys e DKIM para o mesmo domínio, pois DKIM é uma versão aprimorada do DomainKeys.
@@ -163,7 +163,7 @@ List-Unsubscribe: mailto: %=errorAddress%?subject=unsubscribe%=message.mimeMessa
 
 O Gmail, o Outlook.com e o Microsoft Outlook são compatíveis com esse método e um botão de cancelamento de subscrição está disponível diretamente em sua interface. Essa técnica reduz as taxas de reclamação.
 
-Você pode implementar o **List-Unsubscribe** ao:
+É possível implementar a variável **List-Unsubscribe** por:
 
 * Diretamente [adicionar a linha de comando no template do delivery](#adding-a-command-line-in-a-delivery-template)
 * [Criação de uma regra de tipologia](#creating-a-typology-rule)
@@ -196,7 +196,7 @@ A regra deverá conter o script que gera a linha de comando e deverá ser inclu�
 
 >[!NOTE]
 >
->Saiba como criar regras de tipologia no Adobe Campaign Classic em [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
+>Saiba como criar regras de tipologia no Adobe Campaign Classic em [esta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
 
 ## Otimização de email {#email-optimization}
 

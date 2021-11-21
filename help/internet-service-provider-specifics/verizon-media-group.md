@@ -9,8 +9,8 @@ team: TM
 exl-id: 43e6d3cb-23c3-4076-8026-a1a08e76bd1b
 source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '290'
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,7 @@ A VMG tem um FBL usado para alimentar as informações de reclamação de volta 
 
 ## Reputação do remetente
 
-A reputação de um remetente é composta de uma combinação de endereço IP, domínio e endereço. A reputação é calculada usando os componentes tradicionais, incluindo reclamações, interceptações de spam, endereços inativos ou malformados e envolvimento. O VMG usa a limitação de taxa (também conhecida como limitação) juntamente com a pasta em massa para se defender contra spam. Eles complementam seus sistemas de filtragem internos com algumas [!DNL Spamhaus] listas negras, incluindo PBL, SBL e XBL para proteger seus usuários.
+A reputação de um remetente é composta de uma combinação de endereço IP, domínio e endereço. A reputação é calculada usando os componentes tradicionais, incluindo reclamações, interceptações de spam, endereços inativos ou malformados e envolvimento. O VMG usa a limitação de taxa (também conhecida como limitação) juntamente com a pasta em massa para se defender contra spam. Eles complementam seus sistemas de filtragem internos com alguns [!DNL Spamhaus] listas negras, incluindo PBL, SBL e XBL para proteger seus usuários.
 
 ## Insights
 
