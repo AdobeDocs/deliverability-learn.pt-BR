@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 75538ef8-8e4b-4940-8d11-42ebd7c65e93
-source-git-commit: f441fe45b5b7309082c8eea7423d40003b913b7b
+source-git-commit: 3616470b31f45d589d323a6b90c7fd5df3b467b7
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 35%
+source-wordcount: '121'
+ht-degree: 33%
 
 ---
 
@@ -20,7 +20,6 @@ ht-degree: 35%
 Consulte as notas técnicas a seguir para saber mais sobre atualizações recentes sobre deliverability.
 
 * [Implementar os indicadores de marca do Gmail para identificação de mensagem (BIMI)](../technotes/implement-bimi.md)
-* [Perguntas frequentes sobre a proteção da privacidade do Apple Mail](../technotes/apple-mail-privacy-faq.md)
 
 ## Recursos genéricos
 
