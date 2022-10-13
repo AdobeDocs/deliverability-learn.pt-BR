@@ -3,7 +3,7 @@ user-guide-title: Manual de práticas recomendadas para a entrega
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: Conheça os principais termos, conceitos e abordagens de entrega para garantir o sucesso do seu programa de marketing.
 source-git-commit: 3616470b31f45d589d323a6b90c7fd5df3b467b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '166'
 ht-degree: 100%
 
@@ -55,5 +55,5 @@ ht-degree: 100%
       + [Processo de solicitação de certificado SSL](/help/additional-resources/ac-ssl-certificate-request.md)
       + [Início de uma nova plataforma](/help/additional-resources/ac-starting-new-platform.md)
       + [Campaign Classic - Recomendações técnicas](/help/additional-resources/acc-technical-recommendations.md)
-   + Notas técnicas{#technotes}
+   + Notas técnicas {#technotes}
       + [Implementação de BIMI](/help/technotes/implement-bimi.md)
