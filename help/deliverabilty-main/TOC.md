@@ -3,7 +3,7 @@ user-guide-title: Manual de práticas recomendadas para a entrega
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: Conheça os principais termos, conceitos e abordagens de entrega para garantir o sucesso do seu programa de marketing.
 source-git-commit: 3616470b31f45d589d323a6b90c7fd5df3b467b7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 100%
 
