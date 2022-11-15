@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 8a78abd3-afba-49a7-a2ae-8b2c75326749
-source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
+source-git-commit: b89bdd05d6b96af8c5520a4c500be76db46ea820
 workflow-type: tm+mt
-source-wordcount: '2265'
-ht-degree: 2%
+source-wordcount: '2253'
+ht-degree: 3%
 
 ---
 
@@ -28,7 +28,7 @@ Para instalar certificados SSL nesses subdomínios, o processo envolve solicitar
 
 >[!CAUTION]
 >
->Antes de instalar um certificado SSL, verifique se você está ciente dos pré-requisitos listados em [esta página](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate).
+>Antes de instalar um certificado SSL, verifique se você está ciente dos pré-requisitos listados em [esta página](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=pt-BR#installing-ssl-certificate).
 >
 >O Adobe suporta apenas certificados de até 2048 bits. Certificados de 4096 bits ainda não são suportados.
 
@@ -126,7 +126,7 @@ O texto no arquivo CSR resultante deve começar com **&quot;—INICIAR SOLICITA�
 Depois de receber o arquivo CSR do Adobe, siga as etapas abaixo:
 
 1. Copie e cole o texto do arquivo CSR em um decodificador online, como https://www.sslshopper.com/csr-decoder.html, <!--https://www.certlogik.com/decoder/,--> ou https://www.entrust.net/ssl-technical/csr-viewer.cfm.
-Como alternativa, você pode usar o *OpenSSL* localmente em uma máquina Linux. Para obter mais informações, consulte [esta página externa](https://www.question-defense.com/2009/09/22/use-openssl-to-verify-the-contents-of-a-csr-before-submitting-for-a-ssl-certificate).
+Como alternativa, você pode usar o *OpenSSL* localmente em uma máquina Linux.
 1. Verifique se todas as verificações foram bem-sucedidas.
 1. Verifique se os parâmetros e nomes de domínio corretos foram incluídos.
 1. Verifique se todos os outros dados correspondem aos detalhes fornecidos ao enviar sua solicitação.
@@ -222,4 +222,4 @@ Depois que as configurações forem atualizadas, novos emails serão enviados co
 
 **Campaign Standard**
 
-* [Painel de controle do Campaign: Adicionar certificados SSL (tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html) - Saiba como adicionar certificados SSL para proteger seus subdomínios.
+* [Painel de controle do Campaign: Adicionar certificados SSL (tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=pt-BR) - Saiba como adicionar certificados SSL para proteger seus subdomínios.
