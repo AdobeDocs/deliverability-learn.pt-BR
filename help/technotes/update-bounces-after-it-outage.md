@@ -2,7 +2,7 @@
 title: Atualizar qualificação de devolução após interrupção do Italia Online
 description: Saiba como atualizar a qualificação de devolução após a interrupção do Italia Online
 feature: Deliverability
-source-git-commit: 4494363c060b7e2e1efde46f7ab8260fa900ffd7
+source-git-commit: 489a153c72b364bd59b3bace5aa9206d4d888c38
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 24%
@@ -39,7 +39,7 @@ De acordo com a lógica padrão de manipulação de rejeição, o Adobe Campaign
 Para encontrar os recipients que foram afetados por esse problema, ou caso isso aconteça novamente com qualquer outro ISP, consulte as instruções abaixo:
 
 * Para o Campaign Classic v7 e o Campaign v8, consulte [esta página](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
-* Para o Campaign Standard, consulte [esta página](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
+* Para o Campaign Standard, consulte [esta página](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
 
 
 
