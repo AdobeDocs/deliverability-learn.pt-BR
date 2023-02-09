@@ -5,9 +5,9 @@ feature: Deliverability
 exl-id: a11e88cf-bf37-42cc-9c09-1d58360459b7
 hide: true
 hidefromtoc: true
-source-git-commit: 016d7f9da67193d893e762fbe6e191cf87d5b030
+source-git-commit: aca77fb9326e34455a6fec7ffc9a7ad8e1750467
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '422'
 ht-degree: 20%
 
 ---
@@ -27,11 +27,11 @@ Saiba mais na comunicação oficial [here](https://tecnologia.libero.it/avviato-
 
 ## Impacto{#outage-impact}
 
-Como na maioria dos casos em que há uma interrupção de um ISP, alguns emails enviados pelo Campaign foram marcados incorretamente como rejeições. Isso não afetou apenas o Adobe, mas todos tentando receber emails para o Italia Online durante a interrupção.
+Como na maioria dos casos em que há uma interrupção de um provedor de serviços de Internet (ISP), alguns emails enviados pelo Campaign ou Journey Optimizer foram marcados incorretamente como rejeições. Isso não afetou apenas o Adobe, mas todos tentando receber emails para o Italia Online durante a interrupção.
 
 Os sintomas foram:
 
-* **Devoluções diferenciais** com a mensagem `452 requested action aborted: try again later` - foram automaticamente repetidas e nenhuma ação é necessária.
+* **Rejeições suaves** com a mensagem `452 requested action aborted: try again later` - foram automaticamente repetidas e nenhuma ação é necessária.
 
 * **Devoluções permanentes** com a mensagem `550 <email address> recipient rejected` foram retornados pelo ISP em 26 de janeiro, entre 8h e 14h horário local, para evitar que os remetentes continuem sobrecarregando seus servidores. Como confirmado pelo Italia Online Postmaster, essas não são devoluções reais, então recomendamos cancelar a quarentena de todos os endereços de email que foram excluídos em 26 de janeiro de 2023 devido a essa mensagem.
 
