@@ -1,6 +1,6 @@
 ---
 title: Especificações do provedor de serviços de Internet
-description: ISPs não são todos iguais. Eles se concentram em coisas diferentes ao determinar qual email deve ser enviado para a caixa de entrada de seus usuários e qual email é filtrado para a pasta de spam ou não é enviado. Vamos fazer um rápido tour pelas diferenças importantes entre alguns ISPs. Não se destina a ser uma lista completa de todos os ISPs ou a cobrir todas as diferenças possíveis.
+description: Os ISPs não são todos iguais. Eles se concentram em coisas diferentes ao determinar quais emails são permitidos na caixa de entrada de seus usuários e quais emails são filtrados para a pasta de spam ou não são permitidos. Faremos um rápido tour pelas diferenças importantes entre alguns ISPs. Não se destina a ser uma lista completa de todos os ISPs ou a cobrir todas as diferenças possíveis.
 topics: Deliverability
 kt: null
 doc-type: article
@@ -16,9 +16,9 @@ ht-degree: 14%
 
 # Especificações do provedor de serviços de Internet
 
-ISPs não são todos iguais. Eles se concentram em coisas diferentes ao determinar qual email deve ser enviado para a caixa de entrada de seus usuários e qual email é filtrado para a pasta de spam ou não é enviado.
+Os ISPs não são todos iguais. Eles se concentram em coisas diferentes ao determinar quais emails são permitidos na caixa de entrada de seus usuários e quais emails são filtrados para a pasta de spam ou não são permitidos.
 
-Vamos fazer um rápido tour pelas diferenças importantes entre alguns ISPs. Não se destina a ser uma lista completa de todos os ISPs ou a cobrir todas as diferenças possíveis.
+Faremos um rápido tour pelas diferenças importantes entre alguns ISPs. Não se destina a ser uma lista completa de todos os ISPs ou a cobrir todas as diferenças possíveis.
 
 * [Gmail](./gmail.md)
 * [Microsoft (Hotmail, Outlook, Windows Live, etc.)](./microsoft.md)

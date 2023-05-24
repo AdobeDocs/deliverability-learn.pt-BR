@@ -1,6 +1,6 @@
 ---
-title: Primeiras impressões — coleções de listas e emails de boas-vindas
-description: 'Saiba como configurar-se para executar um programa de email bem-sucedido fazendo uma boa primeira impressão. '
+title: Primeiras impressões - coleção de listas e emails de boas-vindas
+description: Saiba como você pode se preparar para executar um programa de email de sucesso, causando uma boa primeira impressão.
 topics: Deliverability
 kt: 5258
 thumbnail: kt5258.jpg
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 # Primeiras impressões - Coleção de listas e emails de boas-vindas
 
-Quando se procura construir uma nova relação, fazer uma boa primeira impressão é crucial. Sem ela, nada mais que você diga ou faça pode ter uma chance. A relação entre uma marca e aqueles que optam por interagir com ela não é diferente. Tudo começa em algum lugar. E quando se trata de executar um programa de email, ele começa com a coleta de endereços de email e a recepção desses assinantes ao seu programa. Vamos verificar como você pode se configurar para executar um programa de email bem-sucedido fazendo uma boa primeira impressão nessas áreas.
+Quando se quer construir um novo relacionamento, fazer uma boa primeira impressão é crucial. Sem isso, nada mais que você diga ou faça pode ter uma chance. A relação entre uma marca e aqueles que escolhem interagir com eles não é diferente. Tudo começa em algum lugar. E quando se trata de executar um programa de email, ele começa com a coleta de endereços de email e o acolhimento desses assinantes ao seu programa. Vamos verificar como você pode se preparar para executar um programa de email de sucesso, causando uma boa primeira impressão nessas áreas.
 
 Etapa 1:  [Coleta de endereços e crescimento de listas](/help/first-impressions/address-collection-and-list-growth.md):
 *Saiba quais são as melhores fontes para novos endereços de email, como garantir alta qualidade dos dados e alinhamento às diretrizes legais.*

@@ -1,6 +1,6 @@
 ---
 title: Solução de problemas da capacidade de entrega
-description: Saiba como identificar e solucionar problemas da capacidade de entrega.
+description: Saiba como identificar e resolver problemas de capacidade de delivery.
 topics: Deliverability
 doc-type: article
 activity: understand
@@ -47,7 +47,7 @@ Faça as seguintes perguntas para identificar as possíveis causas para o proble
 [](/help/metrics/complaints.md)As reclamações são definidas por assinantes que relatam os emails como spam ao pressionar o botão correspondente em sua caixa de entrada.
 
 Se o problema com seu delivery foi causado por reclamações:
-* Você deve tentar determinar por que os recipients estão reclamando.
+* Você deve tentar determinar por que os destinatários estão reclamando.
 * Você pode mudar o link de cancelamento de assinatura para a parte superior do email. Os assinantes serão incentivados a cancelar a assinatura em vez de reclamar com o botão de spam.
 
 Os remetentes podem obter uma grande quantidade de informações a partir das reclamações de [loop de feedback](/help/transition-process/infrastructure.md#feedback-loops):
@@ -68,7 +68,7 @@ As reclamações também vêm de assinantes que não querem mais receber email:
 
 ### Envolvimento
 
-Além das reclamações e da validade dos dados, os provedores de internet estão se concentrando mais do que nunca no **envolvimento positivo** para tomar decisões de entrega. Eles procuram saber se os assinantes estão abrindo seus emails ou se estão os excluindo antes de ler. Como eles não compartilham esses dados com remetentes, devemos usar as informações que temos disponíveis e traduzir aberturas/cliques/transações como envolvimento.
+Além das reclamações e da validade dos dados, os provedores de internet estão se concentrando mais do que nunca no **envolvimento positivo** para tomar decisões de entrega. Eles procuram saber se os assinantes estão abrindo seus emails ou se estão os excluindo antes de ler. Como eles não compartilham esses dados com os remetentes, devemos usar as informações que temos disponíveis e traduzir aberturas/cliques/transações como envolvimento.
 
 Como parte da manutenção contínua da reputação, é importante entender como os assinantes estão envolvidos em sua lista e desenvolver uma **hierarquia de risco de recenticidade** para os assinantes em cada arquivo. A recenticidade é definida como a última data de abertura/clique/transação ou de assinatura. Esse período pode diferir por setor. Para fazer isso:
 

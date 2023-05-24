@@ -17,18 +17,18 @@ ht-degree: 22%
 
 # Critérios de direcionamento
 
-Ao enviar novo tráfego, somente direcione aos usuários mais envolvidos durante as fases iniciais do aquecimento de IP. Isso ajuda a estabelecer uma reputação positiva a partir do get-go para efetivamente criar confiança antes de acumulá-la em seus públicos menos envolvidos. Esta é uma fórmula básica para envolvimento:
+Ao enviar novo tráfego, direcione somente aos usuários mais engajados durante as fases iniciais do aquecimento de IP. Isso ajuda a estabelecer uma reputação positiva desde o início para criar confiança com eficiência antes de alcançar seus públicos menos envolvidos. Esta é uma fórmula básica para o engajamento:
 
-![Fórmula de envolvimento](../assets/formula-for-enagement.png)
+![Fórmula para envolvimento](../assets/formula-for-enagement.png)
 
-Normalmente, uma taxa de engajamento é baseada em um período específico. Essa métrica pode variar drasticamente dependendo se a fórmula for aplicada em um nível geral ou para tipos de correspondência ou campanhas específicos. Os critérios de direcionamento específicos precisam ser fornecidos trabalhando com o consultor de capacidade de entrega do Adobe, pois cada remetente e ISP variam e geralmente exigem um plano personalizado.
+Normalmente, uma taxa de envolvimento se baseia em um período específico. Essa métrica pode variar bastante dependendo se a fórmula é aplicada em um nível geral ou para tipos de mala direta ou campanhas específicas. Os critérios de direcionamento específicos precisam ser fornecidos ao trabalhar com o consultor de capacidade de entrega do Adobe, já que cada remetente e ISP varia e geralmente requer um plano personalizado.
 
 ## Recursos específicos do produto
 
 **Analytics**
 
-* [Como aumentar as taxas de engajamento e retenção (tutorial)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics): *Identifique públicos envolvidos por meio do comportamento usando coortes e saiba as causas subjacentes que impulsionam a adesão em seus aplicativos móveis. Use algoritmos de ciência de dados no Segment IQ para saber as diferenças e semelhanças entre os segmentos.*
+* [Como aumentar as taxas de engajamento e retenção (tutorial)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics): *Identifique públicos envolvidos por meio do comportamento deles usando Coortes e saiba as causas subjacentes que geram aderência em seus aplicativos móveis. Use algoritmos de ciência de dados no Segment IQ para saber as diferenças e semelhanças entre os segmentos.*
 
 **Campaign Standard**
 
-* [Emails alimentados por IA: Pontuação preditiva de engajamento](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html#predictive-scoring)
+* [Emails alimentados por IA: pontuação preditiva de engajamento](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html#predictive-scoring)

@@ -1,6 +1,6 @@
 ---
 title: Recursos adicionais
-description: Esta seção lista vários recursos adicionais sobre entregabilidade.
+description: Esta seção lista vários recursos adicionais sobre a capacidade de delivery.
 topics: Deliverability
 doc-type: article
 activity: understand
@@ -17,13 +17,13 @@ ht-degree: 33%
 
 ## Novidades
 
-Consulte as notas técnicas a seguir para saber mais sobre atualizações recentes sobre deliverability.
+Consulte as seguintes notas técnicas para saber mais sobre atualizações recentes sobre a capacidade de delivery.
 
 * [Implementar os indicadores de marca do Gmail para identificação de mensagem (BIMI)](../technotes/implement-bimi.md)
 
 ## Recursos genéricos
 
-Esta seção lista alguns recursos adicionais sobre deliverability, como recomendações e práticas recomendadas específicas, outras ferramentas ou procedimentos de solução de problemas.
+Esta seção lista alguns recursos adicionais sobre a capacidade de delivery, como recomendações específicas e práticas recomendadas, outras ferramentas ou procedimentos de solução de problemas.
 
 * [Tudo sobre armadilhas de spam](../../help/additional-resources/all-about-spam-traps.md)
 * [Aumente sua reputação de email com o aquecimento de IP](../../help/additional-resources/increase-reputation-with-ip-warming.md)
@@ -39,7 +39,7 @@ Esta seção lista alguns recursos adicionais sobre deliverability, como recomen
 
 ## Recursos específicos do produto
 
-Além disso, esta seção lista vários recursos específicos do produto para ajudar você a implementar a capacidade de entrega e alcançar o sucesso com suas soluções do Adobe.
+Além disso, esta seção lista vários recursos específicos do produto para ajudá-lo a implementar a capacidade de entrega e alcançar o sucesso com suas soluções de Adobe.
 
 **[!DNL Adobe Campaign]**
 

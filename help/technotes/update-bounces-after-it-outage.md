@@ -1,6 +1,6 @@
 ---
-title: Atualizar qualificação de devolução após interrupção do Italia Online
-description: Saiba como atualizar a qualificação de devolução após a interrupção do Italia Online
+title: Atualizar qualificação de rejeição após interrupção online da Itália
+description: Saiba como atualizar a qualificação de rejeição após a interrupção online da Itália
 feature: Deliverability
 exl-id: a11e88cf-bf37-42cc-9c09-1d58360459b7
 hide: true
@@ -8,32 +8,32 @@ hidefromtoc: true
 source-git-commit: aca77fb9326e34455a6fec7ffc9a7ad8e1750467
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
-# Atualize as devoluções incorretas após a interrupção do Italia Online {#update-bounce-italia}
+# Atualizar as rejeições permanentes incorretas após a interrupção do Italia Online {#update-bounce-italia}
 
 ## Contexto{#outage-context}
 
-A partir de 22 de janeiro (horário local), o Italia Online passou por uma interrupção que resultou em vários atrasos e rejeitou emails. O serviço começou a retomar com capacidade limitada em 26 de janeiro.
+A partir de 22 de janeiro (horário local), o Italia Online passou por uma interrupção que resultou em vários atrasos e emails rejeitados. O serviço começou a ser retomado com capacidade limitada em 26 de janeiro.
 
-Os domínios afetados são: **libero.it**, **virgilio.it**, **inwind.it**, **iol.it** e **blu.it**.
+Os domínios afetados são: **libero.it**, **virgilio.it**, **inwind.it**, **iol.it**, e **blu.it**.
 
-Esse problema ocorreu de 22/01/2023 a 26/01/2023, mas a maioria das quarentenas equivocadas aconteceu em 26 de janeiro.
+Esse problema ocorreu de 22/01/2023 a 26/01/2023, mas a maioria das quarentenas incorretas ocorreu em 26 de janeiro.
 
-Saiba mais na comunicação oficial [here](https://tecnologia.libero.it/avviato-il-ritorno-online-di-libero-mail-e-virgilio-mail-66832){_blank}.
+Saiba mais na comunicação oficial [aqui](https://tecnologia.libero.it/avviato-il-ritorno-online-di-libero-mail-e-virgilio-mail-66832){_blank}.
 
 
 ## Impacto{#outage-impact}
 
-Como na maioria dos casos em que há uma interrupção de um provedor de serviços de Internet (ISP), alguns emails enviados pelo Campaign ou Journey Optimizer foram marcados incorretamente como rejeições. Isso não afetou apenas o Adobe, mas todos tentando receber emails para o Italia Online durante a interrupção.
+Como na maioria dos casos, quando há uma interrupção de um provedor de serviços de Internet (ISP), alguns emails enviados pelo Campaign ou Journey Optimizer foram marcados incorretamente como rejeições. Isso não estava afetando apenas o Adobe, mas todos tentando obter e-mails entregues à Italia Online durante o período da interrupção.
 
 Os sintomas foram:
 
-* **Rejeições suaves** com a mensagem `452 requested action aborted: try again later` - foram automaticamente repetidas e nenhuma ação é necessária.
+* **Rejeições temporárias** com a mensagem `452 requested action aborted: try again later` - eles foram repetidos automaticamente e nenhuma ação é necessária.
 
-* **Devoluções permanentes** com a mensagem `550 <email address> recipient rejected` foram retornados pelo ISP em 26 de janeiro, entre 8h e 14h horário local, para evitar que os remetentes continuem sobrecarregando seus servidores. Como confirmado pelo Italia Online Postmaster, essas não são devoluções reais, então recomendamos cancelar a quarentena de todos os endereços de email que foram excluídos em 26 de janeiro de 2023 devido a essa mensagem.
+* **Devoluções permanentes** com a mensagem `550 <email address> recipient rejected` foram retornados pelo ISP em 26 de janeiro, entre 8h e 14h, horário local, para evitar que os remetentes continuem sobrecarregando seus servidores. Como confirmado pelo Italia Online Postmaster, essas não são rejeições permanentes reais, portanto, recomendamos cancelar a quarentena de todos os endereços de email que foram excluídos em 26 de janeiro de 2023 devido a essa mensagem.
 
 ## Processo para atualização{#outage-update}
 
@@ -48,9 +48,9 @@ Para encontrar os recipients que foram afetados por esse problema, ou caso isso 
 
 ### Adobe Journey Optimizer{#ajo-update}
 
-De acordo com a lógica padrão de manipulação de devolução, o Adobe Journey Optimizer adicionou automaticamente esses endereços de email à lista de supressão com um **[!UICONTROL Reason]** definição de **[!UICONTROL Invalid Recipient]**. Para corrigir isso, você precisa atualizar a lista de supressão localizando e removendo esses endereços de email.
+De acordo com a lógica padrão de manipulação de rejeição, o Adobe Journey Optimizer adicionou automaticamente esses endereços de email à lista de supressão com um **[!UICONTROL Reason]** configuração de **[!UICONTROL Invalid Recipient]**. Para corrigir isso, você precisa atualizar a lista de supressão localizando e removendo esses endereços de email.
 
 Depois de identificados, esses endereços podem ser removidos manualmente da lista de supressão usando o **[!UICONTROL Delete]** botão. Esses endereços podem ser incluídos em campanhas de email futuras.
 
-Saiba mais em [esta seção](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html#remove-from-suppression-list){_blank}.
+Saiba mais em [nesta seção](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html#remove-from-suppression-list){_blank}.
 

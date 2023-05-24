@@ -1,6 +1,6 @@
 ---
 title: Práticas recomendadas de conteúdo para a entrega ideal
-description: O conteúdo é a chave. Você já leu nossa perspectiva sobre relevância, mas aqui estão algumas dicas adicionais para otimizar sua capacidade de entrega quando se trata de conteúdo.
+description: O conteúdo é a chave. Você já leu nossa perspectiva sobre relevância, mas aqui estão algumas dicas adicionais para otimizar sua capacidade de delivery quando se trata de conteúdo.
 topics: Deliverability
 kt: 5260
 thumbnail: kt5260.jpg
@@ -17,11 +17,11 @@ ht-degree: 13%
 
 # Práticas recomendadas de conteúdo para a entrega ideal
 
-O conteúdo é a chave. Você já leu nossa perspectiva sobre relevância, mas aqui estão algumas dicas adicionais para otimizar sua capacidade de entrega quando se trata de conteúdo:
+O conteúdo é a chave. Você já leu nossa perspectiva sobre relevância, mas aqui estão algumas dicas adicionais para otimizar sua capacidade de delivery quando se trata de conteúdo:
 
-* **Evite um arquivo HTML muito grande**. Menos de 100 KB, mas tente ficar entre 60 e 80 KB para evitar a entrega lenta.
-* **Use as tags alt em sua vantagem**. As tags Alt vivem dentro do código de imagem do HTML e exibem o texto se a imagem não estiver visível ou carregando. Em vez de ter uma descrição simples como &quot;produto capturado&quot;, talvez você queira dizer algo mais atraente como &quot;Compre agora e tenha 30% de desconto&quot;.
-* **Evite muitas imagens.** A maioria dos ISPs agora bloqueia imagens por padrão. Você deseja ter uma maneira de capturar o público-alvo sem as imagens ativadas para que elas o habilitem.
+* **Evite arquivos de HTML muito grandes**. Fique abaixo de 100KB, mas tente ficar entre 60 e 80KB para evitar entrega lenta.
+* **Use tags alt a seu favor**. As tags Alt ficam no código de imagem do HTML e exibem texto se a imagem não estiver visível ou carregando. Em vez de ter uma descrição simples como &quot;captura de produto&quot;, você pode querer dizer algo mais atraente como &quot;Compre agora e ganhe 30% de desconto&quot;.
+* **Evite muitas imagens.** A maioria dos ISPs agora bloqueia imagens por padrão. Você deseja ter uma maneira de capturar seu público-alvo sem as imagens ativadas para que elas as ativem.
 
 ## Recursos específicos do produto
 

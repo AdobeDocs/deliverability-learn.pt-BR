@@ -35,11 +35,11 @@ A escolha de domínio para um DNS reverso tem impacto ao lidar com determinados 
 
 As regras MX (Mail eXchanger) são as regras que gerenciam a comunicação entre um servidor de envio e um servidor de recebimento.
 
-Mais precisamente, eles são usados para controlar a velocidade na qual o MTA do Adobe Campaign (Message Transfer Agent) envia emails para cada domínio de email individual ou ISP (por exemplo, hotmail.com, comcast.net). Normalmente, essas regras se baseiam nos limites publicados pelos ISPs (por exemplo, não incluir mais de 20 mensagens por cada conexão SMTP).
+Mais precisamente, eles são usados para controlar a velocidade na qual o MTA da Adobe Campaign (agente de transferência de mensagens) envia emails para cada domínio de email individual ou ISP (por exemplo, hotmail.com, comcast.net). Normalmente, essas regras se baseiam nos limites publicados pelos ISPs (por exemplo, não incluir mais de 20 mensagens por cada conexão SMTP).
 
 >[!NOTE]
 >
->Para obter mais informações sobre gestão MX no Adobe Campaign Classic, consulte [esta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html#mx-configuration).
+>Para obter mais informações sobre gestão MX no Adobe Campaign Classic, consulte [nesta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html#mx-configuration).
 
 ### TLS {#tls}
 
@@ -57,32 +57,32 @@ Para definir o domínio usado para o comando HELO, edite o arquivo de configura�
 </serverConf>
 ```
 
-O domínio MAIL FROM é o domínio usado nas mensagens técnicas de devolução. Esse endereço é definido no assistente de implantação ou por meio da opção NmsEmail_DefaultErrorAddr .
+O domínio MAIL FROM é o domínio usado nas mensagens técnicas de devolução. Esse endereço é definido no assistente de implantação ou por meio da opção NmsEmail_DefaultErrorAddr.
 
 ### Registro SPF {#dns-configuration}
 
-Um registro SPF pode ser definido atualmente em um servidor DNS como um registro de tipo TXT (código 16) ou um registro de tipo SPF (código 99). Um registro SPF assume o formato de uma string de caracteres. Por exemplo:
+Um registro SPF pode ser definido atualmente em um servidor DNS como um registro de tipo TXT (código 16) ou um registro de tipo SPF (código 99). Um registro SPF assume o formato de uma cadeia de caracteres. Por exemplo:
 
 ```
 v=spf1 ip4:12.34.56.78/32 ip4:12.34.56.79/32 ~all
 ```
 
-define os dois endereços IP, 12.34.56.78 e 12.34.56.79, como autorizados a enviar emails para o domínio. **~all** significa que qualquer outro endereço deve ser interpretado como um SoftFail.
+O define os dois endereços IP, 12.34.56.78 e 12.34.56.79, como autorizados a enviar emails para o domínio. **~all** significa que qualquer outro endereço deve ser interpretado como SoftFail.
 
 Recommendations para definir um registro SPF:
 
-* Adicionar **~all** (SoftFail) ou **-all** (Falha) no final para rejeitar todos os servidores diferentes dos definidos. Sem isso, os servidores poderão falsificar esse domínio (com uma avaliação neutra).
-* Não adicionar **ptr** (openspf.org recomenda contra isso, pois custa caro e não é confiável).
+* Adicionar **~all** (SoftFail) ou **-all** (Falha) ao final para rejeitar todos os servidores diferentes daqueles definidos. Sem isso, os servidores poderão forjar esse domínio (com uma avaliação neutra).
+* Não adicionar **ptr** (openspf.org recomenda que isso seja dispendioso e não confiável).
 
 >[!NOTE]
 >
->Saiba mais sobre SPF em [esta seção](/help/additional-resources/authentication.md#spf).
+>Saiba mais sobre SPF em [nesta seção](/help/additional-resources/authentication.md#spf).
 
 ## Autenticação
 
 >[!NOTE]
 >
->Saiba mais sobre as diferentes formas de autenticação de email em [esta seção](/help/additional-resources/authentication.md).
+>Saiba mais sobre as diferentes formas de autenticação de email no [nesta seção](/help/additional-resources/authentication.md).
 
 ### DKIM {#dkim-acc}
 
@@ -90,17 +90,17 @@ Recommendations para definir um registro SPF:
 >
 >Para instalações hospedadas ou híbridas, se você atualizou para o [MTA aprimorado](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-with-enhanced-mta.html#sending-messages), a assinatura de autenticação de email do DKIM é feita pelo MTA aprimorado para todas as mensagens em todos os domínios.
 
-Usando [DKIM](/help/additional-resources/authentication.md#dkim) com o Adobe Campaign Classic requer o seguinte pré-requisito:
+Usar [DKIM](/help/additional-resources/authentication.md#dkim) com o Adobe Campaign Classic exige o seguinte pré-requisito:
 
-**Declaração de opção Adobe Campaign**: no Adobe Campaign, a chave privada DKIM é baseada em um seletor DKIM e um domínio. No momento, não é possível criar várias chaves privadas para o mesmo domínio/subdomínio com seletores diferentes. Não é possível definir qual domínio/subdomínio do seletor deve ser usado para a autenticação em nenhuma plataforma ou email. A plataforma selecionará alternativamente uma das chaves privadas, o que significa que a autenticação tem uma grande chance de falha.
+**Declaração de opção do Adobe Campaign**: no Adobe Campaign, a chave privada DKIM é baseada em um seletor DKIM e um domínio. No momento, não é possível criar várias chaves privadas para o mesmo domínio/subdomínio com seletores diferentes. Não é possível definir qual domínio/subdomínio do seletor deve ser usado para a autenticação em nenhuma plataforma ou email. A plataforma selecionará alternativamente uma das chaves privadas, o que significa que a autenticação tem uma grande chance de falha.
 
-* Se você configurou o DomainKeys para a instância do Adobe Campaign, basta selecionar **dkim** nas [regras de gerenciamento do domínio](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#email-management-rules). Caso contrário, siga as mesmas etapas de configuração (chave privada/pública) do DomainKeys (que substituiu DKIM).
+* Se você configurou o DomainKeys para a instância do Adobe Campaign, basta selecionar **dkim** nas [regras de gerenciamento do domínio](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#email-management-rules). Caso contrário, siga as mesmas etapas de configuração (chave privada/pública) do DomainKeys (que substituiu o DKIM).
 * Não é necessário ativar DomainKeys e DKIM para o mesmo domínio, pois DKIM é uma versão aprimorada do DomainKeys.
 * Os domínios a seguir validam atualmente o DKIM: AOL, Gmail.
 
 ## Loop de comentários {#feedback-loop-acc}
 
-Um loop de cometários funciona declarando no nível do ISP determinado endereço de email para um intervalo de endereços IP usados para enviar mensagens. O ISP enviará para esta caixa de entrada, de maneira semelhante ao que é feito para mensagens devolvidas, essas mensagens são relatadas por recipients como spam. A plataforma deve estar configurada para bloquear futuros deliveries para os usuários que reclamaram. É importante deixar de entrar em contato com eles, mesmo que não tenham usado o link de opt out adequado. É com base nessas reclamações que um ISP adicionará um endereço IP à sua lista de bloqueios. Dependendo do ISP, uma taxa de reclamação de cerca de 1% resultará no bloqueio de um endereço IP.
+Um loop de cometários funciona declarando no nível do ISP determinado endereço de email para um intervalo de endereços IP usados para enviar mensagens. O ISP enviará para esta caixa de entrada, de maneira semelhante ao que é feito para mensagens devolvidas, essas mensagens são relatadas por recipients como spam. A plataforma deve estar configurada para bloquear futuros deliveries para os usuários que reclamaram. É importante deixar de entrar em contato com eles, mesmo que não tenham usado o link de opt out adequado. Com base nessas reclamações, um ISP adicionará um endereço IP ao seu incluo na lista de bloqueios. Dependendo do ISP, uma taxa de reclamação de cerca de 1% resultará no bloqueio de um endereço IP.
 
 No momento, um padrão está sendo projetado para definir o formato de mensagens de loop de comentários: o [ARF (Abuse Feedback Reporting Format)](https://tools.ietf.org/html/rfc6650).
 
@@ -161,9 +161,9 @@ A linha de comando a seguir pode ser usada para criar um **List-Unsubscribe** di
 List-Unsubscribe: mailto: %=errorAddress%?subject=unsubscribe%=message.mimeMessageId%
 ```
 
-O Gmail, o Outlook.com e o Microsoft Outlook são compatíveis com esse método e um botão de cancelamento de subscrição está disponível diretamente em sua interface. Essa técnica reduz as taxas de reclamação.
+O Gmail, o Outlook.com e o Microsoft Outlook são compatíveis com esse método e um botão de cancelamento de inscrição está disponível diretamente nas interfaces deles. Essa técnica reduz as taxas de reclamação.
 
-É possível implementar a variável **List-Unsubscribe** por:
+Você pode implementar o **List-Unsubscribe** por:
 
 * Diretamente [adicionar a linha de comando no template do delivery](#adding-a-command-line-in-a-delivery-template)
 * [Criação de uma regra de tipologia](#creating-a-typology-rule)
@@ -196,7 +196,7 @@ A regra deverá conter o script que gera a linha de comando e deverá ser inclu�
 
 >[!NOTE]
 >
->Saiba como criar regras de tipologia no Adobe Campaign Classic em [esta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
+>Saiba como criar regras de tipologia no Adobe Campaign Classic em [nesta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
 
 ## Otimização de email {#email-optimization}
 

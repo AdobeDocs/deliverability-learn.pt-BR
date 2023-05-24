@@ -1,6 +1,6 @@
 ---
 title: Como fazer a transição descomplicada ao alternar plataformas de email.
-description: 'Ao mover os provedores de serviços de email (ESPs), não é possível fazer a transição dos endereços IP existentes e estabelecidos. É importante seguir as práticas recomendadas para desenvolver uma reputação positiva ao iniciar novamente. '
+description: Ao mover provedores de serviços de email (ESPs), não é possível fazer a transição dos endereços IP existentes e estabelecidos. É importante que você siga as práticas recomendadas para desenvolver uma reputação positiva ao começar de novo.
 topics: Deliverability
 kt: 5259
 thumbnail: kt5259.jpg
@@ -17,15 +17,15 @@ ht-degree: 11%
 
 # Como fazer a transição descomplicada ao alternar plataformas de email
 
-Ao mover os provedores de serviços de email (ESPs), também não é possível fazer a transição dos endereços IP existentes e estabelecidos. É importante seguir as práticas recomendadas para desenvolver uma reputação positiva ao iniciar novamente. Como os novos endereços IP que você usará ainda não têm reputação, os ISPs não podem confiar totalmente nos emails provenientes deles e precisam ter cautela no que permitem serem entregues aos clientes.
+Ao mover provedores de serviços de email (ESPs), não é possível fazer a transição dos endereços IP existentes e estabelecidos. É importante que você siga as práticas recomendadas para desenvolver uma reputação positiva ao começar de novo. Como os novos endereços IP que você usará ainda não têm reputação, os ISPs não podem confiar totalmente no email que eles enviam e precisam ter cuidado com o que eles permitem que seja entregue aos clientes.
 
-Estabelecer uma reputação positiva é um processo. Mas uma vez estabelecido, pequenos indicadores negativos terão menos impacto em você e em seu delivery de e-mail.
+Estabelecer uma reputação positiva é um processo. Mas, uma vez estabelecido, pequenos indicadores negativos terão menos impacto sobre você e seu delivery de email.
 
 ![Processo de transição](../assets/transition-process.png)
 
-O tempo para aquecer seus endereços IP e domínios pode variar, mas um referencial de até oito semanas é comum para remetentes típicos estabelecerem uma reputação no máximo em ISPs de nível 1 (Gmail, Microsoft, Verizon/Yahoo/AOL etc.).
+O tempo para aquecer seus domínios e endereços IP pode variar, mas um benchmark de até oito semanas é comum para remetentes típicos estabelecerem uma reputação no máximo em ISPs de Nível 1 (Gmail, Microsoft, Verizon/Yahoo/AOL etc.).
 
-Nas próximas seções, investigaremos algumas áreas-chave para nos concentrarmos adequadamente na integração:
+Nas próximas seções, investigaremos algumas áreas principais nas quais devemos nos concentrar para integrar corretamente:
 
 1. [Infraestrutura](/help/transition-process/infrastructure.md)
 2. [Critérios de direcionamento](/help/transition-process/targeting-criteria.md)

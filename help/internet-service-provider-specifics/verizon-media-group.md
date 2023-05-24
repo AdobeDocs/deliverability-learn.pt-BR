@@ -1,6 +1,6 @@
 ---
 title: Verizon Media Group (Yahoo, AOL, Verizon, etc.)
-description: '"[!DNL Verizon Media Group] O geralmente é um dos três principais domínios para a maioria das listas B2C. Eles se comportam de forma um pouco exclusiva, pois geralmente diminuem ou emails em massa se surgirem problemas de reputação."'
+description: "[!DNL Verizon Media Group] geralmente, é um dos três principais domínios para a maioria das listas B2C. Eles se comportam de maneira um pouco exclusiva, pois geralmente limitam ou enviam emails em massa se surgirem problemas de reputação."
 topics: Deliverability
 kt: 5320
 doc-type: article
@@ -16,22 +16,22 @@ ht-degree: 3%
 
 # [!DNL Verizon Media Group] (Yahoo, AOL, Verizon etc.)
 
-[!DNL Verizon Media Group] O geralmente é um dos três principais domínios para a maioria das listas B2C. Eles se comportam de forma um pouco exclusiva, pois geralmente diminuem ou emails em massa se surgirem problemas de reputação.
+[!DNL Verizon Media Group] geralmente, é um dos três principais domínios para a maioria das listas B2C. Eles se comportam de maneira um pouco exclusiva, pois geralmente limitam ou enviam emails em massa se surgirem problemas de reputação.
 
 Estes são alguns destaques:
 
 ## Quais dados são importantes
 
-[!DNL Verizon Media Group] O (VMG) criou e mantém seus próprios filtros de spam proprietários, usando uma mistura de filtragem de conteúdo e URL e reclamações de spam. Junto com o Gmail, eles são um dos provedores de internet que adotam ISPs antecipadamente que filtram emails por domínio, bem como endereço IP.
+[!DNL Verizon Media Group] A (VMG) criou e mantém seus próprios filtros de spam proprietários, usando uma mistura de conteúdo e filtragem de URL e reclamações de spam. Juntamente com o Gmail, eles são um dos primeiros ISPs a adotar o filtro de email por domínio e endereço IP.
 
-## Quais dados eles disponibilizam
+## Quais dados eles disponibilizam?
 
-A VMG tem um FBL usado para alimentar as informações de reclamação de volta aos remetentes. Eles também estão explorando a adição de mais dados no futuro.
+O VMG tem um FBL usado para enviar informações de reclamação de volta aos remetentes. Eles também estão explorando a possibilidade de adicionar mais dados no futuro.
 
 ## Reputação do remetente
 
-A reputação de um remetente é composta de uma combinação de endereço IP, domínio e endereço. A reputação é calculada usando os componentes tradicionais, incluindo reclamações, interceptações de spam, endereços inativos ou malformados e envolvimento. O VMG usa a limitação de taxa (também conhecida como limitação) juntamente com a pasta em massa para se defender contra spam. Eles complementam seus sistemas de filtragem internos com alguns [!DNL Spamhaus] listas negras, incluindo PBL, SBL e XBL para proteger seus usuários.
+A reputação de um remetente é composta por uma combinação de endereço IP, domínio e endereço do remetente. A reputação é calculada usando os componentes tradicionais, incluindo reclamações, armadilhas de spam, endereços inativos ou malformados e engajamento. O VMG usa limitação de taxa (também conhecida como limitação) junto com a pasta em massa para se defender contra spam. Complementam os seus sistemas de filtragem interna com [!DNL Spamhaus] listas negras, incluindo PBL, SBL e XBL para proteger seus usuários.
 
 ## Insights
 
-O VMG tem períodos de manutenção regulares para endereços de email antigos e inativos ultimamente. Isso significa que é comum observar um aumento significativo em rejeições de endereço inválido, o que pode afetar sua taxa de entrega por um curto período de tempo. Eles também são sensíveis a altas taxas de devoluções de endereços inválidos de um remetente, o que indica a necessidade de apertar as políticas de aquisição ou engajamento. Os remetentes geralmente podem ter impacto negativo em cerca de 1% de endereços inválidos.
+O VMG tem períodos de manutenção regulares para endereços de email antigos e inativos ultimamente. Isso significa que é comum observar um aumento significativo nas rejeições de endereço inválido, o que pode afetar a taxa de entrega por um curto período de tempo. Eles também são sensíveis a altas taxas de rejeições de endereço inválido de um remetente, o que indica a necessidade de reforçar as políticas de aquisição ou engajamento. Os remetentes podem enfrentar impacto negativo em cerca de 1% dos endereços inválidos.

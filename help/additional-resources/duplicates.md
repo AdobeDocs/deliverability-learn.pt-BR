@@ -1,6 +1,6 @@
 ---
 title: Duplicatas
-description: Saiba como identificar e limitar duplicatas para melhorar a capacidade de entrega.
+description: Saiba como identificar e limitar duplicatas para melhorar a capacidade de delivery.
 topics: Deliverability
 doc-type: article
 activity: understand
@@ -25,7 +25,7 @@ Além de evitar os procedimentos de aceitação, essa situação levará os usu�
 Você deve agir com cautela especial ao executar operações no banco de dados:
 
 * As importações devem ser meticulosamente configuradas, em especial ao escolher a chave de reconciliação.
-* Endereços de email alterados também podem ser uma fonte de duplicidades. Em particular, dois endereços com domínios diferentes podem ser roteados para a mesma caixa de correio, por exemplo, se uma empresa mudou de nome e manteve o domínio anterior por um determinado tempo: joe.doe@amce-co.com e joe.doe@acme-rebranded.com.
+* Endereços de email alterados também podem ser uma fonte de duplicidades. Especificamente, dois endereços com domínios diferentes podem ser roteados para a mesma caixa de correio, por exemplo, se uma empresa tiver alterado o nome e mantido o domínio anterior por um determinado período: joe.doe@amce-co.com e joe.doe@acme-rebranded.com.
 * As importações automáticas, sejam de listas ou de outros bancos de dados, são elementos a serem considerados ao gerenciar perfis. O que acontece quando você exclui ou move um perfil em outra partição? Ele pode ser recriado na partição inicial por uma importação automática, por exemplo, quando um pedido de compra é feito.
 * O armazenamento de perfis em pastas diferentes pode ser implementado usando exibições em vez de partições. Dessa forma, você tem certeza de que os perfis estão na mesma partição física e, ao mesmo tempo, permite que os direitos adequados sejam exibidos e gerenciados.
 
@@ -33,7 +33,7 @@ Há, contudo, casos em que duplicidades entre as diferentes partições são nor
 
 ## Recursos específicos do produto
 
-O cancelamento da duplicação de endereços protege a reputação de envio e garante um bom gerenciamento de quarentena. Saiba mais nas seguintes seções da documentação do produto:
+O cancelamento da duplicação de endereços protege a reputação de envio e garante um bom gerenciamento de quarentena. Saiba mais nas seguintes seções de documentação do produto:
 
 **Adobe Campaign Classic**
 

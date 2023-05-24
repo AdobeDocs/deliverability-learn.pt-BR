@@ -1,6 +1,6 @@
 ---
 title: Considerações específicas do ISP durante o aquecimento de IP
-description: Os ISPs têm regras diferentes e diferentes maneiras de observar seu tráfego. Isso requer um plano personalizado que tenha como alvo apenas os usuários mais envolvidos no início.
+description: Os ISPs têm regras diferentes e maneiras diferentes de observar o tráfego. Isso requer um plano personalizado direcionado somente aos usuários mais engajados no início.
 topics: Deliverability
 kt: 7054
 thumbnail: kt7054.jpg
@@ -17,7 +17,7 @@ ht-degree: 16%
 
 # Considerações específicas do ISP durante o aquecimento de IP
 
-Os ISPs têm regras diferentes e diferentes maneiras de observar seu tráfego. Por exemplo, o Gmail é um dos ISPs mais sofisticados porque eles consideram o engajamento com muito rigor (aberturas e cliques), além de todas as outras medidas de reputação. Isso requer um plano personalizado que tenha como alvo apenas os usuários mais envolvidos no início. Outros ISPs também podem exigir o mesmo. Trabalhe com seu consultor de capacidade de entrega do Adobe para obter um plano específico.
+Os ISPs têm regras diferentes e maneiras diferentes de observar o tráfego. Por exemplo, o Gmail é um dos ISPs mais sofisticados porque eles consideram o engajamento muito estritamente (aberturas e cliques), além de todas as outras medidas de reputação. Isso requer um plano personalizado que segmente apenas os usuários mais engajados no início. Outros ISPs também podem exigir o mesmo. Trabalhe com seu consultor de entrega de Adobe para um plano específico.
 
 Consulte a [Especificações do provedor de serviços de Internet](/help/internet-service-provider-specifics/overview.md) para obter mais informações sobre as diferenças importantes entre o seguinte grupo selecionado de provedores:
 
@@ -27,4 +27,4 @@ Consulte a [Especificações do provedor de serviços de Internet](/help/interne
 
 ## Recursos adicionais
 
-* Saiba mais sobre como aumentar sua reputação de email com o aquecimento de IP no [esta seção](/help/additional-resources/increase-reputation-with-ip-warming.md).
+* Saiba mais sobre como aumentar sua reputação de email com o aquecimento de IP no [nesta seção](/help/additional-resources/increase-reputation-with-ip-warming.md).

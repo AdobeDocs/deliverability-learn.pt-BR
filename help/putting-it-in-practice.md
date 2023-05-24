@@ -1,6 +1,6 @@
 ---
 title: Colocando em prática
-description: A permanência de envio é o processo de estabelecer um volume de envio e uma estratégia consistentes para manter a reputação de ISP.
+description: O envio de permanência é o processo de estabelecer um volume e uma estratégia de envio consistentes para manter a reputação do ISP.
 topics: Deliverability
 kt: 5264
 thumbnail: kt5264.jpg
@@ -17,13 +17,13 @@ ht-degree: 7%
 
 # Colocando em prática
 
-Conforme abordados neste guia, há muitas nuances na capacidade de entrega e nas práticas recomendadas.
+Conforme abordamos neste guia, há muitas nuances na capacidade de entrega e no cumprimento de práticas recomendadas.
 
-Existem quatro pilares-chave para o sucesso:
+Há quatro pilares-chave para o sucesso:
 
-1. Defina expectativas adequadas durante a inscrição e tenha um bom processo de inscrição que evite endereços ruins.
-2. Fornecer conteúdo relevante e oportuno.
+1. Defina as expectativas apropriadas durante a inscrição e tenha um bom processo de inscrição que evite endereços inválidos.
+2. Forneça conteúdo relevante e oportuno.
 3. Mantenha suas listas removendo endereços que se tornam inválidos.
-4. Monitore, teste e ajuste durante o processo.
+4. Monitore, teste e ajuste conforme você avança.
 
-Se você não estiver claro ou precisar de assistência com um problema, entre em contato com o consultor de capacidade de entrega do Adobe ou especialista em capacidade de entrega para obter ajuda.
+Se você nunca souber ou precisar de assistência para um problema, entre em contato com seu consultor de capacidade de entrega do Adobe ou especialista em capacidade de entrega para obter ajuda.

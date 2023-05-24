@@ -91,8 +91,8 @@ Estes são alguns fatores importantes para a taxa de cliques:
 Estes são alguns fatores importantes para a conversão:
 
 * Tudo acima
-* Transição de email por meio de um URL de trabalho para uma página de aterrissagem ou página de vendas
-* Experiência da página de aterrissagem
+* Transição de email por meio de um URL de trabalho para uma página de destino ou página de vendas
+* Experiência da página de destino
 * Reconhecimento de marca, percepção e fidelidade
 
 ### Impacto potencial na receita

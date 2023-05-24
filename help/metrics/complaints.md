@@ -1,6 +1,6 @@
 ---
 title: Reclamações
-description: 'Saiba mais sobre as reclamações que são registradas quando um usuário indica que um email é indesejado ou inesperado. '
+description: Saiba mais sobre as reclamações que são registradas quando um usuário indica que um email é indesejado ou inesperado.
 topics: Deliverability
 kt: 7048
 thumbnail: kt7048.jpg

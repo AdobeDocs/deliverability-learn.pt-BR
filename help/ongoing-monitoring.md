@@ -17,12 +17,12 @@ ht-degree: 35%
 
 # Monitoramento contínuo
 
-Estas são algumas maneiras de ajudar a identificar um possível problema em que você pode precisar de suporte de especialistas:
+Estas são algumas maneiras de ajudar a identificar um possível problema em que você pode precisar de suporte especializado:
 
-* Há um pico observado em devoluções duras ou temporárias. Isso pode ser indicativo de uma lista de bloqueios ou de outro problema de deliverability.
-* Há uma diminuição notável nas métricas de clique e abertura enquanto as taxas entregues permanecem altas. Isso é indicativo de um possível posicionamento de pasta em massa.
-* Há um aumento significativo nas reclamações. Isso pode ser causado por uma fonte de lista de baixa qualidade.
-* Você tem quaisquer iniciativas estratégicas que possam afetar a capacidade de entrega. Isso inclui, mas não se limita a, aquisição de assinantes, estratégias de engajamento, estratégias sazonais ou alterações significativas na frequência e tipo de campanha.
+* Há um pico observado em rejeições permanentes ou temporárias. Isso pode indicar uma inclusão na lista de bloqueios ou outro problema de capacidade de delivery.
+* Há uma diminuição notável nas métricas de abertura e de cliques, enquanto as taxas de entrega permanecem altas. Isso indica um possível posicionamento de pastas em massa.
+* Há um aumento significativo de reclamações. Isso pode ser causado por uma fonte de lista de baixa qualidade.
+* Você tem iniciativas estratégicas que podem afetar a capacidade de entrega. Isso inclui, mas não se limita a, aquisição de assinantes, estratégias de engajamento, estratégias sazonais ou alterações significativas na frequência e no tipo de campanha.
 
 ## Recursos específicos do produto
 
@@ -40,4 +40,4 @@ Estas são algumas maneiras de ajudar a identificar um possível problema em que
 
 ## Recursos adicionais
 
-* Saiba como solucionar problemas de capacidade de entrega em [esta seção](/help/additional-resources/troubleshooting.md).
+* Saiba como resolver problemas de capacidade de entrega no [nesta seção](/help/additional-resources/troubleshooting.md).

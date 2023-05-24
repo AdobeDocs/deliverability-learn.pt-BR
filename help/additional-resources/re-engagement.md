@@ -26,13 +26,13 @@ Ao implementar a capacidade de entrega, algumas das práticas recomendadas consi
 
 ## Como os ISPs visualizam as atividades sem engajamento? {#how-do-isps-view-non-engagement-activity-}
 
-Por anos, os ISPs usaram métricas de comentários de engajamento de seus usuários para decidir onde colocar mensagens ou mesmo se deveriam enviá-las. Usuário [envolvimento](/help/engagement.md) consiste em comentários positivos e negativos e os ISPs monitoram ambos constantemente. Não ter engajamento talvez seja um dos principais colaboradores para o engajamento negativo. Do ponto de vista de deliverability, o envio consistente de campanhas para usuários que não demonstram engajamento também pode piorar a reputação geral do seu endereço IP e domínios.
+Por anos, os ISPs usaram métricas de comentários de engajamento de seus usuários para decidir onde colocar mensagens ou mesmo se deveriam enviá-las. Usuário [envolvimento](/help/engagement.md) consiste em feedbacks positivos e negativos e os ISPs monitoram ambos constantemente. Não ter engajamento talvez seja um dos principais colaboradores para o engajamento negativo. Do ponto de vista de deliverability, o envio consistente de campanhas para usuários que não demonstram engajamento também pode piorar a reputação geral do seu endereço IP e domínios.
 
-ISPs como Gmail, Microsoft® e OATH consideram emails não desejados e começam a redirecionar mensagens para a pasta de spam. Além disso, esses assinantes podem não ter mais a conta de email, e isso pode ser usado como uma interceptação de spam &quot;reciclado&quot;. Isso significa que o endereço ficou inválido por algum tempo e todas as mensagens são rejeitadas. Se o seu sistema de gerenciamento de assinantes não estiver removendo endereços de &quot;devolução permanente&quot;, é provável que a transferência de mensagens para interceptações de spam possa levar a problemas significativos de entrega.
+ISPs como Gmail, Microsoft® e OATH consideram emails que não geram engajamento como indesejados e começam a redirecionar mensagens para a pasta de spam. Além disso, esses assinantes podem não ter mais a conta de email e isso pode ser usado como uma interceptação de spam &quot;reciclado&quot;. Isso significa que o endereço ficou inválido por algum tempo e todas as mensagens são rejeitadas. Se o seu sistema de gerenciamento de assinantes não estiver removendo endereços de &quot;devolução permanente&quot;, ele provavelmente está enviando emails para interceptações de spam que podem levar a problemas significativos de entrega.
 
 ## Como abordar a inatividade? {#how-should-you-approach-inactivity-}
 
-Os clientes que usam a plataforma Adobe podem visualizar a inatividade em sua instância, revisando os dados de abertura e clique de acordo com o segmento. Como o não engajamento pode atrapalhar o delivery, a primeira ideia pode ser remover os assinantes do banco de dados. No entanto, isso pode ser uma opção errada às vezes. Portanto, uma estratégia de reengajamento (também conhecida como reconquista) é a melhor recomendação para reter os assinantes que estão interessados em receber emails e eliminar gradativamente aqueles que não mostram mais atividade.
+Os clientes que usam a plataforma Adobe podem exibir a inatividade em sua instância, revisando os dados abertos e clicados de acordo com o segmento. Como o não engajamento pode atrapalhar o delivery, a primeira ideia pode ser remover os assinantes do banco de dados. No entanto, essa pode ser uma opção errada às vezes. Portanto, uma estratégia de reengajamento (também conhecida como reconquista) é a melhor recomendação para reter os assinantes que estão interessados em receber emails e eliminar gradativamente aqueles que não apresentam mais atividade.
 
 ## As campanhas de reengajamento realmente funcionam? {#do-re-engagement-campaigns-really-work-}
 
@@ -44,13 +44,13 @@ De acordo com um estudo da Return Path, as campanhas de engajamento vêm com um 
 
 ### Fase 1 {#phase-1}
 
-* A primeira etapa é identificar os assinantes que têm pouca atividade de clique ou de abertura e segmentar esse grupo de acordo com isso com base em um intervalo de tempo definido. A regra é rever os assinantes que não abriram ou não clicaram em um email nos últimos 90 dias. No entanto, isso varia de acordo com a natureza da empresa (por exemplo, envio sazonal).
+* A primeira etapa é identificar os assinantes com pouca ou nenhuma atividade de abertura ou clique e segmentar esse grupo de acordo com um intervalo de tempo definido. A regra geral é revisar os assinantes que não abriram ou não clicaram em um email nos últimos 90 dias. No entanto, isso varia de acordo com a natureza da empresa (por exemplo, envio sazonal).
 * Outro ponto a considerar durante a definição de cronogramas é que os ISPs e as empresas na lista de bloqueios consideram que o engajamento está em algum ponto entre 1,5 e 1,8 ano. Além disso, atividades comportamentais, como compras e atividade do site, ou outros pontos de contato, como preferências durante a fase de inscrição ou o primeiro ponto de contato.
 
 ### Fase 2 {#phase-2}
 
-* Depois que um segmento é definido, a próxima etapa é criar uma campanha de reengajamento que satisfaça o assinante de acordo com as métricas identificadas. Criar uma linha de assunto ajuda a aumentar o interesse do assinante. De acordo com um estudo dda Return Path, linhas e conteúdo de assunto que declaram &quot;sentimos sua falta&quot; geram taxas de resposta mais altas do que &quot;queremos você de volta&quot;.
-* Um incentivo também pode ser oferecido para reengajamento com o email. Ao considerar ofertas com descontos, é melhor usar valores em reais em vez de porcentagens. A Return Path também sugere fazer isso, pois incorre em taxas de resposta mais altas. Finalmente, executar testes de divisão A/B para revisar a resposta e as taxas de sucesso também é uma opção útil.
+* Depois que um segmento é definido, a próxima etapa é criar uma campanha de reengajamento que satisfaça o assinante de acordo com as métricas identificadas. A criação de uma linha de assunto ajuda a aumentar o interesse do assinante. De acordo com um estudo dda Return Path, linhas e conteúdo de assunto que declaram &quot;sentimos sua falta&quot; geram taxas de resposta mais altas do que &quot;queremos você de volta&quot;.
+* Um incentivo também pode ser oferecido para reengajamento com o email. Ao considerar ofertas com descontos, é melhor usar valores em reais em vez de porcentagens. A Return Path também sugere fazer isso, pois incorre taxas de resposta mais altas. Por fim, executar testes de divisão A/B para analisar a resposta e as taxas de sucesso também é uma opção útil.
 
 ### Fase 3 {#phase-3}
 
@@ -62,12 +62,12 @@ Os assinantes que interagem com a campanha seguindo a atividade de abertura ou d
 
 ### Fase 4 {#phase-4}
 
-* A próxima fase é identificar os assinantes que não mostram nenhuma atividade continuamente e reduzir gradativamente o envio de emails a eles durante um período. Se não houve atividade no ano passado, é bom colocar a subscrição de email dos assinantes em espera. Embora eles não tenham mostrado interesse no conteúdo do email, há sempre uma última chance de reativarem sua subscrição ao enviar uma única campanha de reconfirmação.
+* A próxima fase é identificar os assinantes que não mostram nenhuma atividade continuamente e reduzir gradativamente o envio de emails a eles durante um período. Se não houve atividade no ano passado, é bom colocar a subscrição de email dos assinantes em espera. Embora eles não tenham mostrado interesse no conteúdo do email, há sempre uma última chance de reativarem sua assinatura enviando uma campanha de reconfirmação única.
 * As campanhas de reconfirmação são uma boa maneira de perguntar aos assinantes que estão inativos por um longo tempo se querem permanecer na lista de subscrição. Ao criar a campanha, é preferível adicionar um link &quot;clique aqui&quot; para que possam confirmar a ação e verificar seu endereço. Dessa forma, a ação pode ser registrada no banco de dados. Veja abaixo um exemplo de um email de reconfirmação:
 
    ![](../../help/assets/deliverability_implementation_3.png)
 
-   Depois que o assinante realizar uma ação, poderá ser oferecida uma landing page com a confirmação da renovação. Veja um exemplo da landing page:
+   Depois que o assinante realizar uma ação, uma landing page com a confirmação da reinscrição pode ser oferecida. Veja um exemplo da landing page:
 
    ![](../../help/assets/deliverability_implementation_4.png)
 
@@ -75,9 +75,9 @@ Os assinantes que interagem com a campanha seguindo a atividade de abertura ou d
 
 **Adobe Campaign**
 
-* [Logs de rastreamento no Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#tracking-logs)
-* [Logs de rastreamento no Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/sending-and-tracking-messages/tracking-messages.html#tracking-logs)
+* [Rastreamento de logs no Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#tracking-logs)
+* [Rastreamento de logs no Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/sending-and-tracking-messages/tracking-messages.html#tracking-logs)
 
-**Gerenciamento de Jornadas do cliente Adobe**
+**Gerenciamento de Jornada do cliente do Adobe**
 
 * [Rastreamento de mensagens](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/message-tracking.html?lang=pt-BR)
