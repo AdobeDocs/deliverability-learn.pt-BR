@@ -2,13 +2,13 @@
 title: Considerações específicas do ISP durante o aquecimento de IP
 description: Os ISPs têm regras diferentes e maneiras diferentes de observar o tráfego. Isso requer um plano personalizado direcionado somente aos usuários mais engajados no início.
 topics: Deliverability
-kt: 7054
+jira: KT-7054
 thumbnail: kt7054.jpg
 doc-type: article
 activity: understand
 team: ACS
 exl-id: 7d61c81c-aa40-47a6-9869-1953a6ad22b2
-source-git-commit: 4d82aa498ce155919dde24aa695a8848351763a6
+source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 16%

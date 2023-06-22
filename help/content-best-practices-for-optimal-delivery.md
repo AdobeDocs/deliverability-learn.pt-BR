@@ -2,13 +2,13 @@
 title: Práticas recomendadas de conteúdo para a entrega ideal
 description: O conteúdo é a chave. Você já leu nossa perspectiva sobre relevância, mas aqui estão algumas dicas adicionais para otimizar sua capacidade de delivery quando se trata de conteúdo.
 topics: Deliverability
-kt: 5260
+jira: KT-5260
 thumbnail: kt5260.jpg
 doc-type: article
 activity: understand
 team: TM
 exl-id: f0172fa5-1c7e-4ccc-8ac5-4357611d13ec
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 13%
