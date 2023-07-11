@@ -6,9 +6,11 @@ jira: KT-5257
 thumbnail: kt5257.jpg
 doc-type: article
 activity: understand
+role: Leader, User
+level: Beginner
 team: ACS
 exl-id: 5a36b821-bcec-4c4f-ae7e-a697df1bb56d
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 2%
@@ -35,7 +37,7 @@ A frequência certa é algo que cada profissional de marketing deve encontrar pa
 
 ## Alteração de interesses
 
-Os interesses do assinante estão em constante evolução, e os profissionais de marketing precisam entender que o compromisso com uma marca pode ser temporário. Alguns assinantes optarão por não participar, mas muitos apenas excluirão ou ignorarão emails indesejados. Do ponto de vista do consumidor, qualquer mensagem não solicitada ou indesejada é percebida como spam. Portanto, os profissionais de marketing precisam confiar **marketing com base em permissão** e **monitorar engajamento** por perda de juros. Para alcançar a inserção ideal da caixa de entrada, recomendamos que os profissionais de marketing reenvolvam estrategicamente os assinantes usando campanhas de reativação e uma estratégia de retorno, que pode ser uma ferramenta muito útil para um profissional de marketing por email.
+Os interesses do assinante estão em constante evolução, e os profissionais de marketing precisam entender que o compromisso com uma marca pode ser temporário. Alguns assinantes optarão por não participar, mas muitos apenas excluirão ou ignorarão emails indesejados. Do ponto de vista do consumidor, qualquer mensagem não solicitada ou indesejada é considerada spam. Portanto, os profissionais de marketing precisam confiar **marketing com base em permissão** e **monitorar engajamento** por perda de juros. Para alcançar a inserção ideal da caixa de entrada, recomendamos que os profissionais de marketing reenvolvam estrategicamente os assinantes usando campanhas de reativação e uma estratégia de retorno, que pode ser uma ferramenta muito útil para um profissional de marketing por email.
 
 A **estratégia de retorno** é quando um incentivo especial é enviado regularmente para uma parte específica de um banco de dados de marketing em uma tentativa de reengajar uma lista que teve pouca atividade de abertura e cliques. As respostas positivas são mantidas e a parte da lista que não responde é movida para um status inativo e não é mais enviada para o.
 

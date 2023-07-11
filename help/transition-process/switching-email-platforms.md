@@ -6,9 +6,11 @@ jira: KT-5259
 thumbnail: kt5259.jpg
 doc-type: article
 activity: understand
+role: Admin
+level: Beginner
 team: ACS
 exl-id: 5444d576-5bc1-4fa6-9956-c63dc3c60440
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 11%
@@ -19,7 +21,7 @@ ht-degree: 11%
 
 Ao mover provedores de serviços de email (ESPs), não é possível fazer a transição dos endereços IP existentes e estabelecidos. É importante que você siga as práticas recomendadas para desenvolver uma reputação positiva ao começar de novo. Como os novos endereços IP que você usará ainda não têm reputação, os ISPs não podem confiar totalmente no email que eles enviam e precisam ter cuidado com o que eles permitem que seja entregue aos clientes.
 
-Estabelecer uma reputação positiva é um processo. Mas, uma vez estabelecido, pequenos indicadores negativos terão menos impacto sobre você e seu delivery de email.
+Estabelecer uma reputação positiva é um processo. Mas uma vez estabelecido, pequenos indicadores negativos terão menos impacto sobre você e seu delivery de email.
 
 ![Processo de transição](../assets/transition-process.png)
 

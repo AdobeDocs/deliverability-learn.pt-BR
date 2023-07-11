@@ -6,9 +6,11 @@ jira: KT-5263
 thumbnail: kt5263.jpg
 doc-type: article
 activity: understand
+role: Admin, Leader, User
+level: Beginner
 team: TM
 exl-id: 2defe1ae-5148-46f9-aaa7-8034107980ee
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 35%
@@ -22,7 +24,7 @@ Estas são algumas maneiras de ajudar a identificar um possível problema em que
 * Há um pico observado em rejeições permanentes ou temporárias. Isso pode indicar uma inclusão na lista de bloqueios ou outro problema de capacidade de delivery.
 * Há uma diminuição notável nas métricas de abertura e de cliques, enquanto as taxas de entrega permanecem altas. Isso indica um possível posicionamento de pastas em massa.
 * Há um aumento significativo de reclamações. Isso pode ser causado por uma fonte de lista de baixa qualidade.
-* Você tem iniciativas estratégicas que podem afetar a capacidade de entrega. Isso inclui, mas não se limita a, aquisição de assinantes, estratégias de engajamento, estratégias sazonais ou alterações significativas na frequência e no tipo de campanha.
+* Você tem iniciativas estratégicas que podem afetar a capacidade de entrega. Eles incluem, entre outros, a aquisição do assinante, estratégias de engajamento, estratégias sazonais ou alterações significativas na frequência e no tipo de campanha.
 
 ## Recursos específicos do produto
 

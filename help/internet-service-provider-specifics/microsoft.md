@@ -5,9 +5,11 @@ topics: Deliverability
 jira: KT-5319
 doc-type: article
 activity: understand
+role: Admin, Leader, User
+level: Beginner
 team: TM
 exl-id: d706cb90-828a-4ab3-8f93-c9bd71553d63
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 2%
@@ -26,7 +28,7 @@ Estes são alguns destaques:
 
 ## Quais dados eles disponibilizam?
 
-[!DNL Microsoft]ferramenta de relatório de remetente proprietária da, [!DNL Smart Network Data Services] (SNDS), permite que você veja métricas sobre a quantidade de emails que está enviando e a quantidade de emails aceitos, bem como reclamações e coberturas de spam. Lembre-se de que os dados compartilhados são uma amostra e não refletem números exatos, mas representam melhor como [!DNL Microsoft] O exibe você como remetente. [!DNL Microsoft] A não fornece publicamente informações sobre seu grupo de usuários confiáveis, mas esses dados estão disponíveis por meio do [!DNL Return Path Certification] por uma taxa adicional.
+[!DNL Microsoft]ferramenta de relatório de remetente proprietária da, [!DNL Smart Network Data Services] (SNDS), permite que você veja métricas sobre a quantidade de emails que está enviando e a quantidade de emails aceitos, bem como reclamações e coberturas de spam. Lembre-se de que os dados compartilhados são uma amostra e não refletem números exatos, mas representam melhor como [!DNL Microsoft] O exibe você como remetente. [!DNL Microsoft] O não fornece publicamente informações sobre seu grupo de usuários confiáveis, mas esses dados estão disponíveis por meio do [!DNL Return Path Certification] por uma taxa adicional.
 
 ## Reputação do remetente
 

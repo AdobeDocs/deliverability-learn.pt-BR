@@ -5,9 +5,11 @@ topics: Deliverability
 jira: KT-5262
 doc-type: article
 activity: understand
+role: Admin, Leader, User
+level: Beginner
 team: TM
 exl-id: a7319c85-32b5-4a9e-bee9-24f13630c408
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 0%
@@ -30,7 +32,7 @@ Estes são alguns destaques:
 
 >[!NOTE]
 >
->[!DNL Gmail] não exibe dados em todas as reclamações, nem facilitam um FBL tradicional. Em vez disso, apenas fornecem dados em determinadas circunstâncias, geralmente envolvendo tanto volumes elevados como taxas de reclamação muito elevadas. Embora manter as reclamações no mínimo seja fundamental para uma boa capacidade de entrega, é natural que algumas reclamações sejam filtradas. Se as reclamações são sincronizadas regularmente a zero, isso pode apontar para um problema que requer investigação adicional.
+>[!DNL Gmail] O não exibe dados em todas as reclamações, nem facilitam um FBL tradicional. Em vez disso, apenas fornecem dados em determinadas circunstâncias, geralmente envolvendo tanto volumes elevados como taxas de reclamação muito elevadas. Embora manter as reclamações no mínimo seja fundamental para uma boa capacidade de entrega, é natural que algumas reclamações sejam filtradas. Se as reclamações são sincronizadas regularmente a zero, isso pode apontar para um problema que requer investigação adicional.
 
 ## Reputação do remetente
 
@@ -40,6 +42,6 @@ Estes são alguns destaques:
 
 [!DNL Gmail] as exibições envolviam os assinantes de forma diferente da maioria dos remetentes tradicionalmente. Um remetente pode definir uma lista ativa ou engajada como alguém que abriu um email dentro de 30, 90 ou 180 dias (dependendo do modelo de negócios). [!DNL Gmail]O, por outro lado, está observando a frequência com que os usuários interagem com suas mensagens.
 
-Por exemplo, se você enviar 3 emails por semana durante 90 dias, seriam aproximadamente 39 emails. Usando o método tradicional, se o assinante abriu um desses 39 emails, ele está envolvido. Para [!DNL Gmail], isso significa que eles ignoraram 38 emails e não estão envolvidos. Você pode obter uma sensação aproximada dos níveis de engajamento de seus próprios usuários em [!DNL Gmail] avaliando-os na contagem aberta dos últimos 10 emails. Portanto, um assinante associado a 7 aberturas dos últimos 10 emails é mais engajado do que alguém que abriu 2 dos 10. Enviar email com menos frequência para os usuários menos envolvidos ajudará a melhorar a reputação de envio em [!DNL Gmail].
+Por exemplo, se você enviar 3 emails por semana durante 90 dias, seriam aproximadamente 39 emails. Usando o método tradicional, se o assinante abriu um desses 39 emails, ele está envolvido. Para [!DNL Gmail], isso significa que eles ignoraram 38 emails e não estão envolvidos. Você pode obter uma sensação aproximada dos níveis de engajamento dos seus próprios usuários em [!DNL Gmail] avaliando-os na contagem aberta dos últimos 10 emails. Portanto, um assinante associado a 7 aberturas dos últimos 10 emails é mais engajado do que alguém que abriu 2 dos 10. Enviar email com menos frequência para os usuários menos envolvidos ajudará a melhorar a reputação de envio em [!DNL Gmail].
 
-[!DNL Gmail] O utiliza guias diferentes para que os usuários possam distinguir tipos diferentes de email. Estes são *Caixa de entrada*, *Social*, e *Promocional*. Mesmo que o email seja entregue na guia Promocional, ele ainda será considerado delivery de caixa de entrada. Os usuários têm controle para modificar a visualização e as guias.
+[!DNL Gmail] O utiliza guias diferentes para que os usuários possam distinguir tipos diferentes de email. Estes são *Caixa de entrada*, *Social*, e *Promocional*. Mesmo que o email seja entregue na guia Promocional, ele ainda será considerado um delivery de caixa de entrada. Os usuários têm controle para modificar a visualização e as guias.

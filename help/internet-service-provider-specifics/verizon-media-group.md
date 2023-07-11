@@ -5,9 +5,11 @@ topics: Deliverability
 jira: KT-5320
 doc-type: article
 activity: understand
+role: Admin, Leader, User
+level: Beginner
 team: TM
 exl-id: 43e6d3cb-23c3-4076-8026-a1a08e76bd1b
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 3%
@@ -22,7 +24,7 @@ Estes são alguns destaques:
 
 ## Quais dados são importantes
 
-[!DNL Verizon Media Group] A (VMG) criou e mantém seus próprios filtros de spam proprietários, usando uma mistura de conteúdo e filtragem de URL e reclamações de spam. Juntamente com o Gmail, eles são um dos primeiros ISPs a adotar o filtro de email por domínio e endereço IP.
+[!DNL Verizon Media Group] A (VMG) criou e mantém seus próprios filtros de spam proprietários, usando uma mistura de conteúdo e filtragem de URL e reclamações de spam. Junto com o Gmail, eles são um dos primeiros ISPs a adotar o filtro de email por domínio e endereço IP.
 
 ## Quais dados eles disponibilizam?
 

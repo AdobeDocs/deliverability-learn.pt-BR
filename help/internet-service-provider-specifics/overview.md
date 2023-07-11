@@ -1,13 +1,15 @@
 ---
 title: Especificações do provedor de serviços de Internet
-description: Os ISPs não são todos iguais. Eles se concentram em coisas diferentes ao determinar quais emails são permitidos na caixa de entrada de seus usuários e quais emails são filtrados para a pasta de spam ou não são permitidos. Faremos um rápido tour pelas diferenças importantes entre alguns ISPs. Não se destina a ser uma lista completa de todos os ISPs ou a cobrir todas as diferenças possíveis.
+description: ISPs não são todos iguais. Eles se concentram em coisas diferentes ao determinar que email permitir para a caixa de entrada de seus usuários e qual email é filtrado para a pasta de spam ou não permitir sua entrada. Faremos um rápido tour pelas diferenças importantes entre alguns ISPs. Não é para ser uma lista completa de todos os ISPs ou cobrir todas as diferenças possíveis.
 topics: Deliverability
 jira: KT-
 doc-type: article
 activity: understand
+role: Admin, Leader, User
+level: Beginner
 team: TM
 exl-id: cf0c9ccf-ae67-4f95-a8cf-1e23b657aa16
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 14%
@@ -16,9 +18,9 @@ ht-degree: 14%
 
 # Especificações do provedor de serviços de Internet
 
-Os ISPs não são todos iguais. Eles se concentram em coisas diferentes ao determinar quais emails são permitidos na caixa de entrada de seus usuários e quais emails são filtrados para a pasta de spam ou não são permitidos.
+ISPs não são todos iguais. Eles se concentram em coisas diferentes ao determinar que email permitir para a caixa de entrada de seus usuários e qual email é filtrado para a pasta de spam ou não permitir sua entrada.
 
-Faremos um rápido tour pelas diferenças importantes entre alguns ISPs. Não se destina a ser uma lista completa de todos os ISPs ou a cobrir todas as diferenças possíveis.
+Faremos um rápido tour pelas diferenças importantes entre alguns ISPs. Não é para ser uma lista completa de todos os ISPs ou cobrir todas as diferenças possíveis.
 
 * [Gmail](./gmail.md)
 * [Microsoft (Hotmail, Outlook, Windows Live, etc.)](./microsoft.md)

@@ -6,9 +6,11 @@ jira: KT-7052
 thumbnail: kt7052.jpg
 doc-type: article
 activity: understand
+role: Admin, Leader
+level: Beginner
 team: ACS
 exl-id: 4025d95c-cc77-4e0c-9904-aaf60019b18c
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 2%
@@ -34,7 +36,7 @@ Parte do processo de integração para novos remetentes nas plataformas Adobe in
 
 É importante formar uma estratégia de IP bem estruturada para ajudar a estabelecer uma reputação positiva. O número de IPs e a configuração variam dependendo do modelo de negócios e das metas de marketing. Trabalhe com um especialista para desenvolver uma estratégia clara para começar do jeito certo. Considere estes itens que são importantes observar:
 
-* **Muitos IPs** pode causar problemas de reputação, pois é uma tática comum de remetentes de spam para **snowshoes**, que é uma tática usada por remetentes de spam em que o tráfego é distribuído por vários IPs para maximizar a entrega de emails de spam. Mesmo que você não seja um remetente de spam, poderá se parecer com um se usar muitos IPs, especialmente se esses IPs não tiverem tido tráfego anterior.
+* **Muitos IPs** pode causar problemas de reputação, pois é uma tática comum de remetentes de spam para **snowshoes**, que é uma tática usada por remetentes de spam em que o tráfego é distribuído por vários IPs para maximizar a entrega de emails de spam. Mesmo que você não seja um remetente de spam, poderá se parecer com um se usar muitos IPs, especialmente se esses IPs não tiverem tido nenhum tráfego anterior.
 * **Poucos IPs** O pode causar problemas de taxa de transferência e possivelmente problemas de reputação. A taxa de transferência varia por ISP. A quantidade e a rapidez com que um ISP está disposto a aceitar normalmente se baseiam em sua infraestrutura e nos limites de reputação de envio.
 * A separação de tráfego para tipos de mensagens é fundamental. É importante, no mínimo, separar emails de marketing e transacionais em pools de IP separados.
 * Dependendo de sua estratégia de email, também pode ser aconselhável separar diferentes produtos ou fluxos de marketing em diferentes pools de IP se sua reputação for drasticamente diferente. Alguns profissionais de marketing também segmentam por região. Separar o IP para tráfego com reputação mais baixa não corrigirá o problema de reputação, mas evitará problemas com seus deliveries de email de reputação &quot;boa&quot;. Afinal de contas, você não quer sacrificar seu bom público-alvo por um mais arriscado.
@@ -45,7 +47,7 @@ Nos bastidores, as plataformas Adobe estão processando dados sobre rejeições,
 
 ## Autenticação {#authentication}
 
-Autenticação é o processo que os ISPs usam para validar a identidade de um remetente. Os dois protocolos de autenticação mais comuns são [!DNL Sender Policy Framework] (SPF) e [!DNL DomainKeys Identified Mail] (DKIM). Eles não estão visíveis para o usuário final, mas ajudam os ISPs a filtrar emails de remetentes verificados. [!DNL Domain-based Message Authentication Reporting and Conformance] (DMARC) está ganhando popularidade, embora suas políticas ainda não sejam incorporadas por todos os ISPs em seus sistemas de reputação.
+Autenticação é o processo que os ISPs usam para validar a identidade de um remetente. Os dois protocolos de autenticação mais comuns são [!DNL Sender Policy Framework] (SPF) e [!DNL DomainKeys Identified Mail] (DKIM). Eles não estão visíveis para o usuário final, mas ajudam os ISPs a filtrar emails de remetentes verificados. [!DNL Domain-based Message Authentication Reporting and Conformance] O (DMARC) está ganhando popularidade, embora suas políticas ainda não sejam incorporadas por todos os ISPs em seus sistemas de reputação.
 
 ### SPF
 

@@ -6,16 +6,18 @@ jira: KT-5255
 thumbnail: kt5255.jpg
 doc-type: article
 activity: understand
+role: Admin, Leader, User
+level: Beginner
 team: ACS
 exl-id: 5285eda9-5099-48d5-b150-ce2c376ee549
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
 source-wordcount: '843'
-ht-degree: 100%
+ht-degree: 78%
 
 ---
 
-# Estratégia e definição da capacidade de entrega
+# Capacidade de entrega estratégia e definição
 
 A criação de campanhas de marketing por email bem-sucedidas depende de uma compreensão clara das metas de marketing, sejam elas de prospecção ou de iniciativas de CRM (gestão de relacionamento com o cliente). Isso ajuda a determinar quem segmentar, o que promover e quando o alcance externo é ideal.
 
@@ -30,15 +32,15 @@ Estes são alguns exemplos de objetivos de estratégia de marketing por email:
 
 ## Definição da capacidade de entrega
 
-Há duas métricas principais que desempenham uma função na definição da capacidade de entrega. A *taxa de entrega* é a porcentagem de emails que não são rejeitados e são aceitos pelo ISP. O próximo é *inbox placement*, aplicado às mensagens aceitas pelo ISP e determina se o email chega à caixa de entrada ou à pasta de spam.
+Há duas métricas principais que desempenham uma função na definição da capacidade de entrega. A variável *taxa de entrega* é a porcentagem de emails que não são rejeitados e são aceitos pelo ISP. O próximo é *inbox placement*, aplicado às mensagens aceitas pelo ISP e determina se o email chega à caixa de entrada ou à pasta de spam.
 
 É importante entender conjuntamente a taxa de entrega e a taxa de posicionamento da caixa de entrada ao medir o desempenho do email. Uma alta taxa de entrega não é a única faceta da capacidade de entrega. Apenas porque uma mensagem é recebida por meio de um ponto de verificação inicial do ISP não significa necessariamente que seu assinante realmente viu e interagiu com sua comunicação.
 
 ## Por que a capacidade de entrega é importante
 
-Você deveria saber se seus emails estão sendo entregues ou se estão chegando na caixa de entrada ou na pasta de spam. Aqui está o porquê.
+Se você não souber se seus emails estão sendo entregues ou se estão chegando na caixa de entrada ou na pasta de spam, deveria saber. Aqui está o porquê.
 
-Inúmeras horas vão para o planejamento e produção de suas campanhas de email. Se os emails forem devolvidos ou forem enviados à pasta de spam de seus assinantes, seus clientes provavelmente não os lerão, sua chamada para a ação (CTA) não será confirmada e você ficará aquém das metas de receita devido a conversões perdidas. Em termos simples, você não pode se dar ao luxo de ignorar a capacidade de entrega. É fundamental para o sucesso de suas iniciativas de marketing por email e de seus resultados finais.
+Inúmeras horas vão para o planejamento e produção de suas campanhas de email. Se os emails forem devolvidos ou forem enviados à pasta de spam de seus assinantes, seus clientes provavelmente não os lerão, sua chamada para a ação (CTA) não será confirmada e você ficará aquém das metas de receita devido a conversões perdidas. Simplificando, você não pode se dar ao luxo de ignorar a capacidade de entrega. É fundamental para o sucesso de suas iniciativas de marketing por email e de seus resultados finais.
 
 Seguir as práticas recomendadas de entrega garante que seu email tenha a melhor chance possível de aberturas, cliques e o objetivo final que são as conversões. Você pode escrever uma linha de assunto brilhante e ter belas imagens e conteúdo envolvente. Mas se esse email não for entregue, o cliente não terá nenhuma oportunidade de conversão. Em resumo, na capacidade de fornecimento de email, cada etapa do processo de aceitação de email depende da etapa anterior para o sucesso do programa.
 
@@ -83,7 +85,7 @@ Estes são alguns fatores importantes para a taxa de cliques:
 
 * Email entregue, enviado à caixa de entrada e aberto
 * CTA forte
-   * Essa é a ação principal que você deseja realizar com seu público-alvo. Normalmente, é um clique em um URL. Verifique se é claro e fácil para o usuário encontrar o URL.
+   * Essa é a ação principal que você deseja realizar com seu público-alvo. Normalmente, é um clique em um URL. Verifique se é claro e fácil para o usuário encontrar o arquivo.
 * Relevância ou valor do conteúdo
 
 ### Etapa 5: Conversão
