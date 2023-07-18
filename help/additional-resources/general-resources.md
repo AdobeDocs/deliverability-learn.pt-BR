@@ -33,7 +33,7 @@ Esta seção lista alguns recursos adicionais sobre a capacidade de delivery, co
 * [Listas de buraco negro em tempo real](../../help/additional-resources/blocklist-databases.md)
 * [Solução de problemas](../../help/additional-resources/troubleshooting.md)
 
-   <!--
+  <!--
     [IP Certification](../../help/additional-resources/ip-certification.md)
     [Third-party monitoring tools](../../help/additional-resources/third-party-monitoring-tools.md)-->
 

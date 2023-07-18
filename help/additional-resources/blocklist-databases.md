@@ -27,31 +27,31 @@ Veja a seguir uma lista das RBLs mais utilizadas. Para obter uma lista mais abra
 
 * **Spamhaus**
 
-   Consulte [https://www.spamhaus.org/](https://www.spamhaus.org/)
+  Consulte [https://www.spamhaus.org/](https://www.spamhaus.org/)
 
-   O banco de dados é mais importante. Estar classificado nesta lista geralmente é uma situação grave. Se isso acontecer, você deverá agir IMEDIATAMENTE e avisar os serviços comerciais, a capacidade de entrega e o [Atendimento ao cliente da Adobe](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+  O banco de dados é mais importante. Estar classificado nesta lista geralmente é uma situação grave. Se isso acontecer, você deverá agir IMEDIATAMENTE e avisar os serviços comerciais, a capacidade de entrega e o [Atendimento ao cliente da Adobe](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 * **SpamCop**
 
-   Consulte [https://www.spamcop.net/](https://www.spamcop.net/)
+  Consulte [https://www.spamcop.net/](https://www.spamcop.net/)
 
-   É um dos bancos de dados mais conhecidos. Se um dos seus endereços IP for colocado nessa lista, isso geralmente significa que os usuários do SpamCop declararam suas mensagens como spam ou que você enviou mensagens para uma armadilha SpamCop.
+  É um dos bancos de dados mais conhecidos. Se um dos seus endereços IP for colocado nessa lista, isso geralmente significa que os usuários do SpamCop declararam suas mensagens como spam ou que você enviou mensagens para uma armadilha SpamCop.
 
 * **URIBL**
 
-   Consulte [https://www.uribl.com/](https://www.uribl.com/)
+  Consulte [https://www.uribl.com/](https://www.uribl.com/)
 
-   Esta lista identifica os domínios que aparecem regularmente nas mensagens declaradas como spam. Se o seu domínio aparecer nessa lista, ele poderá afetar significativamente seu deliverability. Você deve informar os serviços de capacidade de entrega e o [Atendimento ao cliente da Adobe](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) imediatamente.
+  Esta lista identifica os domínios que aparecem regularmente nas mensagens declaradas como spam. Se o seu domínio aparecer nessa lista, ele poderá afetar significativamente seu deliverability. Você deve informar os serviços de capacidade de entrega e o [Atendimento ao cliente da Adobe](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) imediatamente.
 
 * **SURBL**
 
-   Consulte [https://surbl.org/](https://surbl.org/)
+  Consulte [https://surbl.org/](https://surbl.org/)
 
-   SURBL identifica os sites que aparecem regularmente como spam. Se o seu domínio aparecer nessa lista, ele poderá afetar significativamente seu deliverability. Você deve informar os serviços de capacidade de entrega e o [Atendimento ao cliente da Adobe](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) imediatamente.
+  SURBL identifica os sites que aparecem regularmente como spam. Se o seu domínio aparecer nessa lista, ele poderá afetar significativamente seu deliverability. Você deve informar os serviços de capacidade de entrega e o [Atendimento ao cliente da Adobe](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) imediatamente.
 
 * **iX Manitu**
 
-   Esta é uma lista de IPs amplamente usada na Alemanha. Consulte [https://www.heise.de/ix/nixspam/](https://www.heise.de/ix/nixspam/)
+  Esta é uma lista de IPs amplamente usada na Alemanha. Consulte [https://www.heise.de/ix/nixspam/](https://www.heise.de/ix/nixspam/)
 
 <!--* SORBS
 

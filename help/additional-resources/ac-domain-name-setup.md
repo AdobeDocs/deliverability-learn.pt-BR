@@ -116,7 +116,6 @@ Complete a tabela abaixo, a primeira linha é apenas um exemplo.
 >* Ao enviar emails do Adobe Campaign, a caixa de correio &quot;Do endereço&quot; não é monitorada e os usuários de marketing não podem acessá-la. O Adobe Campaign também não oferece a capacidade de responder automaticamente ou encaminhar emails recebidos nessa caixa de correio.
 >* O endereço do Remetente/De da campanha e o endereço do Erro não podem ser &quot;abuso&quot; ou &quot;postmaster&quot;.
 
-
 ## Delegar subdomínios
 
 O(s) subdomínio(s) escolhido(s) para ser(em) usado(s) na plataforma Adobe Campaign deve(m) ser delegado(s) criando quatro registros de servidor de nomes (NS).  Isso permite que o subdomínio seja delegado corretamente ao Adobe.  Veja abaixo um exemplo de delegação de subdomínio e as respectivas instruções de DNS.  Substitua ‘emails.customer.com’ pelo subdomínio que você deseja delegar.  Observe que o subdomínio deve ser exclusivo e não pode estar sendo usado por outra pessoa (por exemplo, um ESP ou MSP existente).

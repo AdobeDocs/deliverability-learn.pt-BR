@@ -65,11 +65,11 @@ Os assinantes que interagem com a campanha seguindo a atividade de abertura ou d
 * A próxima fase é identificar os assinantes que não mostram nenhuma atividade continuamente e reduzir gradativamente o envio de emails a eles durante um período. Se não houve atividade no ano passado, é bom colocar a subscrição de email dos assinantes em espera. Embora eles não tenham mostrado interesse no conteúdo do email, há sempre uma última chance de reativarem sua assinatura enviando uma campanha de reconfirmação única.
 * As campanhas de reconfirmação são uma boa maneira de perguntar aos assinantes que estão inativos por um longo tempo se querem permanecer na lista de subscrição. Ao criar a campanha, é preferível adicionar um link &quot;clique aqui&quot; para que possam confirmar a ação e verificar seu endereço. Dessa forma, a ação pode ser registrada no banco de dados. Veja abaixo um exemplo de um email de reconfirmação:
 
-   ![](../../help/assets/deliverability_implementation_3.png)
+  ![](../../help/assets/deliverability_implementation_3.png)
 
-   Depois que o assinante realizar uma ação, uma landing page com a confirmação da reinscrição pode ser oferecida. Veja um exemplo da landing page:
+  Depois que o assinante realizar uma ação, uma landing page com a confirmação da reinscrição pode ser oferecida. Veja um exemplo da landing page:
 
-   ![](../../help/assets/deliverability_implementation_4.png)
+  ![](../../help/assets/deliverability_implementation_4.png)
 
 ## Recursos específicos do produto
 
