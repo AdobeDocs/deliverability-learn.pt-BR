@@ -1,5 +1,5 @@
 ---
-title: Atualizar qualificação de rejeição após interrupção online da Itália
+title: Atualizar qualificação de rejeição após a interrupção online da Itália
 description: Saiba como atualizar a qualificação de rejeição após a interrupção online da Itália
 feature: Deliverability
 exl-id: a11e88cf-bf37-42cc-9c09-1d58360459b7
