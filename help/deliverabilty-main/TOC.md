@@ -6,10 +6,10 @@ feature: Deliverability
 role: Leader, User
 level: Beginner
 auto-video-transcripts: true
-source-git-commit: be28ecdbcd064e2bcca739db492064869ddbb59a
+source-git-commit: 3be4372aa06d7ef2d1ba2282043d277c4817f9c8
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 100%
+source-wordcount: '174'
+ht-degree: 98%
 
 ---
 
@@ -60,6 +60,7 @@ ht-degree: 100%
       + [Início de uma nova plataforma](/help/additional-resources/ac-starting-new-platform.md)
       + [Campaign Classic - Recomendações técnicas](/help/additional-resources/acc-technical-recommendations.md)
    + Notas técnicas {#technotes}
+      + [Implementar DMARC](/help/technotes/implement-dmarc.md)
       + [Implementação de BIMI](/help/technotes/implement-bimi.md)
       + [Atualizar as rejeições após a interrupção do Italia Online](/help/technotes/update-bounces-after-it-outage.md)
 
