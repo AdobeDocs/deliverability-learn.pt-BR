@@ -4,10 +4,11 @@ description: Saiba como implementar o BIMI
 topics: Deliverability
 role: Admin
 level: Beginner
-source-git-commit: 5ac5bc90b5a9bf3ce9b390821476c7222983b818
+exl-id: f1c14b10-6191-4202-9825-23f948714f1e
+source-git-commit: bd8cee606c9dcb1593ad3ec45c578f59f8e968f2
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 1%
+source-wordcount: '1258'
+ht-degree: 8%
 
 ---
 
@@ -43,11 +44,11 @@ O DMARC é opcional e, embora não seja obrigatório, é gratuito e permite que 
 
 ## Práticas recomendadas para a implementação do DMARC {#best-practice}
 
-Como o DMARC é opcional, ele não será configurado por padrão em nenhuma plataforma do ESP. Um registro DMARC deve ser criado no DNS para que seu domínio funcione. Além disso, um endereço de email de sua escolha é necessário para indicar para onde os relatórios DMARC devem ir na organização. Como prática recomendada, é recomendável implantar lentamente a implementação DMARC escalando sua política DMARC de p=none, para p=quarantine, para p=reject à medida que você obtém a compreensão DMARC do impacto potencial da DMARC.
+Como o DMARC é opcional, ele não será configurado por padrão em nenhuma plataforma do ESP. Um registro DMARC deve ser criado no DNS para que seu domínio funcione. Além disso, um endereço de email de sua escolha é necessário para indicar para onde os relatórios DMARC devem ir na organização. A prática recomendada é o uso de uma implantação lenta do DMARC com uma progressão de políticas (de “Nenhum” para “Quarentena” e, por fim, “Rejeitar”) à medida que você compreende os possíveis impactos do DMARC.
 
 1. Analise o feedback que você recebe e usa (p=none), que instrui o destinatário a não executar nenhuma ação em relação às mensagens com falha de autenticação, mas ainda enviar relatórios de email ao remetente. Além disso, revise e corrija problemas com o SPF/DKIM se as mensagens legítimas estiverem falhando na autenticação.
 1. Determine se o SPF e o DKIM estão alinhados e transmitem a autenticação para todos os emails legítimos e, em seguida, mova a política para (p=quarentena), que instrui o servidor de email de recebimento a colocar em quarentena os emails que falham na autenticação (geralmente significa colocar essas mensagens na pasta de spam).
-1. Ajuste a política para (p=reject). A política p= reject informa ao destinatário para negar completamente (retornar) qualquer email para o domínio que não é autenticado. Com essa política ativada, somente os emails verificados como 100% autenticados pelo seu domínio terão uma chance de inserção na Caixa de entrada.
+1. Ajuste a política para (p=reject). A política “Rejeitar” instrui o destinatário a bloquear completamente (rejeitar) qualquer email de um domínio que falhou na autenticação. Após habilitar essa política, somente os emails 100% autenticados pelo seu domínio serão enviados à caixa de entrada.
 
    >[!NOTE]
    >
@@ -90,6 +91,10 @@ Os registros DMARC têm vários componentes chamados tags DMARC. Cada tag tem um
 | aspf | Opcional | Pode ser Estrito (s) ou Relaxado (r). Alinhamento relaxado significa que o Domínio do ReturnPath pode ser um subdomínio do Endereço do remetente. Alinhamento estrito significa que o domínio Return-Path deve ter uma correspondência exata com o endereço From. | aspf=r | r |
 
 ## DMARC e ADOBE CAMPAIGN {#campaign}
+
+>[!NOTE]
+>
+>Se sua instância do Campaign estiver hospedada no AWS, você poderá implementar o DMARC para seus subdomínios com o Painel de controle do Campaign. [Saiba como implementar registros DMARC usando o Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/txt-records/dmarc.html).
 
 Um motivo comum para falhas do DMARC é o desalinhamento entre o endereço &quot;De&quot; e &quot;Para erros&quot; ou &quot;Caminho de retorno&quot;. Para evitar isso, ao configurar o DMARC, é recomendável verificar novamente suas configurações de endereço &quot;De&quot; e &quot;Erros para&quot; nos Modelos de entrega.
 
