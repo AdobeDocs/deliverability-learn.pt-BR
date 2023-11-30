@@ -8,16 +8,16 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: be133b442284b39daa8e2dd276c2942402b4936d
+source-git-commit: 0ad2e59948aa94008ae5c3f6eec7914223bdb02a
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1604'
 ht-degree: 1%
 
 ---
 
 # Orientação sobre as alterações anunciadas em [!DNL Google] e [!DNL Yahoo]
 
-Em 3 de outubro, ambos [!DNL Google] e [!DNL Yahoo] anunciaram mudanças planejadas em conjunto através dos seus blogues. Essas alterações foram projetadas para manter os usuários mais seguros e fornecer uma melhor experiência de email, aplicando algumas práticas recomendadas comuns do setor como novos requisitos a partir de fevereiro de 2024.
+Em 3 de outubro, ambos [!DNL Google] e [!DNL Yahoo] anunciaram mudanças planejadas em conjunto através dos seus blogues. Essas alterações foram projetadas para manter os usuários mais seguros e fornecer uma melhor experiência de email, aplicando algumas práticas recomendadas comuns do setor como novos requisitos a partir de 1º de fevereiro de 2024.
 
 [https://blog.google/products/gmail/gmail-security-authentication-spam-protection/](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
 
@@ -40,6 +40,9 @@ Se você for um Adobe, a maioria do que eles exigem já faz parte da configuraç
 ## DMARC:
 
 [!DNL Google] e [!DNL Yahoo] ambos exigirão que você tenha um registro DMARC para qualquer domínio que usar para enviar emails para eles. Eles NÃO estão exigindo atualmente uma configuração p=reject ou p=quarentena, portanto, uma configuração de p=none, comumente chamada de configuração de &quot;monitoramento&quot;, é perfeitamente aceitável. Isso não alterará a maneira como seus emails são processados. Eles farão o que normalmente fariam sem o DMARC. Configurar isso é o primeiro passo para se proteger com o DMARC e, além disso, o novo benefício de ajudar você a enviar emails para o [!DNL Google] e [!DNL Yahoo] ele também pode ajudar você a ver se há problemas de autenticação em qualquer lugar no seu ecossistema de email.
+
+As regras do DMARC não estão sendo alteradas, o que significa que, a menos que configurado para impedi-lo, um registro DMARC no domínio pai (adobe.com, por exemplo) será herdado e cobrirá qualquer subdomínio (como email.adobe.com). Você não precisa de registros DMARC diferentes para seus subdomínios, a menos que deseje ou precise adicioná-los por uma variedade de motivos comerciais.
+
 No momento, o DMARC é totalmente compatível com o Adobe, mas não é necessário. Use qualquer verificador DMARC gratuito para ver se você tem a configuração DMARC para seus subdomínios e, se não tiver, fale com a equipe de suporte Adobe para saber como obter essa configuração.
 
 Você também pode encontrar mais informações sobre o DMARC e como implementá-lo [aqui](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=pt-BR){target="_blank"} for Adobe Campaign or [here](https://experienceleague.adobe.com/docs/marketo/using/getting-started-with-marketo/setup/configure-protocols-for-marketo.html){target="_blank"} para Marketo Engage.
@@ -48,10 +51,19 @@ Você também pode encontrar mais informações sobre o DMARC e como implementá
 
 Não entre em pânico. [!DNL Google] e [!DNL Yahoo] não estão falando sobre os links de cancelamento de inscrição no corpo do email ou rodapé que podem ser clicados por um bot de segurança que está apenas fazendo o trabalho ou por acidente. O que eles significam é a funcionalidade do cabeçalho List-Unsubscribe para as versões &quot;mailto&quot; ou &quot;http/URL&quot;. Essa é a função na variável [!DNL Yahoo] e Gmail, onde os usuários podem clicar em cancelar inscrição. O Gmail solicita até mesmo que os usuários que clicarem em &quot;Denunciar spam&quot; vejam se a intenção é cancelar a inscrição, o que pode reduzir o número de reclamações recebidas (as reclamações prejudicam sua reputação), transformando-as em cancelamentos de assinatura (não prejudica sua reputação).
 É importante observar que [!DNL Google] e [!DNL Yahoo] ambos se referem à opção &quot;http/URL&quot; pelo nome &quot;1-Click&quot; e isso é intencional. Tecnicamente, a opção original &quot;http/URL&quot; permitia redirecionar recipients para um site. Esse não é o foco da [!DNL Yahoo] e [!DNL Google], que fazem referência à RFC8058 atualizada, que se concentra no processamento do cancelamento de inscrição por meio de uma solicitação POST HTTPS, em vez de um site, tornando-o &quot;1-Click&quot;.
+
+Hoje, [!DNL Gmail] aceita a opção &quot;mailto&quot; list-unsubscribe. [!DNL Gmail] O disse que o &quot;mailto&quot; não atende às suas expectativas a partir de fevereiro, os remetentes precisarão ter a opção &quot;post&quot; list-unsubscribe habilitada.
+
+[!DNL Yahoo] disse que continuarão a honrar a opção do &quot;mailto&quot;, por enquanto, mas que também exigirão o &quot;post&quot; no futuro.
+
+A Adobe recomenda o uso das opções &quot;mailto&quot; e &quot;post/1-Click&quot; list-unsubscribe. O Adobe está trabalhando para habilitar o suporte &quot;post&quot; em todas as nossas plataformas de envio de email para ajudar nossos usuários a atender a esses requisitos, além de atualizações para contornar isso.
+
 Para o Marketo Engage, o Adobe já ativou a opção &quot;mailto&quot; e não oferece suporte à opção &quot;http/URL&quot; no momento. Mais atualizações sobre o que virá.
 Para Adobe Campaign e Adobe Journey Optimizer, o Adobe recomenda o uso das opções &quot;mailto&quot; e &quot;1-Click&quot;.
 
 A necessidade de cabeçalhos de cancelamento de inscrição em lista não se aplica a emails transacionais. Observe que mensagens acionadas, como Carrinho Abandonado e comunicações semelhantes não geradas pelo assinante, são consideradas marketing por provedores de caixa de correio como [!DNL Google] e [!DNL Yahoo] e eles precisariam de list-unsubscribe.
+
+[!DNL Google] e [!DNL Yahoo] Ambos estão cientes de que, em alguns casos, um recipient cancelará a subscrição e depois fará a subscrição novamente em uma data posterior. Embora não estejam dispostos a compartilhar o molho secreto de como eles identificam essas situações, eles estão trabalhando em métodos para evitar a penalização dos remetentes incorretamente nesses casos.
 
 >[!INFO]
 > Para obter mais informações sobre como implementar o list-unsubscribe para a sua solução, verifique:
@@ -77,6 +89,8 @@ Manter as taxas de reclamação baixas abaixo de 0,2% tem sido uma prática reco
 * Da mesma forma, manter uma alta taxa de spam resultará em uma classificação de spam maior. Pode levar tempo para que as melhorias na taxa de spam reflitam positivamente sobre a classificação de spam.
   [!DNL Yahoo] que o seu limiar de reclamação também se situará no intervalo de 0,30%.
 
+[!DNL Google] e [!DNL Yahoo]O objetivo do não é punir os remetentes por um único dia ruim ou por um erro que cause um pico temporário nas reclamações. Em vez disso, eles estão se concentrando nos remetentes que têm altas taxas de reclamação por um período de tempo estendido ou um padrão de comportamento de envio incorreto.
+
 Se você precisar de assistência para monitorar suas taxas de reclamação ou se quiser ajuda com estratégias para reduzir reclamações, entre em contato com o consultor de capacidade de entrega do Adobe ou fale com a equipe de conta sobre como adicionar um consultor de capacidade de entrega, caso ainda não tenha um.
 
 ## Como isso vai me afetar como profissional de marketing?
@@ -88,3 +102,8 @@ Estamos aqui para ajudar. Se tiver dúvidas ou precisar de suporte, entre em con
 ## Existem maneiras de contornar isso?
 
 Embora essa seja sempre uma questão que surge, a realidade é que essas alterações fazem sentido para os usuários finais do [!DNL Google] e [!DNL Yahoo]Plataformas do. Elas são motivadas pelas expectativas desses usuários para aplicar essas regras. Não recomendamos tentar contornar nenhuma dessas alterações, mas dar um passo para trás e pensar em como acomodar essas alterações.
+
+## Nota final:
+
+Isso não se aplica atualmente a emails enviados para o [!DNL Yahoo].JP ou [!DNL Gmail] contas do Workspace, aplica-se a emails provenientes desses locais.
+
