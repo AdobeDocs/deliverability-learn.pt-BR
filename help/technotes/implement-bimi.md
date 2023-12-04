@@ -6,7 +6,7 @@ role: Admin
 level: Beginner
 jira: KT-14079
 exl-id: 6b911bcc-a531-466a-8bd3-7fa469b96cc7
-source-git-commit: ad0646da88f2b1474e74b6c741d0dd5701e88978
+source-git-commit: b96539608acd51ce76ef5bdaf5afd07b5a4208b7
 workflow-type: tm+mt
 source-wordcount: '1125'
 ht-degree: 0%
@@ -72,7 +72,7 @@ A criação do logotipo precisa seguir os requisitos para 100%. Consulte sempre 
 
 O logotipo precisa ser armazenado em um local seguro (HTTPS), caso uma rede de entrega de conteúdo (CDN) seja usada, qualquer proteção que impeça os Provedores de Caixa de Correio de obter o logotipo (por exemplo, Proteção de bot) precisa ser desativada.
 
-Além dos requisitos técnicos, há algumas recomendações práticas como ter um logotipo quadrado, ter uma cor sólida como fundo e outros. Essas recomendações são para melhor visualização. Alguns provedores têm seus próprios requisitos, que são adicionais aos do grupo de trabalho BIMI. [Gmail](https://support.google.com/a/answer/10911027?sjid=903725605955621707-EU){target="_blank"}. por exemplo, exige que o logotipo tenha pelo menos 96 x 96 pixels.
+Além dos requisitos técnicos, há algumas recomendações práticas como ter um logotipo quadrado, ter uma cor sólida como fundo e outros. Essas recomendações são para melhor visualização. Alguns provedores têm seus próprios requisitos, que são adicionais aos do grupo de trabalho BIMI. [Gmail](https://support.google.com/a/answer/10911027?sjid=903725605955621707-EU){target="_blank"} por exemplo, exige que o logotipo tenha pelo menos 96 x 96 pixels.
 Observe que a não conformidade pode impedir a exibição do logotipo.
 
 ### Certificado de Marca Verificada (VMC) {#vmc}
