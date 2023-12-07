@@ -7,9 +7,9 @@ role: Leader, User
 level: Beginner
 auto-video-transcripts: true
 source-git-commit: acf2686d59bc27063a255a02de52cbaa3734d5ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -62,6 +62,6 @@ ht-degree: 96%
       + [Campaign Classic - Recomendações técnicas](/help/additional-resources/acc-technical-recommendations.md)
    + Notas técnicas {#technotes}
       + [Implementar DMARC](/help/technotes/implement-dmarc.md)
-      + [Implementação de BIMI](/help/technotes/implement-bimi.md)
+      + [Implementar BIMI](/help/technotes/implement-bimi.md)
       + [Atualizar as rejeições após a interrupção do Italia Online](/help/technotes/update-bounces-after-it-outage.md)
 
