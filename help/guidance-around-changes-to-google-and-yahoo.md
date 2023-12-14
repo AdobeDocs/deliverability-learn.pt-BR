@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 16ff60cdcb1ca1558b8021d27b235b6977c2f40a
+source-git-commit: 60c3e42c480ec4d438c51753bc6c37a01b1550e7
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1564'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Manter as taxas de reclamação baixas abaixo de 0,2% tem sido uma prática reco
 * Manter uma baixa taxa de spam torna os remetentes mais resilientes a picos ocasionais no feedback dos usuários.
 * Da mesma forma, manter uma alta taxa de spam resultará em uma classificação de spam maior. Pode levar tempo para que as melhorias na taxa de spam reflitam positivamente sobre a classificação de spam.
 
-[!DNL Yahoo] que o seu limiar de reclamação também se situará no intervalo de 0,30%.
+[!DNL Yahoo] de reclamação será também o intervalo de 0,30%.
 
 [!DNL Google] e [!DNL Yahoo]O objetivo do não é punir os remetentes por um único dia ruim ou por um erro que cause um pico temporário nas reclamações. Em vez disso, eles estão se concentrando nos remetentes que têm altas taxas de reclamação por um período de tempo estendido ou um padrão de comportamento de envio incorreto.
 
