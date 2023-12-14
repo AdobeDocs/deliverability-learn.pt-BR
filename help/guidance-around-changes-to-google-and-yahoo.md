@@ -8,10 +8,10 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 0ad2e59948aa94008ae5c3f6eec7914223bdb02a
+source-git-commit: 2bfff0bc63dc1a19f02f40d631e503298937ec8b
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 1%
+source-wordcount: '1595'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,9 @@ Os especialistas em capacidade de delivery de email do Adobe leram essas postage
 
 ## Então, o que são exatamente [!DNL Google] e [!DNL Yahoo] fazendo?
 
-No mundo do email, há requisitos legais, requisitos práticos e práticas recomendadas gerais. Os requisitos legais variam muito de local para local e não fazem parte desse tópico. Em vez disso, [!DNL Google] e [!DNL Yahoo] estão adotando práticas recomendadas e transformando-as em requisitos práticos. Nenhum dos itens [!DNL Google] e [!DNL Yahoo] Começarão a exigir em fevereiro são novos e muitas vezes são recomendações de práticas recomendadas há anos, mas a adoção tem sido lenta e desigual no setor. Isso é [!DNL Google] e [!DNL Yahoo]A maneira do de ajudar a fazer avançar esse processo de adoção dizendo: &quot;Se você quiser implantar email para nossos usuários (isso pode representar uma parte significativa de sua lista de email, em alguns casos até 70%, dependendo da região e do setor), você precisa fazer essas coisas.&quot;
+No mundo do email, há requisitos legais, requisitos práticos e práticas recomendadas gerais. Os requisitos legais variam muito de local para local e não fazem parte desse tópico. Em vez disso, [!DNL Google] e [!DNL Yahoo] estão adotando práticas recomendadas e transformando-as em requisitos práticos.
+
+Nenhum dos itens [!DNL Google] e [!DNL Yahoo] Começarão a exigir em fevereiro são novos e muitas vezes são recomendações de práticas recomendadas há anos, mas a adoção tem sido lenta e desigual no setor. Isso é [!DNL Google] e [!DNL Yahoo]A maneira do de ajudar a fazer avançar esse processo de adoção dizendo: &quot;Se você quiser implantar email para nossos usuários (isso pode representar uma parte significativa de sua lista de email, em alguns casos até 70%, dependendo da região e do setor), você precisa fazer essas coisas.&quot;
 
 ## Quais são os detalhes?
 
@@ -50,9 +52,10 @@ Você também pode encontrar mais informações sobre o DMARC e como implementá
 ## 1-Clique (Lista) Cancelar Inscrição:
 
 Não entre em pânico. [!DNL Google] e [!DNL Yahoo] não estão falando sobre os links de cancelamento de inscrição no corpo do email ou rodapé que podem ser clicados por um bot de segurança que está apenas fazendo o trabalho ou por acidente. O que eles significam é a funcionalidade do cabeçalho List-Unsubscribe para as versões &quot;mailto&quot; ou &quot;http/URL&quot;. Essa é a função na variável [!DNL Yahoo] e Gmail, onde os usuários podem clicar em cancelar inscrição. O Gmail solicita até mesmo que os usuários que clicarem em &quot;Denunciar spam&quot; vejam se a intenção é cancelar a inscrição, o que pode reduzir o número de reclamações recebidas (as reclamações prejudicam sua reputação), transformando-as em cancelamentos de assinatura (não prejudica sua reputação).
-É importante observar que [!DNL Google] e [!DNL Yahoo] ambos se referem à opção &quot;http/URL&quot; pelo nome &quot;1-Click&quot; e isso é intencional. Tecnicamente, a opção original &quot;http/URL&quot; permitia redirecionar recipients para um site. Esse não é o foco da [!DNL Yahoo] e [!DNL Google], que fazem referência à RFC8058 atualizada, que se concentra no processamento do cancelamento de inscrição por meio de uma solicitação POST HTTPS, em vez de um site, tornando-o &quot;1-Click&quot;.
 
-Hoje, [!DNL Gmail] aceita a opção &quot;mailto&quot; list-unsubscribe. [!DNL Gmail] O disse que o &quot;mailto&quot; não atende às suas expectativas a partir de fevereiro, os remetentes precisarão ter a opção &quot;post&quot; list-unsubscribe habilitada.
+É importante observar que [!DNL Google] e [!DNL Yahoo] ambos se referem à opção &quot;http/URL&quot; pelo nome &quot;1-Click&quot; e isso é intencional. Tecnicamente, a opção original &quot;http/URL&quot; permitia redirecionar recipients para um site. Esse não é o foco da [!DNL Yahoo] e [!DNL Google], que fazem referência à versão atualizada [RFC8058](https://datatracker.ietf.org/doc/html/rfc8058){target="_blank"} que se concentra no processamento do cancelamento de inscrição por meio de uma solicitação POST HTTPS, em vez de um site, tornando-o &quot;1-Click&quot;.
+
+Hoje, o Gmail aceita a opção de cancelamento de inscrição de &quot;mailto&quot;. O Gmail disse que o &quot;mailto&quot; não atende às suas expectativas a partir de agora, e os remetentes precisarão ter a opção &quot;post&quot; list-unsubscribe habilitada. Os remetentes que já tiverem o list-unsubscribe de algum tipo em vigor terão até 1º de junho de 2024 para terem o list-unsubscribe de &quot;1 clique&quot; em vigor.
 
 [!DNL Yahoo] disse que continuarão a honrar a opção do &quot;mailto&quot;, por enquanto, mas que também exigirão o &quot;post&quot; no futuro.
 
@@ -68,7 +71,7 @@ A necessidade de cabeçalhos de cancelamento de inscrição em lista não se apl
 >[!INFO]
 > Para obter mais informações sobre como implementar o list-unsubscribe para a sua solução, verifique:
 > * [!DNL Adobe Campaign Classic]: [Recomendações técnicas](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"}
->* [!DNL Adobe Campaign Standard]: [O que é o cabeçalho List-Unsubscribe? E como isso pode ser implementado no ACS?](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=pt-BR){target="_blank"}
+>* [!DNL Adobe Campaign Standard]: [O que é o cabeçalho List-Unsubscribe? E como isso pode ser implementado no ACS?](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"}
 >* [!DNL Adobe Journey Optimizer]: [Gerenciamento de opção de não participação de email](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"}
 >
 > Ou entre em contato com a equipe de Suporte ao cliente do Adobe a qualquer momento.
@@ -96,7 +99,9 @@ Se você precisar de assistência para monitorar suas taxas de reclamação ou s
 ## Como isso vai me afetar como profissional de marketing?
 
 O não cumprimento desses novos requisitos por parte do Gmail e do [!DNL Yahoo] espera-se que resulte no envio de emails para a pasta de spam ou no bloqueio (ou seja, um retorno do MBP indicando que o email não foi entregue).
+
 Dessa forma, a Adobe recomenda que você verifique as alterações descritas acima e garanta que comece a cumpri-las o mais rápido possível. Agora também é um ótimo momento para começar a fazer o benchmark de seu desempenho em [!DNL Yahoo] e [!DNL Google] para permitir que você veja se há alguma alteração material em suas métricas, veja em fevereiro.
+
 Estamos aqui para ajudar. Se tiver dúvidas ou precisar de suporte, entre em contato com seu consultor de capacidade de entrega do Adobe ou fale com a equipe de conta sobre como adicionar um consultor de capacidade de entrega, caso ainda não tenha um.
 
 ## Existem maneiras de contornar isso?
@@ -107,3 +112,9 @@ Embora essa seja sempre uma questão que surge, a realidade é que essas altera�
 
 Isso não se aplica atualmente a emails enviados para o [!DNL Yahoo].JP ou [!DNL Gmail] contas do Workspace, aplica-se a emails provenientes desses locais.
 
+## Recursos adicionais (não específicos a essas alterações):
+
+[!DNL Google Sender Guidelines](https://support.google.com/mail/answer/81126)
+[!DNL Google FAQ](https://support.google.com/a/answer/14229414?sjid=2864589551334481470-NC)
+[!DNL Yahoo Sender Guidelines](https://senders.yahooinc.com/best-practices/)
+[!DNL Yahoo FAQ](https://senders.yahooinc.com/faqs/)
