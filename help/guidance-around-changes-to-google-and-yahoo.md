@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 2bda5d5369d239fac849e57286450a853dd94953
+source-git-commit: 16ff60cdcb1ca1558b8021d27b235b6977c2f40a
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1565'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,6 @@ Hoje, o Gmail aceita a opção de cancelamento de inscrição de &quot;mailto&qu
 
 A Adobe recomenda o uso das opções &quot;mailto&quot; e &quot;post/1-Click&quot; list-unsubscribe. O Adobe está trabalhando para habilitar o suporte &quot;post&quot; em todas as nossas plataformas de envio de email para ajudar nossos usuários a atender a esses requisitos, além de atualizações para contornar isso.
 
-Para o Marketo Engage, o Adobe já ativou a opção &quot;mailto&quot; e não oferece suporte à opção &quot;http/URL&quot; no momento. Mais atualizações sobre o que virá.
-Para Adobe Campaign e Adobe Journey Optimizer, o Adobe recomenda o uso das opções &quot;mailto&quot; e &quot;1-Click&quot;.
-
 A necessidade de cabeçalhos de cancelamento de inscrição em lista não se aplica a emails transacionais. Observe que mensagens acionadas, como Carrinho Abandonado e comunicações semelhantes não geradas pelo assinante, são consideradas marketing por provedores de caixa de correio como [!DNL Google] e [!DNL Yahoo] e eles precisariam de list-unsubscribe.
 
 [!DNL Google] e [!DNL Yahoo] Ambos estão cientes de que, em alguns casos, um recipient cancelará a subscrição e depois fará a subscrição novamente em uma data posterior. Embora não estejam dispostos a compartilhar o molho secreto de como eles identificam essas situações, eles estão trabalhando em métodos para evitar a penalização dos remetentes incorretamente nesses casos.
@@ -80,6 +77,7 @@ A necessidade de cabeçalhos de cancelamento de inscrição em lista não se apl
 ## Processar cancelamentos de assinatura em 2 dias:
 
 Essa tem sido uma prática recomendada há algum tempo, pois cada email implantado para alguém que cancelou a assinatura normalmente resulta em uma reclamação de spam, portanto, quanto mais cedo você parar de enviar emails, melhor. Mais uma vez, os requisitos legais podem ser muito mais longos em alguns casos, mas [!DNL Google] e [!DNL Yahoo] saberá que o usuário cancelou a assinatura por meio do List-Unsubscribe e que você ainda está enviando emails para ele no dia 3, e afirmaram que não permitirão que os remetentes que fizerem isso continuem enviando emails para QUALQUER um de seus usuários.
+
 Esse requisito de 2 dias é para qualquer cancelamento de inscrição por meio dos vários métodos list-unsubscribe. Em alguns casos (como &quot;mailto&quot;), isso significa que o Adobe os processará. O Adobe processa todas as solicitações de cancelamento de inscrição imediatamente após o recebimento da solicitação, dentro do limite de 2 dias. Em outros casos, você pode processá-los. Se você estiver processando essas solicitações, talvez precise fazer alterações no seu calendário para cumprir esse prazo de 2 dias.
 
 ## Taxas de reclamação:
@@ -90,7 +88,8 @@ Manter as taxas de reclamação baixas abaixo de 0,2% tem sido uma prática reco
 * Evite uma taxa de spam de 0,30% ou superior, especialmente por qualquer período de tempo prolongado.
 * Manter uma baixa taxa de spam torna os remetentes mais resilientes a picos ocasionais no feedback dos usuários.
 * Da mesma forma, manter uma alta taxa de spam resultará em uma classificação de spam maior. Pode levar tempo para que as melhorias na taxa de spam reflitam positivamente sobre a classificação de spam.
-  [!DNL Yahoo] que o seu limiar de reclamação também se situará no intervalo de 0,30%.
+
+[!DNL Yahoo] que o seu limiar de reclamação também se situará no intervalo de 0,30%.
 
 [!DNL Google] e [!DNL Yahoo]O objetivo do não é punir os remetentes por um único dia ruim ou por um erro que cause um pico temporário nas reclamações. Em vez disso, eles estão se concentrando nos remetentes que têm altas taxas de reclamação por um período de tempo estendido ou um padrão de comportamento de envio incorreto.
 
