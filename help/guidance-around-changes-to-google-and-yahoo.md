@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: c1aebdc34c3cc38325e9160360f7847f276bd53e
+source-git-commit: 2de69c2def1abfc4107feb80ad973f689af8b27e
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: '1755'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Hoje, o Gmail aceita a opção de cancelamento de inscrição de &quot;mailto&qu
 
 [!DNL Yahoo] disse que continuarão a honrar a opção do &quot;mailto&quot;, por enquanto, mas que também exigirão o &quot;post&quot; no futuro.
 
-A Adobe recomenda o uso das opções &quot;mailto&quot; e &quot;post/1-Click&quot; list-unsubscribe. O Adobe está trabalhando para habilitar o suporte &quot;post&quot; em todas as nossas plataformas de envio de email para ajudar nossos usuários a atender a esses requisitos, além de atualizações para contornar isso.
+A Adobe recomenda o uso das opções &quot;mailto&quot; e &quot;post/1-Click&quot; list-unsubscribe. O Adobe está trabalhando para habilitar o suporte &quot;post&quot; em todas as nossas plataformas de envio de email para ajudar nossos usuários a atender a esses requisitos. Veja os detalhes abaixo.
 
 A necessidade de cabeçalhos de cancelamento de inscrição em lista não se aplica a emails transacionais. Observe que mensagens acionadas, como Carrinho Abandonado e comunicações semelhantes não geradas pelo assinante, são consideradas marketing por provedores de caixa de correio como [!DNL Google] e [!DNL Yahoo] e eles precisariam de list-unsubscribe.
 
