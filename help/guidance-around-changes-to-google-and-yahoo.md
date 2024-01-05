@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 1f2a6c7b53a5f5110250c8aecac349c5b72feb6b
+source-git-commit: 69c95855786408f32de2f72e7f1deb122fb369ea
 workflow-type: tm+mt
-source-wordcount: '1759'
+source-wordcount: '1758'
 ht-degree: 0%
 
 ---
@@ -67,11 +67,11 @@ A necessidade de cabeçalhos de cancelamento de inscrição em lista não se apl
 
 >[!INFO]
 > O Adobe está trabalhando para habilitar o suporte &quot;post&quot; em todas as nossas plataformas de envio de email para ajudar nossos usuários a atender aos seguintes requisitos:
+> 
 > * [!DNL Adobe Campaign Classic V7/V8]: suporta totalmente o POST 1-Click hoje. As atualizações da configuração passo a passo serão publicadas [aqui](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} até meados de janeiro
 >* [!DNL Adobe Campaign Standard]: está sendo atualizado para oferecer suporte ao POST 1-Click. Verifique as atualizações em breve. As instruções para a configuração serão fornecidas [aqui](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"}
 >* [!DNL Adobe Journey Optimizer]: suporta totalmente o POST 1-Click hoje. As atualizações da configuração passo a passo serão publicadas [aqui](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} até meados de janeiro
->
-> Marketo: está sendo atualizado para oferecer suporte ao POST de 1 clique. Uma vez pronto, ele será aplicado automaticamente, onde necessário.
+> * [!DNL Marketo]: está sendo atualizado para oferecer suporte ao POST 1-Click. Uma vez pronto, ele será aplicado automaticamente, onde necessário.
 
 
 ## Processar cancelamentos de assinatura em 2 dias:
@@ -99,7 +99,7 @@ Se você precisar de assistência para monitorar suas taxas de reclamação ou s
 
 As atualizações das linhas do tempo estão disponíveis desde o anúncio original de outubro. As linhas do tempo mais recentes se parecem com:
 
-[!DNL Gmail]
+## [!DNL Gmail]
 
 Fevereiro de 2024 - As rejeições temporárias projetadas para fornecer aviso de não conformidade serão iniciadas. Os e-mails ainda serão entregues normalmente após um pequeno atraso se você ainda não estiver em conformidade. Se você estiver em total conformidade, não haverá rejeições temporárias e você não notará nada.
 
@@ -107,7 +107,7 @@ Abril de 2024 - Os blocos começarão para remetentes que não estiverem em conf
 
 1º de junho de 2024 - Qualquer remetente que não estiver em total conformidade, incluindo o List-Unsubscribe 1-Click, receberá bloqueio.
 
-[!DNL Yahoo]
+## [!DNL Yahoo]
 
 Não forneceu datas exatas, mas disse que &quot;a implantação da fiscalização terá início em fevereiro de 2024. A execução será gradualmente implementada&quot;.
 
