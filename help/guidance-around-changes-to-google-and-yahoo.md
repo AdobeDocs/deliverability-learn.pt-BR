@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 60c3e42c480ec4d438c51753bc6c37a01b1550e7
+source-git-commit: 1f2a6c7b53a5f5110250c8aecac349c5b72feb6b
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1759'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Se você for um Adobe, a maioria do que eles exigem já faz parte da configuraç
 
 ## DMARC:
 
-[!DNL Google] e [!DNL Yahoo] ambos exigirão que você tenha um registro DMARC para qualquer domínio que usar para enviar emails para eles. Eles NÃO estão exigindo atualmente uma configuração p=reject ou p=quarentena, portanto, uma configuração de p=none, comumente chamada de configuração de &quot;monitoramento&quot;, é perfeitamente aceitável. Isso não alterará a maneira como seus emails são processados. Eles farão o que normalmente fariam sem o DMARC. Configurar isso é o primeiro passo para se proteger com o DMARC e, além disso, o novo benefício de ajudar você a enviar emails para o [!DNL Google] e [!DNL Yahoo] ele também pode ajudar você a ver se há problemas de autenticação em qualquer lugar no seu ecossistema de email.
+[!DNL Google] e [!DNL Yahoo] ambos exigirão que você tenha um registro DMARC para qualquer domínio que usar para enviar emails para eles. Eles NÃO estão exigindo atualmente uma configuração p=reject ou p=quarentena, portanto, uma configuração de p=none, comumente chamada de configuração de &quot;monitoramento&quot;, é perfeitamente aceitável por enquanto. Isso não alterará a maneira como seus emails são processados. Eles farão o que normalmente fariam sem o DMARC. Configurar isso é o primeiro passo para se proteger com o DMARC e, além disso, o novo benefício de ajudar você a enviar emails para o [!DNL Google] e [!DNL Yahoo] ele também pode ajudar você a ver se há problemas de autenticação em qualquer lugar no seu ecossistema de email.
 
 As regras do DMARC não estão sendo alteradas, o que significa que, a menos que configurado para impedi-lo, um registro DMARC no domínio pai (adobe.com, por exemplo) será herdado e cobrirá qualquer subdomínio (como email.adobe.com). Você não precisa de registros DMARC diferentes para seus subdomínios, a menos que deseje ou precise adicioná-los por uma variedade de motivos comerciais.
 
@@ -66,12 +66,12 @@ A necessidade de cabeçalhos de cancelamento de inscrição em lista não se apl
 [!DNL Google] e [!DNL Yahoo] Ambos estão cientes de que, em alguns casos, um recipient cancelará a subscrição e depois fará a subscrição novamente em uma data posterior. Embora não estejam dispostos a compartilhar o molho secreto de como eles identificam essas situações, eles estão trabalhando em métodos para evitar a penalização dos remetentes incorretamente nesses casos.
 
 >[!INFO]
-> Para obter mais informações sobre como implementar o list-unsubscribe para a sua solução, verifique:
-> * [!DNL Adobe Campaign Classic]: [Recomendações técnicas](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"}
->* [!DNL Adobe Campaign Standard]: [O que é o cabeçalho List-Unsubscribe? E como isso pode ser implementado no ACS?](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"}
->* [!DNL Adobe Journey Optimizer]: [Gerenciamento de opção de não participação de email](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"}
+> O Adobe está trabalhando para habilitar o suporte &quot;post&quot; em todas as nossas plataformas de envio de email para ajudar nossos usuários a atender aos seguintes requisitos:
+> * [!DNL Adobe Campaign Classic V7/V8]: suporta totalmente o POST 1-Click hoje. As atualizações da configuração passo a passo serão publicadas [aqui](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} até meados de janeiro
+>* [!DNL Adobe Campaign Standard]: está sendo atualizado para oferecer suporte ao POST 1-Click. Verifique as atualizações em breve. As instruções para a configuração serão fornecidas [aqui](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"}
+>* [!DNL Adobe Journey Optimizer]: suporta totalmente o POST 1-Click hoje. As atualizações da configuração passo a passo serão publicadas [aqui](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} até meados de janeiro
 >
-> Ou entre em contato com a equipe de Suporte ao cliente do Adobe a qualquer momento.
+> Marketo: está sendo atualizado para oferecer suporte ao POST de 1 clique. Uma vez pronto, ele será aplicado automaticamente, onde necessário.
 
 
 ## Processar cancelamentos de assinatura em 2 dias:
@@ -94,6 +94,22 @@ Manter as taxas de reclamação baixas abaixo de 0,2% tem sido uma prática reco
 [!DNL Google] e [!DNL Yahoo]O objetivo do não é punir os remetentes por um único dia ruim ou por um erro que cause um pico temporário nas reclamações. Em vez disso, eles estão se concentrando nos remetentes que têm altas taxas de reclamação por um período de tempo estendido ou um padrão de comportamento de envio incorreto.
 
 Se você precisar de assistência para monitorar suas taxas de reclamação ou se quiser ajuda com estratégias para reduzir reclamações, entre em contato com o consultor de capacidade de entrega do Adobe ou fale com a equipe de conta sobre como adicionar um consultor de capacidade de entrega, caso ainda não tenha um.
+
+## Quais linhas do tempo estamos vendo?
+
+As atualizações das linhas do tempo estão disponíveis desde o anúncio original de outubro. As linhas do tempo mais recentes se parecem com:
+
+[!DNL Gmail]
+
+Fevereiro de 2024 - As rejeições temporárias projetadas para fornecer aviso de não conformidade serão iniciadas. Os e-mails ainda serão entregues normalmente após um pequeno atraso se você ainda não estiver em conformidade. Se você estiver em total conformidade, não haverá rejeições temporárias e você não notará nada.
+
+Abril de 2024 - Os blocos começarão para remetentes que não estiverem em conformidade com tudo, exceto List-Unsubscribe 1-Click. Somente uma parte do email incompatível será bloqueada no início, com a % de bloqueio aumentando com o tempo.
+
+1º de junho de 2024 - Qualquer remetente que não estiver em total conformidade, incluindo o List-Unsubscribe 1-Click, receberá bloqueio.
+
+[!DNL Yahoo]
+
+Não forneceu datas exatas, mas disse que &quot;a implantação da fiscalização terá início em fevereiro de 2024. A execução será gradualmente implementada&quot;.
 
 ## Como isso vai me afetar como profissional de marketing?
 
