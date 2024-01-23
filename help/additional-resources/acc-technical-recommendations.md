@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: c99e860507df99fdd4e4fad567eb5e9433ab56ef
+source-git-commit: 1f3391430fa5a86973b8a1bd811b856dea23402e
 workflow-type: tm+mt
 source-wordcount: '1722'
 ht-degree: 59%
@@ -212,7 +212,8 @@ Para configurar o One-Click List-Unsubscribe diretamente:
 * Acesse a seção SMTP das propriedades de delivery.
 * Em Additional SMTP Headers, insira nas linhas de comando (Cada cabeçalho deve estar em uma linha separada):
 
-List-Unsubscribe-Post: List-Unsubscribe=Lista-Cancelar Inscrição Com Um Clique: &lt;https: domain.com=&quot;&quot; webapp=&quot;&quot; unsubnoclick=&quot;&quot; id=&quot;&lt;%=&quot; recipient.cryptidcamp=&quot;&quot;>>, &lt;mailto: erroraddress=&quot;&quot; subject=&quot;unsubscribe%=message.mimeMessageId%&quot;>
+,,, List-Unsubscribe-Post: List-Unsubscribe=Lista-Cancelar Inscrição Com Um Clique: &lt;https: domain.com=&quot;&quot; webapp=&quot;&quot; unsubnoclick=&quot;&quot; id=&quot;&lt;%=&quot; recipient.cryptidcamp=&quot;&quot;>>, &lt;mailto: erroraddress=&quot;&quot; subject=&quot;unsubscribe%=message.mimeMessageId%&quot;>
+,,,
 
 O exemplo acima habilitará o One-Click List-Unsubscribe para ISPs com suporte a One-Click, ao mesmo tempo em que garante que os destinatários que não oferecem suporte ao URL list-unsubscribe ainda possam solicitar um cancelamento de inscrição por email.
 
