@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 6653260e6bb3fc379529ea4081eeae0a8f7f4eb9
+source-git-commit: 780d5f2e18c1090a43e2b3b9c85b7245bc8c51e0
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 59%
+source-wordcount: '1854'
+ht-degree: 55%
 
 ---
 
@@ -223,8 +223,133 @@ O exemplo acima habilitará o One-Click List-Unsubscribe para ISPs com suporte a
 
 ### Criação de uma regra de tipologia para suportar o cancelamento de inscrição em lista com um clique:
 
-1 * Criar a nova regra de tipologia Na árvore de navegação, clique em novo para criar uma nova tipologia
-![imagem](https://git.corp.adobe.com/storage/user/38257/files/b8d48b7f-0f33-4118-b61d-e60351c68260)
+* Criar a nova regra de tipologia
+* Na Árvore de navegação, clique em novo para criar uma nova Tipologia
+
+* Continue a configurar a regra de tipologia
+* Tipo de Regra : controle
+* Canal: email
+* Fase: no início da personalização
+* Nível: sua escolha
+* Ativo
+
+* Codifique o javascript da regra de Tipologia.
+
+>[!NOTE]
+>
+>O código descrito abaixo deve ser referenciado apenas como exemplo.
+>
+
+Este exemplo detalha como:
+* Configure um URL List-Unsubscribe e adicionará os cabeçalhos ou anexará os parâmetros mailto: existentes e os substituirá por: &lt;mailto..>, <http:…>
+* Adicionar no cabeçalho List-Unsubscribe-Post
+
+O exemplo de URL de publicação usa var headerUnsubUrl = &quot;http://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= recipient.cryptedId %>&quot;; Você pode adicionar outros parâmetros ( como &amp;service = ... )
+
+```
+// Function to add or replace a header in the provided headers 
+function addHeader(headers, header, value)  { 
+    
+  // Create the new header line 
+  var headerLine = header + ": " + value; 
+    
+  // Create a regular expression to find the specified header 
+  var regExp = new RegExp(header + ":(.*)$", "i") 
+    
+  // Split the headers into individual lines 
+  var headerLines = headers.split("\n"); 
+    
+  // Loop through each line 
+  for (var i=0; i < headerLines.length; i++) { 
+      
+    // Check if the specified header exists 
+    var match = headerLines[i].match(regExp) 
+      
+    // If it exists 
+    if ( match != null ) { 
+        
+      // Replace the existing header line 
+      headerLines[i] = headerLine; 
+        
+      // Return the modified headers 
+      return headerLines.join("\n"); 
+    } 
+  } 
+    
+  // If the header does not exist, add the new header line 
+  headerLines.push(headerLine); 
+    
+  // Return the modified headers 
+  return headerLines.join("\n"); 
+} 
+  
+// Function to get the value of a specified header from the provided headers 
+function getHeader(headers, header) { 
+    
+  // Create a regular expression to find the specified header 
+  var regExp = new RegExp(header + ":(.*)$", "i") 
+    
+  // Split the headers into individual lines 
+  var headerLines = headers.split("\n"); 
+    
+  // Loop each line 
+  for each (line in headerLines) { 
+      
+    // Check if the specified header exists 
+    var match = line.match(regExp); 
+      
+    // If it exists 
+    if ( match != null ) { 
+        
+      // Return the header value, removing leading whitespace 
+      return match[1].replace(/^\s*/, ""); 
+    } 
+  } 
+    
+  // If the header does not exist, return an empty string 
+  return ""; 
+} 
+  
+  
+// Define the unsubscribe URL 
+var headerUnsubUrl = "http://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %>"; 
+  
+// Get the value of the List-Unsubscribe header 
+var headerUnsub = getHeader(delivery.mailParameters.headers, "List-Unsubscribe"); 
+  
+// If the List-Unsubscribe header does not exist 
+if ( headerUnsub === "" ) { 
+  // Add the List-Unsubscribe header 
+  delivery.mailParameters.headers = addHeader(delivery.mailParameters.headers, "List-Unsubscribe", "<"+headerUnsubUrl+">"); 
+} 
+// If the List-Unsubscribe header exists and contains 'mailto' 
+else if(headerUnsub.search('mailto')){ 
+  // Replace the existing List-Unsubscribe header 
+  delivery.mailParameters.headers = addHeader(delivery.mailParameters.headers, "List-Unsubscribe", "<"+headerUnsubUrl+">"); 
+} 
+  
+// Get the value of the List-Unsubscribe-Post header 
+var headerUnsubPost = getHeader(delivery.mailParameters.headers, "List-Unsubscribe-Post"); 
+  
+// If the List-Unsubscribe-Post header does not exist 
+if ( headerUnsubPost === "" ) { 
+  // Add the List-Unsubscribe-Post header 
+  delivery.mailParameters.headers = addHeader(delivery.mailParameters.headers, "List-Unsubscribe-Post", "List-Unsubscribe=One-Click"); 
+} 
+  
+// Return true to indicate success 
+return true; 
+```
+
+* Adicione a nova regra a uma Tipologia a um email (a tipologia padrão está OK).
+
+* Preparar um novo delivery (verifique se os cabeçalhos SMTP adicionais na propriedade de delivery estão vazios).
+
+* Durante a preparação do delivery, verifique se a nova Regra de tipologia é aplicada.
+
+* Validar se o List-Unsubscribe está presente
+
+
 
 
 ## Otimização de email {#email-optimization}
