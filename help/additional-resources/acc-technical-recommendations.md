@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 22e47edbef3f8388e4cd3a01524091458d27ed43
+source-git-commit: 6653260e6bb3fc379529ea4081eeae0a8f7f4eb9
 workflow-type: tm+mt
-source-wordcount: '1712'
-ht-degree: 60%
+source-wordcount: '1726'
+ht-degree: 59%
 
 ---
 
@@ -220,7 +220,12 @@ subject=unsubscribe%=message.mimeMessageId%>
 
 O exemplo acima habilitará o One-Click List-Unsubscribe para ISPs com suporte a One-Click, ao mesmo tempo em que garante que os destinatários que não oferecem suporte ao URL list-unsubscribe ainda possam solicitar um cancelamento de inscrição por email.
 
-Clique aqui para ver como configurar o One-Click List-Unsubscribe via Typology Rule.
+
+### Criação de uma regra de tipologia para suportar o cancelamento de inscrição em lista com um clique:
+
+1 * Criar a nova regra de tipologia Na árvore de navegação, clique em novo para criar uma nova tipologia
+![imagem](https://git.corp.adobe.com/storage/user/38257/files/b8d48b7f-0f33-4118-b61d-e60351c68260)
+
 
 ## Otimização de email {#email-optimization}
 
