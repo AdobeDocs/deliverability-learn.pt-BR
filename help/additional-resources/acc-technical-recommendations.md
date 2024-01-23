@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 81f7f1b98a1393e265d6881b889fe2aa2ea35e02
+source-git-commit: 9ef6a2d18a7ab580822ca6a0ff8d485354ff71d4
 workflow-type: tm+mt
 source-wordcount: '1731'
 ht-degree: 59%
@@ -203,8 +203,9 @@ A partir de 1º de junho de 2024, o Yahoo e o Gmail exigirão que os remetentes 
 
 Para configurar o One-Click List-Unsubscribe diretamente:
 
-· Adicione o seguinte aplicativo Web &quot;Cancelar inscrição de destinatários sem clique&quot; 1; Acesse Recursos -> Online -> Aplicativos Web 2; Carregue o XML &quot;Cancelar inscrição de destinatários sem clique&quot; · Configurar List-Unsubscribe e List-Unsubscribe-Post 1; Acesse a seção SMTP das Propriedades de Entrega.
-2; Em Cabeçalhos SMTP adicionais, insira nas linhas de comando (cada cabeçalho deve estar em uma linha separada):
+* Adicione o seguinte aplicativo web &quot;Unsubscribe recipients no-click&quot; 1* Vá para Recursos -> Online -> Aplicativos web 2* Carregue o XML &quot;Unsubscribe recipients no-click&quot;
+* Configure List-Unsubscribe e List-Unsubscribe-Post 1* Vá para a seção SMTP das Propriedades de Delivery.
+2* Em Additional SMTP Headers, insira nas linhas de comando (cada cabeçalho deve estar em uma linha separada):
 
 List-Unsubscribe-Post: List-Unsubscribe=Lista-Cancelar Inscrição Com Um Clique: &lt;https: domain.com=&quot;&quot; webapp=&quot;&quot; unsubnoclick=&quot;&quot; id=&quot;&lt;%=&quot; recipient.cryptidcamp=&quot;&quot;>>, &lt;mailto: erroraddress=&quot;&quot; subject=&quot;unsubscribe%=message.mimeMessageId%&quot;>
 
