@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
+source-git-commit: 4796bfb222f6d4418a67763be767d982aef08a94
 workflow-type: tm+mt
-source-wordcount: '1575'
-ht-degree: 72%
+source-wordcount: '1722'
+ht-degree: 59%
 
 ---
 
@@ -100,7 +100,7 @@ Usar [DKIM](/help/additional-resources/authentication.md#dkim) com o Adobe Campa
 
 ## Loop de comentários {#feedback-loop-acc}
 
-Um loop de cometários funciona declarando no nível do ISP determinado endereço de email para um intervalo de endereços IP usados para enviar mensagens. O ISP enviará para esta caixa de entrada, de maneira semelhante ao que é feito para mensagens devolvidas, essas mensagens são relatadas por recipients como spam. A plataforma deve estar configurada para bloquear futuros deliveries para os usuários que reclamaram. É importante deixar de entrar em contato com eles, mesmo que não tenham usado o link de opt out adequado. Com base nessas reclamações, um ISP adicionará um endereço IP ao seu incluo na lista de bloqueios. Dependendo do ISP, uma taxa de reclamação de cerca de 1% resultará no bloqueio de um endereço IP.
+Um loop de cometários funciona declarando no nível do ISP determinado endereço de email para um intervalo de endereços IP usados para enviar mensagens. O ISP enviará para esta caixa de entrada, de maneira semelhante ao que é feito para mensagens devolvidas, essas mensagens são relatadas por recipients como spam. A plataforma deve estar configurada para bloquear futuras entregas para os usuários que reclamaram. É importante deixar de entrar em contato com eles, mesmo que não tenham usado o link de opt out adequado. Com base nessas reclamações, um ISP adicionará um endereço IP ao seu incluo na lista de bloqueios. Dependendo do ISP, uma taxa de reclamação de cerca de 1% resultará no bloqueio de um endereço IP.
 
 No momento, um padrão está sendo projetado para definir o formato de mensagens de loop de comentários: o [ARF (Abuse Feedback Reporting Format)](https://tools.ietf.org/html/rfc6650).
 
@@ -139,16 +139,17 @@ O serviço de Deliverability do Adobe Campaign gerencia sua subscrição para se
 
 ### Sobre o List-Unsubscribe {#about-list-unsubscribe}
 
-Adicionar um cabeçalho SMTP chamado **List-Unsubscribe** é obrigatório para garantir o gerenciamento ideal de deliverability.
+Adição de um cabeçalho SMTP chamado **List-Unsubscribe** é obrigatório para garantir o gerenciamento ideal de deliverability.A partir de 1º de junho de 2024, o Yahoo e o Gmail exigirão que os remetentes cumpram o One-Click List-Unsubscribe. Para entender como configurar o One-Click List-Unsubscribe, veja abaixo.
 
-Esse cabeçalho pode ser usado como um ícone alternativo para o ícone &quot;Denunciar como SPAM&quot;. Ele será exibido como um link de unsubscription na interface de email.
 
-Usar essa funcionalidade ajuda a proteger sua reputação e os comentários serão executados como unsubscription.
+Esse cabeçalho pode ser usado como um ícone alternativo para o ícone &quot;Denunciar como SPAM&quot;. Ele será exibido como um link de cancelamento de inscrição na interface de email.
+
+Usar essa funcionalidade ajuda a proteger sua reputação e os comentários serão executados como um cancelamento de inscrição.
 
 Para usar o List-Unsubscribe, você deverá inserir uma linha de comando semelhante à seguinte:
 
 ```
-List-Unsubscribe: mailto: client@newsletter.example.com?subject=unsubscribe?body=unsubscribe
+List-Unsubscribe: <mailto: client@newsletter.example.com?subject=unsubscribe?body=unsubscribe>
 ```
 
 >[!CAUTION]
@@ -158,7 +159,7 @@ List-Unsubscribe: mailto: client@newsletter.example.com?subject=unsubscribe?body
 A linha de comando a seguir pode ser usada para criar um **List-Unsubscribe** dinâmico:
 
 ```
-List-Unsubscribe: mailto: %=errorAddress%?subject=unsubscribe%=message.mimeMessageId%
+List-Unsubscribe: <mailto: %=errorAddress%?subject=unsubscribe%=message.mimeMessageId%>
 ```
 
 O Gmail, o Outlook.com e o Microsoft Outlook são compatíveis com esse método e um botão de cancelamento de inscrição está disponível diretamente nas interfaces deles. Essa técnica reduz as taxas de reclamação.
@@ -172,7 +173,15 @@ Você pode implementar o **List-Unsubscribe** por:
 
 A linha de comando deve ser incluída na seção adicional do cabeçalho SMTP do email.
 
-Essa adição pode ser feita em cada email ou nos templates do delivery existentes. Você também poderá criar um novo template do delivery que inclua essa funcionalidade.
+Essa adição pode ser feita em cada email ou nos templates da entrega existentes. Você também poderá criar um novo template da entrega que inclua essa funcionalidade.
+
+1. List-Unsubscribe: <mailto:unsubscribe@domain.com>
+Clicar no link de cancelamento de inscrição abrirá o cliente de email padrão do usuário. Essa regra de tipologia deverá ser adicionada em uma tipologia usada para criar emails.
+
+2. List-Unsubscribe: <https://domain.com/unsubscribe.jsp>
+Clicar no link de cancelamento de subscrição redireciona o usuário para o formulário de cancelamento de subscrição.
+   ![imagem](https://git.corp.adobe.com/storage/user/38257/files/3b46450f-2502-48ed-87b9-f537e1850963)
+
 
 ### Criação de uma regra de tipologia {#creating-a-typology-rule}
 
@@ -182,21 +191,31 @@ A regra deverá conter o script que gera a linha de comando e deverá ser inclu�
 >
 >Recomendamos a criação de uma regra de tipologia: a funcionalidade List-Unsubscribe será adicionada automaticamente em cada email.
 
-1. List-Unsubscribe: &lt;mailto:unsubscribe@domain.com>
-
-   Clicar no link de **cancelamento de subscrição** abrirá o cliente de email padrão do usuário. Essa regra de tipologia deverá ser adicionada em uma tipologia usada para criar emails.
-
-1. List-Unsubscribe: `<https://domain.com/unsubscribe.jsp>`
-
-   Clicar no link de **cancelamento de subscrição** redireciona o usuário para o formulário de unsubscription.
-
-   Exemplo:
-
-   ![](../assets/s_tn_del_unsubscribe_param.png)
-
 >[!NOTE]
 >
 >Saiba como criar regras de tipologia no Adobe Campaign Classic em [nesta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
+
+### Cancelamento de inscrição na lista com um clique
+
+A partir de 1º de junho de 2024, o Yahoo e o Gmail exigirão que os remetentes cumpram o One-Click List-Unsubscribe. Para estar em conformidade com o requisito de Lista de um clique - Cancelar inscrição, os remetentes devem:
+
+1. Adicione em um &quot;List-Unsubscribe-Post: List-Unsubscribe=One-Click&quot;
+2. Incluir um link de cancelamento de inscrição de URI
+3. Suporte à recepção da resposta POST HTTP do receptor, compatível com Adobe Campaign.
+
+Para configurar o One-Click List-Unsubscribe diretamente:
+
+· Adicione o seguinte aplicativo web &quot;Unsubscribe recipients no click&quot; 
+1. Vá para Recursos -> Online -> Aplicativos da Web
+2. Fazer upload do XML &quot;Cancelar inscrição de destinatários sem clique&quot; · Configurar List-Unsubscribe e List-Unsubscribe-Post
+1. Acesse a seção SMTP das propriedades de delivery.
+2. Em Additional SMTP Headers, insira nas linhas de comando (Cada cabeçalho deve estar em uma linha separada):
+
+List-Unsubscribe-Post: List-Unsubscribe=Lista-Cancelar Inscrição Com Um Clique: &lt;https: domain.com=&quot;&quot; webapp=&quot;&quot; unsubnoclick=&quot;&quot; id=&quot;&lt;%=&quot; recipient.cryptidcamp=&quot;&quot;>>, &lt;mailto: erroraddress=&quot;&quot; subject=&quot;unsubscribe%=message.mimeMessageId%&quot;>
+
+O exemplo acima habilitará o One-Click List-Unsubscribe para ISPs com suporte a One-Click, ao mesmo tempo em que garante que os destinatários que não oferecem suporte ao URL list-unsubscribe ainda possam solicitar um cancelamento de inscrição por email.
+
+Clique aqui para ver como configurar o One-Click List-Unsubscribe via Typology Rule.
 
 ## Otimização de email {#email-optimization}
 
@@ -210,4 +229,4 @@ Os erros mais comuns devem ser identificados e uma regra correspondente adiciona
 
 ### IPs dedicados {#dedicated-ips}
 
-A Adobe fornece uma estratégia de IP dedicada para cada cliente com um IP ampliado para criar uma reputação e otimizar o desempenho de delivery.
+A Adobe fornece uma estratégia de IP dedicada para cada cliente com um IP ampliado para criar uma reputação e otimizar o desempenho de entrega.
