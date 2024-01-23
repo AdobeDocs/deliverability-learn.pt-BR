@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 4796bfb222f6d4418a67763be767d982aef08a94
+source-git-commit: 81f7f1b98a1393e265d6881b889fe2aa2ea35e02
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1731'
 ht-degree: 59%
 
 ---
@@ -175,12 +175,12 @@ A linha de comando deve ser incluída na seção adicional do cabeçalho SMTP do
 
 Essa adição pode ser feita em cada email ou nos templates da entrega existentes. Você também poderá criar um novo template da entrega que inclua essa funcionalidade.
 
-1. List-Unsubscribe: <mailto:unsubscribe@domain.com>
+1; List-Unsubscribe: <mailto:unsubscribe@domain.com>
 Clicar no link de cancelamento de inscrição abrirá o cliente de email padrão do usuário. Essa regra de tipologia deverá ser adicionada em uma tipologia usada para criar emails.
 
-2. List-Unsubscribe: <https://domain.com/unsubscribe.jsp>
+2; List-Unsubscribe: <https://domain.com/unsubscribe.jsp>
 Clicar no link de cancelamento de subscrição redireciona o usuário para o formulário de cancelamento de subscrição.
-   ![imagem](https://git.corp.adobe.com/storage/user/38257/files/3b46450f-2502-48ed-87b9-f537e1850963)
+![imagem](https://git.corp.adobe.com/storage/user/38257/files/3b46450f-2502-48ed-87b9-f537e1850963)
 
 
 ### Criação de uma regra de tipologia {#creating-a-typology-rule}
@@ -199,17 +199,12 @@ A regra deverá conter o script que gera a linha de comando e deverá ser inclu�
 
 A partir de 1º de junho de 2024, o Yahoo e o Gmail exigirão que os remetentes cumpram o One-Click List-Unsubscribe. Para estar em conformidade com o requisito de Lista de um clique - Cancelar inscrição, os remetentes devem:
 
-1. Adicione em um &quot;List-Unsubscribe-Post: List-Unsubscribe=One-Click&quot;
-2. Incluir um link de cancelamento de inscrição de URI
-3. Suporte à recepção da resposta POST HTTP do receptor, compatível com Adobe Campaign.
+1; Adicione um &quot;List-Unsubscribe-Post: List-Unsubscribe=One-Click&quot; 2; Inclua um Link de cancelamento de inscrição de URI 3; Recepção de suporte da resposta POST HTTP do receptor, compatível com o Adobe Campaign.
 
 Para configurar o One-Click List-Unsubscribe diretamente:
 
-· Adicione o seguinte aplicativo web &quot;Unsubscribe recipients no click&quot; 
-1. Vá para Recursos -> Online -> Aplicativos da Web
-2. Fazer upload do XML &quot;Cancelar inscrição de destinatários sem clique&quot; · Configurar List-Unsubscribe e List-Unsubscribe-Post
-1. Acesse a seção SMTP das propriedades de delivery.
-2. Em Additional SMTP Headers, insira nas linhas de comando (Cada cabeçalho deve estar em uma linha separada):
+· Adicione o seguinte aplicativo Web &quot;Cancelar inscrição de destinatários sem clique&quot; 1; Acesse Recursos -> Online -> Aplicativos Web 2; Carregue o XML &quot;Cancelar inscrição de destinatários sem clique&quot; · Configurar List-Unsubscribe e List-Unsubscribe-Post 1; Acesse a seção SMTP das Propriedades de Entrega.
+2; Em Cabeçalhos SMTP adicionais, insira nas linhas de comando (cada cabeçalho deve estar em uma linha separada):
 
 List-Unsubscribe-Post: List-Unsubscribe=Lista-Cancelar Inscrição Com Um Clique: &lt;https: domain.com=&quot;&quot; webapp=&quot;&quot; unsubnoclick=&quot;&quot; id=&quot;&lt;%=&quot; recipient.cryptidcamp=&quot;&quot;>>, &lt;mailto: erroraddress=&quot;&quot; subject=&quot;unsubscribe%=message.mimeMessageId%&quot;>
 
