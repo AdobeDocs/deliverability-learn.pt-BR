@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 443f8e0c68705e481e7a3b2dbc6d3618d20e6f32
+source-git-commit: f9dc4fb190557e2698891853965936ef32124f4a
 workflow-type: tm+mt
 source-wordcount: '1864'
 ht-degree: 55%
@@ -207,7 +207,8 @@ Para configurar o One-Click List-Unsubscribe diretamente:
 
 * Adicione no seguinte aplicativo web &quot;Unsubscribe recipients no click&quot; 
 * Vá para Recursos -> Online -> Aplicativos da Web
-* Carregue o XML &quot;Cancelar inscrição de destinatários sem clique&quot;
+* Carregue a mensagem &quot;Unsubscribe recipients no click&quot; [XML](/help/assets/WebAppUnsubNoClick.xml)
+
 * Configurar List-Unsubscribe e List-Unsubscribe-Post
 * Acesse a seção SMTP das propriedades de delivery.
 * Em Additional SMTP Headers, insira nas linhas de comando (Cada cabeçalho deve estar em uma linha separada):
