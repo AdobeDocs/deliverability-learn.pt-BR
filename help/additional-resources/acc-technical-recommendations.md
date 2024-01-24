@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: f9dc4fb190557e2698891853965936ef32124f4a
+source-git-commit: 2eceddf12ce2baea1113d2688f9f8e75f7d31923
 workflow-type: tm+mt
 source-wordcount: '1864'
 ht-degree: 55%
@@ -207,7 +207,7 @@ Para configurar o One-Click List-Unsubscribe diretamente:
 
 * Adicione no seguinte aplicativo web &quot;Unsubscribe recipients no click&quot; 
 * Vá para Recursos -> Online -> Aplicativos da Web
-* Carregue a mensagem &quot;Unsubscribe recipients no click&quot; [XML](/help/assets/WebAppUnsubNoClick.xml)
+* Carregue a mensagem &quot;Unsubscribe recipients no click&quot; [XML](/help/assets/WebAppUnsubNoClick.xml.zip)
 
 * Configurar List-Unsubscribe e List-Unsubscribe-Post
 * Acesse a seção SMTP das propriedades de delivery.
@@ -224,13 +224,13 @@ O exemplo acima habilitará o One-Click List-Unsubscribe para ISPs com suporte a
 
 ### Criação de uma regra de tipologia para suportar o cancelamento de inscrição em lista com um clique:
 
-Criar a nova regra de tipologia
+Crie a nova Regra de tipologia:
 
-Na Árvore de navegação, clique em &quot;novo&quot; para criar uma nova Tipologia
+* Na Árvore de navegação, clique em &quot;novo&quot; para criar uma nova Tipologia
 
 ![imagem](/help/assets/CreatingTypologyRules1.png)
 
-Continue a configurar a regra de tipologia
+Continue a configurar a regra de tipologia:
 
 * Tipo de Regra : controle
 * Canal: email
@@ -240,7 +240,7 @@ Continue a configurar a regra de tipologia
 
 ![imagem](/help/assets/CreatingTypologyRules2.png)
 
-Codifique o javascript da regra de Tipologia.
+Codifique o javascript da regra de Tipologia:
 
 >[!NOTE]
 >
@@ -356,7 +356,7 @@ Adicione a nova regra a uma Tipologia a um email (a tipologia padrão está OK).
 
 ![imagem](/help/assets/CreatingTypologyRules4.png)
 
-Preparar um novo delivery (verifique se os cabeçalhos SMTP adicionais na propriedade de delivery estão vazios).
+Preparar um novo delivery (verifique se os cabeçalhos SMTP adicionais na propriedade de delivery estão vazios)
 
 ![imagem](/help/assets/CreatingTypologyRules5.png)
 
