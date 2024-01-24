@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: e310c94334dae232f6f31cc5e188906862f563bd
+source-git-commit: 9175a3ded10ce4ea06712855ae3d2119f945c389
 workflow-type: tm+mt
 source-wordcount: '1870'
 ht-degree: 55%
@@ -225,8 +225,9 @@ O exemplo acima habilitará o One-Click List-Unsubscribe para ISPs com suporte a
 
 Criar a nova regra de tipologia
 
-* Na Árvore de navegação, clique em novo para criar uma nova Tipologia
-  ![typologyrues1](/help/assets/CreatingTypologyRules1.png)
+Na Árvore de navegação, clique em novo para criar uma nova Tipologia
+
+![typologyrues1](/help/assets/CreatingTypologyRules1.png)
 
 Continue a configurar a regra de tipologia
 
