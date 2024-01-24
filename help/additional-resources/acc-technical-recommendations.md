@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: f7c2dcbf1bb86d7018c31b1ae2ef29903fb758aa
+source-git-commit: 4389ac3135223c0d363e67fe7403656a17ee3f6a
 workflow-type: tm+mt
 source-wordcount: '1871'
 ht-degree: 55%
@@ -223,18 +223,20 @@ O exemplo acima habilitará o One-Click List-Unsubscribe para ISPs com suporte a
 
 ### Criação de uma regra de tipologia para suportar o cancelamento de inscrição em lista com um clique:
 
-* Criar a nova regra de tipologia
+# Criar a nova regra de tipologia
 * Na Árvore de navegação, clique em novo para criar uma nova Tipologia
   ![imagem](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules1.png)
-* Continue a configurar a regra de tipologia
+
+# Continue a configurar a regra de tipologia
 * Tipo de Regra : controle
 * Canal: email
 * Fase: no início da personalização
 * Nível: sua escolha
 * Ativo
-  ![imagem](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules2.png)
 
-* Codifique o javascript da regra de Tipologia.
+![imagem](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules2.png)
+
+# Codifique o javascript da regra de Tipologia.
 
 >[!NOTE]
 >
@@ -345,17 +347,17 @@ return true;
 ```
 ![imagem](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules3.png)
 
-* Adicione a nova regra a uma Tipologia a um email (a tipologia padrão está OK).
-  ![imagem](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules4.png)
+# Adicione a nova regra a uma Tipologia a um email (a tipologia padrão está OK).
+![imagem](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules4.png)
 
-* Preparar um novo delivery (verifique se os cabeçalhos SMTP adicionais na propriedade de delivery estão vazios).
-  ![imagem](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules5.png)
+# Preparar um novo delivery (verifique se os cabeçalhos SMTP adicionais na propriedade de delivery estão vazios).
+![imagem](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules5.png)
 
-* Durante a preparação do delivery, verifique se a nova Regra de tipologia é aplicada.
-  ![imagem](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
+# Durante a preparação do delivery, verifique se a nova Regra de tipologia é aplicada.
+![imagem](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
 
-* Validar se o List-Unsubscribe está presente
-  ![imagem](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
+# Validar se o List-Unsubscribe está presente
+![imagem](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
 
 
 
