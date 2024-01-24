@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: b192fc5a3287f4e20269f668ff71f328edf94482
+source-git-commit: e310c94334dae232f6f31cc5e188906862f563bd
 workflow-type: tm+mt
-source-wordcount: '1871'
+source-wordcount: '1870'
 ht-degree: 55%
 
 ---
@@ -226,7 +226,7 @@ O exemplo acima habilitará o One-Click List-Unsubscribe para ISPs com suporte a
 Criar a nova regra de tipologia
 
 * Na Árvore de navegação, clique em novo para criar uma nova Tipologia
-  ![imagem](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules1.png)
+  ![typologyrues1](/help/assets/CreatingTypologyRules1.png)
 
 Continue a configurar a regra de tipologia
 
