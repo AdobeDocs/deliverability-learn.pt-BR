@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 73d0722bb0b40ea9cad9d50a805396fdfac27c49
+source-git-commit: ef6152550bf56395dd9e57e1286b1bebf141128c
 workflow-type: tm+mt
-source-wordcount: '1762'
+source-wordcount: '1760'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ A necessidade de cabeçalhos de cancelamento de inscrição em lista não se apl
 > O Adobe está trabalhando para habilitar o suporte &quot;post&quot; em todas as nossas plataformas de envio de email para ajudar nossos usuários a atender aos seguintes requisitos:
 > 
 > 
-> * [!DNL Adobe Campaign Classic V7/V8]: totalmente compatível com POST 1-Clique hoje, instruções podem ser encontradas [aqui](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} até meados de janeiro.
+> * [!DNL Adobe Campaign Classic V7/V8]: totalmente compatível com POST 1-Clique hoje, instruções podem ser encontradas [aqui](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"}.
 >* [!DNL Adobe Campaign Standard]: está sendo atualizado para oferecer suporte ao POST 1-Click até o final de fevereiro. As instruções para a configuração serão fornecidas [aqui](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"} uma vez pronto.
 >* [!DNL Adobe Journey Optimizer]: Suporta o POST 1-Click hoje, mas algumas melhorias importantes estão em andamento. As atualizações da configuração passo a passo serão publicadas [aqui](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} uma vez pronto.
 > * [!DNL Marketo]: está sendo atualizado para oferecer suporte ao POST 1-Click. Uma vez pronto, ele será aplicado automaticamente, onde necessário.
