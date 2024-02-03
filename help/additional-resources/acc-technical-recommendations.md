@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 238c67562ebbe179b326e4093b90b0ee05a070ae
+source-git-commit: 0c735dcf872728be6131b5a185f4b6973b26dcd3
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1867'
 ht-degree: 55%
 
 ---
@@ -228,7 +228,9 @@ O exemplo acima habilitará o One-Click List-Unsubscribe para ISPs com suporte a
 
     * Na Árvore de navegação, clique em &quot;novo&quot; para criar uma nova Tipologia
 
+
 ![imagem](/help/assets/CreatingTypologyRules1.png)
+
 
 
 **2. **Continue a configurar a regra de tipologia:**
@@ -239,10 +241,12 @@ O exemplo acima habilitará o One-Click List-Unsubscribe para ISPs com suporte a
     * Nível: sua escolha
     * Ativo
 
+
 ![imagem](/help/assets/CreatingTypologyRules2.png)
 
 
 **Codifique o javascript da regra de Tipologia:**
+
 
 >[!NOTE]
 >
@@ -350,25 +354,30 @@ if ( headerUnsubPost === "" ) {
 return true; 
 ```
 
+
 ![imagem](/help/assets/CreatingTypologyRules3.png)
 
 
-* **Adicionar sua nova regra a uma tipologia a um email (a tipologia padrão é ok):**
+
+**3. Adicionar sua nova regra a uma tipologia a um email (a tipologia padrão é ok):**
 
 ![imagem](/help/assets/CreatingTypologyRules4.png)
 
 
-* **Preparar um novo delivery (verifique se os cabeçalhos SMTP adicionais na propriedade de delivery estão vazios)**
+
+**4. Preparar um novo delivery (verifique se os cabeçalhos SMTP adicionais na propriedade de delivery estão vazios)**
 
 ![imagem](/help/assets/CreatingTypologyRules5.png)
 
 
-* **Durante a preparação do delivery, verifique se a nova Regra de tipologia é aplicada.**
+
+**5. Durante a preparação do delivery, verifique se a nova Regra de tipologia é aplicada.**
 
 ![imagem](/help/assets/CreatingTypologyRules6.png)
 
 
-* **Validar se o List-Unsubscribe está presente.**
+
+**6. Validar se o List-Unsubscribe está presente.**
 
 ![imagem](/help/assets/CreatingTypologyRules7.png)
 
