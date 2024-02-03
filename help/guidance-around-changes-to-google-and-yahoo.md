@@ -8,7 +8,7 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 8de2247f78f8c6e8467ffe51ffdf1b6107d30118
+source-git-commit: 50017358f7f88f5579de282a1f528916ecb17493
 workflow-type: tm+mt
 source-wordcount: '1775'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Você também pode encontrar mais informações sobre o DMARC e como implementá
 
 ## 1-Clique (Lista) Cancelar Inscrição:
 
-Não entre em pânico. [!DNL Google] e [!DNL Yahoo] não estão falando sobre os links de cancelamento de inscrição no corpo do email ou rodapé que podem ser clicados por um bot de segurança que está apenas fazendo o trabalho ou por acidente. O que eles significam é a funcionalidade do cabeçalho List-Unsubscribe para as versões &quot;mailto&quot; ou &quot;http/URL&quot;. Essa é a função na variável [!DNL Yahoo] e Gmail, onde os usuários podem clicar em cancelar inscrição. O Gmail solicita até mesmo que os usuários que clicarem em &quot;Denunciar spam&quot; vejam se a intenção é cancelar a inscrição, o que pode reduzir o número de reclamações recebidas (as reclamações prejudicam sua reputação), transformando-as em cancelamentos de assinatura (não prejudica sua reputação).
+Não entre em pânico. [!DNL Google] e [!DNL Yahoo] não estão falando sobre os links de cancelamento de inscrição no corpo do email ou rodapé que podem ser clicados por um bot de segurança que está apenas fazendo o trabalho ou por acidente. O que eles significam é a funcionalidade do cabeçalho List-Unsubscribe para as versões &quot;mailto&quot; ou &quot;http/URI&quot;. Essa é a função na variável [!DNL Yahoo] e Gmail, onde os usuários podem clicar em cancelar inscrição. O Gmail solicita até mesmo que os usuários que clicarem em &quot;Denunciar spam&quot; vejam se a intenção é cancelar a inscrição, o que pode reduzir o número de reclamações recebidas (as reclamações prejudicam sua reputação), transformando-as em cancelamentos de assinatura (não prejudica sua reputação).
 
 É importante observar que [!DNL Google] e [!DNL Yahoo] ambos se referem à opção &quot;http/URI&quot; pelo nome &quot;1-Click&quot; e isso é intencional. Tecnicamente, a opção original &quot;http/URI&quot; permitia redirecionar recipients para um site. Esse não é o foco da [!DNL Yahoo] e [!DNL Google], que fazem referência à versão atualizada [RFC8058](https://datatracker.ietf.org/doc/html/rfc8058){target="_blank"} que se concentra no processamento do cancelamento de inscrição por meio de uma solicitação POST HTTPS, em vez de um site, tornando-o &quot;1-Click&quot;.
 
