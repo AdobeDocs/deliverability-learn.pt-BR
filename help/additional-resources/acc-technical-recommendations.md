@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: c14b1eecbe522c650a8be376f8f133901497216a
+source-git-commit: 8fe2a9de16a7856c66a643ce7aaf22bae016246e
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1861'
 ht-degree: 55%
 
 ---
@@ -175,11 +175,9 @@ A linha de comando deve ser incluída na seção adicional do cabeçalho SMTP do
 
 Essa adição pode ser feita em cada email ou nos templates da entrega existentes. Você também poderá criar um novo template da entrega que inclua essa funcionalidade.
 
-    1. List-Unsubscribe: mailto:unsubscribe@domain.com
-Clicar no link de cancelamento de inscrição abrirá o cliente de email padrão do usuário. Essa regra de tipologia deverá ser adicionada em uma tipologia usada para criar emails.
+1.List-Unsubscribe: mailto:unsubscribe@domain.com Clicar no link de cancelamento de subscrição abrirá o cliente de email padrão do usuário. Essa regra de tipologia deverá ser adicionada em uma tipologia usada para criar emails.
 
-    2. List-Unsubscribe: https://domain.com/unsubscribe.jsp
-Clicar no link de cancelamento de subscrição redireciona o usuário para o formulário de cancelamento de subscrição.
+2.List-Unsubscribe: https://domain.com/unsubscribe.jsp Clicar no link de cancelamento de inscrição redireciona o usuário para o formulário de cancelamento de inscrição.
 
 ![imagem](/help/assets/UTF-8-1.png)
 
