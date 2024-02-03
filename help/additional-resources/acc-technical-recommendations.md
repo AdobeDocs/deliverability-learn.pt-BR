@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: f8aaa0c21daf93953fb0daa6a5d9262c8d1654a0
+source-git-commit: c14b1eecbe522c650a8be376f8f133901497216a
 workflow-type: tm+mt
-source-wordcount: '1858'
+source-wordcount: '1863'
 ht-degree: 55%
 
 ---
@@ -175,10 +175,10 @@ A linha de comando deve ser incluída na seção adicional do cabeçalho SMTP do
 
 Essa adição pode ser feita em cada email ou nos templates da entrega existentes. Você também poderá criar um novo template da entrega que inclua essa funcionalidade.
 
-1. List-Unsubscribe: <mailto:unsubscribe@domain.com>
+    1. List-Unsubscribe: mailto:unsubscribe@domain.com
 Clicar no link de cancelamento de inscrição abrirá o cliente de email padrão do usuário. Essa regra de tipologia deverá ser adicionada em uma tipologia usada para criar emails.
 
-2. List-Unsubscribe: <https://domain.com/unsubscribe.jsp>
+    2. List-Unsubscribe: https://domain.com/unsubscribe.jsp
 Clicar no link de cancelamento de subscrição redireciona o usuário para o formulário de cancelamento de subscrição.
 
 ![imagem](/help/assets/UTF-8-1.png)
@@ -246,7 +246,7 @@ Codifique o javascript da regra de Tipologia:
 >
 >O código descrito abaixo deve ser referenciado apenas como exemplo.
 >Este exemplo detalha como:
->* Configure um URL List-Unsubscribe e adicionará os cabeçalhos ou anexará os parâmetros mailto: existentes e os substituirá por: &lt;mailto..>, <http://…>
+>* Configure um URL List-Unsubscribe e adicionará os cabeçalhos ou anexará os parâmetros mailto: existentes e os substituirá por: &lt;mailto..>>, http://...
 >* Adicionar no cabeçalho List-Unsubscribe-Post
 >O exemplo de url de publicação usa var headerUnsubUrl = &quot;http://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= recipient.cryptedId %>&quot;:
 >* É possível adicionar outros parâmetros (como &amp;service = ...)
