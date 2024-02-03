@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 5ce1c499d897ccbec7713ef2ad03ef0a810971b4
+source-git-commit: 98ec94935810c060ec0ad7c70336276104072ee3
 workflow-type: tm+mt
 source-wordcount: '1861'
 ht-degree: 55%
@@ -224,7 +224,7 @@ O exemplo acima habilitará o One-Click List-Unsubscribe para ISPs com suporte a
 
 ### Criação de uma regra de tipologia para suportar o cancelamento de inscrição em lista com um clique:
 
-* **Crie a nova Regra de tipologia:**
+1. **Crie a nova Regra de tipologia:**
 
    * Na Árvore de navegação, clique em &quot;novo&quot; para criar uma nova Tipologia
 
