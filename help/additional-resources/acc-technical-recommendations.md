@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 73ce12a86176e59ff4112c19382f7a62714b41e7
+source-git-commit: b4be656998890f9c98b8417835ae7c5bda2bc499
 workflow-type: tm+mt
 source-wordcount: '1867'
 ht-degree: 55%
@@ -236,8 +236,8 @@ O exemplo acima habilitará o One-Click List-Unsubscribe para ISPs com suporte a
 **2. Continue a configurar a regra de tipologia:**
 
 * Tipo de regra: controle
-* Canal: email
-* Fase: no início da personalização
+* Fase: no início do direcionamento
+* Canal: Email
 * Nível: sua escolha
 * Ativo
 
