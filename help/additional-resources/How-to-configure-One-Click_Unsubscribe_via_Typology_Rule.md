@@ -1,23 +1,18 @@
 ---
-source-git-commit: 5de602d6b75e524dac8688e40db0e96bdbafceba
+source-git-commit: 945a7ba5e3c3ac9544199e1bb62273933a82f04a
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 8%
 
 ---
-### Criação de uma regra de tipologia para suportar o cancelamento de inscrição em lista com um clique:
+# Criação de uma regra de tipologia para suportar o cancelamento de inscrição em lista com um clique:
 
 **1. Crie a nova Regra de tipologia:**
-
 * Na Árvore de navegação, clique em &quot;novo&quot; para criar uma nova Tipologia
-
 
 ![imagem](/help/assets/CreatingTypologyRules1.png)
 
-
-
 **2. Continue a configurar a regra de tipologia:**
-
 * Tipo de regra: controle
 * Fase: no início do direcionamento
 * Canal: Email
@@ -140,19 +135,13 @@ return true;
 
 ![imagem](/help/assets/CreatingTypologyRules3.png)
 
-
-
 **3. Adicionar sua nova regra a uma tipologia a um email (a tipologia padrão é ok):**
 
 ![imagem](/help/assets/CreatingTypologyRules4.png)
 
-
-
 **4. Preparar um novo delivery (verifique se os cabeçalhos SMTP adicionais na propriedade de delivery estão vazios)**
 
 ![imagem](/help/assets/CreatingTypologyRules5.png)
-
-
 
 **5. Durante a preparação do delivery, verifique se a nova Regra de tipologia é aplicada.**
 
