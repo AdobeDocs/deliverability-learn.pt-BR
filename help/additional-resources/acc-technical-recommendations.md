@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 2e3cebdad1613c852e950c379ddba689a3d8110e
+source-git-commit: bfdf87937d001791701884d29db2da1fd7a0e8ee
 workflow-type: tm+mt
 source-wordcount: '1867'
 ht-degree: 55%
@@ -215,8 +215,7 @@ Para configurar o One-Click List-Unsubscribe diretamente:
 
 ```
 List-Unsubscribe-Post: List-Unsubscribe=One-Click
-List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptidcamp %>>, <mailto: %=errorAddress%?
-subject=unsubscribe%=message.mimeMessageId%>
+List-Unsubscribe: https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %>, < mailto:<%@ include option='NmsEmail_DefaultErrorAddr' %>?subject=unsubscribe<%=escape(message.mimeMessageId) %> >
 ```
 
 O exemplo acima habilitará o One-Click List-Unsubscribe para ISPs com suporte a One-Click, ao mesmo tempo em que garante que os destinatários que não oferecem suporte ao URL list-unsubscribe ainda possam solicitar um cancelamento de inscrição por email.
