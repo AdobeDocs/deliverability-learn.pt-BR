@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: bfdf87937d001791701884d29db2da1fd7a0e8ee
+source-git-commit: b5e1d878c889112e08da0969d50bdb3c72e48f8c
 workflow-type: tm+mt
-source-wordcount: '1867'
+source-wordcount: '1868'
 ht-degree: 55%
 
 ---
@@ -139,7 +139,7 @@ O serviço de Deliverability do Adobe Campaign gerencia sua subscrição para se
 
 ### Sobre o List-Unsubscribe {#about-list-unsubscribe}
 
-Adição de um cabeçalho SMTP chamado **List-Unsubscribe** é obrigatório para garantir o gerenciamento ideal de deliverability.A partir de 1º de junho de 2024, o Yahoo e o Gmail exigirão que os remetentes cumpram o One-Click List-Unsubscribe. Para entender como configurar o One-Click List-Unsubscribe, veja abaixo.
+Adição de um cabeçalho SMTP chamado **List-Unsubscribe** é obrigatório para garantir o gerenciamento ideal da capacidade de delivery. A partir de 1º de junho de 2024, o Yahoo e o Gmail exigirão que os remetentes cumpram o One-Click List-Unsubscribe. Para entender como configurar o Cancelamento de inscrição na lista de um clique, consulte [nesta seção](#one-click-list-unsubscribe).
 
 
 Esse cabeçalho pode ser usado como um ícone alternativo para o ícone &quot;Denunciar como SPAM&quot;. Ele será exibido como um link de cancelamento de inscrição na interface de email.
@@ -181,7 +181,7 @@ List-Unsubscribe: mailto:unsubscribe@domain.com
 List-Unsubscribe: https://domain.com/unsubscribe.jsp
 * Clicar no **cancelar inscrição** O link redireciona o usuário para o formulário de cancelamento de inscrição.
 
-![imagem](/help/assets/UTF-8-1.png)
+![imagem](../assets/UTF-8-1.png)
 
 
 ### Criação de uma regra de tipologia {#creating-a-typology-rule}
@@ -196,7 +196,7 @@ A regra deverá conter o script que gera a linha de comando e deverá ser inclu�
 >
 >Saiba como criar regras de tipologia no Adobe Campaign Classic em [nesta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
 
-### Cancelamento de inscrição na lista com um clique
+### Cancelamento de inscrição na lista com um clique {#one-click-list-unsubscribe}
 
 A partir de 1º de junho de 2024, o Yahoo e o Gmail exigirão que os remetentes cumpram o One-Click List-Unsubscribe. Para estar em conformidade com o requisito de Lista de um clique - Cancelar inscrição, os remetentes devem:
 
@@ -215,7 +215,7 @@ Para configurar o One-Click List-Unsubscribe diretamente:
 
 ```
 List-Unsubscribe-Post: List-Unsubscribe=One-Click
-List-Unsubscribe: https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %>, < mailto:<%@ include option='NmsEmail_DefaultErrorAddr' %>?subject=unsubscribe<%=escape(message.mimeMessageId) %> >
+List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %> >, < mailto:<%@ include option='NmsEmail_DefaultErrorAddr' %>?subject=unsubscribe<%=escape(message.mimeMessageId) %> >
 ```
 
 O exemplo acima habilitará o One-Click List-Unsubscribe para ISPs com suporte a One-Click, ao mesmo tempo em que garante que os destinatários que não oferecem suporte ao URL list-unsubscribe ainda possam solicitar um cancelamento de inscrição por email.
@@ -227,9 +227,7 @@ O exemplo acima habilitará o One-Click List-Unsubscribe para ISPs com suporte a
 
 * Na Árvore de navegação, clique em &quot;novo&quot; para criar uma nova Tipologia
 
-
-![imagem](/help/assets/CreatingTypologyRules1.png)
-
+![imagem](../assets/CreatingTypologyRules1.png)
 
 
 **2. Continue a configurar a regra de tipologia:**
@@ -241,7 +239,7 @@ O exemplo acima habilitará o One-Click List-Unsubscribe para ISPs com suporte a
 * Ativo
 
 
-![imagem](/help/assets/CreatingTypologyRules2.png)
+![imagem](../assets/CreatingTypologyRules2.png)
 
 
 **Codifique o javascript da regra de Tipologia:**
@@ -354,31 +352,31 @@ return true;
 ```
 
 
-![imagem](/help/assets/CreatingTypologyRules3.png)
+![imagem](../assets/CreatingTypologyRules3.png)
 
 
 
 **3. Adicionar sua nova regra a uma tipologia a um email (a tipologia padrão é ok):**
 
-![imagem](/help/assets/CreatingTypologyRules4.png)
+![imagem](../assets/CreatingTypologyRules4.png)
 
 
 
 **4. Preparar um novo delivery (verifique se os cabeçalhos SMTP adicionais na propriedade de delivery estão vazios)**
 
-![imagem](/help/assets/CreatingTypologyRules5.png)
+![imagem](../assets/CreatingTypologyRules5.png)
 
 
 
 **5. Durante a preparação do delivery, verifique se a nova Regra de tipologia é aplicada.**
 
-![imagem](/help/assets/CreatingTypologyRules6.png)
+![imagem](../assets/CreatingTypologyRules6.png)
 
 
 
 **6. Validar se o List-Unsubscribe está presente.**
 
-![imagem](/help/assets/CreatingTypologyRules7.png)
+![imagem](../assets/CreatingTypologyRules7.png)
 
 
 ## Otimização de email {#email-optimization}
