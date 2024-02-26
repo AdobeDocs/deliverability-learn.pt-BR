@@ -1,5 +1,5 @@
 ---
-source-git-commit: d30c3e96a9e341f34d471af35692da9e1c0b72d4
+source-git-commit: 5e7c7bf626b6277abf8d50181826deb2e21c868f
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 0%
@@ -48,7 +48,7 @@ FAZER: permitir que seus assinantes ditem a relação.
 
 FAZER: use um cabeçalho de Cancelamento de inscrição de lista em seus modelos de email para que os clientes de email (por exemplo: gmail.com) que exibem links de cancelamento de inscrição na parte superior do email sejam facilmente encontrados onde o usuário está acostumado a procurar cancelamentos de inscrição.
 
-+ Clique aqui (https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html) para saber mais sobre as iniciativas do setor relacionadas ao cancelamento de inscrição com um clique.
++ Clique em [aqui](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=pt-BR) para ler mais sobre as iniciativas do setor relacionadas ao cancelamento de inscrição com um clique.
 
 O Do Not’s
 
