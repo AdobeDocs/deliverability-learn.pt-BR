@@ -1,5 +1,5 @@
 ---
-source-git-commit: fcf836681561221bdf8b96593813c26b2d8bc399
+source-git-commit: 34a7b7c8d6a2bda2f5b131bbbd9570c0b577c02c
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 0%
@@ -15,22 +15,22 @@ Criamos uma lista de coisas a serem feitas e o que deve ser evitado ao gerenciar
 
 ## O Do’s
 
-DO: ter um link de cancelamento de inscrição posicionado de forma destacada. Isso pode ajudar a impedir que os usuários cliquem na reclamação &quot;isso é spam&quot; (também chamada de loop de comentários)
+**FAÇA:** Ter um link de cancelamento de inscrição posicionado de forma destacada. Isso pode ajudar a impedir que os usuários cliquem na reclamação &quot;isso é spam&quot; (também chamada de loop de comentários)
 
 + Algumas ideias sobre como fazer o link de cancelamento de inscrição se destacarem: Centralize-o, sublinhe-o e coloque-o em negrito, na parte superior ou inferior do email, torne-o uma cor de fonte diferente. Use a palavra &quot;UNSUBSCRIBE&quot; na preferência de idioma do usuário. Não use floração ou verborreia excessiva.
 
-FAZER: solicitar que o link de cancelamento de inscrição seja direcionado a uma página de aterrissagem em que o usuário possa confirmar que deseja ser removido da lista
+**FAÇA:** Faça com que seu link de cancelamento de inscrição seja direcionado para uma página de aterrissagem em que o usuário possa confirmar que deseja ser removido da lista
 
 + A frase na página de aterrissagem deve incluir um link para um clique que diga &quot;Confirme meu cancelamento de inscrição&quot; e talvez outro link que diga &quot;Deixe-me recusar e diminuir a frequência de emails que recebo de você&quot;. Embora esse não seja um método de cancelamento de inscrição com um clique, ele ajudará a evitar cliques de bot que resultam em um cancelamento de inscrição incorreto.
 + Se o cancelamento de inscrição levar um usuário a uma página de aterrissagem, verifique se a página de aterrissagem oferece um cancelamento de inscrição de um clique, assim que o usuário acessar a página.
 
-FAZER: Tornar o processo fácil e transparente. Exemplo:
+**FAÇA:** Torne o processo fácil e transparente. Exemplo:
 
 + &quot;Clique aqui para cancelar a inscrição de todos os emails de marketing&quot;. Essa deve ser a primeira opção fornecida ao usuário.
 
 + &quot;Clique aqui para alterar suas preferências&quot;.
 
-FAZER: inclua o endereço de email na landing page de cancelamento de inscrição.
+**FAÇA:** Inclua o endereço de email na landing page de cancelamento de inscrição.
 
 + Importante: dependendo da localização/jurisdição dos usuários, pode haver preocupações de privacidade ao incluir o endereço de email completo. Talvez seja necessário preencher previamente uma versão com hash do endereço de email. Isso ocorre porque o email pode ter sido encaminhado do endereço que foi assinado originalmente. Consulte seu grupo jurídico para entender suas necessidades específicas.
 
