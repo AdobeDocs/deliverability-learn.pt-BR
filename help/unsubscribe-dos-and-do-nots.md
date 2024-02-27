@@ -8,7 +8,7 @@ doc-type: Feature Video
 duration: 0
 last-substantial-update: 2024-02-27T00:00:00Z
 jira: KT-15029
-source-git-commit: 77de42d30ce01ab66323da1731a4a0bf96a94f44
+source-git-commit: d4af9b039e2f8f140124cf21edec825e803c1308
 workflow-type: tm+mt
 source-wordcount: '948'
 ht-degree: 0%
@@ -30,7 +30,8 @@ Criamos uma lista de coisas a serem feitas e o que deve ser evitado ao gerenciar
 
 **FAÇA:** Faça com que seu link de cancelamento de inscrição seja direcionado para uma página de aterrissagem em que o usuário possa confirmar que deseja ser removido da lista
 
-+ A frase na página de aterrissagem deve incluir um link para um clique que diga &quot;Confirme meu cancelamento de inscrição&quot; e talvez outro link que diga &quot;Deixe-me recusar e diminuir a frequência de emails que recebo de você&quot;. Embora esse não seja um método de cancelamento de inscrição com um clique, ele ajudará a evitar cliques de bot que resultam em um cancelamento de inscrição incorreto.
+A frase na página de aterrissagem deve incluir um link para um clique que diga &quot;Confirme meu cancelamento de inscrição&quot; e talvez outro link que diga &quot;Deixe-me recusar e diminuir a frequência de emails que recebo de você&quot;. Embora esse não seja um método de cancelamento de inscrição com um clique, ele ajudará a evitar cliques de bot que resultam em um cancelamento de inscrição incorreto.
+
 + Se o cancelamento de inscrição levar um usuário a uma página de aterrissagem, verifique se a página de aterrissagem oferece um cancelamento de inscrição de um clique, assim que o usuário acessar a página.
 
 **FAÇA:** Torne o processo fácil e transparente. Exemplo:
@@ -57,7 +58,7 @@ Criamos uma lista de coisas a serem feitas e o que deve ser evitado ao gerenciar
 
 **FAÇA:** Use um cabeçalho de Cancelamento de inscrição de lista em seus modelos de email para que os clientes de email (por exemplo: gmail.com) que exibem links de cancelamento de inscrição na parte superior do email sejam facilmente encontrados onde o usuário está acostumado a procurar cancelamentos de inscrição.
 
-+ Clique em [aqui](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=pt-BR) para ler mais sobre as iniciativas do setor relacionadas ao cancelamento de inscrição com um clique.
+Clique em [aqui](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=pt-BR) para ler mais sobre as iniciativas do setor relacionadas ao cancelamento de inscrição com um clique.
 
 ## O Do Not’s
 
@@ -90,6 +91,7 @@ Criamos uma lista de coisas a serem feitas e o que deve ser evitado ao gerenciar
 **NÃO:** Force-os a fornecer um motivo pelo qual cancelaram a assinatura antes que você processe a solicitação.
 
 + Permitir que o cliente adicione essas informações pode ser útil para insights futuros, mas pode torná-lo um campo opcional na página de aterrissagem de cancelamento de inscrição.
+
 + Uma melhor abordagem seria informá-los de que a subscrição foi cancelada com êxito e, em seguida, permitir um espaço para que eles ofereçam, opcionalmente, o(s) motivo(s).
 
 Lembre-se de que os cancelamentos de inscrição são melhores do que as reclamações. As pessoas que não estiverem se envolvendo positivamente com seu programa de email podem ter um efeito negativo na reputação da capacidade de entrega, bem como nas métricas. Agora, é hora de você se concentrar em cultivar relacionamentos mais profundos com seus assinantes atuais, tratando-os para mensagens relevantes e engajadas que eles não podem esperar para abrir, clicar e fazer uma compra.
