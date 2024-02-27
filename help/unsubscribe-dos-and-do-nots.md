@@ -1,10 +1,21 @@
 ---
-source-git-commit: 68580661062e1e323ff728c09ebf3a5103544fff
+title: Cancelar a assinatura do que fazer e do que não fazer
+description: Use uma lista de coisas a serem feitas e as coisas a serem evitadas ao gerenciar cancelamentos de assinatura.
+feature: Deliverability
+role: Admin
+level: Beginner
+doc-type: Feature Video
+duration: 0
+last-substantial-update: 2024-02-27T00:00:00Z
+jira: KT-15029
+source-git-commit: 77de42d30ce01ab66323da1731a4a0bf96a94f44
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '948'
 ht-degree: 0%
 
 ---
+
+
 # Cancelar assinatura de Do’s e Do Not’s
 
 Os cancelamentos de assinatura são uma parte natural do ciclo de vida do email. Mas às vezes é difícil para os profissionais de marketing dizer adeus. Você trabalha duro para criar os emails mais envolventes e apresentar as melhores ofertas de produtos e serviços que sua marca oferece. No entanto, é completamente normal, e deve ser esperado, que alguns assinantes decidam seguir em frente. Isso pode ser devido a uma série de razões, mas o ponto principal é que eles não estão mais interessados em ouvir de você.
