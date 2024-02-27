@@ -1,13 +1,11 @@
 ---
-source-git-commit: 34a7b7c8d6a2bda2f5b131bbbd9570c0b577c02c
+source-git-commit: 214036c89a3c0b3ebcdfc66bc8a4e4bd2ede5766
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
 # Cancelar assinatura de Do’s e Do Not’s
-
-O objetivo deste documento é revisar as práticas recomendadas para o gerenciamento de cancelamento de inscrição de email.
 
 Os cancelamentos de assinatura são uma parte natural do ciclo de vida do email. Mas às vezes é difícil para os profissionais de marketing dizer adeus. Você trabalha duro para criar os emails mais envolventes e apresentar as melhores ofertas de produtos e serviços que sua marca oferece. No entanto, é completamente normal, e deve ser esperado, que alguns assinantes decidam seguir em frente. Isso pode ser devido a uma série de razões, mas o ponto principal é que eles não estão mais interessados em ouvir de você.
 
