@@ -1,5 +1,5 @@
 ---
-source-git-commit: 5e7c7bf626b6277abf8d50181826deb2e21c868f
+source-git-commit: fcf836681561221bdf8b96593813c26b2d8bc399
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 0%
@@ -13,7 +13,7 @@ Os cancelamentos de assinatura são uma parte natural do ciclo de vida do email.
 
 Criamos uma lista de coisas a serem feitas e o que deve ser evitado ao gerenciar cancelamentos de assinatura de suas listas de email - leia para saber mais.
 
-O Do’s
+## O Do’s
 
 DO: ter um link de cancelamento de inscrição posicionado de forma destacada. Isso pode ajudar a impedir que os usuários cliquem na reclamação &quot;isso é spam&quot; (também chamada de loop de comentários)
 
@@ -34,51 +34,51 @@ FAZER: inclua o endereço de email na landing page de cancelamento de inscriçã
 
 + Importante: dependendo da localização/jurisdição dos usuários, pode haver preocupações de privacidade ao incluir o endereço de email completo. Talvez seja necessário preencher previamente uma versão com hash do endereço de email. Isso ocorre porque o email pode ter sido encaminhado do endereço que foi assinado originalmente. Consulte seu grupo jurídico para entender suas necessidades específicas.
 
-FAZER: confirme se o cancelamento de inscrição foi enviado com êxito e quando é esperado que eles parem de receber emails.
+**FAÇA:** Confirme se o cancelamento de inscrição foi enviado com êxito e confirme quando eles podem esperar parar de receber emails.
 
 + Se já tiverem cancelado a assinatura e tentarem novamente, informe que já cancelaram a assinatura e quando (Data/Hora)
 
-DO: Respeite o cancelamento de inscrição e remova o endereço em tempo hábil.
+**FAÇA:** Respeite o cancelamento de inscrição e remova o endereço em tempo hábil.
 
 + A pontualidade dependerá das leis locais e da jurisdição, portanto, consulte o advogado sobre o que se aplica ao seu negócio.
 
-FAZER: permitir que seus assinantes ditem a relação.
+**FAÇA:** Permitir que seus assinantes ditem a relação.
 
 + Não há problema em oferecer opções aos assinantes; isso pode ser gerenciado por meio de uma iniciativa de centro de preferências/recusa.
 
-FAZER: use um cabeçalho de Cancelamento de inscrição de lista em seus modelos de email para que os clientes de email (por exemplo: gmail.com) que exibem links de cancelamento de inscrição na parte superior do email sejam facilmente encontrados onde o usuário está acostumado a procurar cancelamentos de inscrição.
+**FAÇA:** Use um cabeçalho de Cancelamento de inscrição de lista em seus modelos de email para que os clientes de email (por exemplo: gmail.com) que exibem links de cancelamento de inscrição na parte superior do email sejam facilmente encontrados onde o usuário está acostumado a procurar cancelamentos de inscrição.
 
 + Clique em [aqui](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=pt-BR) para ler mais sobre as iniciativas do setor relacionadas ao cancelamento de inscrição com um clique.
 
-O Do Not’s
+## O Do Not’s
 
 
-NÃO FAÇA: enterre o link de cancelamento de inscrição em seu conteúdo na esperança de que os assinantes ‘desistam’ de frustração.
+**NÃO:** Enterrar o link de cancelamento de inscrição em seu conteúdo na esperança de que os assinantes ‘desistam’ de frustração.
 
 + Essa é uma experiência ruim para o usuário final e pode levar a mais reclamações, o que pode afetar negativamente sua capacidade de entrega e reputação.
 
-NÃO PERMITIDO: dificulte o cancelamento da inscrição depois que o cliente chegar ao formulário. A trapaça é irritante - e em alguns casos - ilegal.
+**NÃO:** Dificulte o cancelamento de inscrição depois que o cliente chegar ao formulário. A trapaça é irritante - e em alguns casos - ilegal.
 
 + Seja direto e evite confundir o usuário final.
 
-NÃO PERMITIDO: faça com que o usuário adicione manualmente um endereço de email no formulário de cancelamento de inscrição.
+**NÃO:** Faça com que o usuário adicione manualmente um endereço de email no formulário de cancelamento de inscrição.
 
 + O endereço que a assinatura pode ser diferente do endereço que o usuário fez logon no para email (por exemplo, encaminhado).  Eles podem não saber o endereço de email que foi usado para a assinatura original.
 
-NÃO PERMITIDO: faça com que o usuário faça logon em sua conta para cancelar a inscrição.
+**NÃO:** Faça com que o usuário faça logon em sua conta para cancelar a inscrição.
 
 + Talvez você esteja enviando o email para o endereço errado e o proprietário desse endereço talvez não tenha acesso à conta.  Se estiverem recebendo o email, eles devem ter permissão para cancelar a inscrição do link somente no email; nenhuma outra ação ou informação deve ser necessária.
 + Quanto menos etapas um cliente precisar tomar, melhor.
 
-NÃO: envie um email confirmando que a pessoa cancelou a inscrição.
+**NÃO:** Envie um email confirmando que a pessoa cancelou a inscrição.
 
 + Se o fizer, você já quebrou sua promessa de não enviar mais emails para eles.
 
-NÃO: Seja sarcástico na sua verborreia. &quot;Não gosto de ouvir falar de ótimas ofertas - cancele a minha assinatura!&quot;
+**NÃO:** Seja sarcástico na sua verborragia. &quot;Não gosto de ouvir falar de ótimas ofertas - cancele a minha assinatura!&quot;
 
 + Isto pode parecer rude. Evite um tom negativo.
 
-NÃO PERMITIDO: force-os a fornecer um motivo pelo qual cancelaram a assinatura antes de você processar a solicitação.
+**NÃO:** Force-os a fornecer um motivo pelo qual cancelaram a assinatura antes que você processe a solicitação.
 
 + Permitir que o cliente adicione essas informações pode ser útil para insights futuros, mas pode torná-lo um campo opcional na página de aterrissagem de cancelamento de inscrição.
 + Uma melhor abordagem seria informá-los de que a subscrição foi cancelada com êxito e, em seguida, permitir um espaço para que eles ofereçam, opcionalmente, o(s) motivo(s).
