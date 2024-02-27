@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: b5e1d878c889112e08da0969d50bdb3c72e48f8c
+source-git-commit: 466b775442964e2d8cad133280e6b9f8af148b25
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '1871'
 ht-degree: 55%
 
 ---
@@ -139,10 +139,13 @@ O serviço de Deliverability do Adobe Campaign gerencia sua subscrição para se
 
 ### Sobre o List-Unsubscribe {#about-list-unsubscribe}
 
-Adição de um cabeçalho SMTP chamado **List-Unsubscribe** é obrigatório para garantir o gerenciamento ideal da capacidade de delivery. A partir de 1º de junho de 2024, o Yahoo e o Gmail exigirão que os remetentes cumpram o One-Click List-Unsubscribe. Para entender como configurar o Cancelamento de inscrição na lista de um clique, consulte [nesta seção](#one-click-list-unsubscribe).
+Adicionar um cabeçalho SMTP chamado **List-Unsubscribe** é obrigatório para garantir o gerenciamento ideal de deliverability.
 
+>[!CAUTION]
+>
+>A partir de 1 de junho de 2024, o Yahoo! e o Gmail exigirão que os remetentes cumpram **Lista De Um Clique - Cancelar Inscrição**. Para entender como configurar o Cancelamento de inscrição na lista de um clique, consulte [nesta seção](#one-click-list-unsubscribe).
 
-Esse cabeçalho pode ser usado como um ícone alternativo para o ícone &quot;Denunciar como SPAM&quot;. Ele será exibido como um link de cancelamento de inscrição na interface de email.
+Esse cabeçalho pode ser usado como um ícone alternativo para o ícone &quot;Denunciar como SPAM&quot;. Ele é exibido como um link de cancelamento de inscrição na interface de email.
 
 Usar essa funcionalidade ajuda a proteger sua reputação e os comentários serão executados como um cancelamento de inscrição.
 
@@ -191,20 +194,18 @@ A regra deverá conter o script que gera a linha de comando e deverá ser inclu�
 >[!NOTE]
 >
 >Recomendamos a criação de uma regra de tipologia: a funcionalidade List-Unsubscribe será adicionada automaticamente em cada email.
-
->[!NOTE]
 >
->Saiba como criar regras de tipologia no Adobe Campaign Classic em [nesta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
+>Saiba como criar regras de tipologia no Adobe Campaign v7/v8 em [nesta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
 
 ### Cancelamento de inscrição na lista com um clique {#one-click-list-unsubscribe}
 
-A partir de 1º de junho de 2024, o Yahoo e o Gmail exigirão que os remetentes cumpram o One-Click List-Unsubscribe. Para estar em conformidade com o requisito de Lista de um clique - Cancelar inscrição, os remetentes devem:
+A partir de 1º de junho de 2024, o Yahoo e o Gmail exigirão que os remetentes cumpram o One-Click List-Unsubscribe. Para atender a esse requisito, os remetentes devem:
 
-1. Adicione em um &quot;List-Unsubscribe-Post: List-Unsubscribe=One-Click&quot;
-2. Incluir um link de cancelamento de inscrição de URI
-3. Suporte à recepção da resposta POST HTTP do receptor, compatível com Adobe Campaign.
+1. Adicione a seguinte linha de comando:`List-Unsubscribe-Post: List-Unsubscribe=One-Click`.
+1. Inclua um link de cancelamento de inscrição de URI.
+1. Suporte à recepção da resposta POST HTTP do receptor, compatível com Adobe Campaign.
 
-Para configurar o One-Click List-Unsubscribe diretamente:
+Para configurar o One-Click List-Unsubscribe diretamente no Adobe Campaign v7/v8:
 
 * Adicione no seguinte aplicativo web &quot;Unsubscribe recipients no click&quot; 
    1. Vá para Recursos -> Online -> Aplicativos da Web

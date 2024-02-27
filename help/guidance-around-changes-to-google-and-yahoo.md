@@ -8,10 +8,10 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 50017358f7f88f5579de282a1f528916ecb17493
+source-git-commit: e2c2fbfee5e404e1eef25dd0068a6bdd560ed977
 workflow-type: tm+mt
-source-wordcount: '1775'
-ht-degree: 0%
+source-wordcount: '1770'
+ht-degree: 1%
 
 ---
 
@@ -67,13 +67,11 @@ A necessidade de cabeçalhos de cancelamento de inscrição em lista não se apl
 
 >[!INFO]
 > O Adobe está trabalhando para habilitar o suporte &quot;post&quot; em todas as nossas plataformas de envio de email para ajudar nossos usuários a atender aos seguintes requisitos:
-> 
-> 
-> * [!DNL Adobe Campaign Classic V7/V8]: totalmente compatível com POST 1-Clique hoje, instruções podem ser encontradas [aqui](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"}.
->* [!DNL Adobe Campaign Standard]: está sendo atualizado para oferecer suporte ao POST 1-Click até o final de fevereiro. As instruções para a configuração serão fornecidas [aqui](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"} uma vez pronto.
+>
+> * [!DNL Adobe Campaign v7/v8]: totalmente compatível com POST 1-Clique hoje, instruções podem ser encontradas [aqui](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"}.
+>* [!DNL Adobe Campaign Standard]: a partir de 19 de fevereiro, o oferece suporte total ao POST 1-Click. Mais informações podem ser encontradas [aqui](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-channels/configuring-email-channel.html#email-channel-parameters){target="_blank"}.
 >* [!DNL Adobe Journey Optimizer]: suporta o POST 1-Click hoje, mas algumas melhorias importantes estão em andamento e devem ocorrer em março de 2024. As atualizações da documentação serão publicadas [aqui](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} uma vez pronto.
-> * [!DNL Marketo]: a partir de 31 de janeiro de 2024, oferecerá suporte total ao POST 1-Click-List-Unsubscribe. Nenhuma ação é necessária para o usuário.
-
+> * [!DNL Marketo]: A partir de 31 de janeiro de 2024, oferecerá suporte ao POST 1-Click List-Unsubscribe. Nenhuma ação é necessária para o usuário.
 
 ## Processar cancelamentos de assinatura em 2 dias:
 
@@ -102,7 +100,7 @@ As atualizações das linhas do tempo estão disponíveis desde o anúncio origi
 
 [!DNL Gmail]
 
-Fevereiro de 2024 - As rejeições temporárias projetadas para fornecer aviso de não conformidade serão iniciadas. Os e-mails ainda serão entregues normalmente após um pequeno atraso se você ainda não estiver em conformidade. Se você estiver em total conformidade, não haverá rejeições temporárias e você não notará nada.
+Fevereiro de 2024 - As rejeições temporárias projetadas para fornecer aviso de não conformidade serão iniciadas. Os emails ainda serão entregues normalmente após um pequeno atraso se você ainda não estiver em conformidade. Se você estiver em total conformidade, não haverá rejeições temporárias e você não perceberá nada.
 
 Abril de 2024 - Os blocos começarão para remetentes que não estiverem em conformidade com tudo, exceto List-Unsubscribe 1-Click. Somente uma parte do email incompatível será bloqueada no início, com a % de bloqueio aumentando com o tempo.
 
