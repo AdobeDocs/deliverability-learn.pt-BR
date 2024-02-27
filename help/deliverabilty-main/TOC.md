@@ -1,20 +1,20 @@
 ---
 user-guide-title: Manual de práticas recomendadas para a entrega
 user-guide-breadcrumb: Deliverability Best Practice Guide
-user-guide-description: Conheça os principais termos, conceitos e abordagens de entrega para garantir o sucesso do seu programa de marketing.
+user-guide-description: Conheça os principais termos, conceitos e abordagens da capacidade de entrega para garantir o sucesso do seu programa de marketing.
 feature: Deliverability
 role: Leader, User
 level: Beginner
 auto-video-transcripts: true
-source-git-commit: acf2686d59bc27063a255a02de52cbaa3734d5ed
-workflow-type: ht
-source-wordcount: '178'
-ht-degree: 100%
+source-git-commit: 05997b0a7aa30e98fa425b814f649e3edebf120c
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 95%
 
 ---
 
 
-# Guia de práticas recomendadas de entrega do Adobe Campaign {#deliverability-best-practice-guide}
+# Guia de práticas recomendadas de capacidade de entrega do Adobe Campaign {#deliverability-best-practice-guide}
 
 + [Introdução](/help/introduction.md)
 + [Estratégia e definição da capacidade de entrega](/help/deliverability-strategy-and-definition.md)
@@ -35,7 +35,7 @@ ht-degree: 100%
    + [Primeiras impressões – Coleção de listas e emails de boas-vindas](/help/first-impressions/introduction.md)
    + [Coleta de endereços e crescimento de listas](/help/first-impressions/address-collection-and-list-growth.md)
    + [Emails de boas-vindas](/help/first-impressions/welcome-emails.md)
-+ [Práticas recomendadas de conteúdo para a entrega ideal](/help/content-best-practices-for-optimal-delivery.md)
++ [Práticas recomendadas de conteúdo para capacidade de entrega ideal](/help/content-best-practices-for-optimal-delivery.md)
 + [Permanência do remetente](/help/sender-permanence.md)
 + Especificações do provedor de serviços de internet {#internet-service-provider-specifics}
    + [Visão geral](/help/internet-service-provider-specifics/overview.md)
@@ -47,6 +47,7 @@ ht-degree: 100%
 + Apêndice: Recursos adicionais {#additional-resources}
    + [Visão geral](/help/additional-resources/general-resources.md)
    + [Atualizações do Yahoo e Gmail](/help/guidance-around-changes-to-google-and-yahoo.md)
+   + [Cancelar inscrição de Do&#39;s e Dont&#39;s](/help/Unsubscribe Do&#39;s &amp; Do Not&#39;s.md)
    + Recursos genéricos {#generic-resources}
       + [Tudo sobre armadilhas de spam](/help/additional-resources/all-about-spam-traps.md)
       + [Aumente sua reputação de email com o aquecimento de IP](/help/additional-resources/increase-reputation-with-ip-warming.md)
