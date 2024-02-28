@@ -8,9 +8,9 @@ doc-type: Feature Video
 duration: 0
 last-substantial-update: 2024-02-27T00:00:00Z
 jira: KT-15029
-source-git-commit: d4af9b039e2f8f140124cf21edec825e803c1308
+source-git-commit: 7f1e756683bfc5c8587101fcbf86db010a5b6a7e
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '935'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,6 @@ A frase na página de aterrissagem deve incluir um link para um clique que diga 
 
 **FAÇA:** Use um cabeçalho de Cancelamento de inscrição de lista em seus modelos de email para que os clientes de email (por exemplo: gmail.com) que exibem links de cancelamento de inscrição na parte superior do email sejam facilmente encontrados onde o usuário está acostumado a procurar cancelamentos de inscrição.
 
-Clique em [aqui](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=pt-BR) para ler mais sobre as iniciativas do setor relacionadas ao cancelamento de inscrição com um clique.
 
 ## O Do Not’s
 
