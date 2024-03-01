@@ -1,5 +1,5 @@
 ---
-source-git-commit: 0332be5688f9d0375d1dba97c39a87d0e8d28c52
+source-git-commit: d105a5b7d81aa14144b9d01f28a5e24c1110ae6c
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 8%
@@ -8,11 +8,13 @@ ht-degree: 8%
 # Criação de uma regra de tipologia para suportar o cancelamento de inscrição em lista com um clique:
 
 **1. Crie a nova Regra de tipologia:**
+
 * Na Árvore de navegação, clique em &quot;novo&quot; para criar uma nova Tipologia
 
 ![imagem](/help/assets/CreatingTypologyRules1.png)
 
 **2. Continue a configurar a regra de tipologia:**
+
 * Tipo de regra: controle
 * Fase: no início do direcionamento
 * Canal: Email
