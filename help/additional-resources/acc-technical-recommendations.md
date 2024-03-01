@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: d105a5b7d81aa14144b9d01f28a5e24c1110ae6c
+source-git-commit: dd2de465850181cf72085328352c38bcefd59458
 workflow-type: tm+mt
 source-wordcount: '2014'
 ht-degree: 49%
@@ -166,7 +166,7 @@ e
 
 >[!CAUTION]
 >
->A partir de 1 de junho de 2024, o Yahoo! e o Gmail exigirão que os remetentes cumpram **Lista De Um Clique - Cancelar Inscrição**. [Saiba mais sobre esta alteração](guidance-around-changes-to-google-and-yahoo.md)
+>A partir de 1 de junho de 2024, o Yahoo! e o Gmail exigirão que os remetentes cumpram **Lista De Um Clique - Cancelar Inscrição**. [Saiba mais sobre esta alteração](../guidance-around-changes-to-google-and-yahoo.md)
 >
 >Saiba como configurar o Cancelamento de inscrição na lista de um clique no [nesta seção](#one-click-list-unsubscribe).
 
@@ -231,7 +231,7 @@ Saiba como criar regras de tipologia no Adobe Campaign v7/v8 em [nesta seção](
 
 ### Cancelamento de inscrição na lista com um clique {#one-click-list-unsubscribe}
 
-A partir de 1 de junho de 2024, o Yahoo! O e o Gmail exigirão que os remetentes cumpram o One-Click List-Unsubscribe. [Saiba mais sobre esta alteração](guidance-around-changes-to-google-and-yahoo.md)
+A partir de 1 de junho de 2024, o Yahoo! O e o Gmail exigirão que os remetentes cumpram o One-Click List-Unsubscribe. [Saiba mais sobre esta alteração](../guidance-around-changes-to-google-and-yahoo.md)
 
 Para atender a esse requisito, os remetentes devem:
 
