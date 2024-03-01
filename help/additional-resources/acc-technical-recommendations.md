@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: dd2de465850181cf72085328352c38bcefd59458
+source-git-commit: ea91b7285814eca254590f2aff128fb6e5f77520
 workflow-type: tm+mt
-source-wordcount: '2014'
-ht-degree: 49%
+source-wordcount: '2060'
+ht-degree: 48%
 
 ---
 
@@ -139,11 +139,11 @@ O serviço de Deliverability do Adobe Campaign gerencia sua subscrição para se
 
 Adicionar um cabeçalho SMTP chamado **List-Unsubscribe** é obrigatório para garantir o gerenciamento ideal de deliverability.
 
-Esse cabeçalho pode ser usado como um ícone alternativo para o ícone &quot;Denunciar como SPAM&quot;. Ele é exibido como um link &quot;Cancelar inscrição&quot; nas interfaces de email dos ISPs. Por exemplo:
+Esse cabeçalho pode ser usado como um ícone alternativo para o ícone &quot;Denunciar como SPAM&quot;. Ele é exibido como um link &quot;Cancelar inscrição&quot; nas interfaces de email dos ISPs.
+
+Gmail, Outlook.com, Yahoo! O e o Microsoft Outlook são compatíveis com esse método. Um link &quot;Cancelar inscrição&quot; está disponível diretamente em sua interface. Por exemplo:
 
 ![imagem](../assets/List-Unsubscribe-example-Gmail.png)
-
-Gmail, Outlook.com, Yahoo! O e o Microsoft Outlook são compatíveis com esse método. Um link &quot;Cancelar inscrição&quot; está disponível diretamente em sua interface.
 
 >[!NOTE]
 >
@@ -161,7 +161,6 @@ Existem duas versões da funcionalidade de cabeçalho List-Unsubscribe:
 
 <!--OR: With this method, clicking the **Unsubscribe** link opens the user's default email client with a pre-filled email to the unsubscribe address specified in the email header. This allows the user to unsubscribe simply by sending the email without any further manual steps.-->
 
-e
 * **Lista de um clique - Cancelar inscrição** - Com esse método, clique no link **Cancelar inscrição** link cancela a assinatura do usuário diretamente. [Saiba mais](#one-click-list-unsubscribe)
 
 >[!CAUTION]
@@ -172,23 +171,17 @@ e
 
 ### Lista &quot;mailto&quot; - Cancelar inscrição {#mailto-list-unsubscribe}
 
-Para usar o List-Unsubscribe &quot;mailto&quot;, você deve inserir uma linha de comando semelhante a:
+Com esse método, clique no link **Cancelar inscrição** O link envia um email pré-preenchido para o endereço de cancelamento de inscrição especificado no cabeçalho do email.
 
-```
-List-Unsubscribe: <mailto:client@newsletter.example.com?subject=unsubscribe?body=unsubscribe>
-```
+Para usar o &quot;mailto&quot; List-Unsubscribe, você deve digitar uma linha de comando onde você especifica um endereço de e-mail, como: `List-Unsubscribe: <mailto:client@newsletter.example.com?subject=unsubscribe?body=unsubscribe>`
 
 >[!CAUTION]
 >
 >O exemplo acima é baseado na tabela do recipient. Se a implementação do banco de dados for feita a partir de outra tabela, reescreva a linha de comando com as informações corretas.
 
-Você também pode criar um List-Unsubscribe &quot;mailto&quot; dinâmico usando uma linha de comando como:
+Você também pode criar um List-Unsubscribe &quot;mailto&quot; dinâmico usando uma linha de comando como: `List-Unsubscribe: <mailto:<%=errorAddress%>?subject=unsubscribe%=message.mimeMessageId%>`
 
-```
-List-Unsubscribe: <mailto:<%=errorAddress%>?subject=unsubscribe%=message.mimeMessageId%>
-```
-
-Para implementar **Lista &quot;mailto&quot; - Cancelar inscrição**, é possível:
+Para implementar **Lista &quot;mailto&quot; - Cancelar inscrição** no Campaign, é possível:
 
 * Adicionar diretamente a linha de comando no delivery ou no template do delivery - [Saiba como](#adding-a-command-line-in-a-delivery-template)
 
@@ -200,7 +193,7 @@ A linha de comando deve ser adicionada à variável **[!UICONTROL Additional SMT
 
 Essa adição pode ser feita em cada email ou nos templates da entrega existentes. Você também poderá criar um novo template da entrega que inclua essa funcionalidade.
 
-Por exemplo, insira o script a seguir no campo **[!UICONTROL Additional SMTP headers]**: `List-Unsubscribe: mailto:unsubscribe@domain.com`
+Por exemplo, insira o script a seguir no campo **[!UICONTROL Additional SMTP headers]** campo: `List-Unsubscribe: mailto:unsubscribe@domain.com`
 
 Clicar no **cancelar inscrição** link envia um email para o endereço unsubscribe@domain.com.
 
@@ -229,7 +222,9 @@ Saiba como criar regras de tipologia no Adobe Campaign v7/v8 em [nesta seção](
 >
 >Recomendamos criar uma regra de tipologia: a funcionalidade List-Unsubscribe será adicionada automaticamente em cada email usando essa regra de tipologia.
 
-### Cancelamento de inscrição na lista com um clique {#one-click-list-unsubscribe}
+### Lista De Um Clique - Cancelar Inscrição {#one-click-list-unsubscribe}
+
+Com esse método, clique no link **Cancelar inscrição** O link cancela a assinatura do usuário diretamente, exigindo apenas uma única ação para cancelar a assinatura.
 
 A partir de 1 de junho de 2024, o Yahoo! O e o Gmail exigirão que os remetentes cumpram o One-Click List-Unsubscribe. [Saiba mais sobre esta alteração](../guidance-around-changes-to-google-and-yahoo.md)
 
@@ -245,7 +240,7 @@ Para dar suporte à resposta One-Click List-Unsubscribe PSOT diretamente no Adob
 
 1. Carregue a mensagem &quot;Unsubscribe recipients no click&quot; [XML](/help/assets/WebAppUnsubNoClick.xml.zip) arquivo.
 
-Para configurar **Lista De Um Clique - Cancelar Inscrição**, é possível:
+Para configurar **Lista De Um Clique - Cancelar Inscrição** no Campaign, é possível:
 
 * Adicionar a linha de comando no template do delivery ou do delivery - [Saiba como](#one-click-delivery-template)
 * Criar uma regra de tipologia - [Saiba como](#one-click-typology-rule)
@@ -265,7 +260,7 @@ List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.crypt
 
 ![imagem](../assets/List-Unsubscribe-1-click-template-SMTP.png)
 
-O exemplo acima habilitará o One-Click List-Unsubscribe para ISPs que oferecem suporte a One-Click, enquanto garante que os destinatários que não oferecem suporte a &quot;mailto&quot; List-Unsubscribe ainda possam solicitar o cancelamento de inscrição por email.
+O exemplo acima habilitará o One-Click List-Unsubscribe para ISPs com suporte a One-Click, garantindo que os destinatários que não aceitam &quot;mailto&quot; ainda possam solicitar o cancelamento de inscrição por email.
 
 #### Criação de uma regra de tipologia para oferecer suporte a One-Click List-Unsubscribe {#one-click-typology-rule}
 
