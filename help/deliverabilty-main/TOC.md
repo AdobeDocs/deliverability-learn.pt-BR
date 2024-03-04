@@ -6,9 +6,9 @@ feature: Deliverability
 role: Leader, User
 level: Beginner
 auto-video-transcripts: true
-source-git-commit: 12bd5f583476dad0eac9641389ce35b40dc5136c
+source-git-commit: f79df94a991939a1599a751f9d758f14ce328e12
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '183'
 ht-degree: 97%
 
 ---
@@ -46,6 +46,7 @@ ht-degree: 97%
 + [Colocando em prática](/help/putting-it-in-practice.md)
 + Apêndice: Recursos adicionais {#additional-resources}
    + [Visão geral](/help/additional-resources/general-resources.md)
+   + [Atualizações do Yahoo e Gmail](/help/guidance-around-changes-to-google-and-yahoo.md)
    + [Cancelar a assinatura do que fazer e do que não fazer](/help/unsubscribe-dos-and-do-nots.md)
    + Recursos genéricos {#generic-resources}
       + [Tudo sobre armadilhas de spam](/help/additional-resources/all-about-spam-traps.md)
