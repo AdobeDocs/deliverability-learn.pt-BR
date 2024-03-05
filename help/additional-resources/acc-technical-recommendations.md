@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 12bd5f583476dad0eac9641389ce35b40dc5136c
+source-git-commit: b163628adde1e4d7225a1c2c54d29b24e2b2a352
 workflow-type: tm+mt
-source-wordcount: '2045'
+source-wordcount: '2064'
 ht-degree: 48%
 
 ---
@@ -159,13 +159,11 @@ Existem duas versões da funcionalidade de cabeçalho List-Unsubscribe:
 
 * **Lista &quot;mailto&quot; - Cancelar inscrição** - Com esse método, clique no link **Cancelar inscrição** O link envia um email pré-preenchido para o endereço de cancelamento de inscrição especificado no cabeçalho do email. [Saiba mais](#mailto-list-unsubscribe)
 
-<!--OR: With this method, clicking the **Unsubscribe** link opens the user's default email client with a pre-filled email to the unsubscribe address specified in the email header. This allows the user to unsubscribe simply by sending the email without any further manual steps.-->
-
 * **Lista de um clique - Cancelar inscrição** - Com esse método, clique no link **Cancelar inscrição** link cancela a assinatura do usuário diretamente. [Saiba mais](#one-click-list-unsubscribe)
 
->[!IMPORTANT]
+>[!NOTE]
 >
->>Saiba como configurar o Cancelamento de inscrição na lista de um clique no [nesta seção](#one-click-list-unsubscribe).
+>A partir de 1º de junho de 2024, os principais ISPs exigirão que os remetentes cumpram as **Lista De Um Clique - Cancelar Inscrição**.
 
 ### Lista &quot;mailto&quot; - Cancelar inscrição {#mailto-list-unsubscribe}
 
@@ -197,17 +195,6 @@ Você também pode usar um endereço dinâmico. Por exemplo, para enviar um emai
 
 ![imagem](../assets/List-Unsubscribe-template-SMTP.png)
 
-<!--
-List-Unsubscribe: mailto:unsubscribe@domain.com 
-* Clicking the **unsubscribe** link opens the user's default email client. This typology rule must be added in a typology used for creating email.
-
-List-Unsubscribe: https://domain.com/unsubscribe.jsp 
-
-* Clicking the **unsubscribe** link redirects the user to your unsubscribe form.
-
-  ![image](../assets/UTF-8-1.png)
--->
-
 #### Criação de uma regra de tipologia {#creating-a-typology-rule}
 
 A regra deverá conter o script que gera a linha de comando e deverá ser incluída no cabeçalho do email.
@@ -221,6 +208,8 @@ Saiba como criar regras de tipologia no Adobe Campaign v7/v8 em [nesta seção](
 ### Lista De Um Clique - Cancelar Inscrição {#one-click-list-unsubscribe}
 
 Com esse método, clique no link **Cancelar inscrição** O link cancela a assinatura do usuário diretamente, exigindo apenas uma única ação para cancelar a assinatura.
+
+A partir de 1º de junho de 2024, os principais ISPs exigirão que os remetentes cumpram as **Lista De Um Clique - Cancelar Inscrição**.
 
 Para atender a esse requisito, os remetentes devem:
 
