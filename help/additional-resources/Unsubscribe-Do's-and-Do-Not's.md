@@ -1,21 +1,21 @@
 ---
-source-git-commit: 758bc4144e09c53883d682a480f5f52a25c98111
+source-git-commit: e5b40a9f0a58f70066c5210053cfd88fc938bb65
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
-# Cancelar assinatura de Do’s e Do Not’s
+# Cancelar a assinatura do que fazer e do que não fazer
 
 Os cancelamentos de assinatura são uma parte natural do ciclo de vida do email. Mas às vezes é difícil para os profissionais de marketing dizer adeus. Você trabalha duro para criar os emails mais envolventes e apresentar as melhores ofertas de produtos e serviços que sua marca oferece. No entanto, é completamente normal, e deve ser esperado, que alguns assinantes decidam seguir em frente. Isso pode ser devido a uma série de razões, mas o ponto principal é que eles não estão mais interessados em ouvir de você.
 
 Criamos uma lista de coisas a serem feitas e o que deve ser evitado ao gerenciar cancelamentos de assinatura de suas listas de email - leia para saber mais.
 
-## O Do’s
+## O Do&#39;s
 
 **FAÇA:** Ter um link de cancelamento de inscrição posicionado de forma destacada. Isso pode ajudar a impedir que os usuários cliquem na reclamação &quot;isso é spam&quot; (também chamada de loop de comentários)
 
-+ Algumas ideias sobre como fazer o link de cancelamento de inscrição se destacarem: Centralize-o, sublinhe-o e coloque-o em negrito, na parte superior ou inferior do email, torne-o uma cor de fonte diferente. Use a palavra &quot;UNSUBSCRIBE&quot; na preferência de idioma do usuário. Não use floração ou verborreia excessiva.
++ Algumas ideias sobre como fazer o link de cancelamento de inscrição se destacarem: Centralize-o, sublinhe-o e coloque-o em negrito, na parte superior ou inferior do email, torne-o uma cor de fonte diferente. Use a palavra &quot;UNSUBSCRIBE&quot; na preferência de idioma do usuário. Não use floração ou verborragia excessiva.
 
 **FAÇA:** Faça com que seu link de cancelamento de inscrição seja direcionado para uma página de aterrissagem em que o usuário possa confirmar que deseja ser removido da lista
 
@@ -46,12 +46,10 @@ Criamos uma lista de coisas a serem feitas e o que deve ser evitado ao gerenciar
 
 **FAÇA:** Use um cabeçalho de Cancelamento de inscrição de lista em seus modelos de email para que os clientes de email (por exemplo: gmail.com) que exibem links de cancelamento de inscrição na parte superior do email sejam facilmente encontrados onde o usuário está acostumado a procurar cancelamentos de inscrição.
 
-+ Clique em [aqui](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=pt-BR) para ler mais sobre as iniciativas do setor relacionadas ao cancelamento de inscrição com um clique.
-
-## O Do Not’s
+## O Do Not&#39;s
 
 
-**NÃO:** Enterrar o link de cancelamento de inscrição em seu conteúdo na esperança de que os assinantes ‘desistam’ de frustração.
+**NÃO:** Enterre o link de cancelamento de inscrição em seu conteúdo na esperança de que os assinantes &quot;desistam&quot; da frustração.
 
 + Essa é uma experiência ruim para o usuário final e pode levar a mais reclamações, o que pode afetar negativamente sua capacidade de entrega e reputação.
 
@@ -72,7 +70,7 @@ Criamos uma lista de coisas a serem feitas e o que deve ser evitado ao gerenciar
 
 + Se o fizer, você já quebrou sua promessa de não enviar mais emails para eles.
 
-**NÃO:** Seja sarcástico na sua verborragia. &quot;Não gosto de ouvir falar de ótimas ofertas - cancele a minha assinatura!&quot;
+**NÃO:** Seja sarcástico na sua verborragia. &quot;Não gosto de ouvir falar de ótimas ofertas. Cancele a minha assinatura!&quot;
 
 + Isto pode parecer rude. Evite um tom negativo.
 
@@ -81,4 +79,4 @@ Criamos uma lista de coisas a serem feitas e o que deve ser evitado ao gerenciar
 + Permitir que o cliente adicione essas informações pode ser útil para insights futuros, mas pode torná-lo um campo opcional na página de aterrissagem de cancelamento de inscrição.
 + Uma melhor abordagem seria informá-los de que a subscrição foi cancelada com êxito e, em seguida, permitir um espaço para que eles ofereçam, opcionalmente, o(s) motivo(s).
 
-Lembre-se de que os cancelamentos de inscrição são melhores do que as reclamações. As pessoas que não estiverem se envolvendo positivamente com seu programa de email podem ter um efeito negativo na reputação da capacidade de entrega, bem como nas métricas. Agora, é hora de você se concentrar em cultivar relacionamentos mais profundos com seus assinantes atuais, tratando-os para mensagens relevantes e engajadas que eles não podem esperar para abrir, clicar e fazer uma compra.
+Lembre-se de que os cancelamentos de inscrição são melhores do que as reclamações. As pessoas que não estiverem se envolvendo positivamente com seu programa de email podem ter um efeito negativo na reputação da capacidade de entrega, bem como nas métricas. Agora, é hora de você se concentrar em cultivar relacionamentos mais profundos com seus assinantes atuais, tratando-os para mensagens relevantes e engajadas que eles não podem esperar para abrir, clicar e fazer uma compra!
