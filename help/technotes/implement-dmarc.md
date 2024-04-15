@@ -5,10 +5,10 @@ topics: Deliverability
 role: Admin
 level: Beginner
 exl-id: f1c14b10-6191-4202-9825-23f948714f1e
-source-git-commit: bd8cee606c9dcb1593ad3ec45c578f59f8e968f2
+source-git-commit: 2a78db97a46150237629eef32086919cacf4998c
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 8%
+source-wordcount: '1284'
+ht-degree: 5%
 
 ---
 
@@ -44,7 +44,7 @@ O DMARC é opcional e, embora não seja obrigatório, é gratuito e permite que 
 
 ## Práticas recomendadas para a implementação do DMARC {#best-practice}
 
-Como o DMARC é opcional, ele não será configurado por padrão em nenhuma plataforma do ESP. Um registro DMARC deve ser criado no DNS para que seu domínio funcione. Além disso, um endereço de email de sua escolha é necessário para indicar para onde os relatórios DMARC devem ir na organização. A prática recomendada é o uso de uma implantação lenta do DMARC com uma progressão de políticas (de “Nenhum” para “Quarentena” e, por fim, “Rejeitar”) à medida que você compreende os possíveis impactos do DMARC.
+Como o DMARC é opcional, ele não será configurado por padrão em nenhuma plataforma do ESP. Um registro DMARC deve ser criado no DNS para que seu domínio funcione. Além disso, um endereço de email de sua escolha é necessário para indicar para onde os relatórios DMARC devem ir na organização. Como prática recomendada, é recomendável implantar lentamente a implementação DMARC escalando sua política DMARC de p=none, para p=quarantine, para p=reject à medida que você obtém a compreensão DMARC do impacto potencial da DMARC.
 
 1. Analise o feedback que você recebe e usa (p=none), que instrui o destinatário a não executar nenhuma ação em relação às mensagens com falha de autenticação, mas ainda enviar relatórios de email ao remetente. Além disso, revise e corrija problemas com o SPF/DKIM se as mensagens legítimas estiverem falhando na autenticação.
 1. Determine se o SPF e o DKIM estão alinhados e transmitem a autenticação para todos os emails legítimos e, em seguida, mova a política para (p=quarentena), que instrui o servidor de email de recebimento a colocar em quarentena os emails que falham na autenticação (geralmente significa colocar essas mensagens na pasta de spam).
@@ -68,6 +68,10 @@ O principal uso desses relatórios é receber uma visão geral dos emails que s�
 * [Demarciano](https://dmarcian.com/)
 * [Proofpoint](https://www.proofpoint.com/us)
 
+>[!CAUTION]
+>
+>Se os endereços de email que você está adicionando para receber relatórios estiverem fora do domínio para o qual o registro DMARC é criado, será necessário autorizar o domínio externo a especificar ao DNS que você possui esse domínio. Para fazer isso, siga as etapas detalhadas na [Documentação do dmarc.org](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
+
 ### Exemplo de registro DMARC {#example}
 
 ```
@@ -78,7 +82,7 @@ v=DMARC1; p=reject; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;ruf=m
 
 Os registros DMARC têm vários componentes chamados tags DMARC. Cada tag tem um valor que especifica um determinado aspecto do DMARC.
 
-| Nome da tag | Obrigatório / Opcional | Função | Exemplo | Valor padrão |
+| Nome da tag | Obrigatório/Opcional | Função | Exemplo | Valor padrão |
 |  ---  |  ---  |  ---  |  ---  |  ---  |
 | v | Obrigatório | Essa marca DMARC especifica a versão. Há apenas uma versão a partir de agora, portanto, terá um valor fixo de v=DMARC1 | V=DMARC1 DMARC1 | DMARC1 |
 | p | Obrigatório | Mostra a política DMARC selecionada e direciona o destinatário para relatar, colocar em quarentena ou rejeitar emails que não passaram nas verificações de autenticação. | p=nenhum, colocar em quarentena ou rejeitar | - |
