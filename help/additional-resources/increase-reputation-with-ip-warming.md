@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: b553a13e-2055-4abc-b784-fd52792380d0
-source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
+source-git-commit: eba8162150b5662ca18687b873114858f8eb00cc
 workflow-type: tm+mt
-source-wordcount: '1600'
-ht-degree: 3%
+source-wordcount: '1582'
+ht-degree: 2%
 
 ---
 
@@ -34,7 +34,7 @@ No início, você receberá seus próprios endereços IP dedicados (Internet Pro
 
 ## Aquecimento de IP: Por que isso é feito? {#why-ip-warming}
 
-Os provedores de serviço de internet (ISPs) ou provedores de caixa de correio (MBPs) tomam precauções ao detectar um IP e um domínio de envio desconhecidos. Esse é o procedimento padrão associado a qualquer novo IP de envio, independentemente do tipo de remetente. Os ISPs/MBPs colocam o IP e o domínio de envio sob alta análise para determinar se os emails enviados desse IP e domínio são spam ou não.  Esse é o procedimento padrão associado a qualquer novo IP de envio, independentemente do tipo de remetente.
+Os provedores de serviço de internet (ISPs) ou provedores de caixa de correio (MBPs) tomam precauções ao detectar um IP e um domínio de envio desconhecidos. Os ISPs/MBPs colocam o IP e o domínio de envio sob alta análise para determinar se os emails enviados desse IP e domínio são spam ou não. Esse é o procedimento padrão associado a qualquer novo IP de envio, independentemente do tipo de remetente.
 
 Os ISPs examinam cuidadosamente o volume de envio, a frequência de envio, as reclamações e as taxas de rejeição geradas por essas correspondências. Todos são verificados atentamente porque são indicadores de reputação do remetente - seja bom ou ruim.
 
@@ -50,7 +50,7 @@ Enviar grandes quantidades de email de um IP totalmente novo ou de IPs diretamen
 
 Esse é o componente mais importante do gerenciamento e do crescimento de uma lista de email de assinante. À medida que as leis antisspam crescem e se tornam mais abrangentes internacionalmente, deve ser o foco principal do profissional de marketing garantir que ele receba consentimento explícito (ou expresso) de cada assinante em sua lista. Ou seja, cada assinante concordou ativamente em receber emails da sua marca. Isso é diferente do consentimento implícito em que uma pessoa é adicionada a uma lista de email após realizar uma ação que não estava se inscrevendo explicitamente em um programa de email.
 
-Saiba mais sobre [Política de uso aceitável do Adobe](https://www.adobe.com/legal/terms/aup.html).
+Saiba mais sobre a [Política de uso aceitável do Adobe](https://www.adobe.com/legal/terms/aup.html).
 
 ## Métricas de reputação: o que os ISPs procuram?
 
@@ -85,7 +85,7 @@ Lembre-se de que a consistência é fundamental aqui. Padrões de volume de envi
 
 ### Reclamações
 
-[Reclamações](/help/metrics/complaints.md) ocorrem quando um assinante rotula um email como spam por meio de seu programa de email. Isso envia um aviso ao ISP sobre a atividade de reclamação. Se houver um número suficiente dessas reclamações que chegam ao ISP, esse ISP atuará para proteger seus clientes - possivelmente bloqueará o acesso de muitos emails aos assinantes ou direcionará uma parte dos emails para a pasta em massa em vez das caixas de entrada dos assinantes. Se o problema do delivery for causado por reclamações, é importante determinar por que os recipients estão reclamando.
+[As reclamações](/help/metrics/complaints.md) ocorrem quando um assinante rotula um email como spam por meio de seu programa de email. Isso envia um aviso ao ISP sobre a atividade de reclamação. Se houver um número suficiente dessas reclamações que chegam ao ISP, esse ISP atuará para proteger seus clientes - possivelmente bloqueará o acesso de muitos emails aos assinantes ou direcionará uma parte dos emails para a pasta em massa em vez das caixas de entrada dos assinantes. Se o problema do delivery for causado por reclamações, é importante determinar por que os recipients estão reclamando.
 
 Os assinantes reclamam por vários motivos. Às vezes, um assinante não quer receber mais nenhum email seu, talvez porque sinta que está recebendo muitas mensagens sobre o mesmo tópico, não estava esperando a mensagem ou não se lembra de se inscrever para receber seus emails.
 
