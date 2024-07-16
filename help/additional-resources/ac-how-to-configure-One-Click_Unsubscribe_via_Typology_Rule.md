@@ -7,7 +7,7 @@ ht-degree: 8%
 ---
 # Criação de uma regra de tipologia para suportar o cancelamento de inscrição em lista com um clique:
 
-**1. Crie a nova Regra de tipologia:**
+**1. Criar a nova Regra de Tipologia:**
 
 * Na Árvore de navegação, clique em &quot;novo&quot; para criar uma nova Tipologia
 
@@ -32,7 +32,7 @@ ht-degree: 8%
 >
 >O código descrito abaixo deve ser referenciado apenas como exemplo.
 >Este exemplo detalha como:
->* Configure um URL List-Unsubscribe e adicionará os cabeçalhos ou anexará os parâmetros mailto: existentes e os substituirá por: &lt;mailto..>>, https://...
+>* Configure um URL List-Unsubscribe e adicionará os cabeçalhos ou anexará os parâmetros mailto: existentes e os substituirá por: &lt;mailto.>, https://...
 >* Adicionar no cabeçalho List-Unsubscribe-Post
 >O exemplo de URL de publicação usa var headerUnsubUrl = &quot;https://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= recipient.cryptedId %>&quot;
 >* É possível adicionar outros parâmetros (como &amp;service = ...)
@@ -137,15 +137,15 @@ return true;
 
 ![imagem](/help/assets/CreatingTypologyRules3.png)
 
-**3. Adicionar sua nova regra a uma tipologia a um email (a tipologia padrão é ok):**
+**3. Adicionar sua nova regra a uma Tipologia a um email (A tipologia padrão está OK):**
 
 ![imagem](/help/assets/CreatingTypologyRules4.png)
 
-**4. Preparar um novo delivery (verifique se os cabeçalhos SMTP adicionais na propriedade de delivery estão vazios)**
+**4. Preparar uma nova entrega (verifique se os cabeçalhos SMTP adicionais na propriedade de entrega estão vazios)**
 
 ![imagem](/help/assets/CreatingTypologyRules5.png)
 
-**5. Durante a preparação do delivery, verifique se a nova Regra de tipologia é aplicada.**
+**5. Durante a preparação da entrega, verifique se a nova Regra de Tipologia foi aplicada.**
 
 ![imagem](/help/assets/CreatingTypologyRules6.png)
 

@@ -8,8 +8,8 @@ team: ACS
 exl-id: 4cc85124-e7e4-4cd5-99a9-23d2d8cf08fe
 source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 91%
+source-wordcount: '677'
+ht-degree: 87%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 91%
 
 Abaixo estão algumas práticas recomendadas que podem ajudar a identificar e solucionar os problemas da capacidade de entrega.
 
-## Identifique um problema da capacidade de entrega {#identify-deliverability-issue}
+## Identificar um problema da capacidade de entrega {#identify-deliverability-issue}
 
-Para identificar um possível problema, os elementos listados em [essa página](/help/ongoing-monitoring.md) pode chamar a sua atenção.
+Para identificar um possível problema, os elementos listados em [essa página](/help/ongoing-monitoring.md) podem chamar sua atenção.
 
 <!--
 Mailing or campaign metrics: unsubscribe, abuse complaint and/or bounce rates are higher than usual.
@@ -44,9 +44,9 @@ Faça as seguintes perguntas para identificar as possíveis causas para o proble
 
 ### Reclamações
 
-[](/help/metrics/complaints.md)As reclamações são definidas por assinantes que relatam os emails como spam ao pressionar o botão correspondente em sua caixa de entrada.
+[Reclamações](/help/metrics/complaints.md) são definidas por assinantes que relatam emails como spam ao pressionar o botão correspondente em sua caixa de entrada.
 
-Se o problema com seu delivery foi causado por reclamações:
+Se o problema com sua entrega foi causado por reclamações:
 * Você deve tentar determinar por que os destinatários estão reclamando.
 * Você pode mudar o link de cancelamento de assinatura para a parte superior do email. Os assinantes serão incentivados a cancelar a assinatura em vez de reclamar com o botão de spam.
 

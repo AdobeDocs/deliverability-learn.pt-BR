@@ -8,8 +8,8 @@ team: ACS
 exl-id: f89dbb38-a8d4-4294-b017-6fed72591593
 source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 62%
+source-wordcount: '363'
+ht-degree: 60%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 62%
 Ter endereços de email duplicados pode ter várias consequências:
 
 * A mesma mensagem é enviada mais de uma vez. Mesmo que o Adobe execute um procedimento de desduplicação por padrão antes de enviar, não há nada que impeça o envio da mesma mensagem por ações diferentes com o mesmo conteúdo quando um target é dividido.
-* Solicitações de cancelamento de assinatura não respeitadas. Se um recipient cancelar a inscrição depois de receber uma mensagem, o perfil duplicado ainda será qualificado para mensagens futuras.
+* Solicitações de cancelamento de assinatura não respeitadas. Se um destinatário cancelar a inscrição depois de receber uma mensagem, o perfil duplicado ainda será qualificado para mensagens futuras.
 
 Além de evitar os procedimentos de aceitação, essa situação levará os usuários a considerar as mensagens como spam e a acionar um procedimento de lista de bloqueios no ISP.
 
@@ -29,11 +29,11 @@ Você deve agir com cautela especial ao executar operações no banco de dados:
 * As importações automáticas, sejam de listas ou de outros bancos de dados, são elementos a serem considerados ao gerenciar perfis. O que acontece quando você exclui ou move um perfil em outra partição? Ele pode ser recriado na partição inicial por uma importação automática, por exemplo, quando um pedido de compra é feito.
 * O armazenamento de perfis em pastas diferentes pode ser implementado usando exibições em vez de partições. Dessa forma, você tem certeza de que os perfis estão na mesma partição física e, ao mesmo tempo, permite que os direitos adequados sejam exibidos e gerenciados.
 
-Há, contudo, casos em que duplicidades entre as diferentes partições são normais. Por exemplo, ao enviar para terceiros ou entidades de empresas diferentes, é lógico que a mesma pessoa seja um recipient por vários motivos. No entanto, raramente é normal encontrar duplicidades na mesma partição.
+Há, contudo, casos em que duplicidades entre as diferentes partições são normais. Por exemplo, ao enviar para terceiros ou entidades de empresas diferentes, é lógico que a mesma pessoa seja um destinatário por vários motivos. No entanto, raramente é normal encontrar duplicidades na mesma partição.
 
 ## Recursos específicos do produto
 
-O cancelamento da duplicação de endereços protege a reputação de envio e garante um bom gerenciamento de quarentena. Saiba mais nas seguintes seções de documentação do produto:
+A desduplicação de endereços protege a reputação de envio e garante um bom gerenciamento de quarentena. Saiba mais nas seguintes seções de documentação do produto:
 
 **Adobe Campaign Classic**
 

@@ -10,8 +10,8 @@ team: TM
 exl-id: 350950dc-4703-402a-8e22-3862f4e21d52
 source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 4%
+source-wordcount: '1594'
+ht-degree: 3%
 
 ---
 
@@ -21,15 +21,15 @@ As melhores fontes de novos endereços de email são fontes diretas, como inscri
 
 Algumas observações sobre esses métodos de inscrição:
 
-**Armazenamento físico** a coleção de listas pode apresentar desafios devido às entradas de endereços verbais ou escritos que causam erros de ortografia nos endereços. Recomenda-se enviar um email de confirmação o mais rápido possível após as inscrições na loja.
+A coleção de listas de **Armazenamento físico** pode apresentar desafios devido a entradas de endereço verbais ou escritas que causam erros ortográficos nos endereços. Recomenda-se enviar um email de confirmação o mais rápido possível após as inscrições na loja.
 
-A forma mais comum **inscrição no site** O é &quot;aceitação única&quot;. É o padrão mínimo absoluto que você deve usar para adquirir endereços de email. A aceitação única ocorre quando o detentor de um endereço de email específico concede a um remetente permissão para enviar emails de marketing, geralmente enviando o endereço por meio de um formulário web ou inscrições na loja. Embora seja possível executar uma campanha de email bem-sucedida usando esse método, ela pode ser a causa de alguns problemas.
+A forma mais comum de **inscrição no site** é a &quot;aceitação única&quot;. É o padrão mínimo absoluto que você deve usar para adquirir endereços de email. A aceitação única ocorre quando o detentor de um endereço de email específico concede a um remetente permissão para enviar emails de marketing, geralmente enviando o endereço por meio de um formulário web ou inscrições na loja. Embora seja possível executar uma campanha de email bem-sucedida usando esse método, ela pode ser a causa de alguns problemas.
 
 * Endereços de email não confirmados podem ter erros de digitação ou serem malformados, incorretos ou usados de forma mal intencionada. Erros de digitação e endereços malformados causam altas taxas de rejeição, o que pode e provoca bloqueios emitidos por ISPs ou perda de reputação de IP.
 
 * O envio mal-intencionado de armadilhas de spam conhecidas (às vezes chamadas de &quot;envenenamento de lista&quot;) pode causar enormes problemas na entrega e na reputação se o proprietário dessa armadilha agir. É impossível saber se o recipient realmente deseja ser adicionado a uma lista de marketing sem uma confirmação. Isso torna igualmente impossível definir as expectativas do recipient e pode levar a um aumento nas reclamações de spam — e, às vezes, incluindo na lista de bloqueios se o email coletado é uma interceptação de spam.
 
-Para obter orientação sobre como minimizar os problemas apresentados no armazenamento físico e na aceitação única, acesse o site [Qualidade e higiene dos dados](#data-quality-and-hygiene) neste guia para obter os detalhes e os benefícios da aceitação dupla.
+Para obter orientação sobre como minimizar os problemas apresentados no armazenamento físico e na aceitação única, acesse a seção [Qualidade e higiene dos dados](#data-quality-and-hygiene) neste guia para obter os detalhes e os benefícios da aceitação dupla.
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ Coletar dados é apenas parte do desafio. Você também deve garantir que os dad
 Estas são algumas soluções para problemas comuns que você pode encontrar com os dados de endereço de email:
 
 **[!DNL Double opt-in (DOI)]**
-[!DNL Double opt-in (DOI)] O é considerado a prática recomendada de capacidade de delivery pela maioria dos especialistas em email. Se você estiver tendo problemas com armadilhas de spam ou reclamações em seus emails de boas-vindas, o DOI é uma boa maneira de garantir que o assinante que recebe seus emails realmente se inscreveu em seu programa de email e deseja receber seus emails.
+[!DNL Double opt-in (DOI)] é considerado a prática recomendada de capacidade de entrega pela maioria dos especialistas em email. Se você estiver tendo problemas com armadilhas de spam ou reclamações em seus emails de boas-vindas, o DOI é uma boa maneira de garantir que o assinante que recebe seus emails realmente se inscreveu em seu programa de email e deseja receber seus emails.
 
 O DOI consiste em enviar um email de confirmação para o endereço de email do assinante que se inscreveu no seu programa de email e que contém um link que deve ser clicado para confirmar o consentimento. Com esse método de aquisição, se o assinante não confirmar, o remetente não enviará mais emails. Informe os novos assinantes que você está fazendo isso no site, incentivando-os a concluir a inscrição antes de continuar. Esse método mostra uma redução no número de inscrições, mas as pessoas que se inscrevem tendem a se envolver muito e permanecer por um longo período. Normalmente, isso resulta em um ROI muito maior para o remetente.
 
@@ -78,15 +78,15 @@ Há muitas outras maneiras de coletar endereços, cada uma com suas próprias op
 **Comprar ou alugar uma lista**
 Há muitos tipos de endereços de email por aí. Email primário, email comercial, email escolar, email secundário e email inativo, para citar alguns. Os tipos de endereços coletados e compartilhados por meio de listas compradas ou alugadas raramente são contas de email principais, que são onde quase toda a atividade de envolvimento e compra ocorre.
 
-Se você tiver sorte, obterá contas secundárias, nas quais as pessoas procuram ofertas e ofertas quando estiverem prontas para comprar algo. Isso geralmente resulta em níveis baixos de engajamento, se houver. Se você não tiver sorte, a lista está cheia de emails inativos, que agora podem ser armadilhas de spam. Geralmente, você recebe uma combinação de emails secundários e inativos. Em geral, a qualidade desses tipos de listas causa mais danos do que benefícios a um programa de email. Esta prática é proibida pelo [Política de uso aceitável da Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
+Se você tiver sorte, obterá contas secundárias, nas quais as pessoas procuram ofertas e ofertas quando estiverem prontas para comprar algo. Isso geralmente resulta em níveis baixos de engajamento, se houver. Se você não tiver sorte, a lista está cheia de emails inativos, que agora podem ser armadilhas de spam. Geralmente, você recebe uma combinação de emails secundários e inativos. Em geral, a qualidade desses tipos de listas causa mais danos do que benefícios a um programa de email. Esta prática é proibida pela [Política de Uso Aceitável da Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
 
-**Anexar listas**
-Esses são clientes que optaram por se envolver com a sua marca, o que é ótimo. Mas eles escolheram se engajar por um método diferente do email (na loja, nas redes sociais etc.). Eles não podiam ser receptivos a receber um email não solicitado de você e também podem se preocupar com a maneira como você obteve o endereço de email deles, pois não o forneceram. Esse método tem o risco de transformar um cliente ou cliente potencial que interagiu com sua marca em um detrator que não confia mais em sua marca e, em vez disso, vai para a concorrência. Esta prática é proibida pelo [Política de uso aceitável da Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
+**Listas anexadas**
+Esses são clientes que optaram por se envolver com a sua marca, o que é ótimo. Mas eles escolheram se engajar por um método diferente do email (na loja, nas redes sociais etc.). Eles não podiam ser receptivos a receber um email não solicitado de você e também podem se preocupar com a maneira como você obteve o endereço de email deles, pois não o forneceram. Esse método tem o risco de transformar um cliente ou cliente potencial que interagiu com sua marca em um detrator que não confia mais em sua marca e, em vez disso, vai para a concorrência. Esta prática é proibida pela [Política de Uso Aceitável da Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
 
 **Feira de negócios ou outra coleção de eventos**
 Coletar endereços em um estande ou por meio de outro método oficial, com marca clara, pode ser útil. O risco é que muitos eventos como esse coletem todos os endereços e os distribuam pelo promotor ou host do evento. O que significa que os proprietários desses endereços de email nunca solicitaram o recebimento de emails da sua marca. É provável que esses assinantes reclamem e marquem seus emails como spam e talvez eles não tenham fornecido informações de contato precisas.
 
-**Sorteios**
+**Sweepstakes**
 
 Os sorteios fornecem rapidamente um grande número de endereços de email. Mas esses assinantes querem o prêmio, não seus emails. Eles podem nem ter prestado atenção ao nome de quem estaria entrando em contato com eles. É provável que eles reclamem e marquem seus e-mails como spam e é improvável que façam uma compra ou engajamento.
 

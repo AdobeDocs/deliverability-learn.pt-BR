@@ -12,8 +12,8 @@ team: TM
 exl-id: 2defe1ae-5148-46f9-aaa7-8034107980ee
 source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 35%
+source-wordcount: '155'
+ht-degree: 21%
 
 ---
 
@@ -30,16 +30,16 @@ Estas são algumas maneiras de ajudar a identificar um possível problema em que
 
 **Adobe Campaign Classic**
 
-* [Monitoramento de delivery](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=pt-BR)
-* [Relatórios de delivery](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html?lang=pt-BR)
+* [Monitoramento de entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=pt-BR)
+* [Relatórios de entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html?lang=pt-BR)
 * [Monitoramento da capacidade de entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html?lang=pt-BR)
 
 **Adobe Campaign Standard**
 
-* [Monitoramento de um delivery](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=pt-BR)
-* [Resumo do delivery](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/delivery-summary.html)
+* [Monitoramento de uma entrega](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=pt-BR)
+* [Resumo da entrega](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/delivery-summary.html)
 * [Monitoramento da capacidade de entrega](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/monitor-deliverability.html?lang=pt-BR#testing-and-sending)
 
 ## Recursos adicionais
 
-* Saiba como resolver problemas de capacidade de entrega no [nesta seção](/help/additional-resources/troubleshooting.md).
+* Saiba como resolver problemas de entrega em [esta seção](/help/additional-resources/troubleshooting.md).

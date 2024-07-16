@@ -8,7 +8,7 @@ team: ACS
 exl-id: 4d52d197-d20e-450c-bfcf-e4541c474be4
 source-git-commit: 82f7254a9027f79d2af59aece81f032105c192d5
 workflow-type: tm+mt
-source-wordcount: '2061'
+source-wordcount: '2043'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Este documento descreve os requisitos comerciais e técnicos para a configuraç�
 
 Com o Adobe, o marketing digital pode realmente se tornar o mecanismo contextual que potencializa o programa de marketing de engajamento do cliente da sua marca.  O email continua sendo a base dos programas de marketing digital. No entanto, alcançar a caixa de entrada se tornou mais difícil do que nunca.
 
-A criação de um subdomínio para campanhas de email permite que as marcas isolem vários tipos de tráfego (marketing versus corporativo, por exemplo) em pools de IP específicos e com domínios específicos, o que agilizará a [Processo de aquecimento de IP](../../help/additional-resources/increase-reputation-with-ip-warming.md) e melhorar a capacidade de entrega em geral. Se você compartilhar um domínio e ele for bloqueado ou adicionado à lista de bloqueios, isso poderá afetar seu delivery de email corporativo. No entanto, problemas de reputação ou bloqueios em um domínio específico para suas comunicações de marketing por email afetarão apenas esse fluxo de email.  Usar seu domínio principal como remetente ou endereço &quot;De&quot; para vários fluxos de email também pode interromper a autenticação de email, fazendo com que suas mensagens sejam bloqueadas ou colocadas na pasta de spam.
+A criação de um subdomínio para campanhas de email permite que as marcas isolem vários tipos de tráfego (marketing versus corporativo, por exemplo) em pools de IP específicos e com domínios específicos, o que irá acelerar o [processo de aquecimento de IP](../../help/additional-resources/increase-reputation-with-ip-warming.md) e melhorar a capacidade de entrega em geral. Se você compartilhar um domínio e ele for bloqueado ou adicionado à lista de bloqueios, isso poderá afetar seu delivery de email corporativo. No entanto, problemas de reputação ou bloqueios em um domínio específico para suas comunicações de marketing por email afetarão apenas esse fluxo de email.  Usar seu domínio principal como remetente ou endereço &quot;De&quot; para vários fluxos de email também pode interromper a autenticação de email, fazendo com que suas mensagens sejam bloqueadas ou colocadas na pasta de spam.
 
 ### Delegação
 
@@ -35,7 +35,8 @@ Isso significa que os servidores DNS da Adobe Campaign terão autoridade total s
 
 Ao delegar um subdomínio para uso com o Adobe Campaign, os clientes podem confiar no Adobe para manter a infraestrutura de DNS necessária para atender aos requisitos de capacidade de entrega padrão do setor para seus domínios de envio de marketing por email, enquanto continuam a manter e controlar o DNS para seus domínios de email internos.  A delegação de subdomínio permite:
 
-Os clientes devem manter a imagem da marca usando um alias DNS com seus nomes de domínio Adobe para implementar livremente todas as práticas recomendadas técnicas a fim de otimizar totalmente a capacidade de entrega durante o envio por email
+Clientes para manter a imagem da marca usando um alias DNS com seus nomes de domínio
+Adobe para implementar de forma autônoma todas as práticas recomendadas técnicas para otimizar totalmente a capacidade de entrega durante o envio por email
 
 ## Opções de configuração de DNS
 
@@ -48,9 +49,9 @@ Para fornecer um serviço gerenciado baseado em nuvem, o Adobe incentiva os clie
 
 ## Registros DNS necessários
 
-| Tipo de registro | Propósito | Exemplos de registro/conteúdo |
+| Tipo de registro | Finalidade | Exemplos de registro/conteúdo |
 |--- |--- |--- |
-| MX | Especificar servidores de email para mensagens de entrada | <i>email.example.com</i></br><i>10 inbound.email.example.com</i> |
+| MX | Especificar servidores de email para mensagens de entrada | <i>email.exemplo.com</i></br><i>10 inbound.email.exemplo.com</i> |
 | SPF (TXT) | Estrutura de Política do Remetente | <i>email.example.com</i></br>&quot;v=spf1 redirect=__spf.campaign.adobe.com&quot; |
 | DKIM (TXT) | Email identificado de DomainKeys | <i>cliente._domainkey.email.example.com</i></br>&quot;v=DKIM1; k=rsa;&quot; &quot;DKIMPUBLICKEY AQUI&quot; |
 | Registros de hosts (A) | Mirror pages, hospedagem de imagem e links de rastreamento, todos os domínios de envio | m.email.example.com EM UM 123.111.100.99</br>t.email.example.com EM UM 123.111.100.98</br>email.example.com EM UM 123.111.100.97 |
@@ -103,7 +104,7 @@ Determine os subdomínios a serem usados para URLs com marca (mirror pages e URL
 
 Complete a tabela abaixo, a primeira linha é apenas um exemplo.
 
-| Subdomain | Do endereço | Do nome | Endereço para resposta |
+| Subdomain | Do endereço | Nome do remetente | Endereço para resposta |
 |--- |--- |--- |--- |
 | emails.customer.com | news@emails.customer.com | Cliente | customercare@customer.com |
 | </br> | </br> | </br> | </br> |
@@ -128,7 +129,7 @@ O(s) subdomínio(s) escolhido(s) para ser(em) usado(s) na plataforma Adobe Campa
 
 Assim que os subdomínios de envio de email forem delegados corretamente na Adobe Campaign, a equipe de TechOps do Adobe criará dois ou mais domínios de nível inferior para gerenciar páginas de rastreamento e mirror de maneira independente.
 
-| Tipo | Domain |
+| Tipo | Domínio |
 |--- |--- |
 | Mirror pages | m.`<subdomain>` |
 | Rastreamento | t.`<subdomain>` |
@@ -158,7 +159,7 @@ A configuração de DNS CNAME adicional é necessária para implantar componente
 
 Os firewalls também precisarão ser configurados para permitir o acesso à instância de marketing do Adobe Campaign que hospeda esses componentes da Web (na porta 80 ou 443).
 
-**Recommendations de práticas recomendadas:**
+**Recommendations de Práticas Recomendadas:**
 
 O subdomínio para hospedar componentes da Web estará visível aos clientes, portanto, certifique-se de marcá-lo corretamente e seja simples de lembrar, pois ele pode precisar ser digitado manualmente, por exemplo: https://web.customer.com.
 Se algum formulário precisar ser hospedado em páginas seguras (HTTPS), será necessária uma configuração técnica de adição, descrita abaixo.
@@ -204,4 +205,4 @@ Para obter mais informações, consulte a [documentação dedicada](https://expe
 
 >[!NOTE]
 >
->[Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=pt-BR) O está disponível somente para clientes que usam o Adobe Managed Services.
+>O [Painel de Controle](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=pt-BR) está disponível somente para clientes que usam o Adobe Managed Services.

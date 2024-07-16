@@ -12,7 +12,7 @@ team: ACS
 exl-id: 5285eda9-5099-48d5-b150-ce2c376ee549
 source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '854'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ Você deveria saber se seus emails estão sendo entregues ou se estão chegando 
 
 Inúmeras horas vão para o planejamento e produção de suas campanhas de email. Se os emails forem devolvidos ou forem enviados à pasta de spam de seus assinantes, seus clientes provavelmente não os lerão, sua chamada para a ação (CTA) não será confirmada e você ficará aquém das metas de receita devido a conversões perdidas. Em termos simples, você não pode se dar ao luxo de ignorar a capacidade de entrega. É fundamental para o sucesso de suas iniciativas de marketing por email e de seus resultados finais.
 
-Seguir as práticas recomendadas de entrega garante que seu email tenha a melhor chance possível de aberturas, cliques e o objetivo final que são as conversões. Você pode escrever uma linha de assunto brilhante e ter belas imagens e conteúdo envolvente. Mas se esse email não for entregue, o cliente não terá nenhuma oportunidade de conversão. Em resumo, na capacidade de fornecimento de email, cada etapa do processo de aceitação de email depende da etapa anterior para o sucesso do programa.
+Seguir as práticas recomendadas de entrega garante que seu email tenha a melhor chance possível de aberturas, cliques e o objetivo final que são as conversões. Você pode escrever uma linha de assunto brilhante e ter belas imagens e conteúdo envolvente. Mas se esse email não for entregue, o cliente não terá nenhuma oportunidade de conversão. Em resumo, na capacidade de entrega de email, cada etapa do processo de aceitação de email depende da etapa anterior para o sucesso do programa.
 
 ### Etapa 1: Email entregue
 
@@ -60,7 +60,7 @@ Os ISPs têm algoritmos exclusivos, complexos e dinâmicos para determinar se se
 
 Estes são alguns fatores importantes para a inserção da caixa de entrada:
 
-* Email enviado
+* Email entregue
 * Alto engajamento
 * Poucas reclamações (menos de 0,1% no total)
 * Volume consistente
@@ -99,7 +99,7 @@ Estes são alguns fatores importantes para a conversão:
 
 ### Impacto potencial na receita
 
-A conversão é a chave, mas qual é a alternativa? Sua estratégia de entrega pode fortalecer ou destruir o programa de marketing por email. O gráfico a seguir ilustra a possível perda de receita que uma política de capacidade de delivery fraca pode ter em seu programa de marketing. Como demonstrado, para uma empresa com uma taxa de conversão de 2% e compra média de US$ 100, cada redução de 10% na inserção da caixa de entrada equivale a uma perda de receita de quase US$ 20.000,00. Lembre-se de que esses números são exclusivos para cada remetente.
+A conversão é a chave, mas qual é a alternativa? Sua estratégia de entrega pode fortalecer ou destruir o programa de marketing por email. O gráfico a seguir ilustra a possível perda de receita que uma política de capacidade de entrega fraca pode ter em seu programa de marketing. Como demonstrado, para uma empresa com uma taxa de conversão de 2% e compra média de US$ 100, cada redução de 10% na inserção da caixa de entrada equivale a uma perda de receita de quase US$ 20.000,00. Lembre-se de que esses números são exclusivos para cada remetente.
 
 | Enviado | Porcentagem | Entregues | Porcentagem | Caixa de entrada | Número na caixa de entrada | Índice de conversão | Número de perdas | Média | Perdas |
 |------|-----------|-----------|----------|-------|---------------------|-----------------|-----------------|----------|-----------|

@@ -1,6 +1,6 @@
 ---
 title: Verizon Media Group (Yahoo, AOL, Verizon, etc.)
-description: "[!DNL Verizon Media Group] geralmente, é um dos três principais domínios para a maioria das listas B2C. Eles se comportam de maneira um pouco exclusiva, pois geralmente limitam ou enviam emails em massa se surgirem problemas de reputação."
+description: "[!DNL Verizon Media Group] geralmente é um dos três principais domínios para a maioria das listas B2C. Eles se comportam de maneira um pouco exclusiva, pois geralmente limitam ou enviam emails em massa se surgirem problemas de reputação."
 topics: Deliverability
 jira: KT-5320
 doc-type: article
@@ -11,20 +11,20 @@ team: TM
 exl-id: 43e6d3cb-23c3-4076-8026-a1a08e76bd1b
 source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '289'
 ht-degree: 3%
 
 ---
 
 # [!DNL Verizon Media Group] (Yahoo, AOL, Verizon etc.)
 
-[!DNL Verizon Media Group] geralmente, é um dos três principais domínios para a maioria das listas B2C. Eles se comportam de maneira um pouco exclusiva, pois geralmente limitam ou enviam emails em massa se surgirem problemas de reputação.
+[!DNL Verizon Media Group] geralmente é um dos três principais domínios para a maioria das listas B2C. Eles se comportam de maneira um pouco exclusiva, pois geralmente limitam ou enviam emails em massa se surgirem problemas de reputação.
 
 Estes são alguns destaques:
 
 ## Quais dados são importantes
 
-[!DNL Verizon Media Group] A (VMG) criou e mantém seus próprios filtros de spam proprietários, usando uma mistura de conteúdo e filtragem de URL e reclamações de spam. Junto com o Gmail, eles são um dos primeiros ISPs a adotar o filtro de email por domínio e endereço IP.
+O [!DNL Verizon Media Group] (VMG) criou e mantém seus próprios filtros de spam proprietários, usando uma mistura de conteúdo e filtragem de URL e reclamações de spam. Junto com o Gmail, eles são um dos primeiros ISPs a adotar o filtro de email por domínio e endereço IP.
 
 ## Quais dados eles disponibilizam?
 
@@ -32,7 +32,7 @@ O VMG tem um FBL usado para enviar informações de reclamação de volta aos re
 
 ## Reputação do remetente
 
-A reputação de um remetente é composta por uma combinação de endereço IP, domínio e endereço do remetente. A reputação é calculada usando os componentes tradicionais, incluindo reclamações, armadilhas de spam, endereços inativos ou malformados e engajamento. O VMG usa limitação de taxa (também conhecida como limitação) junto com a pasta em massa para se defender contra spam. Complementam os seus sistemas de filtragem interna com [!DNL Spamhaus] listas negras, incluindo PBL, SBL e XBL para proteger seus usuários.
+A reputação de um remetente é composta por uma combinação de endereço IP, domínio e endereço do remetente. A reputação é calculada usando os componentes tradicionais, incluindo reclamações, armadilhas de spam, endereços inativos ou malformados e engajamento. O VMG usa limitação de taxa (também conhecida como limitação) junto com a pasta em massa para se defender contra spam. Eles complementam seus sistemas internos de filtragem com algumas listas negras do [!DNL Spamhaus], incluindo as listas PBL, SBL e XBL para proteger seus usuários.
 
 ## Insights
 

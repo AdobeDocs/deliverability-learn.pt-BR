@@ -12,7 +12,7 @@ team: ACS
 exl-id: 5a36b821-bcec-4c4f-ae7e-a697df1bb56d
 source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '895'
 ht-degree: 2%
 
 ---
@@ -29,19 +29,19 @@ Embora você, como remetente, não possa rastrear todas as mesmas métricas de e
 
 ## Qualidade acima da quantidade
 
-**Crescimento orgânico de listas** O é a base de uma lista saudável. Muitos profissionais de marketing se concentram no crescimento das listas, mas, do ponto de vista da capacidade de entrega, é importante criar uma lista de qualidade de assinantes altamente engajados. O envio contínuo de emails para um público não envolvido pode diminuir sua reputação de envio e aumentar bastante a probabilidade de seu email chegar à pasta de spam ou lixo eletrônico.
+**O crescimento de listas orgânicas** é a base de uma lista íntegra. Muitos profissionais de marketing se concentram no crescimento das listas, mas, do ponto de vista da capacidade de entrega, é importante criar uma lista de qualidade de assinantes altamente engajados. O envio contínuo de emails para um público não envolvido pode diminuir sua reputação de envio e aumentar bastante a probabilidade de seu email chegar à pasta de spam ou lixo eletrônico.
 
-**Frequência de mala direta** é importante considerar ao criar e manter um programa de marketing por email. Definir as expectativas dos recipients durante a mensagem de boas-vindas é uma estratégia muito útil. As pessoas gostam de saber o que esperar. No entanto, essas expectativas precisam ser atendidas: o envio de emails com muita frequência pode causar fadiga do cliente e, em alguns casos, pode levar a mais reclamações e cancelamentos de assinatura.
+É importante considerar a **Frequência de envio** ao criar e manter um programa de marketing por email. Definir as expectativas dos recipients durante a mensagem de boas-vindas é uma estratégia muito útil. As pessoas gostam de saber o que esperar. No entanto, essas expectativas precisam ser atendidas: o envio de emails com muita frequência pode causar fadiga do cliente e, em alguns casos, pode levar a mais reclamações e cancelamentos de assinatura.
 
 A frequência certa é algo que cada profissional de marketing deve encontrar para seu programa de marketing específico. Sugerimos testar diferentes frequências para encontrar o equilíbrio certo para qualquer programa de marketing específico. Manter os recipients envolvidos e ativos é uma das coisas mais importantes que um profissional de marketing pode fazer para garantir o sucesso de um programa de marketing por email.
 
 ## Alteração de interesses
 
-Os interesses do assinante estão em constante evolução, e os profissionais de marketing precisam entender que o compromisso com uma marca pode ser temporário. Alguns assinantes optarão por não participar, mas muitos apenas excluirão ou ignorarão emails indesejados. Do ponto de vista do consumidor, qualquer mensagem não solicitada ou indesejada é considerada spam. Portanto, os profissionais de marketing precisam confiar **marketing com base em permissão** e **monitorar engajamento** por perda de juros. Para alcançar a inserção ideal da caixa de entrada, recomendamos que os profissionais de marketing reenvolvam estrategicamente os assinantes usando campanhas de reativação e uma estratégia de retorno, que pode ser uma ferramenta muito útil para um profissional de marketing por email.
+Os interesses do assinante estão em constante evolução, e os profissionais de marketing precisam entender que o compromisso com uma marca pode ser temporário. Alguns assinantes optarão por não participar, mas muitos apenas excluirão ou ignorarão emails indesejados. Do ponto de vista do consumidor, qualquer mensagem não solicitada ou indesejada é considerada spam. Portanto, os profissionais de marketing precisam confiar no **marketing com base em permissão** e no **envolvimento de monitoramento** para a perda de interesse. Para alcançar a inserção ideal da caixa de entrada, recomendamos que os profissionais de marketing reenvolvam estrategicamente os assinantes usando campanhas de reativação e uma estratégia de retorno, que pode ser uma ferramenta muito útil para um profissional de marketing por email.
 
-A **estratégia de retorno** é quando um incentivo especial é enviado regularmente para uma parte específica de um banco de dados de marketing em uma tentativa de reengajar uma lista que teve pouca atividade de abertura e cliques. As respostas positivas são mantidas e a parte da lista que não responde é movida para um status inativo e não é mais enviada para o.
+Uma **estratégia de reconquista** é quando um incentivo especial é enviado regularmente para uma parte específica de um banco de dados de marketing em uma tentativa de reengajar uma lista que teve pouca atividade de abertura e cliques. As respostas positivas são mantidas e a parte da lista que não responde é movida para um status inativo e não é mais enviada para o.
 
-A **campanha de reativação** é semelhante, mas é usado para reconfirmar uma lista uma vez, o que é útil ao lidar com listas antigas e obsoletas — listas para as quais não é enviado por mais de 12 meses ou até anos. Normalmente, esse tipo de campanha também é aplicado por incluis na lista de bloqueios para resolver um bloco. Os assinantes que não forem reengajados com êxito por meio desse processo devem ser excluídos das promoções de email futuras.
+Uma **campanha de reativação** é semelhante, mas é usada para reconfirmar uma lista uma vez, o que é útil ao lidar com listas antigas e obsoletas, aquelas que não recebem email há mais de 12 meses, ou até mesmo anos. Normalmente, esse tipo de campanha também é aplicado por incluis na lista de bloqueios para resolver um bloco. Os assinantes que não forem reengajados com êxito por meio desse processo devem ser excluídos das promoções de email futuras.
 
 A melhor maneira de implementar uma campanha de retorno ou reativação será exclusiva do seu programa de email e deve ser totalmente personalizada para as necessidades e situação da sua empresa.
 
@@ -49,7 +49,7 @@ A melhor maneira de implementar uma campanha de retorno ou reativação será ex
 
 É fácil apenas definir seu e-mail de resposta como um endereço &quot;sem resposta&quot;, mas isso seria um erro que ignora a visão geral.
 
-Quando os recipients respondem a emails de marketing, uma resposta é esperada. Ao ativar um **sistema responder-e-responder**, você ajudará a aumentar a reputação do remetente. Isso aumentará a probabilidade de entrega positiva e as taxas de posicionamento da caixa de entrada.
+Quando os recipients respondem a emails de marketing, uma resposta é esperada. Ao habilitar um **sistema de resposta e resposta**, você ajudará a aumentar a reputação do remetente. Isso aumentará a probabilidade de entrega positiva e as taxas de posicionamento da caixa de entrada.
 
 Também é uma experiência do cliente muito melhor e ajudará a aumentar a percepção positiva do consumidor sobre sua marca. Afinal, nada diz &quot;faça negócios conosco&quot; como &quot;queremos ouvir você.&quot;
 
@@ -69,4 +69,4 @@ Uma parte fundamental final da estratégia de resposta é que, se você tiver um
 
 ## Recursos adicionais
 
-* Saiba mais sobre estratégias de reengajamento (ou reconquista) no [nesta seção](/help/additional-resources/re-engagement.md).
+* Saiba mais sobre estratégias de reengajamento (ou reconquista) em [esta seção](/help/additional-resources/re-engagement.md).

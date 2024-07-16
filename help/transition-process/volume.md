@@ -12,7 +12,7 @@ team: ACS
 exl-id: 1bc56061-0c64-4033-b49c-66618916bca6
 source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '553'
 ht-degree: 1%
 
 ---
@@ -25,16 +25,16 @@ Os limites de volume variam de acordo com o ISP e também podem variar dependend
 
 Esta é uma lista de dicas e sugestões para fazer a transição descomplicada:
 
-* **Permissão** O é a base de qualquer programa de email bem-sucedido.
+* **Permissão** é a base de qualquer programa de email bem-sucedido.
 * **Baixo e lento** — comece com volumes de envio baixos e, em seguida, aumente à medida que você estabelece a reputação do remetente.
-* A **estratégia de envio em tandem** O permite aumentar o volume no Campaign e, ao mesmo tempo, encerrar com seu ESP atual, sem interromper o calendário de email.
-* **Questões de engajamento** — comece com os assinantes que abrem e clicam em seus emails regularmente.
-* **Siga o plano** — nossas recomendações têm ajudado centenas de clientes do Campaign a incrementar com êxito seus programas de e-mail.
-* **Monitorar sua conta de email de resposta**. É uma experiência ruim para o seu cliente usar o noreply@xyz.com ou não responder.
-* Endereços inativos podem ter um impacto negativo na capacidade de delivery. **Reativar e transmitir na sua plataforma atual**, não seus novos IPs.
-* **Domínios** — use um domínio de envio que seja um subdomínio do domínio real de sua empresa
+* Uma **estratégia de mala direta em tandem** permite que você aumente o volume no Campaign ao encerrar com seu ESP atual, sem interromper seu calendário de email.
+* **A participação é importante** — comece com os assinantes que abrem e clicam em seus emails regularmente.
+* **Siga o plano** — nossas recomendações ajudaram centenas de clientes do Campaign a incrementar seus programas de email com êxito.
+* **Monitore sua conta de email de resposta**. É uma experiência ruim para o seu cliente usar o noreply@xyz.com ou não responder.
+* Endereços inativos podem ter um impacto negativo na capacidade de delivery. **Reativar e transmitir na plataforma atual**, não nos novos IPs.
+* **Domínios** — use um domínio de envio que seja um subdomínio do domínio real da sua empresa
    * Por exemplo, se o domínio da sua empresa for xyz.com, email.xyz.com fornece mais credibilidade aos ISPs do que xyzemail.com
-* **Transparência** — os detalhes de registro de seu domínio de e-mail devem estar disponíveis publicamente e não ser privados.
+* **Transparência** — os detalhes de registro do seu domínio de email devem estar disponíveis publicamente e não ser privados.
 
 Em muitas circunstâncias, o correio transacional não segue a abordagem tradicional de aquecimento promocional. Obviamente, é difícil controlar o volume em emails transacionais devido à sua natureza, pois geralmente requer uma interação do usuário para acionar o toque do email. Em alguns casos, o e-mail transacional pode simplesmente ser transferido sem um plano formal. Em outros casos, pode ser melhor fazer a transição de cada tipo de mensagem ao longo do tempo para aumentar lentamente o volume. Por exemplo, talvez você queira fazer a transição da seguinte maneira:
 
@@ -47,12 +47,12 @@ Em muitas circunstâncias, o correio transacional não segue a abordagem tradici
 
 **Campaign**
 
-* Saiba mais sobre como gerenciar a capacidade de delivery ao iniciar uma nova plataforma com o Adobe Campaign no [nesta seção](/help/additional-resources/ac-starting-new-platform.md).
-* Saiba como enviar usando várias ondas com o Adobe Campaign Classic no [nesta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves).
-* Saiba como delegar completamente um subdomínio ao Adobe Campaign Classic ou Standard no [nesta seção](/help/additional-resources/ac-domain-name-setup.md).
-* [Painel de controle do Campaign: Delegação completa de subdomínio (tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Saiba como delegar completamente um subdomínio ao Adobe Campaign Classic.*
-* [Painel de controle do Campaign: Delegação completa de subdomínio (tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Saiba como delegar completamente um subdomínio ao Adobe Campaign Standard.*
+* Saiba mais sobre como gerenciar a capacidade de entrega ao iniciar uma nova plataforma com o Adobe Campaign em [esta seção](/help/additional-resources/ac-starting-new-platform.md).
+* Saiba como enviar usando várias ondas com o Adobe Campaign Classic em [esta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves).
+* Saiba como delegar completamente um subdomínio ao Adobe Campaign Classic ou Standard nesta [seção](/help/additional-resources/ac-domain-name-setup.md).
+* [Painel de Controle: Delegação total de subdomínio (tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Saiba como delegar completamente um subdomínio ao Adobe Campaign Classic.*
+* [Painel de Controle: Delegação total de subdomínio (tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Saiba como delegar completamente um subdomínio ao Adobe Campaign Standard.*
 
 ## Recursos adicionais
 
-* Saiba mais sobre como aumentar sua reputação de email com o aquecimento de IP no [nesta seção](/help/additional-resources/increase-reputation-with-ip-warming.md).
+* Saiba mais sobre como aumentar sua reputação de email com o aquecimento de IP [nesta seção](/help/additional-resources/increase-reputation-with-ip-warming.md).

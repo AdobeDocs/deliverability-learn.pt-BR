@@ -8,8 +8,8 @@ team: ACS
 exl-id: 03609139-b39b-4051-bcde-9ac7c5358b87
 source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 57%
+source-wordcount: '757'
+ht-degree: 46%
 
 ---
 
@@ -25,15 +25,15 @@ O SPF (Sender Policy Framework) é um padrão de autenticação de email que per
 
 O SPF é uma técnica que, até certo ponto, permite que você verifique se o nome de domínio usado em um email não foi falsificado. Quando uma mensagem é recebida de um domínio, o servidor DNS do domínio é consultado. A resposta é um registro curto (o registro SPF) que detalha quais servidores estão autorizados a enviar emails desse domínio. Partindo do princípio que somente o proprietário do domínio tem o meio de alterar esse registro, podemos considerar que essa técnica não permite que o endereço do remetente seja falsificado, pelo menos não a parte à direita do &quot;@&quot;.
 
-No final [Especificação RFC 4408](https://www.rfc-editor.org/info/rfc4408), dois elementos da mensagem são usados para determinar o domínio considerado como remetente: o domínio especificado pelo comando SMTP &quot;HELO&quot; (ou &quot;EHLO&quot;) e o domínio especificado pelo endereço do cabeçalho &quot;Return-Path&quot; (ou &quot;MAIL FROM&quot;), que também é o endereço de devolução. As diferentes considerações possibilitam levar em conta apenas um desses valores; recomendamos garantir que ambas as fontes especifiquem o mesmo domínio.
+Na [especificação RFC 4408](https://www.rfc-editor.org/info/rfc4408) final, dois elementos da mensagem são usados para determinar o domínio considerado como remetente: o domínio especificado pelo comando SMTP &quot;HELO&quot; (ou &quot;EHLO&quot;) e o domínio especificado pelo endereço do cabeçalho &quot;Return-Path&quot; (ou &quot;MAIL FROM&quot;), que também é o endereço de devolução. As diferentes considerações possibilitam levar em conta apenas um desses valores; recomendamos garantir que ambas as fontes especifiquem o mesmo domínio.
 
 A verificação do SPF fornece uma avaliação da validade do domínio do remetente:
 
-* **None**: Não foi possível executar nenhuma avaliação.
-* **Neutral**: O domínio consultado não habilita a avaliação.
-* **Pass**: O domínio é considerado autêntico.
-* **Fail**: O domínio é falso e a mensagem deve ser rejeitada.
-* **SoftFail**: o domínio provavelmente é falso, mas a mensagem não deve ser rejeitada exclusivamente com base nesse resultado.
+* **Nenhum**: nenhuma avaliação pôde ser executada.
+* **Neutro**: O domínio consultado não habilita a avaliação.
+* **Passagem**: o domínio é considerado autêntico.
+* **Falha**: o domínio é falso e a mensagem deve ser rejeitada.
+* **SoftFail**: o domínio provavelmente é falso, mas a mensagem não deve ser rejeitada exclusivamente com base neste resultado.
 * **TempError**: Um erro temporário interrompeu a avaliação. A mensagem pode ser rejeitada.
 * **PermError**: Os registros SPF do domínio são inválidos.
 
@@ -49,10 +49,10 @@ O DKIM substituiu a autenticação **DomainKeys** .
 
 O uso de DKIM requer alguns pré-requisitos:
 
-* **Segurança**: a criptografia é um elemento essencial do DKIM. Para garantir o nível de segurança do DKIM, o 1024b é o tamanho de criptografia recomendado pela prática recomendada. As chaves DKIM inferiores não são consideradas válidas pela maioria dos provedores de acesso.
+* **Segurança**: a criptografia é um elemento chave do DKIM. Para garantir o nível de segurança do DKIM, o 1024b é o tamanho de criptografia recomendado pela prática recomendada. As chaves DKIM inferiores não são consideradas válidas pela maioria dos provedores de acesso.
 * **Reputação**: a reputação baseia-se no IP e/ou no domínio, mas um seletor de DKIM menos transparente também é um elemento essencial para ser levado em conta. Escolher o seletor é importante: evite manter o seletor &quot;padrão&quot; que poderia ser usado por qualquer pessoa e, portanto, tem uma reputação fraca. Você deve implementar um seletor diferente para **comunicações de retenção versus aquisições** e para autenticação.
 
-Saiba mais sobre os pré-requisitos do DKIM ao usar o Campaign Classic no [nesta seção](/help/additional-resources/acc-technical-recommendations.md#dkim-acc).
+Saiba mais sobre o pré-requisito DKIM ao usar o Campaign Classic em [esta seção](/help/additional-resources/acc-technical-recommendations.md#dkim-acc).
 
 ## DMARC {#dmarc}
 

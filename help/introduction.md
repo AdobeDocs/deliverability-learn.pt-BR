@@ -1,6 +1,6 @@
 ---
 title: Introdução às práticas recomendadas de entrega
-description: Conheça os principais termos, conceitos e abordagens de entrega para garantir o sucesso do seu programa de marketing.
+description: Conheça os principais termos, conceitos e abordagens da capacidade de entrega para garantir o sucesso do seu programa de marketing.
 jira: KT-5321
 thumbnail: kt5321.jpg
 doc-type: article
@@ -11,8 +11,8 @@ team: ACS
 exl-id: 929e325a-514d-49e3-91cf-c8383bb9465e
 source-git-commit: 7e1bd4d4d691e2598770416b002b8eff344cef74
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 100%
+source-wordcount: '429'
+ht-degree: 94%
 
 ---
 
@@ -35,7 +35,7 @@ Este Guia de Práticas Recomendadas de Entrega aborda os seguintes tópicos:
 3. [Envolvimento](/help/engagement.md)
 4. [Processo de transição - Alternar plataformas de email](/help/transition-process/switching-email-platforms.md)
 5. [Primeiras impressões - Coleção de listas e emails de boas-vindas](/help/first-impressions/address-collection-and-list-growth.md)
-6. [Práticas recomendadas de conteúdo para a entrega ideal](/help/content-best-practices-for-optimal-delivery.md)
+6. [Práticas recomendadas de conteúdo para capacidade de entrega ideal](/help/content-best-practices-for-optimal-delivery.md)
 7. [Permanência do remetente](/help/sender-permanence.md)
 8. [Especificações do provedor de serviços de Internet](/help/internet-service-provider-specifics/overview.md)
 9. [Monitoramento contínuo](/help/ongoing-monitoring.md)

@@ -10,7 +10,7 @@ team: ACS
 exl-id: 6338eb67-3efd-476e-8b26-97bbb6a1d35f
 source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '429'
 ht-degree: 100%
 
 ---
@@ -51,12 +51,12 @@ As rejeições temporárias são falhas temporárias que os ISPs geram quando t�
 
 **Adobe Campaign Classic**
 
-* [Tipos e motivos de falha de delivery](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=pt-BR#delivery-failure-types-and-reasons)
+* [Tipos e motivos de falha de entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=pt-BR#delivery-failure-types-and-reasons)
 * [Gestão de emails rejeitados](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=pt-BR#bounce-mail-management)
 * [Relatório de não entregues e rejeitados](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/global-reports.html?lang=pt-BR#non-deliverables-and-bounces)
 
 **Adobe Campaign Standard**
 
-* [Tipos e motivos de falha de delivery](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html?lang=pt-BR#delivery-failure-types-and-reasons)
+* [Tipos e motivos de falha de entrega](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html?lang=pt-BR#delivery-failure-types-and-reasons)
 * [Qualificação de email de rejeição](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html?lang=pt-BR#bounce-mail-qualification)
 * [Relatório de resumo de rejeição](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/bounce-summary.html?lang=pt-BR#reporting)

@@ -8,8 +8,8 @@ team: ACS
 exl-id: 30118706-d4c0-4bd8-8c9b-50c26b8374ef
 source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 53%
+source-wordcount: '913'
+ht-degree: 51%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 53%
 
 Ao implementar a capacidade de entrega, algumas das práticas recomendadas consistem em tentar manter uma base de assinantes saudável e melhorar a capacidade de entrega por meio de estratégias de reengajamento (ou reconquista).
 
-* Manter uma base de assinantes saudável é um dos principais aspectos para garantir um delivery adequado e consistente. Muitos problemas de deliverability surgem de práticas e manutenção de dados ruins.
-* Um dos problemas mais comuns que os profissionais de marketing enfrentam hoje é a inatividade de assinantes (também conhecida como baixa ou sem engajamento), o que pode afetar negativamente o delivery de emails e gerar um ROI baixo.
+* Manter uma base de assinantes saudável é um dos principais aspectos para garantir uma entrega adequada e consistente. Muitos problemas de deliverability surgem de práticas e manutenção de dados ruins.
+* Um dos problemas mais comuns que os profissionais de marketing enfrentam hoje é a inatividade de assinantes (também conhecida como baixa ou sem engajamento), o que pode afetar negativamente a entrega de emails e gerar um ROI baixo.
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Ao implementar a capacidade de entrega, algumas das práticas recomendadas consi
 
 ## Como os ISPs visualizam as atividades sem engajamento? {#how-do-isps-view-non-engagement-activity-}
 
-Por anos, os ISPs usaram métricas de comentários de engajamento de seus usuários para decidir onde colocar mensagens ou mesmo se deveriam enviá-las. Usuário [envolvimento](/help/engagement.md) consiste em feedbacks positivos e negativos e os ISPs monitoram ambos constantemente. Não ter engajamento talvez seja um dos principais colaboradores para o engajamento negativo. Do ponto de vista de deliverability, o envio consistente de campanhas para usuários que não demonstram engajamento também pode piorar a reputação geral do seu endereço IP e domínios.
+Por anos, os ISPs usaram métricas de comentários de engajamento de seus usuários para decidir onde colocar mensagens ou mesmo se deveriam enviá-las. O usuário [engajamento](/help/engagement.md) consiste em comentários positivos e negativos e os ISPs monitoram ambos constantemente. Não ter engajamento talvez seja um dos principais colaboradores para o engajamento negativo. Do ponto de vista de deliverability, o envio consistente de campanhas para usuários que não demonstram engajamento também pode piorar a reputação geral do seu endereço IP e domínios.
 
 ISPs como Gmail, Microsoft® e OATH consideram emails que não geram engajamento como indesejados e começam a redirecionar mensagens para a pasta de spam. Além disso, esses assinantes podem não ter mais a conta de email e isso pode ser usado como uma interceptação de spam &quot;reciclado&quot;. Isso significa que o endereço ficou inválido por algum tempo e todas as mensagens são rejeitadas. Se o seu sistema de gerenciamento de assinantes não estiver removendo endereços de &quot;devolução permanente&quot;, ele provavelmente está enviando emails para interceptações de spam que podem levar a problemas significativos de entrega.
 
@@ -75,9 +75,9 @@ Os assinantes que interagem com a campanha seguindo a atividade de abertura ou d
 
 **Adobe Campaign**
 
-* [Rastreamento de logs no Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#tracking-logs)
-* [Rastreamento de logs no Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/sending-and-tracking-messages/tracking-messages.html#tracking-logs)
+* [Logs de rastreamento em Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#tracking-logs)
+* [Logs de rastreamento em Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/sending-and-tracking-messages/tracking-messages.html#tracking-logs)
 
-**Gerenciamento de Jornada do cliente do Adobe**
+Adobe **Gerenciamento de Jornada do cliente**
 
 * [Rastreamento de mensagens](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/message-tracking.html?lang=pt-BR)

@@ -1,6 +1,6 @@
 ---
 title: Critérios de direcionamento
-description: Saiba como estabelecer uma reputação positiva desde o início para criar confiança com eficiência antes de alcançar seus públicos menos envolvidos.
+description: Saiba como estabelecer uma reputação positiva desde o início para criar confiança com eficiência antes de alcançar seus públicos-alvo menos envolvidos.
 topics: Deliverability
 jira: KT-7053
 thumbnail: kt7053.jpg
@@ -12,8 +12,8 @@ level: Beginner
 exl-id: e6a855ba-a929-477f-a339-6861a755a529
 source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 22%
+source-wordcount: '188'
+ht-degree: 16%
 
 ---
 
@@ -29,7 +29,7 @@ Normalmente, uma taxa de envolvimento se baseia em um período específico. Essa
 
 **Analytics**
 
-* [Como aumentar as taxas de engajamento e retenção (tutorial)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics): *Identifique públicos envolvidos por meio do comportamento deles usando Coortes e saiba as causas subjacentes que geram aderência em seus aplicativos móveis. Use algoritmos de ciência de dados no Segment IQ para saber as diferenças e semelhanças entre os segmentos.*
+* [Como aumentar as taxas de engajamento e retenção (tutorial)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics): *Identifique públicos engajados por meio de seus comportamentos usando Coortes e saiba as causas subjacentes que geram aderência em seus aplicativos móveis. Use algoritmos de ciência de dados no Segment IQ para saber as diferenças e semelhanças entre os segmentos.*
 
 **Campaign Standard**
 

@@ -9,8 +9,8 @@ role: Admin
 level: Beginner
 source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 22%
+source-wordcount: '395'
+ht-degree: 17%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 22%
 
 A partir de 22 de janeiro (horário local), o Italia Online passou por uma interrupção que resultou em vários atrasos e emails rejeitados. O serviço começou a ser retomado com capacidade limitada em 26 de janeiro.
 
-Os domínios afetados são: **libero.it**, **virgilio.it**, **inwind.it**, **iol.it**, e **blu.it**.
+Os domínios afetados são: **libero.it**, **virgilio.it**, **inwind.it**, **iol.it** e **blu.it**.
 
 Esse problema ocorreu de 22/01/2023 a 26/01/2023, mas a maioria das quarentenas incorretas ocorreu em 26 de janeiro.
 
@@ -33,15 +33,15 @@ Como na maioria dos casos, quando há uma interrupção de um provedor de servi�
 
 Os sintomas foram:
 
-* **Rejeições temporárias** com a mensagem `452 requested action aborted: try again later` - eles foram repetidos automaticamente e nenhuma ação é necessária.
+* **Rejeições temporárias** com a mensagem `452 requested action aborted: try again later` - elas foram automaticamente repetidas e nenhuma ação é necessária.
 
-* **Devoluções permanentes** com a mensagem `550 <email address> recipient rejected` foram retornados pelo ISP em 26 de janeiro, entre 8h e 14h, horário local, para evitar que os remetentes continuem sobrecarregando seus servidores. Como confirmado pelo Italia Online Postmaster, essas não são rejeições permanentes reais, portanto, recomendamos cancelar a quarentena de todos os endereços de email que foram excluídos em 26 de janeiro de 2023 devido a essa mensagem.
+* **As rejeições permanentes** com a mensagem `550 <email address> recipient rejected` foram retornadas pelo ISP em 26 de janeiro, entre as 8h e as 14h, hora local, para evitar que os remetentes continuem sobrecarregando seus servidores. Como confirmado pelo Italia Online Postmaster, essas não são rejeições permanentes reais, portanto, recomendamos cancelar a quarentena de todos os endereços de email que foram excluídos em 26 de janeiro de 2023 devido a essa mensagem.
 
 ## Processo para atualização{#outage-update}
 
 ### Adobe Campaign{#ac-update}
 
-De acordo com a lógica padrão de manipulação de rejeição, o Adobe Campaign adicionou automaticamente esses recipients à lista de quarentena com uma configuração **[!UICONTROL Status]** de **[!UICONTROL Quarantine]**. Para corrigir isso, você precisa atualizar a tabela de quarentena no Campaign localizando e removendo esses recipients ou alterando seus **[!UICONTROL Status]** para **[!UICONTROL Valid]** para que o fluxo de trabalho de limpeza noturna os remova.
+De acordo com a lógica padrão de manipulação de rejeição, o Adobe Campaign adicionou automaticamente esses destinatários à lista de quarentena com uma configuração **[!UICONTROL Status]** de **[!UICONTROL Quarantine]**. Para corrigir isso, você precisa atualizar a tabela de quarentena no Campaign localizando e removendo esses destinatários ou alterando seus **[!UICONTROL Status]** para **[!UICONTROL Valid]** para que o fluxo de trabalho de limpeza noturna os remova.
 
 Para encontrar os recipients que foram afetados por esse problema, ou caso isso aconteça novamente com qualquer outro ISP, consulte as instruções abaixo:
 
@@ -50,9 +50,9 @@ Para encontrar os recipients que foram afetados por esse problema, ou caso isso 
 
 ### Adobe Journey Optimizer{#ajo-update}
 
-De acordo com a lógica padrão de manipulação de rejeição, o Adobe Journey Optimizer adicionou automaticamente esses endereços de email à lista de supressão com um **[!UICONTROL Reason]** configuração de **[!UICONTROL Invalid Recipient]**. Para corrigir isso, você precisa atualizar a lista de supressão localizando e removendo esses endereços de email.
+De acordo com a lógica padrão de manipulação de rejeição, o Adobe Journey Optimizer adicionou automaticamente esses endereços de email à lista de supressão com uma configuração **[!UICONTROL Reason]** de **[!UICONTROL Invalid Recipient]**. Para corrigir isso, você precisa atualizar a lista de supressão localizando e removendo esses endereços de email.
 
-Depois de identificados, esses endereços podem ser removidos manualmente da lista de supressão usando o **[!UICONTROL Delete]** botão. Esses endereços podem ser incluídos em campanhas de email futuras.
+Depois de identificados, esses endereços podem ser removidos manualmente da lista de supressão usando o botão **[!UICONTROL Delete]**. Esses endereços podem ser incluídos em campanhas de email futuras.
 
-Saiba mais em [nesta seção](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html#remove-from-suppression-list){_blank}.
+Saiba mais em [esta seção](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html#remove-from-suppression-list){_blank}.
 

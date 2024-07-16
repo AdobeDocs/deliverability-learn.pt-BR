@@ -8,7 +8,7 @@ exl-id: f1c14b10-6191-4202-9825-23f948714f1e
 source-git-commit: 2a78db97a46150237629eef32086919cacf4998c
 workflow-type: tm+mt
 source-wordcount: '1284'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -22,9 +22,9 @@ Autenticação de mensagens, relatórios e conformidade baseados em domínio é 
 
 O DMARC tem três opções de política:
 
-* **Monitor (p=nenhum):** Instrui o provedor de caixa de correio/ISP a fazer o que normalmente faria com a mensagem.
-* **Quarentena (p=quarentena):** Instrui o provedor de caixa de correio/ISP a enviar emails que não transmitem DMARC para a pasta de spam ou lixo eletrônico do destinatário.
-* **Rejeitar (p=reject):** Instrui o provedor de caixa de correio/ISP a bloquear emails que não passam DMARC, resultando em uma rejeição.
+* **Monitor (p=none):** Instrui o provedor/ISP a fazer o que normalmente faria com a mensagem.
+* **Quarentena (p=quarentena):** Instrui o provedor de caixa de correio/ISP a entregar emails que não transmitem DMARC para a pasta de spam ou lixo eletrônico do destinatário.
+* **Rejeitar (p=rejeitar):** Instrui o provedor/ISP a bloquear emails que não passam DMARC, resultando em uma rejeição.
 
 ## Como o DMARC funciona? {#how}
 
@@ -44,7 +44,8 @@ O DMARC é opcional e, embora não seja obrigatório, é gratuito e permite que 
 
 ## Práticas recomendadas para a implementação do DMARC {#best-practice}
 
-Como o DMARC é opcional, ele não será configurado por padrão em nenhuma plataforma do ESP. Um registro DMARC deve ser criado no DNS para que seu domínio funcione. Além disso, um endereço de email de sua escolha é necessário para indicar para onde os relatórios DMARC devem ir na organização. Como prática recomendada, é recomendável implantar lentamente a implementação DMARC escalando sua política DMARC de p=none, para p=quarantine, para p=reject à medida que você obtém a compreensão DMARC do impacto potencial da DMARC.
+Como o DMARC é opcional, ele não será configurado por padrão em nenhuma plataforma do ESP. Um registro DMARC deve ser criado no DNS para que seu domínio funcione. Além disso, um endereço de email de sua escolha é necessário para indicar para onde os relatórios DMARC devem ir na organização. Como prática recomendada, é
+é recomendável implantar lentamente a implementação DMARC, escalando sua política DMARC de p=none, para p=quarantine, para p=reject à medida que você obtém a compreensão DMARC do impacto potencial da DMARC.
 
 1. Analise o feedback que você recebe e usa (p=none), que instrui o destinatário a não executar nenhuma ação em relação às mensagens com falha de autenticação, mas ainda enviar relatórios de email ao remetente. Além disso, revise e corrija problemas com o SPF/DKIM se as mensagens legítimas estiverem falhando na autenticação.
 1. Determine se o SPF e o DKIM estão alinhados e transmitem a autenticação para todos os emails legítimos e, em seguida, mova a política para (p=quarentena), que instrui o servidor de email de recebimento a colocar em quarentena os emails que falham na autenticação (geralmente significa colocar essas mensagens na pasta de spam).
@@ -58,19 +59,19 @@ Como o DMARC é opcional, ele não será configurado por padrão em nenhuma plat
 
 O DMARC oferece a capacidade de receber relatórios sobre emails que falham no SPF/DKIM. Há dois relatórios diferentes gerados por servidores ISP como parte do processo de autenticação que os remetentes podem receber por meio das tags RUA/RUF em sua política DMARC:
 
-* **Relatórios Agregados (RUA):** Não contém nenhuma PII (Informações de identificação pessoal) que seja sensível ao GDPR.
-* **Relatórios Forenses (RUF):** Contém endereços de email que são sensíveis ao GDPR. Antes de usar o, é melhor verificar internamente como lidar com informações que precisam ser compatíveis com o GDPR.
+* **Relatórios de Agregação (RUA):** não contém nenhum PII (Informações de Identificação Pessoal) que seja sensível ao GDPR.
+* **Relatórios Forenses (RUF):** Contém endereços de email que diferenciam o GDPR. Antes de usar o, é melhor verificar internamente como lidar com informações que precisam ser compatíveis com o GDPR.
 
 O principal uso desses relatórios é receber uma visão geral dos emails que são tentados de falsificação. Esses relatórios são altamente técnicos e são melhor analisados por meio de uma ferramenta de terceiros. Algumas empresas especializadas em monitoramento DMARC são:
 
 * [ValiMail](https://www.valimail.com/products/#automated-delivery)
 * [Agari](https://www.agari.com/)
-* [Demarciano](https://dmarcian.com/)
-* [Proofpoint](https://www.proofpoint.com/us)
+* [Dmarciano](https://dmarcian.com/)
+* [Ponto de Prova](https://www.proofpoint.com/us)
 
 >[!CAUTION]
 >
->Se os endereços de email que você está adicionando para receber relatórios estiverem fora do domínio para o qual o registro DMARC é criado, será necessário autorizar o domínio externo a especificar ao DNS que você possui esse domínio. Para fazer isso, siga as etapas detalhadas na [Documentação do dmarc.org](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
+>Se os endereços de email que você está adicionando para receber relatórios estiverem fora do domínio para o qual o registro DMARC é criado, será necessário autorizar o domínio externo para especificar ao DNS que você possui esse domínio. Para fazer isso, siga as etapas detalhadas na [Documentação do dmarc.org](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
 
 ### Exemplo de registro DMARC {#example}
 
@@ -86,7 +87,7 @@ Os registros DMARC têm vários componentes chamados tags DMARC. Cada tag tem um
 |  ---  |  ---  |  ---  |  ---  |  ---  |
 | v | Obrigatório | Essa marca DMARC especifica a versão. Há apenas uma versão a partir de agora, portanto, terá um valor fixo de v=DMARC1 | V=DMARC1 DMARC1 | DMARC1 |
 | p | Obrigatório | Mostra a política DMARC selecionada e direciona o destinatário para relatar, colocar em quarentena ou rejeitar emails que não passaram nas verificações de autenticação. | p=nenhum, colocar em quarentena ou rejeitar | - |
-| fo | Opcional | Permite que o proprietário do domínio especifique opções de relatório. | 0: Gerar relatório se tudo falhar<br/>1: Gerar relatório se algo falhar<br/>d: gerar relatório se o DKIM falhar<br/>s: Gerar relatório se o SPF falhar | 1 (recomendado para relatórios DMARC) |
+| fo | Opcional | Permite que o proprietário do domínio especifique opções de relatório. | 0: Gerar relatório se tudo falhar<br/>1: gerar relatório se algo falhar<br/>d: gerar relatório se o DKIM falhar<br/>s: gerar relatório se o SPF falhar | 1 (recomendado para relatórios DMARC) |
 | pct | Opcional | Informa a porcentagem de mensagens sujeitas à filtragem. | pct=20 | 100 |
 | rua | Opcional (recomendado) | Identifica onde os relatórios agregados serão entregues. | `rua=mailto:aggrep@example.com` | - |
 | ruf | Opcional (recomendado) | Identifica onde os relatórios forenses serão entregues. | `ruf=mailto:authfail@example.com` | - |
@@ -98,7 +99,7 @@ Os registros DMARC têm vários componentes chamados tags DMARC. Cada tag tem um
 
 >[!NOTE]
 >
->Se sua instância do Campaign estiver hospedada no AWS, você poderá implementar o DMARC para seus subdomínios com o Painel de controle do Campaign. [Saiba como implementar registros DMARC usando o Painel de controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/txt-records/dmarc.html).
+>Se sua instância do Campaign estiver hospedada no AWS, você poderá implementar o DMARC para seus subdomínios com o Painel de controle do Campaign. [Saiba como implementar Registros DMARC usando o Painel de Controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/txt-records/dmarc.html).
 
 Um motivo comum para falhas do DMARC é o desalinhamento entre o endereço &quot;De&quot; e &quot;Para erros&quot; ou &quot;Caminho de retorno&quot;. Para evitar isso, ao configurar o DMARC, é recomendável verificar novamente suas configurações de endereço &quot;De&quot; e &quot;Erros para&quot; nos Modelos de entrega.
 
@@ -119,4 +120,4 @@ Depois que essas alterações forem salvas, você poderá prosseguir com a imple
 ## Links úteis {#links}
 
 * [DMARC.org](https://dmarc.org/){target="_blank"}
-* [Autenticação de email M3AWG](https://www.m3aawg.org/sites/default/files/document/M3AAWG_Email_Authentication_Update-2015.pdf){target="_blank"}
+* [Autenticação de Email M3AWG](https://www.m3aawg.org/sites/default/files/document/M3AAWG_Email_Authentication_Update-2015.pdf){target="_blank"}

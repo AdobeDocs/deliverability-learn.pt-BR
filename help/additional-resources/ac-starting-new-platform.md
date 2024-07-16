@@ -8,8 +8,8 @@ team: ACS
 exl-id: 6c9ade01-3052-4311-af80-888294820024
 source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 67%
+source-wordcount: '549'
+ht-degree: 57%
 
 ---
 
@@ -27,23 +27,23 @@ Não se pode esperar atingir a velocidade operacional em termos de saída no in�
 
 ## Princípios fundamentais
 
-Abaixo estão listados os principais fundamentos que devem ser seguidos ao iniciar uma nova plataforma.
+Abaixo estão listados os principais princípios a serem seguidos ao iniciar uma nova plataforma.
 
 * Configure um subdomínio dedicado específico para campanhas de email enviadas do Adobe.
 
 * Se você tiver essas informações, **importe endereços inválidos para a tabela quarentena**.
 A inicialização de uma plataforma geralmente ocorre ao usar uma lista de endereços pela primeira vez e que podem não ser totalmente qualificados. Se você enviar para endereços inválidos ou para endereços armadilha, isso contribuirá para diminuir a reputação da plataforma.
 
-   * Se você tiver uma lista de endereços inválidos, é do seu interesse importá-la para a tabela de quarentena antes dos primeiros envios. A tabela de quarentena está disponível por meio da **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** (Campaign Classic) e **[!UICONTROL Administration > Channels > Quarantines > Addresses]** (Campaign Standard) menus.
+   * Se você tiver uma lista de endereços inválidos, é do seu interesse importá-la para a tabela de quarentena antes dos primeiros envios. A tabela de quarentena está disponível por meio dos menus **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** (Campaign Classic) e **[!UICONTROL Administration > Channels > Quarantines > Addresses]** (Campaign Standard).
 
    * Se, mesmo assim, você quiser requalificar os endereços inválidos, é preferível fazer isso assim que a reputação da plataforma for estabelecida e pouco a pouco para &quot;diluir&quot; o uso de endereços inválidos ao longo do tempo.
 
 * **Limite a taxa de transferência** limitando o número de mtachilds. Para obter mais informações sobre como ajustar essa configuração técnica, entre em contato com o administrador do Adobe Campaign.
 
-* **Aumente progressivamente os volumes enviados** para evitar que sejam marcados como spam. Não direcione todo o banco de dados desde o início, mas adicione uma fração extra da lista sempre que enviar. Isso deve permitir aumentar o volume em cada etapa e reduzir a taxa geral de endereços inválidos. Para garantir o desenvolvimento perfeito da fase de início, você pode usar ondas.
+* **Aumente progressivamente os volumes enviados** para evitar que sejam marcados como spam. Não direcione todo o banco de dados desde o início, mas adicione uma fração extra da lista sempre que enviar. Isso deve permitir aumentar o volume em cada etapa e reduzir a taxa geral de endereços inválidos. Para garantir o desenvolvimento suave da fase de inicialização, você pode usar ondas.
 
 * **Enviar regularmente**. Em certa medida, é melhor enviar pouca coisa regularmente do que campanhas enormes esporadicamente.
-* **Preste muita atenção aos relatórios do delivery**. Muito erros podem significar que uma configuração técnica está mal feita.
+* **Preste muita atenção aos relatórios da entrega**. Indicadores de erro altos podem significar que uma configuração técnica está mal configurada.
 
 ## Recursos adicionais
 
@@ -54,13 +54,13 @@ Para obter mais informações sobre os princípios listados acima e sua implemen
 
 **Adobe Campaign Classic**
 
-* [Otimizar seu delivery por meio da quarentena](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html#optimizing-your-delivery-through-quarantines)
+* [Otimizar sua entrega por meio de quarentenas](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html#optimizing-your-delivery-through-quarantines)
 * [Identificar endereços em quarentena para toda a plataforma](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html#identifying-quarantined-addresses-for-the-entire-platform)
-* [Enviar usando várias ondas](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves)
-* [Monitoramento de delivery](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=pt-BR#sending-messages)
+* [Enviando usando várias ondas](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves)
+* [Monitoramento de entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=pt-BR#sending-messages)
 
 **Adobe Campaign Standard**
 
-* [Otimizar seu delivery por meio da quarentena](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html#optimizing-your-delivery-through-quarantines)
+* [Otimizar sua entrega por meio de quarentenas](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html#optimizing-your-delivery-through-quarantines)
 * [Identificar endereços em quarentena para toda a plataforma](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=pt-BR)
-* [Monitoramento de um delivery](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=pt-BR)
+* [Monitoramento de uma entrega](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=pt-BR)
