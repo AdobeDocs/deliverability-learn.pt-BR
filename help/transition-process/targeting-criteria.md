@@ -29,8 +29,8 @@ Normalmente, uma taxa de envolvimento se baseia em um período específico. Essa
 
 **Analytics**
 
-* [Como aumentar as taxas de engajamento e retenção (tutorial)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics): *Identifique públicos engajados por meio de seus comportamentos usando Coortes e saiba as causas subjacentes que geram aderência em seus aplicativos móveis. Use algoritmos de ciência de dados no Segment IQ para saber as diferenças e semelhanças entre os segmentos.*
+* [Como aumentar as taxas de engajamento e retenção (tutorial)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=pt-BR#mobile-app-analytics): *Identifique públicos engajados por meio de seus comportamentos usando Coortes e saiba as causas subjacentes que geram aderência em seus aplicativos móveis. Use algoritmos de ciência de dados no Segment IQ para saber as diferenças e semelhanças entre os segmentos.*
 
 **Campaign Standard**
 
-* [Emails alimentados por IA: pontuação preditiva de engajamento](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html#predictive-scoring)
+* [Emails alimentados por IA: pontuação preditiva de engajamento](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html?lang=pt-BR#predictive-scoring)

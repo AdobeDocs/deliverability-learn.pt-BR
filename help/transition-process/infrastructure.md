@@ -66,8 +66,8 @@ O [!DNL Sender Policy Framework] (SPF) é um método de autenticação que permi
 **Campaign**
 
 * Saiba como delegar completamente um subdomínio ao Adobe Campaign Classic ou Standard nesta [seção](/help/additional-resources/ac-domain-name-setup.md).
-* [Painel de Controle: Delegação total de subdomínio (tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Saiba como delegar completamente um subdomínio ao Adobe Campaign Classic.*
-* [Painel de Controle: Delegação total de subdomínio (tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Saiba como delegar completamente um subdomínio ao Adobe Campaign Standard.*
+* [Painel de Controle: Delegação total de subdomínio (tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=pt-BR) - *Saiba como delegar completamente um subdomínio ao Adobe Campaign Classic.*
+* [Painel de Controle: Delegação total de subdomínio (tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=pt-BR) - *Saiba como delegar completamente um subdomínio ao Adobe Campaign Standard.*
 * Saiba mais sobre como implementar um loop de comentários para uma instância de Campaign Classic em [esta seção](/help/additional-resources/acc-technical-recommendations.md#feedback-loop-acc).
 
 ## Recursos adicionais

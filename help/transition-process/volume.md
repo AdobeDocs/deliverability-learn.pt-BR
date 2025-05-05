@@ -48,10 +48,10 @@ Em muitas circunstâncias, o correio transacional não segue a abordagem tradici
 **Campaign**
 
 * Saiba mais sobre como gerenciar a capacidade de entrega ao iniciar uma nova plataforma com o Adobe Campaign em [esta seção](/help/additional-resources/ac-starting-new-platform.md).
-* Saiba como enviar usando várias ondas com o Adobe Campaign Classic em [esta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves).
+* Saiba como enviar usando várias ondas com o Adobe Campaign Classic em [esta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=pt-BR#sending-using-multiple-waves).
 * Saiba como delegar completamente um subdomínio ao Adobe Campaign Classic ou Standard nesta [seção](/help/additional-resources/ac-domain-name-setup.md).
-* [Painel de Controle: Delegação total de subdomínio (tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Saiba como delegar completamente um subdomínio ao Adobe Campaign Classic.*
-* [Painel de Controle: Delegação total de subdomínio (tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Saiba como delegar completamente um subdomínio ao Adobe Campaign Standard.*
+* [Painel de Controle: Delegação total de subdomínio (tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=pt-BR) - *Saiba como delegar completamente um subdomínio ao Adobe Campaign Classic.*
+* [Painel de Controle: Delegação total de subdomínio (tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=pt-BR) - *Saiba como delegar completamente um subdomínio ao Adobe Campaign Standard.*
 
 ## Recursos adicionais
 

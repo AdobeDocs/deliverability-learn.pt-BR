@@ -59,13 +59,13 @@ Uma parte fundamental final da estratégia de resposta é que, se você tiver um
 
 **Adobe Campaign Classic**
 
-* [Definir o público-alvo correto](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html#communication-channels)
-* [Regras de pressão](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html)
+* [Definir o público-alvo correto](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html?lang=pt-BR#communication-channels)
+* [Regras de pressão](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html?lang=pt-BR)
 
 **Adobe Campaign Standard**
 
-* [Definir o público-alvo correto](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html)
-* [Regras de fadiga](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/working-with-typology-rules/fatigue-rules.html)
+* [Definir o público-alvo correto](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html?lang=pt-BR)
+* [Regras de fadiga](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/working-with-typology-rules/fatigue-rules.html?lang=pt-BR)
 
 ## Recursos adicionais
 

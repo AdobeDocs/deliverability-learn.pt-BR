@@ -29,8 +29,8 @@ O conteúdo é a chave. Você já leu nossa perspectiva sobre relevância, mas a
 
 **Campaign Classic**
 
-* [Controlando o conteúdo da sua mensagem](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/control-message-content.html)
+* [Controlando o conteúdo da sua mensagem](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/control-message-content.html?lang=pt-BR)
 
 **Campaign Standard**
 
-* [Controle de conteúdo de email](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/control-email-content.html#testing-and-sending)
+* [Controle de conteúdo de email](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/control-email-content.html?lang=pt-BR#testing-and-sending)
