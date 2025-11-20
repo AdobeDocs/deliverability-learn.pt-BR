@@ -9,7 +9,7 @@ auto-video-transcripts: true
 source-git-commit: 0d78f4c588ae55c61a7e40e07a3b8d33ce84cb01
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 100%
 
 + [Introdução](/help/introduction.md)
 + [Estratégia e definição da capacidade de entrega](/help/deliverability-strategy-and-definition.md)
-+ Métricas para entrega {#metrics-for-deliverability}
++ Métricas para a capacidade de entrega {#metrics-for-deliverability}
    + [Visão geral de métricas](/help/metrics/metrics-overview.md)
    + [Rejeições](/help/metrics/bounces.md)
    + [Reclamações](/help/metrics/complaints.md)
    + [Coberturas de spam](/help/metrics/spam-traps.md)
    + [Marcação e bloqueio](/help/metrics/bulking-and-blocking.md)
-+ [Envolvimento](/help/engagement.md)
++ [Engajamento](/help/engagement.md)
 + Processo de transição - Alternar plataformas de email {#transition-process}
    + [Como fazer a transição descomplicada ao alternar plataformas de email](/help/transition-process/switching-email-platforms.md)
    + [Infraestrutura](/help/transition-process/infrastructure.md)
@@ -37,14 +37,14 @@ ht-degree: 100%
    + [Emails de boas-vindas](/help/first-impressions/welcome-emails.md)
 + [Práticas recomendadas de conteúdo para capacidade de entrega ideal](/help/content-best-practices-for-optimal-delivery.md)
 + [Permanência do remetente](/help/sender-permanence.md)
-+ Especificações do provedor de serviços de internet {#internet-service-provider-specifics}
++ Especificações do provedor de serviços de Internet {#internet-service-provider-specifics}
    + [Visão geral](/help/internet-service-provider-specifics/overview.md)
    + [Gmail](/help/internet-service-provider-specifics/gmail.md)
    + [Microsoft (Hotmail, Outlook, Windows Live, etc.)](/help/internet-service-provider-specifics/microsoft.md)
    + [Verizon Media Group (Yahoo, AOL, Verizon, etc.)](/help/internet-service-provider-specifics/verizon-media-group.md)
 + [Monitoramento contínuo](/help/ongoing-monitoring.md)
 + [Colocando em prática](/help/putting-it-in-practice.md)
-+ Apêndice: Recursos adicionais {#additional-resources}
++ Apêndice: recursos adicionais {#additional-resources}
    + [Visão geral](/help/additional-resources/general-resources.md)
    + [Regras de como cancelar inscrição](/help/unsubscribe-dos-and-do-nots.md)
    + Recursos genéricos {#generic-resources}
@@ -60,7 +60,7 @@ ht-degree: 100%
       + [Processo de solicitação de certificado SSL](/help/additional-resources/ac-ssl-certificate-request.md)
       + [Início de uma nova plataforma](/help/additional-resources/ac-starting-new-platform.md)
       + [Campaign Classic - Recomendações técnicas](/help/additional-resources/acc-technical-recommendations.md)
-   + Notas técnicas {#technotes}
+   + Notas técnicas{#technotes}
       + [Implementar DMARC](/help/technotes/implement-dmarc.md)
       + [Implementar BIMI](/help/technotes/implement-bimi.md)
       + [Atualizar as rejeições após a interrupção do Italia Online](/help/technotes/update-bounces-after-it-outage.md)
