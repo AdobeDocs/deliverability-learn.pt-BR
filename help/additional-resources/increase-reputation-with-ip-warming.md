@@ -6,28 +6,31 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: b553a13e-2055-4abc-b784-fd52792380d0
-source-git-commit: eba8162150b5662ca18687b873114858f8eb00cc
+source-git-commit: b859229410ca0199f9e9d57025a9fe022834a217
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1596'
 ht-degree: 2%
 
 ---
 
 # Aumente sua reputação de email com o aquecimento de IP
 
-<!--Increase your email reputation with IP warming
+<!--
+Increase your email reputation with IP warming
 
 ## IP Warming overview
 
-In the Adobe Deliverability Consulting and Deliverability Operations teams, we have a vested interest in helping new Campaign customers be as successful as possible as they embark on the route of an IP warming process. If you’ve never been a part of such a project, you may have a lot of questions about it. Let’s get down to the details!-->
+In the Adobe Deliverability Consulting and Deliverability Operations teams, we have a vested interest in helping new Campaign customers be as successful as possible as they embark on the route of an IP warming process. If you've never been a part of such a project, you may have a lot of questions about it. Let's get down to the details!
+-->
 
 ## Introdução
 
-O Adobe exige que os clientes compartilhem a configuração para ajudar a equipe de avaliação de entrega de Adobe a entender seu programa exclusivo. As perguntas que fazemos foram projetadas para ajudar a equipe de Entregabilidade do Adobe a ter uma noção da reputação de envio e do volume de email. Sem uma compreensão concreta do seu modelo de negócios, das metas de marketing por email e das métricas de reputação, não poderemos personalizar a estratégia e há risco de problemas de entrega.
+A Adobe exige que os clientes compartilhem a configuração para ajudar a equipe de avaliação do Adobe a entender seu programa exclusivo. As perguntas que fazemos foram projetadas para ajudar a equipe de avaliação do Adobe a ter uma noção da reputação de envio e do volume de emails. Sem uma compreensão concreta do seu modelo de negócios, das metas de marketing por email e das métricas de reputação, não poderemos personalizar a estratégia e há risco de problemas de entrega.
 
 No início, você receberá seus próprios endereços IP dedicados (Internet Protocol, Protocolo de Internet). No contexto de envio de email, um endereço IP é a rota usada para entregar suas mensagens de email aos clientes. Endereços IP e domínios são usados para identificar os remetentes em uma rede para os ISPs de recebimento. O Adobe atribui o número apropriado de endereços IP dedicados para enviar emails, com base no volume de envio, programas de email, práticas de segmentação de dados e seu contrato.
 
 **Tópicos relacionados:**
+
 * [Como fazer a transição descomplicada ao alternar plataformas de email](../../help/transition-process/switching-email-platforms.md)
 * [Estratégia de IP](../../help/transition-process/infrastructure.md#ip-strategy)
 * [Considerações específicas do ISP durante o aquecimento de IP](../../help/transition-process/isp-specific-considerations-during-ip-warming.md)
@@ -50,7 +53,7 @@ Enviar grandes quantidades de email de um IP totalmente novo ou de IPs diretamen
 
 Esse é o componente mais importante do gerenciamento e do crescimento de uma lista de email de assinante. À medida que as leis antisspam crescem e se tornam mais abrangentes internacionalmente, deve ser o foco principal do profissional de marketing garantir que ele receba consentimento explícito (ou expresso) de cada assinante em sua lista. Ou seja, cada assinante concordou ativamente em receber emails da sua marca. Isso é diferente do consentimento implícito em que uma pessoa é adicionada a uma lista de email após realizar uma ação que não estava se inscrevendo explicitamente em um programa de email.
 
-Saiba mais sobre a [Política de uso aceitável do Adobe](https://www.adobe.com/legal/terms/aup.html).
+Saiba mais sobre [Política de Uso Aceitável da Adobe](https://www.adobe.com/legal/terms/aup.html).
 
 ## Métricas de reputação: o que os ISPs procuram?
 
@@ -65,9 +68,9 @@ Alguns dos dados examinados são:
 
 Os ISPs exigem configurações técnicas específicas alinhadas às suas políticas e práticas recomendadas. O Adobe configura seus IPs e subdomínios delegados para identificá-lo como um remetente responsável e confiável. Isso é chamado de [autenticação de email](/help/transition-process/infrastructure.md#authentication). A autenticação ajuda os receptores a validar se um remetente tem os direitos para enviar desse IP ou domínio.
 
-A autenticação permite que os ISPs validem se a empresa que envia de um domínio ou IP tem o direito de fazer isso. É essencialmente feito para provar sua identidade e garantir que você não esteja fingindo ser outra pessoa e que outra pessoa não esteja fingindo ser você.
+A autenticação permite que os ISPs validem se a empresa que envia de um domínio ou IP tem o direito de fazer isso. É essencialmente feito para provar sua identidade e para ter certeza de que você não está fingindo ser outra pessoa, e que outra pessoa não está fingindo ser você.
 
-No Adobe, configuraremos o SPF e o DKIM por padrão e o DMARC será configurado por solicitação. Os ISPs referenciam o SPF e o DKIM como as formas primárias de autenticação. Muitos ISPs também estão incorporando DMARC (Domain-based Message Authentication, Reporting &amp; Conformance) em suas decisões de filtragem. Emails não autenticados não são necessariamente bloqueados, mas passam por filtragens adicionais.
+Na Adobe, configuraremos o SPF e o DKIM por padrão e configuraremos o DMARC por solicitação. Os ISPs referenciam o SPF e o DKIM como as formas primárias de autenticação. Muitos ISPs também estão incorporando o DMARC (Domain-based Message Authentication, Reporting &amp; Conformance) em suas decisões de filtragem. Emails não autenticados não são necessariamente bloqueados, mas passam por filtragens adicionais.
 
 ## Aquecimento de IP: o que esperar
 
@@ -75,11 +78,11 @@ No Adobe, configuraremos o SPF e o DKIM por padrão e o DMARC será configurado 
 
 Os remetentes de spam enviam de novos IPs o tempo todo; eles gravarão em um pool de IPs até que sejam desligados e repitam o processo em outro pool de IPs. Como resultado, os ISPs tratam o tráfego que está sendo enviado de novos IPs com cuidado. Eles bloqueiam o envio de grande quantidade de e-mails por IPs porque suspeitam que essa atividade esteja sendo executada por remetentes de spam.
 
-Consequentemente, não é incomum receber mensagens de diferimento ou limitadas quando você começa a enviar de seus novos IPs. Após algumas tentativas, a mensagem geralmente é aceita e entregue.
+Consequentemente, não é incomum receber mensagens de adiamento ou de limitação ao iniciar o envio por email dos novos IPs. Após algumas tentativas, a mensagem geralmente é aceita e entregue.
 
 Alcançar um fluxo normal de tráfego para os ISPs que adiam novos remetentes pode levar alguns dias. Mesmo assim, não pare de enviar emails - continue se concentrando em enviar somente para os assinantes de email mais engajados.
 
-Em casos raros, o ISP bloqueia o novo remetente. O Adobe está monitorando sua conta e, se houver suspeita de um bloqueio, entrará em contato com o ISP para tentar ajudar a corrigir a situação da melhor maneira possível.
+Em casos raros, o ISP bloqueia o novo remetente. A Adobe está monitorando sua conta e, se houver suspeita de um bloqueio, entrará em contato com o ISP para tentar ajudar a corrigir a situação da melhor maneira possível.
 
 Lembre-se de que a consistência é fundamental aqui. Padrões de volume de envio irregulares e padrões de envio pouco frequentes causarão alguns desafios de deliverability ao longo do caminho.
 
@@ -87,15 +90,15 @@ Lembre-se de que a consistência é fundamental aqui. Padrões de volume de envi
 
 [As reclamações](/help/metrics/complaints.md) ocorrem quando um assinante rotula um email como spam por meio de seu programa de email. Isso envia um aviso ao ISP sobre a atividade de reclamação. Se houver um número suficiente dessas reclamações que chegam ao ISP, esse ISP atuará para proteger seus clientes - possivelmente bloqueará o acesso de muitos emails aos assinantes ou direcionará uma parte dos emails para a pasta em massa em vez das caixas de entrada dos assinantes. Se o problema do delivery for causado por reclamações, é importante determinar por que os recipients estão reclamando.
 
-Os assinantes reclamam por vários motivos. Às vezes, um assinante não quer receber mais nenhum email seu, talvez porque sinta que está recebendo muitas mensagens sobre o mesmo tópico, não estava esperando a mensagem ou não se lembra de se inscrever para receber seus emails.
+Os assinantes reclamam por vários motivos. Às vezes, um assinante não quer receber mais nenhum email seu, talvez porque ele sinta que está recebendo muitas mensagens no mesmo tópico, não estava esperando a mensagem ou não se lembra de se inscrever para receber seus emails.
 
 ### Validade dos dados
 
 As rejeições ocorrem quando você envia para um endereço que não pode ser entregue em um ISP. Um endereço pode não ser entregue por vários motivos, como um erro ao digitar o endereço ou enviar para um endereço que estava anteriormente ativo, mas foi fechado ou encerrado após um período de inatividade.
 
-Se você encontrar um número substancial de rejeições permanentes, é importante entender o porquê. Revise como os endereços foram coletados e confirme se a permissão foi fornecida. Às vezes, as pessoas fecham sua conta de email e não notificam aqueles que têm esse endereço em sua lista de marketing.
+Se você encontrar um número substancial de rejeições permanentes, é importante entender o porquê. Revise como os endereços foram coletados e confirme se a permissão foi fornecida. Às vezes, as pessoas fecham suas contas de email e não notificam aqueles que têm esse endereço em suas listas de marketing.
 
-### Envolvimento
+### Engajamento
 
 Os ISPs procuram um volume consistente e boa qualidade dos dados. Você aumentará lenta e constantemente o tráfego nas próximas quatro a oito semanas. Às vezes, os aumentos exigem mais ou menos tempo com base no volume e nas metas, mas normalmente é um processo de pelo menos 8 semanas.
 
@@ -107,7 +110,7 @@ Saiba mais sobre [envolvimento](/help/engagement.md).
 
 Você pode se sentir tentado a apressar o processo de aquecimento de IP, enviando mais volume do que o recomendado, negligenciando a identificação de seus assinantes mais engajados e deixando de enviar esses assinantes primeiro, em um esforço para criar uma reputação positiva. Por favor, resista a este impulso! Não vai ajudá-lo a longo prazo.
 
-É muito importante começar a enviar o seu altamente engajado (com e-mail!) assinantes somente para os estágios iniciais do aquecimento de IP. Esses clientes são os mais valiosos e sua propensão a abrir emails ajudará a começar a mostrar aos ISPs que você é um profissional de marketing que envia emails interessantes e solicitados. Ele também mostra aos ISPs que você está seguindo as regras e seguindo as práticas recomendadas.
+É muito importante começar a enviar o seu altamente engajado (com e-mail!) assinantes somente para os estágios iniciais do aquecimento de IP. Esses clientes são os seus mais valiosos e sua propensão a abrir seus emails ajudará a começar a mostrar aos ISPs que você é um profissional de marketing que envia emails interessantes e solicitados. Ele também mostra aos ISPs que você está seguindo as regras e seguindo as práticas recomendadas.
 
 ## Conclusão
 

@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 75538ef8-8e4b-4940-8d11-42ebd7c65e93
-source-git-commit: 3616470b31f45d589d323a6b90c7fd5df3b467b7
+source-git-commit: b859229410ca0199f9e9d57025a9fe022834a217
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 31%
+source-wordcount: '124'
+ht-degree: 32%
 
 ---
 
@@ -33,13 +33,14 @@ Esta seção lista alguns recursos adicionais sobre a capacidade de delivery, co
 * [Listas de buraco negro em tempo real](../../help/additional-resources/blocklist-databases.md)
 * [Solução de problemas](../../help/additional-resources/troubleshooting.md)
 
-  <!--
-    [IP Certification](../../help/additional-resources/ip-certification.md)
-    [Third-party monitoring tools](../../help/additional-resources/third-party-monitoring-tools.md)-->
+<!--
+[IP Certification](../../help/additional-resources/ip-certification.md)
+[Third-party monitoring tools](../../help/additional-resources/third-party-monitoring-tools.md)
+-->
 
 ## Recursos específicos do produto
 
-Além disso, esta seção lista vários recursos específicos do produto para ajudá-lo a implementar a capacidade de entrega e alcançar o sucesso com suas soluções de Adobe.
+Além disso, esta seção lista vários recursos específicos do produto para ajudá-lo a implementar a capacidade de entrega e alcançar o sucesso com suas soluções da Adobe.
 
 **[!DNL Adobe Campaign]**
 

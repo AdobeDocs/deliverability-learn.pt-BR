@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 4155b89f-a636-404c-8951-563c1b4d0289
-source-git-commit: e7427d6109f3201affa58decde36294d1631bf5b
+source-git-commit: b859229410ca0199f9e9d57025a9fe022834a217
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 90%
+source-wordcount: '423'
+ht-degree: 91%
 
 ---
 
@@ -21,7 +21,7 @@ Esses bancos de dados são chamados de RBLs (Listas de Buraco Negro em Tempo Rea
 
 * Por endereço IP: lista endereços IP que enviam spam ou provavelmente retransmitem spam.
 * Por domínio remetente: lista domínios de remetente (domínio completo do endereço de email de devolução) enviando spam ou configurado incorretamente.
-* Por domínio da Web: lista os domínios (domínios de alto nível como registrados com os registradores) encontrados nas URLs dos links e imagens contidas no conteúdo de spam. Nas soluções de Adobe, o domínio a ser considerado geralmente é o endereço usado para rastreamento.
+* Por domínio da Web: lista os domínios (domínios de alto nível como registrados com os registradores) encontrados nas URLs dos links e imagens contidas no conteúdo de spam. Nas soluções da Adobe, o domínio a ser considerado geralmente é o endereço usado para rastreamento.
 
 Veja a seguir uma lista das RBLs mais utilizadas. Para obter uma lista mais abrangente, consulte [https://www.dnsstuff.com/](https://tools.dnsstuff.com/).
 
@@ -53,6 +53,8 @@ Veja a seguir uma lista das RBLs mais utilizadas. Para obter uma lista mais abra
 
   Esta é uma lista de IPs amplamente usada na Alemanha. Consulte [https://www.heise.de/ix/nixspam/](https://www.heise.de/ix/nixspam/)
 
-<!--* SORBS
+<!--
+* SORBS
 
-  [https://www.nl.sorbs.net](https://www.nl.sorbs.net) compiles a list of IP addresses that are reputed to be dynamic IP address (i.e. attributed temporarily to ISP subscribers) or "open relay" addresses. Certain domains check whether the IP address of a sender is not listed on this site before accepting email. Checking the IP addresses on this site can prove useful.-->
+  [https://www.nl.sorbs.net](https://www.nl.sorbs.net) compiles a list of IP addresses that are reputed to be dynamic IP address (i.e. attributed temporarily to ISP subscribers) or "open relay" addresses. Certain domains check whether the IP address of a sender is not listed on this site before accepting email. Checking the IP addresses on this site can prove useful.
+-->
