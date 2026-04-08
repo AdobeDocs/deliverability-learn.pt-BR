@@ -9,8 +9,8 @@ activity: understand
 team: ACS
 exl-id: ffacc1b1-bf3f-466e-9a1d-63aad4d2ec45
 source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
-workflow-type: tm+mt
-source-wordcount: '416'
+workflow-type: ht
+source-wordcount: '495'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ Existem coberturas de spam para ajudar a identificar emails de remetentes fraudu
 
 As interceptações de spam recicladas são endereços que antes eram válidos, mas que não estão mais sendo usados. Uma maneira importante de manter as listas sempre limpas é enviar emails regularmente para toda a lista e suprimir adequadamente os emails devolvidos. Isso ajuda os endereços de email abandonados a serem colocados em quarentena e retidos na próxima utilização.
 
-Em alguns casos, um endereço pode ser reciclado em 30 dias. O envio regular é um aspecto vital da boa higiene das listas, juntamente com a supressão regular de usuários inativos. **As campanhas de reengajamento** normalmente fazem parte de sofisticados programas de marketing por email. Esse estilo de campanha permite que o remetente tente recuperar usuários que, de outra forma, não receberiam mais emails.
+Em alguns casos, um endereço pode ser reciclado em 30 dias. O envio regular é um aspecto essencial de uma boa manutenção de listas, juntamente com a supressão periódica de usuários inativos. **Campanhas de reengajamento** fazem parte, geralmente, de programas avançados de marketing por email. Esse estilo de campanha permite que o remetente tente recuperar usuários que, de outra forma, não receberiam mais emails.
 
 ## Erro de digitação
 
@@ -42,10 +42,10 @@ Uma cobertura de spam pura é um endereço que não tem e nunca teve usuário fi
 
 **Adobe Campaign Classic**
 
-* [SpamAssassin](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/spamassassin.html?lang=pt-BR#using-spamassassin)
-* [Criar um formulário de assinatura com aceitação dupla](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=pt-BR#create-a-subscription--form-with-double-opt-in)
+* [SpamAssassin](https://experienceleague.adobe.com/pt-br/docs/campaign-classic/using/sending-messages/deliverability-management/spamassassin#using-spamassassin)
+* [Criar um formulário de assinatura com aceitação dupla](https://experienceleague.adobe.com/pt-br/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms#create-a-subscription--form-with-double-opt-in)
 
 **Adobe Campaign Standard**
 
-* [Pré-visualização de email e análise anti-spam](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/email-designer/preview-your-email.html?lang=pt-BR#designing-content)
-* [Processo de aceitação dupla](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=br#communication-channels)
+* [Pré-visualização de email e análise anti-spam](https://experienceleague.adobe.com/pt-br/docs/campaign-standard-learn/tutorials/designing-content/email-designer/preview-your-email#designing-content)
+* [Processo de aceitação dupla](https://experienceleague.adobe.com/pt-br/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process#communication-channels)

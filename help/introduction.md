@@ -10,9 +10,9 @@ level: Beginner
 team: ACS
 exl-id: 929e325a-514d-49e3-91cf-c8383bb9465e
 source-git-commit: 7e1bd4d4d691e2598770416b002b8eff344cef74
-workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: '461'
+ht-degree: 100%
 
 ---
 
@@ -26,13 +26,13 @@ Nessa era digital, as pessoas esperam serem surpreendidas – rapidamente. Eles 
 
 Sejamos sinceros. Hoje, mais do que nunca, você precisa se destacar. Isso significa proporcionar aos clientes experiências exclusivas, personalizadas e extremamente relevantes. Caso contrário, você corre o risco de perder um cliente para sempre. É imprescindível ter uma estratégia integrada, dinâmica e multicanal que motive e engaje seu público-alvo.
 
-Use este manual para saber os principais termos, conceitos e abordagens de entrega para permitir que você fique à frente da curva. Use-o para manter o canal de email na vanguarda de seu mix de marketing, com alta prioridade sobre a entrega, inserção em caixa de entrada e sua receita.
+Use este manual para saber os principais termos, conceitos e abordagens de entrega para permitir que você fique à frente da curva. Use-o para manter o canal de email na vanguarda do seu mix de marketing, com alta prioridade na capacidade de entrega, no posicionamento na caixa de entrada e na sua receita.
 
 Este Guia de Práticas Recomendadas de Entrega aborda os seguintes tópicos:
 
 1. [Estratégia e definição da capacidade de entrega](/help/deliverability-strategy-and-definition.md)
 2. [Métricas para a capacidade de entrega](/help/metrics/metrics-overview.md)
-3. [Envolvimento](/help/engagement.md)
+3. [Engajamento](/help/engagement.md)
 4. [Processo de transição - Alternar plataformas de email](/help/transition-process/switching-email-platforms.md)
 5. [Primeiras impressões - Coleção de listas e emails de boas-vindas](/help/first-impressions/address-collection-and-list-growth.md)
 6. [Práticas recomendadas de conteúdo para capacidade de entrega ideal](/help/content-best-practices-for-optimal-delivery.md)
@@ -47,7 +47,7 @@ Este Guia de Práticas Recomendadas de Entrega aborda os seguintes tópicos:
 
 ## Fontes
 
-[!DNL Heinz Tschabitscher], [“Quantas pessoas usam email no mundo inteiro?”](https://www.lifewire.com/how-many-email-users-are-there-1171213), Lifewire, 24 de junho de 2019.
+[!DNL Heinz Tschabitscher], [“Quantas pessoas usam email no mundo?”](https://www.lifewire.com/how-many-email-users-are-there-1171213), Lifewire, 24 de junho de 2019.
 
 [!DNL Lori Lewis], [“2019: isso é o que acontece em um minuto na internet”](https://www.allaccess.com/merge/archive/29580/2019-this-is-what-happens-in-an-internet-minute), Merge, 5 de março de 2019.
 

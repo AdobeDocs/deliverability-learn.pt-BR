@@ -9,8 +9,8 @@ activity: understand
 team: ACS
 exl-id: 0343820d-f5af-4b8a-bcab-dbb47ae7aecb
 source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
-workflow-type: tm+mt
-source-wordcount: '276'
+workflow-type: ht
+source-wordcount: '307'
 ht-degree: 100%
 
 ---
@@ -35,8 +35,8 @@ Há vários grupos anti-spam que permitem relatórios de spam em um nível mais 
 
 **Adobe Campaign Classic**
 
-* [Indicadores de rastreamento](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html?lang=pt-BR#tracking-indicators)
+* [Indicadores de rastreamento](https://experienceleague.adobe.com/pt-br/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports#tracking-indicators)
 
 **Adobe Campaign Standard**
 
-* [Relatório de reclamações](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/complaints.html?lang=pt-BR#reporting)
+* [Relatório de reclamações](https://experienceleague.adobe.com/pt-br/docs/campaign-standard/using/reporting/list-of-reports/complaints#reporting)
