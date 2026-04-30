@@ -4,10 +4,9 @@ description: Saiba como atualizar a qualificação de rejeição após a interru
 feature: Deliverability
 exl-id: a11e88cf-bf37-42cc-9c09-1d58360459b7
 hide: true
-hidefromtoc: true
 role: Admin
 level: Beginner
-source-git-commit: e1a2c58e92da00186d91c7acfd8fd7300133a51c
+source-git-commit: 1c1e1b673fbc640fec84948878060b8bc0354ba2
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 16%
@@ -46,7 +45,7 @@ De acordo com a lógica padrão de manipulação de rejeição, o Adobe Campaign
 Para encontrar os recipients que foram afetados por esse problema, ou caso isso aconteça novamente com qualquer outro ISP, consulte as instruções abaixo:
 
 * Para o Campaign Classic v7 e o Campaign v8, consulte [esta página](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
-* Para o Campaign Standard, consulte [esta página](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=pt-BR#unquarantine-bulk){_blank}.
+* Para o Campaign Standard, consulte [esta página](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
 
 ### Adobe Journey Optimizer{#ajo-update}
 
@@ -54,5 +53,5 @@ De acordo com a lógica padrão de manipulação de rejeição, o Adobe Journey 
 
 Depois de identificados, esses endereços podem ser removidos manualmente da lista de supressão usando o botão **[!UICONTROL Delete]**. Esses endereços podem ser incluídos em campanhas de email futuras.
 
-Saiba mais [nesta seção](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=pt-BR#remove-from-suppression-list){_blank}.
+Saiba mais [nesta seção](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html#remove-from-suppression-list){_blank}.
 
