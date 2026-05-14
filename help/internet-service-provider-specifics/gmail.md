@@ -9,9 +9,22 @@ role: Admin, Leader, User
 level: Beginner
 team: TM
 exl-id: a7319c85-32b5-4a9e-bee9-24f13630c408
-source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
+TQID: https://experienceleague.adobe.com/JU2Mswl8hi0LmTN9XQAUn2n0I4Ye4xpdKK5PnPuL9dY
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: 473
 ht-degree: 0%
 
 ---
@@ -24,11 +37,11 @@ Estes são alguns destaques:
 
 ## Quais dados são importantes
 
-O [!DNL Gmail] concentra-se nos comentários dos usuários para a maior parte das suas decisões de filtragem. Embora não possamos saber o molho secreto envolvido nessas decisões, há padrões comuns que a maioria dos profissionais de marketing pode monitorar. As taxas de abertura e de clique fornecerão informações sobre o engajamento do público-alvo e poderão ser usadas para promover reputação positiva e alta inserção na caixa de entrada.
+O [!DNL Gmail] concentra-se nos comentários dos usuários para a maior parte das suas decisões de filtragem. Embora não possamos saber o molho secreto envolvido nessas decisões, há padrões comuns que a maioria dos profissionais de marketing pode monitorar. As taxas de abertura e de clique fornecerão à insight o envolvimento do público-alvo e poderão ser usadas para promover reputação positiva e alta inserção na caixa de entrada.
 
 ## Quais dados estão disponíveis?
 
-O [!DNL Gmail] oferece insights limitados sobre como ele visualiza suas práticas de envio por meio das Ferramentas do [!DNL Gmail Postmaster]. Essa ferramenta permite uma exibição de alto nível da reputação do IP e do domínio de envio, dos resultados de autenticação e de problemas de reclamação.
+A [!DNL Gmail] fornece insight limitado sobre como eles visualizam suas práticas de envio por meio de suas Ferramentas do [!DNL Gmail Postmaster]. Essa ferramenta permite uma exibição de alto nível da reputação do IP e do domínio de envio, dos resultados de autenticação e de problemas de reclamação.
 
 >[!NOTE]
 >

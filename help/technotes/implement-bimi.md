@@ -6,9 +6,26 @@ role: Admin
 level: Beginner
 jira: KT-14079
 exl-id: 6b911bcc-a531-466a-8bd3-7fa469b96cc7
-source-git-commit: b96539608acd51ce76ef5bdaf5afd07b5a4208b7
+TQID: https://experienceleague.adobe.com/dPuoipUKH36RSGUfhzOV1Xhu9qQTLYV4zu6Vw0Be-xY
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b0bb9048-d951-48d8-8232-45cf248a7e27
+  - id: e2290edd-b061-4880-9d79-dee306cf5aa9
+  - id: ea90ebee-5c84-42d9-8b21-006bdabc95a3
+  - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: 1162
 ht-degree: 0%
 
 ---
@@ -35,7 +52,7 @@ O Grupo BIMI é composto por várias partes interessadas de diferentes áreas do
 
 ## Quem está apoiando o BIMI?
 
-A lista de provedores de caixa de correio que oferecem suporte ao BIMI está crescendo constantemente. Uma lista atualizada pode ser encontrada [aqui](https://bimigroup.org/bimi-infographic/){target="_blank"} tanto para provedores de suporte quanto para provedores considerando o BIMI.
+A lista de provedores de caixa de correio que oferecem suporte ao BIMI está crescendo constantemente. Uma lista atualizada pode ser encontrada [aqui](https://bimigroup.org/bimi-infographic/){target="_blank"} para os provedores de suporte e para os provedores que consideram o BIMI.
 
 A partir de abril de 2023, a lista inclui Gmail, Yahoo, La Poste, Fastmail, Onet.pl e Zone, Proofpoint como um appliance antisspam e Apple Mail (da iOS 16 em diante).
 
@@ -45,13 +62,13 @@ Os nomes mais proeminentes nessa lista são obviamente Yahoo, Gmail e um adotant
 
 A implementação do BIMI vem em várias etapas:
 
-1. Implementação DMARC (Domain based Message Authentication, Reporting and Conformance) no nível de imposição para o domínio de envio e seu domínio organizacional - [Saiba mais](#dmarc)
+1. Implementação do DMARC (Domain based Message Authentication, Reporting and Conformance) no nível de imposição para o domínio de envio e seu domínio organizacional - [Saiba mais](#dmarc)
 
 1. Criação do logotipo da sua marca no formato SVG TinyPS - [Saiba mais](#create-brand-logo)
 
 1. Inscrevendo-se para um Certificado de Marca Verificada (necessário apenas para alguns provedores) - [Saiba mais](#vmc)
 
-1. Publish um registro DNS BIMI com o logotipo e o certificado - [Saiba mais](#publish-bimi-record)
+1. Publicar um registro DNS BIMI com o logotipo e o certificado - [Saiba mais](#publish-bimi-record)
 
 1. Boa reputação - [Saiba mais](#good-reputation)
 
@@ -62,9 +79,9 @@ A implementação do BIMI vem em várias etapas:
 
 ### DMARC {#dmarc}
 
-DMARC é um padrão que permite que a marca decida o que um provedor de caixa de correio deve fazer com um email que falha na [autenticação](../additional-resources/authentication.md). As chamadas políticas variam de &quot;nenhum&quot; a &quot;quarentena&quot; (inserção de pastas de spam) a &quot;rejeitar&quot; (bloquear completamente o email). Apenas as duas últimas políticas são chamadas de &quot;imposição&quot; e qualificam-se para BIMI. O email enviado pelo Adobe está passando a autenticação, já que o SPF (Estrutura de Política do Remetente) e o DKIM (Chaves do Domínio e Email Identificado) estão configurados por padrão. O Adobe está configurando o DMARC no seu domínio de envio mediante solicitação.
+O DMARC é um padrão que permite que a marca decida o que um provedor de caixa de correio deve fazer com um email que falha na [autenticação](../additional-resources/authentication.md). As chamadas políticas variam de &quot;nenhum&quot; a &quot;quarentena&quot; (inserção de pastas de spam) a &quot;rejeitar&quot; (bloquear completamente o email). Apenas as duas últimas políticas são chamadas de &quot;imposição&quot; e qualificam-se para BIMI. O email enviado pelo Adobe está transmitindo a autenticação, já que o SPF (Estrutura de Política do Remetente) e o DKIM (Domain Keys Identified Mail) são configurados por padrão. A Adobe está configurando o DMARC no seu domínio de envio mediante solicitação.
 
-Além do DMARC no domínio de envio, o DMARC também precisa ser empregado no nível de imposição do domínio organizacional (se o domínio de envio for news.example.com, example.com é o domínio organizacional).
+Além do DMARC no domínio de envio, o DMARC também precisa ser empregado no nível de imposição para o domínio organizacional (se o domínio de envio for news.example.com, example.com é o domínio organizacional).
 
 ### Criação do logotipo da sua marca {#create-brand-logo}
 
@@ -97,7 +114,7 @@ default._bimi.[domain] IN TXT "v=BIMI1; l=[SVG URL]; a=[PEM URL]
 
 &quot;PEM URL&quot; é o local do arquivo do Certificado de marca verificada.
 
-Para o domínio de envio, isso precisa ser feito pelo Adobe.
+Para o domínio de envio, isso precisa ser feito pela Adobe.
 
 ### Boa reputação {#good-reputation}
 
@@ -111,6 +128,6 @@ Mesmo passar pelo esforço e as despesas de um VMC não tira essa parte. Se o pr
 
 * Você pode começar com segurança sem um VMC, não há dano em sua reputação se seu registro BIMI não incluir um URL VMC, mas o logotipo já pode ser mostrado no Yahoo.
 
-* A implementação do DMARC a nível organizacional é uma tarefa de grande envergadura. Algumas empresas são especializadas para ajudar as marcas a alcançarem uma adoção completa do DMARC.
+* A implementação do DMARC em um nível organizacional é uma tarefa de grande porte. Algumas empresas são especializadas para ajudar as marcas a alcançarem uma adoção completa do DMARC.
 
 * Uma extensa lista de perguntas frequentes foi publicada [aqui](https://bimigroup.org/faqs-for-senders-esps/){target="_blank"}.

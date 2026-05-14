@@ -6,10 +6,27 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 8a78abd3-afba-49a7-a2ae-8b2c75326749
-source-git-commit: 0be68f5674904aa105985a6e5fc4771c41f7fe48
+TQID: https://experienceleague.adobe.com/zM1boPuxPGJbjlSk1ncR7vTvrhe529sv-OCZwNTCHRE
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b3b8a63f-51fc-40f6-a7d2-a31c5d49fb45
+  - id: c5f60233-d5ea-4453-a799-0ad258b4d399
+  - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '2124'
-ht-degree: 1%
+source-wordcount: 2374
+ht-degree: 4%
 
 ---
 
@@ -54,7 +71,7 @@ Para instalar certificados SSL nesses subdomínios, o processo envolve a solicit
 
 ## Etapas principais
 
-1. Solicite um arquivo de Solicitação de assinatura de certificado (CSR) e forneça as informações necessárias (país, estado, cidade, nome da organização, nome da unidade organizacional etc.) à Adobe.
+1. Solicite um arquivo de Solicitação de assinatura de certificado (CSR) e forneça as informações necessárias (país, estado, cidade, nome da organização, nome da unidade organizacional etc.) para o Adobe.
 1. Valide o arquivo CSR gerado pelo Adobe e verifique se todas as informações fornecidas estão corretas.
 1. Use os detalhes da CSR para gerar um certificado assinado por uma Autoridade de Certificação confiável<!--taking care of asking for using the subjectAltName SSL extension (SAN) if it is for several domain names, and get/purchase the resulting certificate (ideally) in PEM format for Apache server-->.
 1. Valide o certificado SSL e verifique se ele corresponde à CSR.
@@ -67,7 +84,7 @@ Para instalar certificados SSL nesses subdomínios, o processo envolve a solicit
 
 ### Pré-requisitos
 
-Você deve identificar os nomes de domínio e as funções (rastreamento, mirror pages, aplicativos web, etc.) a serem protegidos.
+Você deve identificar os nomes de domínio e as funções (rastreamento, mirror pages, aplicativos web, etc.) para proteger.
 >[!NOTE]
 >
 >O Adobe pode ajudar a definir os nomes de domínio e as funções a serem envolvidas. Para obter mais informações, entre em contato com a equipe de conta da Adobe.

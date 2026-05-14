@@ -6,9 +6,24 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 4cc85124-e7e4-4cd5-99a9-23d2d8cf08fe
-source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
+TQID: https://experienceleague.adobe.com/EDzTRrQeFbp-5GFRMxRDqwoMx37ykI2auNz6ZH9EmF8
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5f60233-d5ea-4453-a799-0ad258b4d399
+  - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: 688
 ht-degree: 87%
 
 ---
@@ -36,7 +51,7 @@ Faça as seguintes perguntas para identificar as possíveis causas para o proble
 * Algum arquivo foi enviado acidentalmente para quarentena?
 * O problema pode ser devido ao conteúdo da mensagem?
 * Os emails são enviados com frequência suficiente para manter os IPs aquecidos?
-* As mensagens estão sendo segmentadas por atividade/envolvimento ou estão enviando arquivos completos?
+* As mensagens estão sendo segmentadas por atividade/engajamento ou estão enviando arquivos completos?
 * Qual é o segmento &quot;seguro&quot; no arquivo em termos de recenticidade?
 * Existem estratégias de reativação e reconfirmação em vigor para os segmentos que não estão definidos como seguros?
 
@@ -66,14 +81,14 @@ As reclamações também vêm de assinantes que não querem mais receber email:
 * Lista ou fonte de dados incorreta. Se for proveniente de uma nova fonte, analise como os endereços foram coletados e verifique se havia permissão.
 * Enviar mala direta para um endereço que já esteve ativo, mas que foi fechado ou encerrado após um período de inatividade.
 
-### Envolvimento
+### Engajamento
 
-Além das reclamações e da validade dos dados, os provedores de internet estão se concentrando mais do que nunca no **envolvimento positivo** para tomar decisões de entrega. Eles procuram saber se os assinantes estão abrindo seus emails ou se estão os excluindo antes de ler. Como eles não compartilham esses dados com os remetentes, devemos usar as informações que temos disponíveis e traduzir aberturas/cliques/transações como envolvimento.
+Além das reclamações e da validade dos dados, os provedores de internet estão se concentrando mais do que nunca no **engajamento positivo** para tomar decisões de entrega. Eles procuram saber se os assinantes estão abrindo seus emails ou se estão os excluindo antes de ler. Como eles não compartilham esses dados com os remetentes, devemos usar as informações que temos disponíveis e traduzir aberturas/cliques/transações como envolvimento.
 
 Como parte da manutenção contínua da reputação, é importante entender como os assinantes estão envolvidos em sua lista e desenvolver uma **hierarquia de risco de recenticidade** para os assinantes em cada arquivo. A recenticidade é definida como a última data de abertura/clique/transação ou de assinatura. Esse período pode diferir por setor. Para fazer isso:
 
 1. Determine os segmentos ativos (&quot;seguros&quot;) para cada setor. Normalmente, são assinantes que estiveram ativos nos últimos 3 a 6 meses.
 1. Reduza a frequência para inativos.
-1. Crie uma série de [reenvolvimentos](/help/additional-resources/re-engagement.md) para iniciativas de risco moderado. Normalmente, são de 6 a 9 meses sem envolvimento.
-1. Desenvolva uma campanha de reconfirmação para iniciativas de maior risco. Normalmente, são assinantes que não leem um email há um período de 9 a 12 meses.
+1. Crie uma série de [reengajamento](/help/additional-resources/re-engagement.md) para inativos de risco moderado. Normalmente, são de 6 a 9 meses sem engajamento.
+1. Desenvolva uma campanha de reconfirmação para inativos de maior risco. Normalmente, são assinantes que não leem um email há um período de 9 a 12 meses.
 1. Por fim, defina uma regra suspensa e remova os assinantes que não abriram seus emails em &quot;x&quot; meses. Normalmente, recomendamos mais de 12 meses, mas isso pode ser diferente com base no ciclo de vendas e compras.

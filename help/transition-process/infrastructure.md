@@ -10,9 +10,28 @@ role: Admin, Leader
 level: Beginner
 team: ACS
 exl-id: 4025d95c-cc77-4e0c-9904-aaf60019b18c
-source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
+TQID: https://experienceleague.adobe.com/FWlVtNGACEM6dKsnYQJU-z04mP902M5EXZmxxsKDyqU
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b0bb9048-d951-48d8-8232-45cf248a7e27
+  - id: c5f60233-d5ea-4453-a799-0ad258b4d399
+  - id: e2290edd-b061-4880-9d79-dee306cf5aa9
+  - id: ea90ebee-5c84-42d9-8b21-006bdabc95a3
+  - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: 923
 ht-degree: 2%
 
 ---
@@ -43,11 +62,11 @@ Parte do processo de integração para novos remetentes nas plataformas Adobe in
 
 ## Loops de comentários {#feedback-loops}
 
-Nos bastidores, as plataformas Adobe estão processando dados sobre rejeições, reclamações, cancelamentos de assinatura e muito mais. A configuração desses loops de feedback é um aspecto importante para a capacidade de entrega. As reclamações podem prejudicar uma reputação, portanto, você deve enviar endereços de email que registram reclamações do público-alvo. É importante observar que o Gmail não fornece esses dados de volta. Os cabeçalhos de cancelamento de inscrição em lista e a filtragem de engajamento são especialmente importantes para assinantes do Gmail, que agora compõem a maioria dos bancos de dados de assinantes.
+Nos bastidores, as plataformas do Adobe estão processando dados sobre rejeições, reclamações, cancelamentos de assinatura e muito mais. A configuração desses loops de feedback é um aspecto importante para a capacidade de entrega. As reclamações podem prejudicar uma reputação, portanto, você deve enviar endereços de email que registram reclamações do público-alvo. É importante observar que o Gmail não fornece esses dados de volta. Os cabeçalhos de cancelamento de inscrição em lista e a filtragem de engajamento são especialmente importantes para assinantes do Gmail, que agora compõem a maioria dos bancos de dados de assinantes.
 
 ## Autenticação {#authentication}
 
-Autenticação é o processo que os ISPs usam para validar a identidade de um remetente. Os dois protocolos de autenticação mais comuns são [!DNL Sender Policy Framework] (SPF) e [!DNL DomainKeys Identified Mail] (DKIM). Eles não estão visíveis para o usuário final, mas ajudam os ISPs a filtrar emails de remetentes verificados. O [!DNL Domain-based Message Authentication Reporting and Conformance] (DMARC) está ganhando popularidade, embora suas políticas ainda não sejam incorporadas por todos os ISPs em seus sistemas de reputação.
+Autenticação é o processo que os ISPs usam para validar a identidade de um remetente. Os dois protocolos de autenticação mais comuns são [!DNL Sender Policy Framework] (SPF) e [!DNL DomainKeys Identified Mail] (DKIM). Eles não estão visíveis para o usuário final, mas ajudam os ISPs a filtrar emails de remetentes verificados. [!DNL Domain-based Message Authentication Reporting and Conformance] O (DMARC) está ganhando popularidade, embora suas políticas ainda não sejam incorporadas por todos os ISPs em seus sistemas de reputação.
 
 ### SPF
 
@@ -55,11 +74,11 @@ O [!DNL Sender Policy Framework] (SPF) é um método de autenticação que permi
 
 ### DKIM
 
-[!DNL Domain Keys Identified Mail] (DKIM) é um método de autenticação usado para detectar endereços de remetentes falsificados (geralmente chamado de falsificação). Se o DKIM estiver ativado, ele permitirá que o destinatário confirme se o remetente está autorizado a enviar emails desse domínio.
+[!DNL Domain Keys Identified Mail] (DKIM) é um método de autenticação usado para detectar endereços de remetentes falsificados (comumente chamado de falsificação). Se o DKIM estiver ativado, ele permitirá que o destinatário confirme se o remetente está autorizado a enviar emails desse domínio.
 
 ### DMARC
 
-[!DNL Domain-based Message Authentication, Reporting and Conformance] (DMARC) é um método de autenticação que permite aos proprietários do domínio proteger seu domínio contra o uso não autorizado. O DMARC usa o SPF ou o DKIM, ou ambos, para permitir que um proprietário de domínio controle o que acontece com emails com falha de autenticação: entregues, colocados em quarentena ou rejeitados.
+O [!DNL Domain-based Message Authentication, Reporting and Conformance] (DMARC) é um método de autenticação que permite aos proprietários do domínio proteger seu domínio contra o uso não autorizado. O DMARC usa o SPF ou o DKIM, ou ambos, para permitir que um proprietário de domínio controle o que acontece com emails com falha de autenticação: entregues, em quarentena ou rejeitados.
 
 ## Recursos específicos do produto
 
@@ -68,7 +87,7 @@ O [!DNL Sender Policy Framework] (SPF) é um método de autenticação que permi
 * Saiba como delegar completamente um subdomínio ao Adobe Campaign Classic ou Standard nesta [seção](/help/additional-resources/ac-domain-name-setup.md).
 * [Painel de Controle: Delegação total de subdomínio (tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=pt-BR) - *Saiba como delegar completamente um subdomínio ao Adobe Campaign Classic.*
 * [Painel de Controle: Delegação total de subdomínio (tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=pt-BR) - *Saiba como delegar completamente um subdomínio ao Adobe Campaign Standard.*
-* Saiba mais sobre como implementar um loop de comentários para uma instância de Campaign Classic em [esta seção](/help/additional-resources/acc-technical-recommendations.md#feedback-loop-acc).
+* Saiba mais sobre como implementar um loop de comentários para uma instância do Campaign Classic em [esta seção](/help/additional-resources/acc-technical-recommendations.md#feedback-loop-acc).
 
 ## Recursos adicionais
 
