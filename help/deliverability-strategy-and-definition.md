@@ -10,9 +10,15 @@ role: Admin, Leader, User
 level: Beginner
 team: ACS
 exl-id: 5285eda9-5099-48d5-b150-ce2c376ee549
-source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
+TQID: https://experienceleague.adobe.com/0cwY27ArgkAVUOuF8aE4-qwaGpCq1dv-5S8mkdLQXhg
+product_v2: id: b27e5950-9033-45ac-9f86-eb22e567f615id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b3b8a63f-51fc-40f6-a7d2-a31c5d49fb45id: ea90ebee-5c84-42d9-8b21-006bdabc95a3id: ed6be6bb-75bb-4ea9-9a42-3bcaa65e1bcc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: beb7a3c1-66ab-4786-b879-7621375b3c40id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: 855
 ht-degree: 100%
 
 ---
@@ -24,10 +30,10 @@ A criação de campanhas de marketing por email bem-sucedidas depende de uma com
 Estes são alguns exemplos de objetivos de estratégia de marketing por email:
 
 * Obtenção de novos clientes
-* Conversão de prospectos em compradores pela primeira vez
+* Conversão de clientes potenciais em compradores pela primeira vez
 * Incremento das relações atuais com o cliente por meio de ofertas adicionais
 * Manutenção de clientes fiéis
-* Aumento da satisfação do cliente e da lealdade à marca
+* Aumento da satisfação do cliente e da fidelidade à marca
 * Reativação de clientes perdidos ou antigos
 
 ## Definição da capacidade de entrega
@@ -99,11 +105,11 @@ Estes são alguns fatores importantes para a conversão:
 
 ### Impacto potencial na receita
 
-A conversão é a chave, mas qual é a alternativa? Sua estratégia de entrega pode fortalecer ou destruir o programa de marketing por email. O gráfico a seguir ilustra a possível perda de receita que uma política de capacidade de entrega fraca pode ter em seu programa de marketing. Como demonstrado, para uma empresa com uma taxa de conversão de 2% e compra média de US$ 100, cada redução de 10% na inserção da caixa de entrada equivale a uma perda de receita de quase US$ 20.000,00. Lembre-se de que esses números são exclusivos para cada remetente.
+A conversão é a chave, mas qual é a alternativa? Sua estratégia de entrega pode fortalecer ou destruir o programa de marketing por email. O gráfico a seguir ilustra a possível perda de receita que uma política de capacidade de entrega fraca pode ter em seu programa de marketing. Como demonstrado, para um negócio com uma taxa de conversão de 2% e compra média de US$ 100, cada redução de 10% na inserção da caixa de entrada equivale a uma perda de receita de quase US$ 20.000,00. Lembre-se de que esses números são exclusivos para cada remetente.
 
 | Enviado | Porcentagem | Entregues | Porcentagem | Caixa de entrada | Número na caixa de entrada | Índice de conversão | Número de perdas | Média | Perdas |
 |------|-----------|-----------|----------|-------|---------------------|-----------------|-----------------|----------|-----------|
-|      | Entregues |           | Caixa de entrada |       |                     |                 | Conversões | Aquisição | Receita |
+|      | Entregues |           | Caixa de entrada |       |                     |                 | Conversões | compra | Receita |
 | 100 mil | 99% | 99 mil | 100% | 99 mil | - | 2% | 0 | US$ 100 | US$ - |
 | 100 mil | 99% | 99 mil | 90% | 89,1 mil | 9.900 | 2% | 198 | US$ 100 | US$ 19.800 |
 | 100 mil | 99% | 99 mil | 80% | 79,2 mil | 19.800 | 2% | 396 | US$ 100 | US$ 39.600 |

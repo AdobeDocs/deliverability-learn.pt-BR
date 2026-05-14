@@ -8,10 +8,16 @@ doc-type: article
 activity: understand
 team: TM
 exl-id: 350950dc-4703-402a-8e22-3862f4e21d52
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+TQID: https://experienceleague.adobe.com/Pq8XpNwqzMbxggauciqILSUqX6BT4OCiDffc7ZgDhWc
+product_v2: id: b27e5950-9033-45ac-9f86-eb22e567f615id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b0bb9048-d951-48d8-8232-45cf248a7e27id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '1594'
-ht-degree: 3%
+source-wordcount: 1670
+ht-degree: 5%
 
 ---
 
@@ -73,7 +79,7 @@ Consulte seus advogados para interpretar as leis locais e nacionais relacionadas
 
 ## Outros métodos de coleção de listas não recomendados
 
-Há muitas outras maneiras de coletar endereços, cada uma com suas próprias oportunidades, desafios e desvantagens. O Adobe não recomenda esses itens em geral, pois o uso é frequentemente restrito por meio de políticas de uso aceitáveis do provedor. Examinaremos alguns exemplos comuns para que você possa aprender os perigos e ajudá-lo a limitar ou evitar os riscos:
+Há muitas outras maneiras de coletar endereços, cada uma com suas próprias oportunidades, desafios e desvantagens. A Adobe não recomenda isso em geral, pois o uso é frequentemente restrito por meio de políticas de uso aceitáveis do provedor. Examinaremos alguns exemplos comuns para que você possa aprender os perigos e ajudá-lo a limitar ou evitar os riscos:
 
 **Comprar ou alugar uma lista**
 Há muitos tipos de endereços de email por aí. Email primário, email comercial, email escolar, email secundário e email inativo, para citar alguns. Os tipos de endereços coletados e compartilhados por meio de listas compradas ou alugadas raramente são contas de email principais, que são onde quase toda a atividade de envolvimento e compra ocorre.
@@ -94,8 +100,8 @@ Os sorteios fornecem rapidamente um grande número de endereços de email. Mas e
 
 **Adobe Campaign Classic**
 
-* [Criar um formulário de assinatura com aceitação dupla](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=pt-BR#create-a-subscription--form-with-double-opt-in)
+* [Criar um formulário de assinatura com aceitação dupla](https://experienceleague.adobe.com/pt-br/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms#create-a-subscription--form-with-double-opt-in)
 
 **Adobe Campaign Standard**
 
-* [Processo de aceitação dupla](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=br#communication-channels)
+* [Processo de aceitação dupla](https://experienceleague.adobe.com/pt-br/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process#communication-channels)

@@ -6,10 +6,16 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 30118706-d4c0-4bd8-8c9b-50c26b8374ef
-source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
+TQID: https://experienceleague.adobe.com/XbAU6Y0r4Ed8W7t71MMNV02jdp2-og04-v-n2lT5m-4
+product_v2: id: b27e5950-9033-45ac-9f86-eb22e567f615id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c5f60233-d5ea-4453-a799-0ad258b4d399id: e2290edd-b061-4880-9d79-dee306cf5aa9id: ea90ebee-5c84-42d9-8b21-006bdabc95a3id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 51%
+source-wordcount: 973
+ht-degree: 49%
 
 ---
 
@@ -32,7 +38,7 @@ ISPs como Gmail, Microsoft® e OATH consideram emails que não geram engajamento
 
 ## Como abordar a inatividade? {#how-should-you-approach-inactivity-}
 
-Os clientes que usam a plataforma Adobe podem exibir a inatividade em sua instância, revisando os dados abertos e clicados de acordo com o segmento. Como o não engajamento pode atrapalhar o delivery, a primeira ideia pode ser remover os assinantes do banco de dados. No entanto, essa pode ser uma opção errada às vezes. Portanto, uma estratégia de reengajamento (também conhecida como reconquista) é a melhor recomendação para reter os assinantes que estão interessados em receber emails e eliminar gradativamente aqueles que não apresentam mais atividade.
+Os clientes que usam a plataforma Adobe podem visualizar a inatividade em sua instância, revisando os dados abertos e clicados de acordo com o segmento. Como o não engajamento pode atrapalhar o delivery, a primeira ideia pode ser remover os assinantes do banco de dados. No entanto, essa pode ser uma opção errada às vezes. Portanto, uma estratégia de reengajamento (também conhecida como reconquista) é a melhor recomendação para reter os assinantes que estão interessados em receber emails e eliminar gradativamente aqueles que não apresentam mais atividade.
 
 ## As campanhas de reengajamento realmente funcionam? {#do-re-engagement-campaigns-really-work-}
 
@@ -67,7 +73,7 @@ Os assinantes que interagem com a campanha seguindo a atividade de abertura ou d
 
   ![](../../help/assets/deliverability_implementation_3.png)
 
-  Depois que o assinante realizar uma ação, uma landing page com a confirmação da reinscrição pode ser oferecida. Veja um exemplo da landing page:
+  Depois que o assinante realizar uma ação, uma landing page com a confirmação da reinscrição pode ser oferecida. Veja um exemplo da página de destino:
 
   ![](../../help/assets/deliverability_implementation_4.png)
 
@@ -75,9 +81,9 @@ Os assinantes que interagem com a campanha seguindo a atividade de abertura ou d
 
 **Adobe Campaign**
 
-* [Logs de rastreamento em Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=pt-BR#tracking-logs)
-* [Logs de rastreamento em Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/sending-and-tracking-messages/tracking-messages.html?lang=pt-BR#tracking-logs)
+* [Rastreamento de logs no Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#tracking-logs)
+* [Rastreamento de logs no Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/sending-and-tracking-messages/tracking-messages.html#tracking-logs)
 
-Adobe **Gerenciamento de Jornada do cliente**
+**Gerenciamento de Jornadas do Cliente da Adobe**
 
 * [Rastreamento de mensagens](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/message-tracking.html?lang=pt-BR)
