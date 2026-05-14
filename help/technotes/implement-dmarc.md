@@ -116,7 +116,7 @@ Os registros DMARC têm vários componentes chamados tags DMARC. Cada tag tem um
 
 >[!NOTE]
 >
->Se sua instância do Campaign estiver hospedada no AWS, você poderá implementar o DMARC para seus subdomínios com o Painel de controle do Campaign. [Saiba como implementar o DMARC Records usando o Painel de Controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/txt-records/dmarc.html).
+>Se sua instância do Campaign estiver hospedada no AWS, você poderá implementar o DMARC para seus subdomínios com o Painel de controle do Campaign. [Saiba como implementar o DMARC Records usando o Painel de Controle do Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/txt-records/dmarc.html?lang=pt-BR).
 
 Um motivo comum para falhas do DMARC é o alinhamento incorreto entre o endereço &quot;De&quot; e &quot;Para erros&quot; ou &quot;Caminho de retorno&quot;. Para evitar isso, ao configurar o DMARC, é recomendável verificar novamente suas configurações de endereço &quot;De&quot; e &quot;Erros para&quot; nos Modelos de entrega.
 

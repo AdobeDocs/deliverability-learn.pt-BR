@@ -51,9 +51,9 @@ O cancelamento da duplicação de endereços protege a reputação de envio e ga
 
 **Adobe Campaign Classic**
 
-* [Atividade de desduplicação](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/deduplication.html)
+* [Atividade de desduplicação](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/deduplication.html?lang=pt-BR)
 * [Uso da funcionalidade de mesclagem da atividade de desduplicação](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html?lang=pt-BR)
 
 **Adobe Campaign Standard**
 
-* [Desduplicação de dados a partir de um arquivo importado](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/workflow-use-case/data-management/deduplicating-data-imported-file.html)
+* [Desduplicação de dados a partir de um arquivo importado](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/workflow-use-case/data-management/deduplicating-data-imported-file.html?lang=pt-BR)

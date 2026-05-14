@@ -95,7 +95,7 @@ Os assinantes que interagem com a campanha seguindo a atividade de abertura ou d
 **Adobe Campaign**
 
 * [Rastreamento de logs no Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#tracking-logs)
-* [Rastreamento de logs no Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/sending-and-tracking-messages/tracking-messages.html#tracking-logs)
+* [Rastreamento de logs no Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/sending-and-tracking-messages/tracking-messages.html?lang=pt-BR#tracking-logs)
 
 **Gerenciamento de Jornadas do Cliente da Adobe**
 
