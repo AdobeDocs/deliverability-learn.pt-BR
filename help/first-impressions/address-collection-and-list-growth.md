@@ -11,27 +11,36 @@ exl-id: 350950dc-4703-402a-8e22-3862f4e21d52
 TQID: https://experienceleague.adobe.com/Pq8XpNwqzMbxggauciqILSUqX6BT4OCiDffc7ZgDhWc
 product_v2:
   - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b0bb9048-d951-48d8-8232-45cf248a7e27
+    internal-label: Forms
   - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+    internal-label: Resources
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+    internal-label: Security
+source-git-commit: 7fbfe34d5576041c8b595fc4b3f7dc596a4263fb
 workflow-type: tm+mt
-source-wordcount: 1670
+source-wordcount: '1670'
 ht-degree: 5%
-
 ---
-
 # Coleta de endereços e crescimento de listas
 
 As melhores fontes de novos endereços de email são fontes diretas, como inscrições em seu site ou em lojas físicas. Nessas situações, você pode controlar a experiência para garantir que ela seja positiva e que o assinante esteja interessado em obter email da sua marca.
@@ -58,11 +67,11 @@ Além de adicionar os campos para os dados, que você deseja coletar sobre os no
 
 * Defina expectativas claras com o assinante de que ele está concordando em receber emails, o que receberá e com que frequência o receberá.
 * Adicione opções que permitam ao assinante selecionar a frequência ou o tipo de comunicações que recebe. Essas opções permitem conhecer as preferências do assinante desde o início, para que você possa fornecer a melhor experiência possível ao novo cliente.
-* Equilibre o risco de perder o interesse do assinante durante o processo de inscrição solicitando o máximo de informações possível. Coisas como aniversário, local ou interesses ajudam a enviar conteúdo mais personalizado. Os assinantes de cada marca têm expectativas e limites de tolerância diferentes, portanto, testar é fundamental para encontrar o equilíbrio certo para sua situação.
+* Equilibre o risco de perder o interesse do assinante durante o processo de inscrição solicitando o máximo de informações possível. Coisas como aniversário, local ou interesses ajudam a enviar conteúdo mais personalizado. Os assinantes de cada marca têm expectativas e limites de tolerância diferentes, portanto, testar é a chave para encontrar o equilíbrio certo para sua situação.
 
 >[!NOTE]
 >
-> Não use caixas pré-marcadas durante o processo de inscrição. Embora isso possa causar problemas legalmente, também é uma experiência negativa para o cliente.
+> Não usar caixas pré-marcadas durante o processo de inscrição. Embora isso possa causar problemas legalmente, também é uma experiência negativa para o cliente.
 
 ## Qualidade e higiene dos dados
 
@@ -84,9 +93,9 @@ Aplicar um campo oculto em seu formulário de inscrição é uma ótima maneira 
 
 Consulte seus advogados para interpretar as leis locais e nacionais relacionadas ao email. Lembre-se de que as leis de email variam muito de acordo com os países e, às vezes, entre as diferentes regiões locais de um país.
 
-* Colete as informações de localização de um assinante para estar em conformidade com as leis de país do assinante. Sem esse detalhe, você pode ficar limitado em como vender para o assinante.
+* Colete as informações de localização de um assinante para que você esteja em conformidade com as leis de país do assinante. Sem esse detalhe, você pode ficar limitado em como vender para o assinante.
 * Todas as leis relevantes são determinadas pela localização do recipient, não do remetente. Portanto, você deve conhecer e seguir as leis de qualquer país onde você possa ter um assinante.
-* Muitas vezes, é difícil saber com total certeza o país de residência do assinante. Os dados fornecidos pelo cliente podem estar desatualizados e os dados de localização de pixels podem ser imprecisos devido à VPN ou ao armazenamento de imagens, como no Gmail e no Yahoo. Na dúvida, é mais seguro aplicar as leis e diretrizes mais rigorosas possíveis.
+* Muitas vezes é difícil saber com total certeza o país de residência do assinante. Os dados fornecidos pelo cliente podem estar desatualizados e os dados de localização de pixels podem ser imprecisos devido à VPN ou ao armazenamento de imagens, como no Gmail e no Yahoo. Na dúvida, é mais seguro aplicar as leis e diretrizes mais rigorosas possíveis.
 
 ## Outros métodos de coleção de listas não recomendados
 
@@ -95,10 +104,10 @@ Há muitas outras maneiras de coletar endereços, cada uma com suas próprias op
 **Comprar ou alugar uma lista**
 Há muitos tipos de endereços de email por aí. Email primário, email comercial, email escolar, email secundário e email inativo, para citar alguns. Os tipos de endereços coletados e compartilhados por meio de listas compradas ou alugadas raramente são contas de email principais, que são onde quase toda a atividade de envolvimento e compra ocorre.
 
-Se você tiver sorte, obterá contas secundárias, nas quais as pessoas procuram ofertas e ofertas quando estiverem prontas para comprar algo. Isso geralmente resulta em níveis baixos de engajamento, se houver. Se você não tiver sorte, a lista está cheia de emails inativos, que agora podem ser armadilhas de spam. Geralmente, você recebe uma combinação de emails secundários e inativos. Em geral, a qualidade desses tipos de listas causa mais danos do que benefícios a um programa de email. Esta prática é proibida pela [Política de Uso Aceitável da Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
+Se você tiver sorte, você obtém contas secundárias, nas quais as pessoas procuram ofertas e ofertas quando estão prontas para comprar algo. Isso geralmente resulta em níveis baixos de engajamento, se houver. Se você não tiver sorte, a lista está cheia de emails inativos, que agora podem ser armadilhas de spam. Geralmente, você recebe uma combinação de emails secundários e inativos. Em geral, a qualidade desses tipos de listas causa mais danos do que benefícios a um programa de email. Esta prática é proibida pela [Política de Uso Aceitável da Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
 
 **Listas anexadas**
-Esses são clientes que optaram por se envolver com a sua marca, o que é ótimo. Mas eles escolheram se engajar por um método diferente do email (na loja, nas redes sociais etc.). Eles não podiam ser receptivos a receber um email não solicitado de você e também podem se preocupar com a maneira como você obteve o endereço de email deles, pois não o forneceram. Esse método tem o risco de transformar um cliente ou cliente potencial que interagiu com sua marca em um detrator que não confia mais em sua marca e, em vez disso, vai para a concorrência. Esta prática é proibida pela [Política de Uso Aceitável da Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
+Esses são clientes que optaram por se envolver com a sua marca, o que é ótimo. Mas eles escolheram se engajar por um método diferente do email (na loja, nas redes sociais etc.). Eles não podem ser receptivos a receber um e-mail não solicitado de você e também podem estar preocupados sobre como você obteve seu endereço de e-mail, já que não o forneceram. Esse método tem o risco de transformar um cliente ou cliente potencial que interagiu com sua marca em um detrator que não confia mais em sua marca e, em vez disso, vai para a concorrência. Esta prática é proibida pela [Política de Uso Aceitável da Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
 
 **Feira de negócios ou outra coleção de eventos**
 Coletar endereços em um estande ou por meio de outro método oficial, com marca clara, pode ser útil. O risco é que muitos eventos como esse coletem todos os endereços e os distribuam pelo promotor ou host do evento. O que significa que os proprietários desses endereços de email nunca solicitaram o recebimento de emails da sua marca. É provável que esses assinantes reclamem e marquem seus emails como spam e talvez eles não tenham fornecido informações de contato precisas.
