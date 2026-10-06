@@ -9,28 +9,37 @@ duration: 0
 last-substantial-update: 2024-02-27T00:00:00.000Z
 jira: KT-15029
 exl-id: d8ca4d48-c6c1-45a9-bf6a-3f58ee161a53
-TQID: https://experienceleague.adobe.com/YRkDn6lXosAOfAtZrWRoNstTK-MGWl8Y3PicB6iDTJY
+TQID: 'https://experienceleague.adobe.com/YRkDn6lXosAOfAtZrWRoNstTK-MGWl8Y3PicB6iDTJY'
 product_v2:
   - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+    internal-label: Resources
   - id: f82558ea-6af5-44eb-a424-5b3389abb0a3
+    internal-label: Templates
+  - id: 63876777-85c3-57e1-a2da-81f02956c63c
+    internal-label: Deliverability
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+    internal-label: Privacy
+source-git-commit: d66463b8c8097e19fd50b9b033e6b21165d7e8c9
 workflow-type: tm+mt
-source-wordcount: 928
+source-wordcount: '928'
 ht-degree: 0%
-
 ---
-
 # Cancelar inscrição de tarefas e não realizações
 
 Os cancelamentos de assinatura são uma parte natural do ciclo de vida do email. Mas às vezes é difícil para os profissionais de marketing dizer adeus. Você trabalha duro para criar os emails mais envolventes e apresentar as melhores ofertas de produtos e serviços que sua marca oferece. No entanto, é completamente normal, e deve ser esperado, que alguns assinantes decidam seguir em frente. Isso pode ser devido a uma série de razões, mas o ponto principal é que eles não estão mais interessados em ouvir de você.
