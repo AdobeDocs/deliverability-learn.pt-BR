@@ -73,7 +73,7 @@ Enviar grandes quantidades de email de um IP totalmente novo ou de IPs diretamen
 
 Esse é o componente mais importante do gerenciamento e do crescimento de uma lista de email de assinante. À medida que as leis antisspam crescem e se tornam mais abrangentes internacionalmente, deve ser o foco principal do profissional de marketing garantir que ele receba consentimento explícito (ou expresso) de cada assinante em sua lista. Ou seja, cada assinante concordou ativamente em receber emails da sua marca. Isso é diferente do consentimento implícito em que uma pessoa é adicionada a uma lista de email após realizar uma ação que não estava se inscrevendo explicitamente em um programa de email.
 
-Saiba mais sobre [Política de Uso Aceitável da Adobe](https://www.adobe.com/legal/terms/aup.html).
+Saiba mais sobre [Política de Uso Aceitável da Adobe](https://www.adobe.com/br/legal/terms/aup.html).
 
 ## Métricas de reputação: o que os ISPs procuram?
 
