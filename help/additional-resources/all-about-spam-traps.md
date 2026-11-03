@@ -8,12 +8,12 @@ team: ACS
 exl-id: 45cdcda0-70e4-47f4-8713-a834500e7881
 TQID: https://experienceleague.adobe.com/NsX4YXwncyoIMoPbzNY2YA0bwTmOccNt19GaBFVT4qk
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: c5f60233-d5ea-4453-a799-0ad258b4d399
     internal-label: Database
@@ -27,13 +27,11 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 442
+source-wordcount: '442'
 ht-degree: 1%
-
 ---
-
 # Tudo sobre armadilhas de spam
 
 Uma [interceptação de spam](/help/metrics/spam-traps.md) é um endereço válido, sem mensagem de erro, quando os emails são enviados para o. Uma interceptação de spam tem uma missão principal: identificar remetentes de spam ou remetentes sem processo de higiene de dados.
@@ -61,13 +59,13 @@ O banco de dados de endereços de email contém interceptação de spam. Como is
 Estes poucos pontos o ajudarão a verificar seus processos:
 
 * Coletar disfunção:
-   * De onde seus endereços de email estão vindo? Quantas fontes são usadas para coletar esses endereços? Você consegue identificá-los? Interno/co-registro?
-   * O seu sistema de opt-in está funcionando corretamente?
-   * Você verificou os domínios e alias de seus endereços? Faça isso com a tabela abaixo!
+  * De onde seus endereços de email estão vindo? Quantas fontes são usadas para coletar esses endereços? Você consegue identificá-los? Interno/co-registro?
+  * O seu sistema de opt-in está funcionando corretamente?
+  * Você verificou os domínios e alias de seus endereços? Faça isso com a tabela abaixo!
 * Processo de higiene do banco de dados:
-   * Qual é o seu processo em relação ao endereço inativo nos últimos 12 meses?
-   * Você está processando uma quarentena em devoluções temporárias como ‘usuário inativo’?
-   * Quando foi a última vez que você cuidou do banco de dados e tentou limpá-lo? Faça isso regularmente.
+  * Qual é o seu processo em relação ao endereço inativo nos últimos 12 meses?
+  * Você está processando uma quarentena em devoluções temporárias como ‘usuário inativo’?
+  * Quando foi a última vez que você cuidou do banco de dados e tentou limpá-lo? Faça isso regularmente.
 
 ## Aliases e domínios a serem evitados
 

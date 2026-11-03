@@ -8,12 +8,12 @@ team: ACS
 exl-id: b553a13e-2055-4abc-b784-fd52792380d0
 TQID: https://experienceleague.adobe.com/07BzF8Y6CjP6kyDToHiOUhhW8aE0joGemWI6M7r8BZE
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: b0bb9048-d951-48d8-8232-45cf248a7e27
     internal-label: Forms
@@ -40,13 +40,11 @@ topic_v2:
     internal-label: Data quality
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
     internal-label: Email marketing
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 1596
+source-wordcount: '1596'
 ht-degree: 2%
-
 ---
-
 # Aumente sua reputação de email com o aquecimento de IP
 
 <!--
@@ -87,7 +85,7 @@ Enviar grandes quantidades de email de um IP totalmente novo ou de IPs diretamen
 
 Esse é o componente mais importante do gerenciamento e do crescimento de uma lista de email de assinante. À medida que as leis antisspam crescem e se tornam mais abrangentes internacionalmente, deve ser o foco principal do profissional de marketing garantir que ele receba consentimento explícito (ou expresso) de cada assinante em sua lista. Ou seja, cada assinante concordou ativamente em receber emails da sua marca. Isso é diferente do consentimento implícito em que uma pessoa é adicionada a uma lista de email após realizar uma ação que não estava se inscrevendo explicitamente em um programa de email.
 
-Saiba mais sobre [Política de Uso Aceitável da Adobe](https://www.adobe.com/br/legal/terms/aup.html).
+Saiba mais sobre [Política de Uso Aceitável da Adobe](https://www.adobe.com/legal/terms/aup.html).
 
 ## Métricas de reputação: o que os ISPs procuram?
 

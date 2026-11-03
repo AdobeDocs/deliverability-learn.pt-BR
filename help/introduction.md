@@ -11,12 +11,12 @@ team: ACS
 exl-id: 929e325a-514d-49e3-91cf-c8383bb9465e
 TQID: https://experienceleague.adobe.com/DJri5ynJJTd6RG2MDH4EqamoEnjT1Jg3-ilM9fZqA0M
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: b0bb9048-d951-48d8-8232-45cf248a7e27
     internal-label: Forms
@@ -35,13 +35,11 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 461
+source-wordcount: '461'
 ht-degree: 100%
-
 ---
-
 # Introdução às práticas recomendadas da capacidade de entrega
 
 A capacidade de entrega de email, um componente crítico para o sucesso do programa de marketing qualquer remetente, é caracterizada por critérios e regras em constante mudança. Os ISPs têm uma necessidade contínua de evitar spam, e, por isso, são obrigados a desenvolver técnicas de filtragem sofisticadas para proteger seus clientes. Os remetentes de email podem se envolver involuntariamente nesses esforços. Navegar efetivamente neste mundo digital requer o ajuste regular de sua estratégia de email, considerando as principais tendências de entrega, para melhor alcançar seus públicos-alvo.

@@ -10,10 +10,10 @@ team: TM
 exl-id: 350950dc-4703-402a-8e22-3862f4e21d52
 TQID: https://experienceleague.adobe.com/Pq8XpNwqzMbxggauciqILSUqX6BT4OCiDffc7ZgDhWc
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
 feature_v2:
@@ -36,7 +36,7 @@ topic_v2:
     internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 7fbfe34d5576041c8b595fc4b3f7dc596a4263fb
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
 source-wordcount: '1670'
 ht-degree: 5%
@@ -104,10 +104,10 @@ Há muitas outras maneiras de coletar endereços, cada uma com suas próprias op
 **Comprar ou alugar uma lista**
 Há muitos tipos de endereços de email por aí. Email primário, email comercial, email escolar, email secundário e email inativo, para citar alguns. Os tipos de endereços coletados e compartilhados por meio de listas compradas ou alugadas raramente são contas de email principais, que são onde quase toda a atividade de envolvimento e compra ocorre.
 
-Se você tiver sorte, você obtém contas secundárias, nas quais as pessoas procuram ofertas e ofertas quando estão prontas para comprar algo. Isso geralmente resulta em níveis baixos de engajamento, se houver. Se você não tiver sorte, a lista está cheia de emails inativos, que agora podem ser armadilhas de spam. Geralmente, você recebe uma combinação de emails secundários e inativos. Em geral, a qualidade desses tipos de listas causa mais danos do que benefícios a um programa de email. Esta prática é proibida pela [Política de Uso Aceitável da Adobe Campaign](https://www.adobe.com/br/legal/terms/aup.html).
+Se você tiver sorte, você obtém contas secundárias, nas quais as pessoas procuram ofertas e ofertas quando estão prontas para comprar algo. Isso geralmente resulta em níveis baixos de engajamento, se houver. Se você não tiver sorte, a lista está cheia de emails inativos, que agora podem ser armadilhas de spam. Geralmente, você recebe uma combinação de emails secundários e inativos. Em geral, a qualidade desses tipos de listas causa mais danos do que benefícios a um programa de email. Esta prática é proibida pela [Política de Uso Aceitável da Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
 
 **Listas anexadas**
-Esses são clientes que optaram por se envolver com a sua marca, o que é ótimo. Mas eles escolheram se engajar por um método diferente do email (na loja, nas redes sociais etc.). Eles não podem ser receptivos a receber um e-mail não solicitado de você e também podem estar preocupados sobre como você obteve seu endereço de e-mail, já que não o forneceram. Esse método tem o risco de transformar um cliente ou cliente potencial que interagiu com sua marca em um detrator que não confia mais em sua marca e, em vez disso, vai para a concorrência. Esta prática é proibida pela [Política de Uso Aceitável da Adobe Campaign](https://www.adobe.com/br/legal/terms/aup.html).
+Esses são clientes que optaram por se envolver com a sua marca, o que é ótimo. Mas eles escolheram se engajar por um método diferente do email (na loja, nas redes sociais etc.). Eles não podem ser receptivos a receber um e-mail não solicitado de você e também podem estar preocupados sobre como você obteve seu endereço de e-mail, já que não o forneceram. Esse método tem o risco de transformar um cliente ou cliente potencial que interagiu com sua marca em um detrator que não confia mais em sua marca e, em vez disso, vai para a concorrência. Esta prática é proibida pela [Política de Uso Aceitável da Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
 
 **Feira de negócios ou outra coleção de eventos**
 Coletar endereços em um estande ou por meio de outro método oficial, com marca clara, pode ser útil. O risco é que muitos eventos como esse coletem todos os endereços e os distribuam pelo promotor ou host do evento. O que significa que os proprietários desses endereços de email nunca solicitaram o recebimento de emails da sua marca. É provável que esses assinantes reclamem e marquem seus emails como spam e talvez eles não tenham fornecido informações de contato precisas.

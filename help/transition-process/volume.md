@@ -12,12 +12,12 @@ team: ACS
 exl-id: 1bc56061-0c64-4033-b49c-66618916bca6
 TQID: https://experienceleague.adobe.com/piIfp9yQkAa1F1bkO9zM7PcOConZhTrwARo4Y8wtMsQ
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: e64968b2-4ee5-47f9-8cae-0588f184b9eb
     internal-label: Programs
@@ -31,13 +31,11 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 600
+source-wordcount: '600'
 ht-degree: 1%
-
 ---
-
 # Volume
 
 O volume de emails que você está enviando é essencial para estabelecer uma reputação positiva. Coloque-se no lugar dos provedores de internet — se você começar a ver uma tonelada de tráfego de alguém que você não conhece, seria alarmante. O envio imediato de um grande volume de e-mails é arriscado e causa problemas de reputação que geralmente são difíceis de resolver. Pode ser frustrante, demorado e caro se livrar da má reputação e resolver problemas de marcação e bloqueio resultantes de enviar muito cedo.
@@ -54,7 +52,7 @@ Esta é uma lista de dicas e sugestões para fazer a transição descomplicada:
 * **Monitore sua conta de email de resposta**. É uma experiência ruim para o seu cliente usar o noreply@xyz.com ou não responder.
 * Endereços inativos podem ter um impacto negativo na capacidade de delivery. **Reativar e transmitir na plataforma atual**, não nos novos IPs.
 * **Domínios** — use um domínio de envio que seja um subdomínio do domínio real da sua empresa
-   * Por exemplo, se o domínio da sua empresa for xyz.com, email.xyz.com fornece mais credibilidade aos ISPs do que xyzemail.com
+  * Por exemplo, se o domínio da sua empresa for xyz.com, email.xyz.com fornece mais credibilidade aos ISPs do que xyzemail.com
 * **Transparência** — os detalhes de registro do seu domínio de email devem estar disponíveis publicamente e não ser privados.
 
 Em muitas circunstâncias, o correio transacional não segue a abordagem tradicional de aquecimento promocional. Obviamente, é difícil controlar o volume em emails transacionais devido à sua natureza, pois geralmente requer uma interação do usuário para acionar o toque do email. Em alguns casos, o e-mail transacional pode simplesmente ser transferido sem um plano formal. Em outros casos, pode ser melhor fazer a transição de cada tipo de mensagem ao longo do tempo para aumentar lentamente o volume. Por exemplo, talvez você queira fazer a transição da seguinte maneira:
@@ -69,10 +67,10 @@ Em muitas circunstâncias, o correio transacional não segue a abordagem tradici
 **Campaign**
 
 * Saiba mais sobre como gerenciar a capacidade de entrega ao iniciar uma nova plataforma com o Adobe Campaign em [esta seção](/help/additional-resources/ac-starting-new-platform.md).
-* Saiba como enviar usando várias ondas com o Adobe Campaign Classic em [esta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=pt-BR#sending-using-multiple-waves).
+* Saiba como enviar usando várias ondas com o Adobe Campaign Classic em [esta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves).
 * Saiba como delegar completamente um subdomínio ao Adobe Campaign Classic ou Standard nesta [seção](/help/additional-resources/ac-domain-name-setup.md).
-* [Painel de Controle: Delegação total de subdomínio (tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=pt-BR) - *Saiba como delegar completamente um subdomínio ao Adobe Campaign Classic.*
-* [Painel de Controle: Delegação total de subdomínio (tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=pt-BR) - *Saiba como delegar completamente um subdomínio ao Adobe Campaign Standard.*
+* [Painel de Controle: Delegação total de subdomínio (tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Saiba como delegar completamente um subdomínio ao Adobe Campaign Classic.*
+* [Painel de Controle: Delegação total de subdomínio (tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Saiba como delegar completamente um subdomínio ao Adobe Campaign Standard.*
 
 ## Recursos adicionais
 

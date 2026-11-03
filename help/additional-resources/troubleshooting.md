@@ -8,12 +8,12 @@ team: ACS
 exl-id: 4cc85124-e7e4-4cd5-99a9-23d2d8cf08fe
 TQID: https://experienceleague.adobe.com/EDzTRrQeFbp-5GFRMxRDqwoMx37ykI2auNz6ZH9EmF8
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: c5f60233-d5ea-4453-a799-0ad258b4d399
     internal-label: Database
@@ -30,13 +30,11 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 688
+source-wordcount: '688'
 ht-degree: 87%
-
 ---
-
 # Solução de problemas da capacidade de entrega {#troubleshooting}
 
 Abaixo estão algumas práticas recomendadas que podem ajudar a identificar e solucionar os problemas da capacidade de entrega.
@@ -75,7 +73,7 @@ Se o problema com sua entrega foi causado por reclamações:
 * Você pode mudar o link de cancelamento de assinatura para a parte superior do email. Os assinantes serão incentivados a cancelar a assinatura em vez de reclamar com o botão de spam.
 
 Os remetentes podem obter uma grande quantidade de informações a partir das reclamações de [loop de feedback](/help/transition-process/infrastructure.md#feedback-loops):
-* É importante agrupar os dados e procurar por padrões em coisas como origem da aceitação, quanto tempo o endereço está inscrito ou até mesmo alguns dados demográficos comportamentais.
+* É importante agrupar os dados em buckets e procurar por padrões em coisas como origem da aceitação, quanto tempo o endereço está inscrito ou até mesmo alguns dados demográficos comportamentais.
 * As queixas podem frequentemente identificar uma fonte de dados ou segmento com risco dentro do arquivo. O risco é definido como o mais provável de reclamação, o que pode prejudicar a reputação e, por sua vez, as taxas da caixa de entrada.
 
 As reclamações também vêm de assinantes que não querem mais receber email:

@@ -11,12 +11,12 @@ team: TM
 exl-id: a7319c85-32b5-4a9e-bee9-24f13630c408
 TQID: https://experienceleague.adobe.com/JU2Mswl8hi0LmTN9XQAUn2n0I4Ye4xpdKK5PnPuL9dY
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -30,13 +30,11 @@ level_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 473
+source-wordcount: '473'
 ht-degree: 0%
-
 ---
-
 # [!DNL Gmail]
 
 [!DNL Gmail] constitui a maior parte das listas de email da maioria dos remetentes. Eles também tendem a tratar o email de forma um pouco diferente do resto.
