@@ -12,12 +12,12 @@ team: ACS
 exl-id: 5a36b821-bcec-4c4f-ae7e-a697df1bb56d
 TQID: https://experienceleague.adobe.com/n9Vw-9SRtvqrwlohQOu07-u8ZlR5vY7kbexQlMemTk0
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -42,13 +42,11 @@ topic_v2:
     internal-label: Email marketing
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 962
+source-wordcount: '962'
 ht-degree: 2%
-
 ---
-
 # Engajamento
 
 O engajamento se tornou o fator mais importante que afeta as decisões de posicionamento da caixa de entrada. Ao longo dos anos, os provedores de internet mudaram o foco de filtros relacionados a conteúdo para um modelo comportamental, dependendo fortemente de ações de engajamento positivas e negativas. O envolvimento positivo inclui principalmente aberturas, cliques, encaminhamentos e respostas. O engajamento negativo inclui a exclusão sem abrir, ignorar, cancelar a assinatura e marcar como spam. Receber permissão explícita é a base de um engajamento positivo no email. Uma vez que a marca tenha permissão, esse relacionamento deve ser estimulado medindo regularmente e atendendo às expectativas dos clientes por meio de frequência e conteúdo.

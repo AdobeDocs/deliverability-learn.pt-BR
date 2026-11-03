@@ -10,12 +10,12 @@ team: TM
 exl-id: 3dc3528b-13c8-4d18-afe1-b647bc5f8082
 TQID: https://experienceleague.adobe.com/W3-BNKyDVwl8aSlzrkmX-lwyxVeql6Y00cpzdLpbsuY
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -27,13 +27,11 @@ level_v2:
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
     internal-label: Data quality
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 168
+source-wordcount: '168'
 ht-degree: 4%
-
 ---
-
 # Primeiras impressões - Coleção de listas e emails de boas-vindas
 
 Quando se quer construir um novo relacionamento, fazer uma boa primeira impressão é crucial. Sem isso, nada mais que você diga ou faça pode ter uma chance. A relação entre uma marca e aqueles que escolhem interagir com eles não é diferente. Tudo começa em algum lugar. E quando se trata de executar um programa de email, ele começa com a coleta de endereços de email e o acolhimento desses assinantes ao seu programa. Vamos verificar como você pode se preparar para executar um programa de email de sucesso, causando uma boa primeira impressão nessas áreas.
